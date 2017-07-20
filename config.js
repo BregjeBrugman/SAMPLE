@@ -12,6 +12,7 @@ var respecConfig = {
     companyURL: "CompanyURL",
   }],
   shortName: "bro-SAMPLE",
+  pubDomain: "bro",
   github: "https://github.com/BROprogramma/SAMPLE",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
