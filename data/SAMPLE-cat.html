@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SampleBase" door Imvertor OS 1.26.2.2017xxxx op July 24, 2017 at 14:17:56.
+   "SampleBase" door Imvertor OS 1.26.2.2017xxxx op July 24, 2017 at 14:21:12.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"green-SampleBase-1.0.0-2-20130318-20170724-151757"</i> door. 
+   <i>"green-SampleBase-1.0.0-2-20130318-20170724-152113"</i> door. 
    Voor inhoudelijke fouten neem contact op met het modellenteam: <i>github@basisregistratieondergrond.nl</i>.
    
 </p>
@@ -160,28 +160,15 @@
       
       <h3>AssociationType overview</h3>
       
+      
       <table>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="50%"></colgroup>
          <tbody>
             <tr>
-               <th>Association name</th>
+               <th>Role name</th>
                <th>Definition</th>
-            </tr>
-            <tr>
-               <td>
-                  Bike
-                  specializes
-                  
-                  <a class="link" href="#global_d6514e2044">BikeProps</a>
-                  
-                  
-               </td>
-               <td></td>
             </tr>
          </tbody>
       </table>
-      
       
       
    </section>
@@ -496,12 +483,13 @@
       
       <h3>AssociationType overview</h3>
       
+      
       <table>
          <colgroup width="50%"></colgroup>
          <colgroup width="50%"></colgroup>
          <tbody>
             <tr>
-               <th>Association name</th>
+               <th>Role name</th>
                <th>Definition</th>
             </tr>
             <tr>
@@ -517,7 +505,7 @@
                   [ 0 .. * ]
                   
                </td>
-               <td>Definition of the relation "produced by"</td>
+               <td>Definition of the role "primary producer".</td>
             </tr>
             <tr>
                <td>
@@ -532,11 +520,10 @@
                   [ 0 .. * ]
                   
                </td>
-               <td></td>
+               <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
             </tr>
          </tbody>
       </table>
-      
       
       
       <section id="" class="notoc">
@@ -627,12 +614,13 @@
       
       <h3>AssociationType overview</h3>
       
+      
       <table>
          <colgroup width="50%"></colgroup>
          <colgroup width="50%"></colgroup>
          <tbody>
             <tr>
-               <th>Association name</th>
+               <th>Role name</th>
                <th>Definition</th>
             </tr>
             <tr>
@@ -652,7 +640,6 @@
             </tr>
          </tbody>
       </table>
-      
       
       
       <section id="" class="notoc">
@@ -825,28 +812,15 @@
       
       <h3>AssociationType overview</h3>
       
+      
       <table>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="50%"></colgroup>
          <tbody>
             <tr>
-               <th>Association name</th>
+               <th>Role name</th>
                <th>Definition</th>
-            </tr>
-            <tr>
-               <td>
-                  ExternalProducer
-                  specializes
-                  
-                  <a class="link" href="#global_d6514e5750">Producer</a>
-                  
-                  
-               </td>
-               <td></td>
             </tr>
          </tbody>
       </table>
-      
       
       
    </section>
@@ -2854,6 +2828,7 @@
          <h4>AssociationType details <a href="#global_d6514e2248">Brick</a> producedBy
          </h4>
          
+         
          <table>
             <colgroup width="30%"></colgroup>
             <colgroup width="70%"></colgroup>
@@ -2864,15 +2839,15 @@
                </tr>
                <tr>
                   <th>Origin</th>
-                  <td></td>
+                  <td>SourceRole1</td>
                </tr>
                <tr>
                   <th>Definition</th>
-                  <td>Definition of the relation "produced by"</td>
+                  <td>Definition of the role "primary producer".</td>
                </tr>
                <tr>
                   <th>Origin of definition</th>
-                  <td></td>
+                  <td>SourceRole2</td>
                </tr>
                <tr>
                   <th>Date</th>
@@ -2880,15 +2855,15 @@
                </tr>
                <tr>
                   <th>Voidable</th>
-                  <td></td>
+                  <td>No</td>
                </tr>
                <tr>
                   <th>Indication material history</th>
-                  <td></td>
+                  <td>Yes</td>
                </tr>
                <tr>
                   <th>Indication formal history</th>
-                  <td></td>
+                  <td>Yes</td>
                </tr>
                <tr>
                   <th>Indication under investigation</th>
@@ -2916,7 +2891,6 @@
             </tbody>
          </table>
          
-         
          <section id="" class="notoc">
             <h5>Explanation</h5>Description of the role "primary producer"
          </section>
@@ -2926,6 +2900,7 @@
       <section id="detail_d6514e4201" class="notoc">
          <h4>AssociationType details <a href="#global_d6514e2248">Brick</a> baseOnDesign
          </h4>
+         
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -2941,7 +2916,7 @@
                </tr>
                <tr>
                   <th>Definition</th>
-                  <td></td>
+                  <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
                </tr>
                <tr>
                   <th>Origin of definition</th>
@@ -2953,15 +2928,15 @@
                </tr>
                <tr>
                   <th>Voidable</th>
-                  <td></td>
+                  <td>No</td>
                </tr>
                <tr>
                   <th>Indication material history</th>
-                  <td></td>
+                  <td>No</td>
                </tr>
                <tr>
                   <th>Indication formal history</th>
-                  <td></td>
+                  <td>No</td>
                </tr>
                <tr>
                   <th>Indication under investigation</th>
@@ -2988,7 +2963,6 @@
                </tr>
             </tbody>
          </table>
-         
          
       </section>
       
@@ -3074,6 +3048,7 @@
          <h4>AssociationType details <a href="#global_d6514e4446">Client</a> contract
          </h4>
          
+         
          <table>
             <colgroup width="30%"></colgroup>
             <colgroup width="70%"></colgroup>
@@ -3100,15 +3075,15 @@
                </tr>
                <tr>
                   <th>Voidable</th>
-                  <td></td>
+                  <td>No</td>
                </tr>
                <tr>
                   <th>Indication material history</th>
-                  <td></td>
+                  <td>No</td>
                </tr>
                <tr>
                   <th>Indication formal history</th>
-                  <td></td>
+                  <td>No</td>
                </tr>
                <tr>
                   <th>Indication under investigation</th>
@@ -3135,7 +3110,6 @@
                </tr>
             </tbody>
          </table>
-         
          
       </section>
       
