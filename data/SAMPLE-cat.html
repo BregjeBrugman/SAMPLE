@@ -1,69 +1,69 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SampleBase" door Imvertor OS 1.27.7.201708XX op August 14, 2017 at 15:21:04.
+   "SampleBase" door Imvertor OS 1.27.7.201708XX op August 15, 2017 at 09:52:18.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Logicalgreen-SampleBase-1.0.0-2-20130318-20170814-162105"</i> door. 
+   <i>"Conceptualgreen-SampleBase-1.0.0-2-20130318-20170815-105219"</i> door. 
    Voor inhoudelijke fouten neem contact op met het modellenteam: <i>github@basisregistratieondergrond.nl</i>.
    
 </p>
 <section id="">
-   <h1>Featuretypes </h1>
+   <h1>Objecttypen </h1>
    
-   <section id="global_d7567e1552">
-      <h2>FeatureType Bike</h2>
+   <section id="global_d6378e2410">
+      <h2>Objecttype Bike</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Bike</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td>Bicycle</td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td>A human-powered, pedal-driven, single-track vehicle, having two wheels attached to
                   a frame, one behind the other.
                </td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
             <tr>
-               <th>Identifier</th>
+               <th>Unieke aanduiding</th>
                <td></td>
             </tr>
             <tr>
-               <th>Population</th>
+               <th>Populatie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Indication quality</th>
+               <th>Indicatie kwaliteit</th>
                <td></td>
             </tr>
             <tr>
-               <th>Abstract object</th>
-               <td>No</td>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -72,14 +72,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e1642">color</a>
+                  <a class="link" href="#detail_d6378e2500">color</a>
                   
                </td>
                <td></td>
@@ -91,81 +91,52 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e1755">netWeight</a>
+                  <a class="link" href="#detail_d6378e2610">netWeight</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e850">Weight</a>
+                  <a class="link" href="#global_d6378e870">Weight</a>
                   
                </td>
                <td>0 .. 1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e1865">status</a>
+                  <a class="link" href="#detail_d6378e2717">status</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e1321">Status</a>
+                  <a class="link" href="#global_d6378e1499">Status</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  
-                  <a class="link" href="#detail_d7567e6242">owner</a>
-                  
-                  :
-               </td>
-               <td>
-                  
+                  <a class="link" href="#detail_d6378e2824">owner</a>
                   
                </td>
                <td></td>
                <td>
-                  1 .. *
+                  <a class="link" href="#global_d6378e1819">BikerName</a>
                   
                </td>
-            </tr>
-            <tr>
-               <td>- 
-                  <a class="link" href="#detail_d7567e6305">firstName</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>- 
-                  <a class="link" href="#detail_d7567e6406">lastName</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
+               <td>1 .. *</td>
             </tr>
          </tbody>
       </table>
       
       
-      <h3>AssociationType overview</h3>
+      <h3>Overzicht relaties</h3>
       
       
       <table>
          <tbody>
             <tr>
-               <th>Role name</th>
-               <th>Definition</th>
+               <th>Rol naam met kardinaliteiten</th>
+               <th>Definitie</th>
             </tr>
          </tbody>
       </table>
@@ -173,57 +144,57 @@
       
    </section>
    
-   <section id="global_d7567e2084">
-      <h2>FeatureType BikeProps</h2>
+   <section id="global_d6378e2972">
+      <h2>Objecttype BikeProps</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>BikeProps</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td>Bike properties</td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
             <tr>
-               <th>Identifier</th>
+               <th>Unieke aanduiding</th>
                <td>id</td>
             </tr>
             <tr>
-               <th>Population</th>
+               <th>Populatie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Indication quality</th>
+               <th>Indicatie kwaliteit</th>
                <td></td>
             </tr>
             <tr>
-               <th>Abstract object</th>
-               <td>No</td>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -232,14 +203,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e2138">id</a>
+                  <a class="link" href="#detail_d6378e3026">id</a>
                   
                </td>
                <td></td>
@@ -255,57 +226,57 @@
       
    </section>
    
-   <section id="global_d7567e2285">
-      <h2>FeatureType Brick</h2>
+   <section id="global_d6378e3161">
+      <h2>Objecttype Brick</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Brick</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td>Brick</td>
             </tr>
             <tr>
-               <th>Origin</th>
-               <td>The source here...</td>
+               <th>Herkomst</th>
+               <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td>A building compound made by heating clay and shaping it into a cubical form.</td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
-               <td>The source of the definition here...</td>
+               <th>Herkomst definitie</th>
+               <td></td>
             </tr>
             <tr>
-               <th>Date</th>
-               <td>20170101</td>
+               <th>Datum opname</th>
+               <td></td>
             </tr>
             <tr>
-               <th>Identifier</th>
+               <th>Unieke aanduiding</th>
                <td>stockId</td>
             </tr>
             <tr>
-               <th>Population</th>
-               <td>All possible bricks are represented.</td>
+               <th>Populatie</th>
+               <td></td>
             </tr>
             <tr>
-               <th>Indication quality</th>
-               <td>The quality here...</td>
+               <th>Indicatie kwaliteit</th>
+               <td></td>
             </tr>
             <tr>
-               <th>Abstract object</th>
-               <td>No</td>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -314,14 +285,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e2369">stockId</a>
+                  <a class="link" href="#detail_d6378e3245">stockId</a>
                   
                </td>
                <td>The identifier of the brick in stock.</td>
@@ -333,7 +304,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e2577">color</a>
+                  <a class="link" href="#detail_d6378e3377">color</a>
                   
                </td>
                <td>The color of the brick; any free and descriptive information.</td>
@@ -345,55 +316,55 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e2720">netWeight</a>
+                  <a class="link" href="#detail_d6378e3511">netWeight</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e850">Weight</a>
+                  <a class="link" href="#global_d6378e870">Weight</a>
                   
                </td>
                <td>0 .. 1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e2843">size</a>
+                  <a class="link" href="#detail_d6378e3618">size</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e1049">BrickSize</a>
+                  <a class="link" href="#global_d6378e1155">BrickSize</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e2950">type</a>
+                  <a class="link" href="#detail_d6378e3725">type</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e6641">ValueList</a>
+                  <a class="link" href="#global_d6378e2170">ValueList</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3061">corners</a>
+                  <a class="link" href="#detail_d6378e3833">corners</a>
                   
                </td>
                <td></td>
                <td>
-                  INTEGER
+                  Integer
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3171">description</a>
+                  <a class="link" href="#detail_d6378e3934">description</a>
                   
                </td>
                <td></td>
@@ -405,7 +376,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3272">maxTemperature</a>
+                  <a class="link" href="#detail_d6378e4035">maxTemperature</a>
                   
                </td>
                <td></td>
@@ -417,55 +388,55 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3399">measure</a>
+                  <a class="link" href="#detail_d6378e4152">measure</a>
                   
                </td>
                <td>Unit of measurement (line or surface)</td>
                <td>
-                  <a class="link" href="#global_d7567e421">Goniometric</a>
+                  <a class="link" href="#global_d6378e372">Goniometric</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3555">inStock</a>
+                  <a class="link" href="#detail_d6378e4308">inStock</a>
                   
                </td>
                <td>Specifies if the Brick is available (in stock).</td>
                <td>
-                  BOOLEAN
+                  Boolean
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3681">geoLocation</a>
+                  <a class="link" href="#detail_d6378e4458">geoLocation</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="external-link" href="http://www.opengeospatial.org/standards/gml#Point">GM_Point</a>
+                  <a class="link" href="#global_d6378e7004">GM_Point</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3801">tag</a>
+                  <a class="link" href="#detail_d6378e4569">tag</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e6556">ProductionTag</a>
+                  <a class="link" href="#global_d6378e2098">ProductionTag</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e3908">envelope</a>
+                  <a class="link" href="#detail_d6378e4676">envelope</a>
                   
                </td>
                <td></td>
@@ -479,7 +450,7 @@
       </table>
       
       
-      <h3>AssociationType overview</h3>
+      <h3>Overzicht relaties</h3>
       
       
       <table>
@@ -487,18 +458,18 @@
          <colgroup width="50%"></colgroup>
          <tbody>
             <tr>
-               <th>Role name</th>
-               <th>Definition</th>
+               <th>Rol naam met kardinaliteiten</th>
+               <th>Definitie</th>
             </tr>
             <tr>
                <td>
                   Brick
                   [ 1 ]
                   
-                  <a class="link" href="#detail_d7567e4014">producedBy: primaryProducer</a>
+                  <a class="link" href="#detail_d6378e4789">producedBy: primaryProducer</a>
                   
                   
-                  <a class="link" href="#global_d7567e5814">Producer</a>
+                  <a class="link" href="#global_d6378e6502">Producer</a>
                   
                   [ 0 .. * ]
                   
@@ -510,10 +481,10 @@
                   Brick
                   [ 0 .. * ]
                   
-                  <a class="link" href="#detail_d7567e4265">baseOnDesign: designBase</a>
+                  <a class="link" href="#detail_d6378e5031">baseOnDesign: designBase</a>
                   
                   
-                  <a class="link" href="#global_d7567e2285">Brick</a>
+                  <a class="link" href="#global_d6378e3161">Brick</a>
                   
                   [ 0 .. * ]
                   
@@ -525,62 +496,62 @@
       
       
       <section id="" class="notoc">
-         <h5>Explanation</h5>A brick is understood as a building block, but only when created from clay by humans.
+         <h5>Toelichting</h5>A brick is understood as a building block, but only when created from clay by humans.
       </section>
       
    </section>
    
-   <section id="global_d7567e4510">
-      <h2>FeatureType Client</h2>
+   <section id="global_d6378e5231">
+      <h2>Objecttype Client</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Client</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td>Notities mbt Client</td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td>Notities mbt Client</td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
             <tr>
-               <th>Identifier</th>
+               <th>Unieke aanduiding</th>
                <td>id</td>
             </tr>
             <tr>
-               <th>Population</th>
+               <th>Populatie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Indication quality</th>
+               <th>Indicatie kwaliteit</th>
                <td></td>
             </tr>
             <tr>
-               <th>Abstract object</th>
-               <td>No</td>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -589,14 +560,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e4594">id</a>
+                  <a class="link" href="#detail_d6378e5315">id</a>
                   
                </td>
                <td></td>
@@ -610,7 +581,7 @@
       </table>
       
       
-      <h3>AssociationType overview</h3>
+      <h3>Overzicht relaties</h3>
       
       
       <table>
@@ -618,18 +589,18 @@
          <colgroup width="50%"></colgroup>
          <tbody>
             <tr>
-               <th>Role name</th>
-               <th>Definition</th>
+               <th>Rol naam met kardinaliteiten</th>
+               <th>Definitie</th>
             </tr>
             <tr>
                <td>
                   Client
                   [ 1 ]
                   
-                  <a class="link" href="#detail_d7567e4713">contract: contract</a>
+                  <a class="link" href="#detail_d6378e5425">contract: contract</a>
                   
                   
-                  <a class="link" href="#global_d7567e4916">Contract</a>
+                  <a class="link" href="#global_d6378e5623">Contract</a>
                   
                   [ 1 .. * ]
                   
@@ -641,62 +612,62 @@
       
       
       <section id="" class="notoc">
-         <h5>Explanation</h5>Notities mbt Client
+         <h5>Toelichting</h5>Notities mbt Client
       </section>
       
    </section>
    
-   <section id="global_d7567e4916">
-      <h2>FeatureType Contract</h2>
+   <section id="global_d6378e5623">
+      <h2>Objecttype Contract</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Contract</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
             <tr>
-               <th>Identifier</th>
+               <th>Unieke aanduiding</th>
                <td>id</td>
             </tr>
             <tr>
-               <th>Population</th>
+               <th>Populatie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Indication quality</th>
+               <th>Indicatie kwaliteit</th>
                <td></td>
             </tr>
             <tr>
-               <th>Abstract object</th>
-               <td>No</td>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -705,14 +676,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e4979">id</a>
+                  <a class="link" href="#detail_d6378e5686">id</a>
                   
                </td>
                <td></td>
@@ -728,57 +699,57 @@
       
    </section>
    
-   <section id="global_d7567e5606">
-      <h2>FeatureType ExternalProducer</h2>
+   <section id="global_d6378e6295">
+      <h2>Objecttype ExternalProducer</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>ExternalProducer</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
             <tr>
-               <th>Identifier</th>
+               <th>Unieke aanduiding</th>
                <td></td>
             </tr>
             <tr>
-               <th>Population</th>
+               <th>Populatie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Indication quality</th>
+               <th>Indicatie kwaliteit</th>
                <td></td>
             </tr>
             <tr>
-               <th>Abstract object</th>
-               <td>No</td>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -787,19 +758,19 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e5684">postarea</a>
+                  <a class="link" href="#detail_d6378e6373">postarea</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e686">Postcode</a>
+                  <a class="link" href="#global_d6378e706">Postcode</a>
                   
                </td>
                <td>1</td>
@@ -808,14 +779,14 @@
       </table>
       
       
-      <h3>AssociationType overview</h3>
+      <h3>Overzicht relaties</h3>
       
       
       <table>
          <tbody>
             <tr>
-               <th>Role name</th>
-               <th>Definition</th>
+               <th>Rol naam met kardinaliteiten</th>
+               <th>Definitie</th>
             </tr>
          </tbody>
       </table>
@@ -823,57 +794,57 @@
       
    </section>
    
-   <section id="global_d7567e5814">
-      <h2>FeatureType Producer</h2>
+   <section id="global_d6378e6502">
+      <h2>Objecttype Producer</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Producer</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
             <tr>
-               <th>Identifier</th>
+               <th>Unieke aanduiding</th>
                <td>id</td>
             </tr>
             <tr>
-               <th>Population</th>
+               <th>Populatie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Indication quality</th>
+               <th>Indicatie kwaliteit</th>
                <td></td>
             </tr>
             <tr>
-               <th>Abstract object</th>
-               <td>No</td>
+               <th>Indicatie abstract object</th>
+               <td>Nee</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -882,14 +853,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e5877">id</a>
+                  <a class="link" href="#detail_d6378e6565">id</a>
                   
                </td>
                <td></td>
@@ -901,19 +872,19 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e5993">contractDate</a>
+                  <a class="link" href="#detail_d6378e6672">contractDate</a>
                   
                </td>
                <td>Datum waarop het contract is afgesloten.</td>
                <td>
-                  DATE
+                  Datum
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e6119">site</a>
+                  <a class="link" href="#detail_d6378e6798">site</a>
                   
                </td>
                <td></td>
@@ -931,43 +902,47 @@
    
 </section>
 <section id="">
-   <h1>Association classes </h1>
+   <h1>Relatieklassen </h1>
    
-   <section id="global_d7567e5117" class="notoc">
-      <h2>AssociationClass Deal</h2>
+   <section id="global_d6378e5815" class="notoc">
+      <h2>Relatieklasse Deal</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Deal</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
+            </tr>
+            <tr>
+               <th>Relatiesoort</th>
+               <td>Client contract: contract Contract</td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -976,38 +951,38 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e5180">SignedAt</a>
+                  <a class="link" href="#detail_d6378e5878">SignedAt</a>
                   
                </td>
                <td></td>
                <td>
-                  DATETIME
+                  DatumTijd
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e5281">FestivityYear</a>
+                  <a class="link" href="#detail_d6378e5970">FestivityYear</a>
                   
                </td>
                <td></td>
                <td>
-                  YEAR
+                  Jaar
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e5382">FestivityMonth</a>
+                  <a class="link" href="#detail_d6378e6071">FestivityMonth</a>
                   
                </td>
                <td></td>
@@ -1019,7 +994,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e5483">FestivityDay</a>
+                  <a class="link" href="#detail_d6378e6172">FestivityDay</a>
                   
                </td>
                <td></td>
@@ -1037,47 +1012,47 @@
    
 </section>
 <section id="">
-   <h1>Referencelists </h1>
+   <h1>Referentielijsten </h1>
    
-   <section id="global_d7567e6641" class="notoc">
-      <h2>Reference list ValueList</h2>
+   <section id="global_d6378e2170" class="notoc">
+      <h2>Referentielijst ValueList</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>ValueList</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
-               <td>Sample name</td>
-            </tr>
-            <tr>
-               <th>Origin</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
-               <td>Sample definition 1</td>
-            </tr>
-            <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Data location</th>
+               <th>Herkomst definitie</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Datum opname</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Data locatie</th>
                <td></td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -1086,14 +1061,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e6740">code</a>
+                  <a class="link" href="#detail_d6378e2233">code</a>
                   
                </td>
                <td></td>
@@ -1105,7 +1080,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e6788">value</a>
+                  <a class="link" href="#detail_d6378e2307">value</a>
                   
                </td>
                <td></td>
@@ -1120,7 +1095,8 @@
       
       
       <section id="" class="notoc">
-         <h5>Explanation</h5>Sample description
+         <h5>Toelichting</h5>Voor lijsten die deel uitmaken van een registratie betreft dit de daarin opgenomen
+         toelichting.
       </section>
       
    </section>
@@ -1129,7 +1105,7 @@
 <section id="">
    <h1>Codelists </h1>
    
-   <section id="global_d7567e6556" class="notoc">
+   <section id="global_d6378e2098" class="notoc">
       <h2>Codelist ProductionTag</h2>
       
       <table>
@@ -1137,31 +1113,31 @@
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>ProductionTag</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
             <tr>
-               <th>Data location</th>
+               <th>Data locatie</th>
                <td></td>
             </tr>
          </tbody>
@@ -1173,7 +1149,7 @@
 <section id="">
    <h1>Unions </h1>
    
-   <section id="global_d7567e421" class="notoc">
+   <section id="global_d6378e372" class="notoc">
       <h2>Union Goniometric</h2>
       
       <table>
@@ -1181,33 +1157,33 @@
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Goniometric</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
-               <td>Notities mbt SampleApplicationBase/SampleSpecial::Goneometric</td>
-            </tr>
-            <tr>
-               <th>Origin of definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Herkomst definitie</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>Datum opname</th>
                <td></td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -1216,31 +1192,31 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e475">line</a>
+                  <a class="link" href="#detail_d6378e435">line</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e603">Line</a>
+                  <a class="link" href="#global_d6378e623">Line</a>
                   
                </td>
                <td>1</td>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e529">surface</a>
+                  <a class="link" href="#detail_d6378e524">surface</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_d7567e768">Surface</a>
+                  <a class="link" href="#global_d6378e788">Surface</a>
                   
                </td>
                <td>1</td>
@@ -1253,43 +1229,43 @@
    
 </section>
 <section id="">
-   <h1>Primitive types </h1>
+   <h1>Primitieve datatypen </h1>
    
-   <section id="global_d7567e850" class="notoc">
-      <h2>PrimitiveDatatype Weight</h2>
+   <section id="global_d6378e870" class="notoc">
+      <h2>Primitief datatype Weight</h2>
       
       <table>
          <colgroup width="30%"></colgroup>
          <colgroup width="70%"></colgroup>
          <tbody>
             <tr>
-               <th>Name</th>
+               <th>Naam</th>
                <td>Weight</td>
             </tr>
             <tr>
-               <th>Alternative name</th>
+               <th>Alternatieve naam</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin</th>
+               <th>Herkomst</th>
                <td></td>
             </tr>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Origin of definition</th>
+               <th>Herkomst definitie</th>
                <td></td>
             </tr>
             <tr>
-               <th>Date</th>
+               <th>Datum opname</th>
                <td></td>
             </tr>
          </tbody>
       </table>
       
-      <h3>AttributeType overview</h3>
+      <h3>Overzicht attributen</h3>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -1298,14 +1274,14 @@
          <colgroup width="10%"></colgroup>
          <tbody>
             <tr>
-               <th>Attribute name</th>
-               <th>Definition</th>
-               <th>Format/type</th>
-               <th>Mult</th>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e913">amount</a>
+                  <a class="link" href="#detail_d6378e933">amount</a>
                   
                </td>
                <td></td>
@@ -1317,7 +1293,7 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_d7567e971">unit</a>
+                  <a class="link" href="#detail_d6378e1034">unit</a>
                   
                </td>
                <td></td>
@@ -1335,18 +1311,18 @@
    
 </section>
 <section id="">
-   <h1>Enumerations </h1>
+   <h1>Enumeraties </h1>
    
    <table>
       <colgroup width="30%"></colgroup>
       <colgroup width="70%"></colgroup>
       <tbody>
          <tr>
-            <th><a class="link" href="#detail_d7567e1049">BrickSize</a></th>
-            <td>The size of the brick in colloquial terms.</td>
+            <th><a class="link" href="#detail_d6378e1155">BrickSize</a></th>
+            <td></td>
          </tr>
          <tr>
-            <th><a class="link" href="#detail_d7567e1321">Status</a></th>
+            <th><a class="link" href="#detail_d6378e1499">Status</a></th>
             <td>Status of brick production</td>
          </tr>
       </tbody>
@@ -1354,14 +1330,14 @@
    
 </section>
 <section id="">
-   <h1>Property details</h1>
+   <h1>Attribuut- en relatiesoort details</h1>
    
    
-   <section id="detail_d7567e1552" class="notoc">
-      <h3>FeatureType Bike</h3>
+   <section id="detail_d6378e2410">
+      <h3>Objecttype Bike</h3>
       
-      <section id="detail_d7567e1642" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e1552">Bike</a> color
+      <section id="detail_d6378e2500" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e2410">Bike</a> color
          </h4>
          
          <table>
@@ -1369,72 +1345,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>color</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e1755" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e1552">Bike</a> netWeight
+      <section id="detail_d6378e2610" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e2410">Bike</a> netWeight
          </h4>
          
          <table>
@@ -1442,72 +1422,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>netWeight</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>Weight</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e1865" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e1552">Bike</a> status
+      <section id="detail_d6378e2717" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e2410">Bike</a> status
          </h4>
          
          <table>
@@ -1515,72 +1499,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>status</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>Status</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e6242" class="notoc">
-         <h4>GroupType details <a href="#global_d7567e1552">Bike</a> BikerName
+      <section id="detail_d6378e1819" class="notoc">
+         <h4>Gegevensgroeptype details <a href="#global_d6378e2410">Bike</a> BikerName
          </h4>
          
          <table>
@@ -1588,128 +1576,136 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>BikerName</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Identifier</th>
+                  <th>Unieke aanduiding</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Population</th>
+                  <th>Populatie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication quality</th>
+                  <th>Indicatie kwaliteit</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie kardinaliteit</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
                   <td></td>
                </tr>
             </tbody>
          </table>
          
-         <section id="detail_d7567e6305" class="notoc">
-            <h6>AttributeType firstName  BikerName</h6>
+         <section id="detail_d6378e1882" class="notoc">
+            <h6>Attribuutsoort firstName  BikerName</h6>
             
             <table>
                <tbody>
                   <tr></tr>
                   <tr>
-                     <th>Name</th>
+                     <th>Naam</th>
                      <td>firstName</td>
                   </tr>
                   <tr>
-                     <th>Origin</th>
+                     <th>Herkomst</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Definition</th>
+                     <th>Definitie</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Origin of definition</th>
+                     <th>Herkomst definitie</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Date</th>
+                     <th>Datum opname</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Voidable</th>
-                     <td>No</td>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
                   </tr>
                   <tr>
-                     <th>Indication material history</th>
-                     <td>No</td>
-                  </tr>
-                  <tr>
-                     <th>Indication formal history</th>
-                     <td>No</td>
-                  </tr>
-                  <tr>
-                     <th>Indication under investigation</th>
+                     <th>Indicatie materiÃ«le historie</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Indication multiplicity</th>
+                     <th>Indicatie formele historie</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie in onderzoek</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>Aanduiding strijdigheid/nietigheid</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
                      <td>1</td>
                   </tr>
                   <tr>
-                     <th>Indication authentic</th>
+                     <th>Indicatie authentiek</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Rules</th>
+                     <th>Regels</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Pattern</th>
+                     <th>Patroon</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Format</th>
+                     <th>Formaat</th>
                      <td>CHARACTERSTRING</td>
                   </tr>
                </tbody>
@@ -1717,66 +1713,70 @@
             
          </section>
          
-         <section id="detail_d7567e6406" class="notoc">
-            <h6>AttributeType lastName  BikerName</h6>
+         <section id="detail_d6378e1965" class="notoc">
+            <h6>Attribuutsoort lastName  BikerName</h6>
             
             <table>
                <tbody>
                   <tr></tr>
                   <tr>
-                     <th>Name</th>
+                     <th>Naam</th>
                      <td>lastName</td>
                   </tr>
                   <tr>
-                     <th>Origin</th>
+                     <th>Herkomst</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Definition</th>
+                     <th>Definitie</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Origin of definition</th>
+                     <th>Herkomst definitie</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Date</th>
+                     <th>Datum opname</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Voidable</th>
-                     <td>No</td>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
                   </tr>
                   <tr>
-                     <th>Indication material history</th>
-                     <td>No</td>
-                  </tr>
-                  <tr>
-                     <th>Indication formal history</th>
-                     <td>No</td>
-                  </tr>
-                  <tr>
-                     <th>Indication under investigation</th>
+                     <th>Indicatie materiÃ«le historie</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Indication multiplicity</th>
+                     <th>Indicatie formele historie</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie in onderzoek</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>Aanduiding strijdigheid/nietigheid</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
                      <td>1</td>
                   </tr>
                   <tr>
-                     <th>Indication authentic</th>
+                     <th>Indicatie authentiek</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Rules</th>
+                     <th>Regels</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Pattern</th>
+                     <th>Patroon</th>
                      <td></td>
                   </tr>
                   <tr>
-                     <th>Format</th>
+                     <th>Formaat</th>
                      <td>CHARACTERSTRING</td>
                   </tr>
                </tbody>
@@ -1788,11 +1788,11 @@
       
    </section>
    
-   <section id="detail_d7567e2084" class="notoc">
-      <h3>FeatureType BikeProps</h3>
+   <section id="detail_d6378e2972">
+      <h3>Objecttype BikeProps</h3>
       
-      <section id="detail_d7567e2138" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2084">BikeProps</a> id
+      <section id="detail_d6378e3026" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e2972">BikeProps</a> id
          </h4>
          
          <table>
@@ -1800,64 +1800,68 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>id</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
@@ -1866,11 +1870,11 @@
       
    </section>
    
-   <section id="detail_d7567e2285" class="notoc">
-      <h3>FeatureType Brick</h3>
+   <section id="detail_d6378e3161">
+      <h3>Objecttype Brick</h3>
       
-      <section id="detail_d7567e2369" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> stockId
+      <section id="detail_d6378e3245" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> stockId
          </h4>
          
          <table>
@@ -1878,72 +1882,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>stockId</td>
                </tr>
                <tr>
-                  <th>Origin</th>
-                  <td>Source here...</td>
+                  <th>Herkomst</th>
+                  <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td>The identifier of the brick in stock.</td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
-                  <td>Source of definition here...</td>
-               </tr>
-               <tr>
-                  <th>Date</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication under investigation</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1 .. 3</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
-                  <td>No</td>
+                  <th>Indicatie authentiek</th>
+                  <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
-                  <td>Rules here...</td>
+                  <th>Regels</th>
+                  <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td>Informal description of pattern here....</td>
+                  <th>Patroon</th>
+                  <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e2577" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> color
+      <section id="detail_d6378e3377" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> color
          </h4>
          
          <table>
@@ -1951,72 +1959,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>color</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td>The color of the brick; any free and descriptive information.</td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e2720" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> netWeight
+      <section id="detail_d6378e3511" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> netWeight
          </h4>
          
          <table>
@@ -2024,72 +2036,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>netWeight</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>Weight</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e2843" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> size
+      <section id="detail_d6378e3618" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> size
          </h4>
          
          <table>
@@ -2097,72 +2113,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>size</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>BrickSize</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e2950" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> type
+      <section id="detail_d6378e3725" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> type
          </h4>
          
          <table>
@@ -2170,72 +2190,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>type</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>ValueList</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e3061" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> corners
+      <section id="detail_d6378e3833" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> corners
          </h4>
          
          <table>
@@ -2243,72 +2267,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>corners</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
-                  <td>INTEGER</td>
+                  <th>Formaat</th>
+                  <td>Integer</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e3171" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> description
+      <section id="detail_d6378e3934" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> description
          </h4>
          
          <table>
@@ -2316,72 +2344,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>description</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>0 .. 1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e3272" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> maxTemperature
+      <section id="detail_d6378e4035" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> maxTemperature
          </h4>
          
          <table>
@@ -2389,72 +2421,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>maxTemperature</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>REAL</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e3399" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> measure
+      <section id="detail_d6378e4152" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> measure
          </h4>
          
          <table>
@@ -2462,76 +2498,80 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>measure</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td>Unit of measurement (line or surface)</td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Ja</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>Goniometric</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
          <section id="" class="notoc">
-            <h5>Explanation</h5>Unit of measurement (line or surface)
+            <h5>Toelichting</h5>Unit of measurement (line or surface)
          </section>
          
       </section>
       
-      <section id="detail_d7567e3555" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> inStock
+      <section id="detail_d6378e4308" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> inStock
          </h4>
          
          <table>
@@ -2539,72 +2579,80 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>inStock</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td>Specifies if the Brick is available (in stock).</td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
-                  <td>BOOLEAN</td>
+                  <th>Formaat</th>
+                  <td>Boolean</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Specifies if the Brick is available (in stock).
+         </section>
+         
       </section>
       
-      <section id="detail_d7567e3681" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> geoLocation
+      <section id="detail_d6378e4458" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> geoLocation
          </h4>
          
          <table>
@@ -2612,72 +2660,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>geoLocation</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>GM_Point</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e3801" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> tag
+      <section id="detail_d6378e4569" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> tag
          </h4>
          
          <table>
@@ -2685,72 +2737,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>tag</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>ProductionTag</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e3908" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e2285">Brick</a> envelope
+      <section id="detail_d6378e4676" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e3161">Brick</a> envelope
          </h4>
          
          <table>
@@ -2758,72 +2814,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>envelope</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>GM_Envelope</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e4014" class="notoc">
-         <h4>AssociationType details <a href="#global_d7567e2285">Brick</a> producedBy: primaryProducer
+      <section id="detail_d6378e4789" class="notoc">
+         <h4>Relatiesoort details <a href="#global_d6378e3161">Brick</a> producedBy: primaryProducer
          </h4>
          
          
@@ -2832,57 +2892,61 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>producedBy: primaryProducer</td>
                </tr>
                <tr>
-                  <th>Origin</th>
-                  <td>SourceRole1</td>
+                  <th>Herkomst</th>
+                  <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td>Definition of the role "primary producer".</td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
-                  <td>SourceRole2</td>
-               </tr>
-               <tr>
-                  <th>Date</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication material history</th>
-                  <td>Yes</td>
-               </tr>
-               <tr>
-                  <th>Indication formal history</th>
-                  <td>Yes</td>
-               </tr>
-               <tr>
-                  <th>Indication under investigation</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>0 .. *</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Associated objecttype</th>
+                  <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_d7567e5814">Producer</a>
+                     <a class="link" href="#global_d6378e6502">Producer</a>
                      
                   </td>
                </tr>
@@ -2890,13 +2954,13 @@
          </table>
          
          <section id="" class="notoc">
-            <h5>Explanation</h5>Description of the role "primary producer"
+            <h5>Toelichting</h5>Description of the role "primary producer"
          </section>
          
       </section>
       
-      <section id="detail_d7567e4265" class="notoc">
-         <h4>AssociationType details <a href="#global_d7567e2285">Brick</a> baseOnDesign: designBase
+      <section id="detail_d6378e5031" class="notoc">
+         <h4>Relatiesoort details <a href="#global_d6378e3161">Brick</a> baseOnDesign: designBase
          </h4>
          
          
@@ -2905,57 +2969,61 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>baseOnDesign: designBase</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>0 .. *</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Associated objecttype</th>
+                  <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_d7567e2285">Brick</a>
+                     <a class="link" href="#global_d6378e3161">Brick</a>
                      
                   </td>
                </tr>
@@ -2966,11 +3034,11 @@
       
    </section>
    
-   <section id="detail_d7567e4510" class="notoc">
-      <h3>FeatureType Client</h3>
+   <section id="detail_d6378e5231">
+      <h3>Objecttype Client</h3>
       
-      <section id="detail_d7567e4594" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e4510">Client</a> id
+      <section id="detail_d6378e5315" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e5231">Client</a> id
          </h4>
          
          <table>
@@ -2978,72 +3046,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>id</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e4713" class="notoc">
-         <h4>AssociationType details <a href="#global_d7567e4510">Client</a> contract: contract
+      <section id="detail_d6378e5425" class="notoc">
+         <h4>Relatiesoort details <a href="#global_d6378e5231">Client</a> contract: contract
          </h4>
          
          
@@ -3052,57 +3124,61 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>contract: contract</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1 .. *</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Associated objecttype</th>
+                  <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_d7567e4916">Contract</a>
+                     <a class="link" href="#global_d6378e5623">Contract</a>
                      
                   </td>
                </tr>
@@ -3113,11 +3189,11 @@
       
    </section>
    
-   <section id="detail_d7567e4916" class="notoc">
-      <h3>FeatureType Contract</h3>
+   <section id="detail_d6378e5623">
+      <h3>Objecttype Contract</h3>
       
-      <section id="detail_d7567e4979" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e4916">Contract</a> id
+      <section id="detail_d6378e5686" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e5623">Contract</a> id
          </h4>
          
          <table>
@@ -3125,64 +3201,68 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>id</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
@@ -3191,11 +3271,11 @@
       
    </section>
    
-   <section id="detail_d7567e5606" class="notoc">
-      <h3>FeatureType ExternalProducer</h3>
+   <section id="detail_d6378e6295">
+      <h3>Objecttype ExternalProducer</h3>
       
-      <section id="detail_d7567e5684" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5606">ExternalProducer</a> postarea
+      <section id="detail_d6378e6373" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e6295">ExternalProducer</a> postarea
          </h4>
          
          <table>
@@ -3203,64 +3283,68 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>postarea</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>Postcode</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
@@ -3269,11 +3353,11 @@
       
    </section>
    
-   <section id="detail_d7567e5814" class="notoc">
-      <h3>FeatureType Producer</h3>
+   <section id="detail_d6378e6502">
+      <h3>Objecttype Producer</h3>
       
-      <section id="detail_d7567e5877" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5814">Producer</a> id
+      <section id="detail_d6378e6565" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e6502">Producer</a> id
          </h4>
          
          <table>
@@ -3281,72 +3365,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>id</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e5993" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5814">Producer</a> contractDate
+      <section id="detail_d6378e6672" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e6502">Producer</a> contractDate
          </h4>
          
          <table>
@@ -3354,72 +3442,76 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>contractDate</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td>Datum waarop het contract is afgesloten.</td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
-                  <td>DATE</td>
+                  <th>Formaat</th>
+                  <td>Datum</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
       </section>
       
-      <section id="detail_d7567e6119" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5814">Producer</a> site
+      <section id="detail_d6378e6798" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e6502">Producer</a> site
          </h4>
          
          <table>
@@ -3427,64 +3519,68 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>site</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
+                  <th>Indicatie materiÃ«le historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie in onderzoek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>URI</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
@@ -3495,11 +3591,11 @@
    
    
    
-   <section id="detail_d7567e5117" class="notoc">
-      <h3>AssociationClass Deal</h3>
+   <section id="detail_d6378e5815" class="notoc">
+      <h3>Relatieklasse Deal</h3>
       
-      <section id="detail_d7567e5180" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5117">Deal</a> SignedAt
+      <section id="detail_d6378e5878" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e5815">Deal</a> SignedAt
          </h4>
          
          <table>
@@ -3507,72 +3603,80 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>SignedAt</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie materiÃ«le historie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
-                  <td>DATETIME</td>
+                  <th>Formaat</th>
+                  <td>DatumTijd</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Een inhoudelijke toelichting op de attribuutsoort.
+         </section>
+         
       </section>
       
-      <section id="detail_d7567e5281" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5117">Deal</a> FestivityYear
+      <section id="detail_d6378e5970" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e5815">Deal</a> FestivityYear
          </h4>
          
          <table>
@@ -3580,72 +3684,82 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>FestivityYear</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie materiÃ«le historie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td></td>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)
+                     danwel moeten voldoen aan een specifiek patroon.
+                  </td>
                </tr>
                <tr>
-                  <th>Format</th>
-                  <td>YEAR</td>
+                  <th>Formaat</th>
+                  <td>Jaar</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Een inhoudelijke toelichting op de attribuutsoort.
+         </section>
+         
       </section>
       
-      <section id="detail_d7567e5382" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5117">Deal</a> FestivityMonth
+      <section id="detail_d6378e6071" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e5815">Deal</a> FestivityMonth
          </h4>
          
          <table>
@@ -3653,72 +3767,82 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>FestivityMonth</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie materiÃ«le historie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td></td>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)
+                     danwel moeten voldoen aan een specifiek patroon.
+                  </td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>MONTH</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
          
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Een inhoudelijke toelichting op de attribuutsoort.
+         </section>
+         
       </section>
       
-      <section id="detail_d7567e5483" class="notoc">
-         <h4>AttributeType details <a href="#global_d7567e5117">Deal</a> FestivityDay
+      <section id="detail_d6378e6172" class="notoc">
+         <h4>Attribuutsoort details <a href="#global_d6378e5815">Deal</a> FestivityDay
          </h4>
          
          <table>
@@ -3726,67 +3850,77 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>FestivityDay</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Voidable</th>
-                  <td>No</td>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
                </tr>
                <tr>
-                  <th>Indication material history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication formal history</th>
-                  <td>No</td>
-               </tr>
-               <tr>
-                  <th>Indication under investigation</th>
+                  <th>Indicatie materiÃ«le historie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie formele historie</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie in onderzoek</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Aanduiding strijdigheid/nietigheid</th>
+                  <td></td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Indication authentic</th>
+                  <th>Indicatie authentiek</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Rules</th>
+                  <th>Regels</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td></td>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)
+                     danwel moeten voldoen aan een specifiek patroon.
+                  </td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>DAY</td>
                </tr>
                <tr>
-                  <th>May be derived</th>
-                  <td>No</td>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
+         
+         <section id="" class="notoc">
+            <h5>Toelichting</h5>Een inhoudelijke toelichting op de attribuutsoort.
+         </section>
          
       </section>
       
@@ -3794,11 +3928,11 @@
    
    
    
-   <section id="detail_d7567e6641" class="notoc">
-      <h3>Reference list ValueList</h3>
+   <section id="detail_d6378e2170" class="notoc">
+      <h3>Referentielijst ValueList</h3>
       
-      <section id="detail_d7567e6740" class="notoc">
-         <h4>Reference element details <a href="#global_d7567e6641">ValueList</a> code
+      <section id="detail_d6378e2233" class="notoc">
+         <h4>Referentie element details <a href="#global_d6378e2170">ValueList</a> code
          </h4>
          
          <table>
@@ -3806,35 +3940,35 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>code</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
             </tbody>
@@ -3842,8 +3976,8 @@
          
       </section>
       
-      <section id="detail_d7567e6788" class="notoc">
-         <h4>Reference element details <a href="#global_d7567e6641">ValueList</a> value
+      <section id="detail_d6378e2307" class="notoc">
+         <h4>Referentie element details <a href="#global_d6378e2170">ValueList</a> value
          </h4>
          
          <table>
@@ -3851,35 +3985,35 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>value</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Pattern</th>
+                  <th>Patroon</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
             </tbody>
@@ -3892,11 +4026,11 @@
    
    
    
-   <section id="detail_d7567e421" class="notoc">
+   <section id="detail_d6378e372" class="notoc">
       <h3>Union Goniometric</h3>
       
-      <section id="detail_d7567e475" class="notoc">
-         <h4>Union element details <a href="#global_d7567e421">Goniometric</a> line
+      <section id="detail_d6378e435" class="notoc">
+         <h4>Union element details <a href="#global_d6378e372">Goniometric</a> line
          </h4>
          
          <table>
@@ -3904,31 +4038,33 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>line</td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td></td>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze union element kunnen hebben (bereik)
+                     dan wel moeten voldoen aan een specifiek patroon.
+                  </td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>Line</td>
                </tr>
             </tbody>
@@ -3936,8 +4072,8 @@
          
       </section>
       
-      <section id="detail_d7567e529" class="notoc">
-         <h4>Union element details <a href="#global_d7567e421">Goniometric</a> surface
+      <section id="detail_d6378e524" class="notoc">
+         <h4>Union element details <a href="#global_d6378e372">Goniometric</a> surface
          </h4>
          
          <table>
@@ -3945,31 +4081,33 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>surface</td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td></td>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze union element kunnen hebben (bereik)
+                     dan wel moeten voldoen aan een specifiek patroon.
+                  </td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>Surface</td>
                </tr>
             </tbody>
@@ -3981,11 +4119,11 @@
    
    
    
-   <section id="detail_d7567e850" class="notoc">
-      <h3>Structured datatype Weight</h3>
+   <section id="detail_d6378e870" class="notoc">
+      <h3>Gestruktureerd datatype Weight</h3>
       
-      <section id="detail_d7567e913" class="notoc">
-         <h4>Data element details <a href="#global_d7567e850">Weight</a> amount
+      <section id="detail_d6378e933" class="notoc">
+         <h4>Data element details <a href="#global_d6378e870">Weight</a> amount
          </h4>
          
          <table>
@@ -3993,35 +4131,37 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>amount</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td></td>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)
+                     dan wel moeten voldoen aan een specifiek patroon.
+                  </td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>REAL</td>
                </tr>
             </tbody>
@@ -4029,8 +4169,8 @@
          
       </section>
       
-      <section id="detail_d7567e971" class="notoc">
-         <h4>Data element details <a href="#global_d7567e850">Weight</a> unit
+      <section id="detail_d6378e1034" class="notoc">
+         <h4>Data element details <a href="#global_d6378e870">Weight</a> unit
          </h4>
          
          <table>
@@ -4038,35 +4178,37 @@
             <colgroup width="70%"></colgroup>
             <tbody>
                <tr>
-                  <th>Name</th>
+                  <th>Naam</th>
                   <td>unit</td>
                </tr>
                <tr>
-                  <th>Origin</th>
+                  <th>Herkomst</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Definition</th>
+                  <th>Definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Origin of definition</th>
+                  <th>Herkomst definitie</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Date</th>
+                  <th>Datum opname</th>
                   <td></td>
                </tr>
                <tr>
-                  <th>Indication multiplicity</th>
+                  <th>Indicatie kardinaliteit</th>
                   <td>1</td>
                </tr>
                <tr>
-                  <th>Pattern</th>
-                  <td></td>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)
+                     dan wel moeten voldoen aan een specifiek patroon.
+                  </td>
                </tr>
                <tr>
-                  <th>Format</th>
+                  <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
                </tr>
             </tbody>
@@ -4078,8 +4220,8 @@
    
    
    
-   <section id="detail_d7567e1049" class="notoc">
-      <h3>Enumeration details <a href="#"></a> BrickSize
+   <section id="detail_d6378e1155" class="notoc">
+      <h3>Enumeratie details <a href="#"></a> BrickSize
       </h3>
       
       <table>
@@ -4087,8 +4229,8 @@
          <colgroup width="60%"></colgroup>
          <tbody>
             <tr>
-               <th>Definition</th>
-               <td>The size of the brick in colloquial terms.</td>
+               <th>Definitie</th>
+               <td></td>
             </tr>
          </tbody>
       </table>
@@ -4100,8 +4242,8 @@
          <tbody>
             <tr>
                <th>Code</th>
-               <th>Name</th>
-               <th>Definition</th>
+               <th>Naam</th>
+               <th>Definitie</th>
             </tr>
             <tr>
                <td></td>
@@ -4123,8 +4265,8 @@
       
    </section>
    
-   <section id="detail_d7567e1321" class="notoc">
-      <h3>Enumeration details <a href="#"></a> Status
+   <section id="detail_d6378e1499" class="notoc">
+      <h3>Enumeratie details <a href="#"></a> Status
       </h3>
       
       <table>
@@ -4132,7 +4274,7 @@
          <colgroup width="60%"></colgroup>
          <tbody>
             <tr>
-               <th>Definition</th>
+               <th>Definitie</th>
                <td>Status of brick production</td>
             </tr>
          </tbody>
@@ -4145,8 +4287,8 @@
          <tbody>
             <tr>
                <th>Code</th>
-               <th>Name</th>
-               <th>Definition</th>
+               <th>Naam</th>
+               <th>Definitie</th>
             </tr>
             <tr>
                <td></td>
