@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.44.2"
-      generator-date="2018-05-07T14:04:40Z">
+      generator-date="2018-05-07T14:08:35Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -150,6 +150,7 @@
                   <itemtype type="ASSOCIATION-NAME"/>
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
+                     <item/>
                      <item>
                         <item>Bike</item>
                         <item>is specialisatie van</item>
@@ -562,6 +563,7 @@
                   <itemtype type="ASSOCIATION-NAME"/>
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
+                     <item/>
                      <item>
                         <item>ExternalProducer</item>
                         <item>is specialisatie van</item>
