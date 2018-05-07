@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.44.2"
-      generator-date="2018-05-07T14:08:35Z">
+      generator-date="2018-05-07T14:25:22Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -150,7 +150,6 @@
                   <itemtype type="ASSOCIATION-NAME"/>
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
-                     <item/>
                      <item>
                         <item>Bike</item>
                         <item>is specialisatie van</item>
@@ -161,7 +160,21 @@
                      <item/>
                   </part>
                </content>
-               <!--removed empty content-->
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Bike</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_BikeProps">BikeProps</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
             </section>
          </section>
          <section name="BikeProps"
@@ -563,7 +576,6 @@
                   <itemtype type="ASSOCIATION-NAME"/>
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
-                     <item/>
                      <item>
                         <item>ExternalProducer</item>
                         <item>is specialisatie van</item>
@@ -574,7 +586,21 @@
                      <item/>
                   </part>
                </content>
-               <!--removed empty content-->
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>ExternalProducer</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
             </section>
          </section>
          <section name="Producer"
