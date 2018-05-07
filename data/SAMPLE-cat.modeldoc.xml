@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.44.2"
-      generator-date="2018-05-07T11:40:41Z">
+      generator-date="2018-05-07T14:00:39Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -2243,7 +2243,8 @@
             <section name="ProductionTag"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_ProductionTag"
-                     id-global="global_class_Model_ProductionTag">
+                     id-global="global_class_Model_ProductionTag"
+                     uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -2257,7 +2258,8 @@
             <section name="BrickSize"
                      type="DETAIL-ENUMERATION"
                      id="detail_class_Model_BrickSize"
-                     id-global="global_class_Model_BrickSize">
+                     id-global="global_class_Model_BrickSize"
+                     uuid="EAID_65363897_E229_41fd_BE6F_E6B1BACAD458">
                <content>
                   <part>
                      <item>Definitie</item>
@@ -2288,7 +2290,8 @@
             <section name="Status"
                      type="DETAIL-ENUMERATION"
                      id="detail_class_Model_Status"
-                     id-global="global_class_Model_Status">
+                     id-global="global_class_Model_Status"
+                     uuid="EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8">
                <content>
                   <part>
                      <item>Definitie</item>
