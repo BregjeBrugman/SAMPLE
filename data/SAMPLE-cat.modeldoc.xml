@@ -3,8 +3,8 @@
       subpath="Conceptual model/SampleBase/20130318"
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
-      generator-version="1.44.1"
-      generator-date="2018-05-15T10:01:19Z">
+      generator-version="1.44.2"
+      generator-date="2018-05-15T10:12:16Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -808,7 +808,7 @@
             </section>
          </section>
       </section>
-      <section type="OVERVIEW-DATATYPE">
+      <section type="OVERVIEW-STRUCTUREDDATATYPE">
          <section name="Weight"
                   type="DATATYPE"
                   id="global_class_Model_Weight"
@@ -848,6 +848,52 @@
                   </part>
                </content>
             </section>
+         </section>
+      </section>
+      <section type="OVERVIEW-PRIMITIVEDATATYPE">
+         <section name="AreaSize"
+                  type="DATATYPE"
+                  id="global_class_Model_AreaSize"
+                  uuid="EAID_8D034A6D_37F7_4765_9CFF_FE3DF59A8340">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>AreaSize</item>
+               </part>
+            </content>
+         </section>
+         <section name="Line"
+                  type="DATATYPE"
+                  id="global_class_Model_Line"
+                  uuid="EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Line</item>
+               </part>
+            </content>
+         </section>
+         <section name="Postcode"
+                  type="DATATYPE"
+                  id="global_class_Model_Postcode"
+                  uuid="EAID_6E1568CE_9039_4ed8_B360_291D77922C9F">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Postcode</item>
+               </part>
+            </content>
+         </section>
+         <section name="Surface"
+                  type="DATATYPE"
+                  id="global_class_Model_Surface"
+                  uuid="EAID_8860422B_51C4_4f67_B9C4_90B01A356442">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Surface</item>
+               </part>
+            </content>
          </section>
       </section>
       <section type="OVERVIEW-CODELIST">
@@ -2214,7 +2260,7 @@
                </section>
             </section>
          </section>
-         <section type="DETAILS-DATATYPE">
+         <section type="DETAILS-STRUCTUREDDATATYPE">
             <section name="Weight"
                      type="GESTRUCTUREERD DATATYPE"
                      id="detail_class_Model_Weight"
@@ -2267,6 +2313,7 @@
                </section>
             </section>
          </section>
+         <section type="DETAILS-PRIMITIVEDATATYPE"/>
          <section type="DETAILS-CODELIST">
             <section name="ProductionTag"
                      type="DETAIL-CODELIST"
