@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.44.2"
-      generator-date="2018-05-15T10:12:16Z">
+      generator-date="2018-05-15T10:17:22Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -810,7 +810,7 @@
       </section>
       <section type="OVERVIEW-STRUCTUREDDATATYPE">
          <section name="Weight"
-                  type="DATATYPE"
+                  type="XDATATYPE"
                   id="global_class_Model_Weight"
                   uuid="EAID_11FD40A5_BE06_452a_9307_B5B5155E0EA4">
             <content>
