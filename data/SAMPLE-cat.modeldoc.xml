@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.44.2"
-      generator-date="2018-05-15T10:28:58Z">
+      generator-date="2018-05-15T10:35:25Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -818,6 +818,10 @@
                   <item>Naam</item>
                   <item>Weight</item>
                </part>
+               <part type="CFG-DOC-FORMAAT">
+                  <item>Formaat</item>
+                  <item>[TODO: ]</item>
+               </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
                <content>
@@ -864,6 +868,14 @@
                   <item>Definitie</item>
                   <item>The rectangular size of a section.</item>
                </part>
+               <part type="CFG-DOC-PATROON">
+                  <item>Patroon</item>
+                  <item>Eerst breedte, dan hoogte. breedte is altijd beedste maat.</item>
+               </part>
+               <part type="CFG-DOC-FORMAAT">
+                  <item>Formaat</item>
+                  <item>[TODO: ]</item>
+               </part>
             </content>
          </section>
          <section name="Line"
@@ -874,6 +886,10 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Line</item>
+               </part>
+               <part type="CFG-DOC-FORMAAT">
+                  <item>Formaat</item>
+                  <item>[TODO: ]</item>
                </part>
             </content>
          </section>
@@ -886,6 +902,10 @@
                   <item>Naam</item>
                   <item>Postcode</item>
                </part>
+               <part type="CFG-DOC-FORMAAT">
+                  <item>Formaat</item>
+                  <item>[TODO: ]</item>
+               </part>
             </content>
          </section>
          <section name="Surface"
@@ -896,6 +916,10 @@
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
                   <item>Surface</item>
+               </part>
+               <part type="CFG-DOC-FORMAAT">
+                  <item>Formaat</item>
+                  <item>[TODO: ]</item>
                </part>
             </content>
          </section>
