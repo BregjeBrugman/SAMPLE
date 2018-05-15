@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.44.2"
-      generator-date="2018-05-15T10:17:22Z">
+      generator-date="2018-05-15T10:20:51Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -810,7 +810,7 @@
       </section>
       <section type="OVERVIEW-STRUCTUREDDATATYPE">
          <section name="Weight"
-                  type="XDATATYPE"
+                  type="STRUCTUREDDATATYPE"
                   id="global_class_Model_Weight"
                   uuid="EAID_11FD40A5_BE06_452a_9307_B5B5155E0EA4">
             <content>
@@ -852,7 +852,7 @@
       </section>
       <section type="OVERVIEW-PRIMITIVEDATATYPE">
          <section name="AreaSize"
-                  type="DATATYPE"
+                  type="PRIMITIVEDATATYPE"
                   id="global_class_Model_AreaSize"
                   uuid="EAID_8D034A6D_37F7_4765_9CFF_FE3DF59A8340">
             <content>
@@ -863,7 +863,7 @@
             </content>
          </section>
          <section name="Line"
-                  type="DATATYPE"
+                  type="PRIMITIVEDATATYPE"
                   id="global_class_Model_Line"
                   uuid="EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509">
             <content>
@@ -874,7 +874,7 @@
             </content>
          </section>
          <section name="Postcode"
-                  type="DATATYPE"
+                  type="PRIMITIVEDATATYPE"
                   id="global_class_Model_Postcode"
                   uuid="EAID_6E1568CE_9039_4ed8_B360_291D77922C9F">
             <content>
@@ -885,7 +885,7 @@
             </content>
          </section>
          <section name="Surface"
-                  type="DATATYPE"
+                  type="PRIMITIVEDATATYPE"
                   id="global_class_Model_Surface"
                   uuid="EAID_8860422B_51C4_4f67_B9C4_90B01A356442">
             <content>
