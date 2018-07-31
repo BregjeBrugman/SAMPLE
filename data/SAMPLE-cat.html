@@ -1,11 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SampleBase" door 1.44.2 op May 16, 2018 at 07:18:48.
+   "SampleBase" door 1.46.3 op July 31, 2018 at 10:10:10.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i>arjan@linkedmatter.com</i> en geef de code 
-   <i>"Conceptualmodel-SampleBase-1.0.0-2-20130318-20180516-091849"</i> door. 
-   Voor inhoudelijke fouten neem contact op met het modellenteam: <i>github@basisregistratieondergrond.nl</i>.
+   <i>"Conceptualmodel-SampleBase-1.0.0-2-20130318-20180731-121011"</i> door. 
    
 </p>
 <div class="imageinfo "><img src="data/Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1"><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
@@ -31,218 +30,6 @@
 </div>
 <section id="">
    <h3>Objecttypen </h3>
-   <a class="anchor" name="graph_EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD"></a><a class="anchor" name="global_class_Model_Bike"></a><section id="global_class_Model_Bike">
-      <h4>Objecttype Bike</h4>
-      
-      <div class="imageinfo "><img src="data/Images/EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496.png" usemap="#imagemap-EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496"><map name="imagemap-EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496">
-            <area shape="rect" coords="28,115,143,35" alt="" href="#graph_EAID_7408CF3E_2E91_4d5e_AD53_48C10ABBE95F">
-            <area shape="rect" coords="25,307,152,159" alt="" href="#graph_EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD"></map><p><b>Bike - detail</b></p>
-      </div>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Naam</th>
-               <td>Bike</td>
-            </tr>
-            <tr>
-               <th>Alternatieve naam</th>
-               <td>Bicycle</td>
-            </tr>
-            <tr>
-               <th>Herkomst</th>
-               <td>e</td>
-            </tr>
-            <tr>
-               <th>Definitie</th>
-               <td>A human-powered, pedal-driven, single-track vehicle, having two wheels attached to
-                  a frame, one behind the other.
-               </td>
-            </tr>
-            <tr>
-               <th>Herkomst definitie</th>
-               <td>f</td>
-            </tr>
-            <tr>
-               <th>Toelichting</th>
-               <td>j</td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <h5>Overzicht attributen</h5>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Attribuutnaam</th>
-               <th>Definitie</th>
-               <th>Formaat</th>
-               <th>Card</th>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Bike_color">color</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Bike_netWeight">netWeight</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Weight">Weight</a>
-                  
-               </td>
-               <td>0 .. 1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Bike_status">status</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  <a class="link" href="#global_class_Model_Status">Status</a>
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  
-                  <a class="link" href="#detail_class_Model_BikerName">owner</a>
-                  
-                  :
-               </td>
-               <td>
-                  
-                  
-               </td>
-               <td></td>
-               <td>
-                  1 .. *
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>- 
-                  <a class="link" href="#detail_attribute_Model_BikerName_firstName">firstName</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>- 
-                  <a class="link" href="#detail_attribute_Model_BikerName_lastName">lastName</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-         </tbody>
-      </table>
-      
-      
-      <h5>Overzicht relaties</h5>
-      
-      
-      <table>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="50%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Rol naam met kardinaliteiten</th>
-               <th>Definitie</th>
-            </tr>
-            <tr>
-               <td>
-                  Bike
-                  is specialisatie van
-                  
-                  <a class="link" href="#global_class_Model_BikeProps">BikeProps</a>
-                  
-                  
-               </td>
-               <td></td>
-            </tr>
-         </tbody>
-      </table>
-      
-      
-   </section>
-   <a class="anchor" name="graph_EAID_7408CF3E_2E91_4d5e_AD53_48C10ABBE95F"></a><a class="anchor" name="global_class_Model_BikeProps"></a><section id="global_class_Model_BikeProps">
-      <h4>Objecttype BikeProps</h4>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Naam</th>
-               <td>BikeProps</td>
-            </tr>
-            <tr>
-               <th>Alternatieve naam</th>
-               <td>Bike properties</td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <h5>Overzicht attributen</h5>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Attribuutnaam</th>
-               <th>Definitie</th>
-               <th>Formaat</th>
-               <th>Card</th>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_BikeProps_id">id</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-         </tbody>
-      </table>
-      
-      
-   </section>
    <a class="anchor" name="graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></a><a class="anchor" name="global_class_Model_Brick"></a><section id="global_class_Model_Brick">
       <h4>Objecttype Brick</h4>
       
@@ -314,7 +101,7 @@
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_class_Model_Weight">Weight</a>
+                  <a class="link" href="#global_class_Model_Gewicht">Gewicht</a>
                   
                </td>
                <td>0 .. 1</td>
@@ -326,7 +113,7 @@
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_class_Model_BrickSize">BrickSize</a>
+                  <a class="link" href="#global_class_Model_Steengrootte">Steengrootte</a>
                   
                </td>
                <td>1</td>
@@ -338,7 +125,7 @@
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_class_Model_ValueList">ValueList</a>
+                  <a class="link" href="#global_class_Model_Wardenlijst">Wardenlijst</a>
                   
                </td>
                <td>1</td>
@@ -422,7 +209,7 @@
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_class_Model_ProductionTag">ProductionTag</a>
+                  <a class="link" href="#global_class_Model_ProductieKenmerk">ProductieKenmerk</a>
                   
                </td>
                <td>1</td>
@@ -457,32 +244,172 @@
             <tr>
                <td>
                   Brick
+                  [ 0 .. * ]
+                  
+                  <a class="link" href="#detail_association_Model_Brick_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</a>
+                  
+                  
+                  <a class="link" href="#global_class_Model_Producent">Producent</a>
+                  
+                  [ 0 .. * ]
+                  
+               </td>
+               <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
+            </tr>
+            <tr>
+               <td>
+                  Brick
                   [ 1 ]
                   
-                  <a class="link" href="#detail_association_Model_Brick_primaryProducer">producedBy: primaryProducer</a>
+                  <a class="link" href="#detail_association_Model_Brick_eersteProducent">geproduceerdDoor: eersteProducent</a>
                   
                   
-                  <a class="link" href="#global_class_Model_Producer">Producer</a>
+                  <a class="link" href="#global_class_Model_Producent">Producent</a>
                   
                   [ 0 .. * ]
                   
                </td>
                <td>Definition of the role "primary producer".</td>
             </tr>
+         </tbody>
+      </table>
+      
+      
+   </section>
+   <a class="anchor" name="graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27"></a><a class="anchor" name="global_class_Model_Producent"></a><section id="global_class_Model_Producent">
+      <h4>Objecttype Producent</h4>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>Producent</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <h5>Overzicht attributen</h5>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
+            </tr>
             <tr>
                <td>
-                  Brick
-                  [ 0 .. * ]
-                  
-                  <a class="link" href="#detail_association_Model_Brick_designBase">baseOnDesign: designBase</a>
-                  
-                  
-                  <a class="link" href="#global_class_Model_Producer">Producer</a>
-                  
-                  [ 0 .. * ]
+                  <a class="link" href="#detail_attribute_Model_Producent_id">id</a>
                   
                </td>
-               <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
+               <td></td>
+               <td>
+                  CHARACTERSTRING
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Producent_contractDate">contractDate</a>
+                  
+               </td>
+               <td>Datum waarop het contract is afgesloten.</td>
+               <td>
+                  Datum
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Producent_site">site</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  URI
+                  
+               </td>
+               <td>1</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      
+   </section>
+   <a class="anchor" name="graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F"></a><a class="anchor" name="global_class_Model_ExterneProducent"></a><section id="global_class_Model_ExterneProducent">
+      <h4>Objecttype ExterneProducent</h4>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>ExterneProducent</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <h5>Overzicht attributen</h5>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <colgroup width="10%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Attribuutnaam</th>
+               <th>Definitie</th>
+               <th>Formaat</th>
+               <th>Card</th>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_ExterneProducent_postarea">postarea</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Postcode">Postcode</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      
+      <h5>Overzicht relaties</h5>
+      
+      
+      <table>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Rol naam met kardinaliteiten</th>
+               <th>Definitie</th>
+            </tr>
+            <tr>
+               <td>
+                  ExterneProducent
+                  is specialisatie van
+                  
+                  <a class="link" href="#global_class_Model_Producent">Producent</a>
+                  
+                  
+               </td>
+               <td></td>
             </tr>
          </tbody>
       </table>
@@ -609,8 +536,13 @@
       
       
    </section>
-   <a class="anchor" name="graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F"></a><a class="anchor" name="global_class_Model_ExternalProducer"></a><section id="global_class_Model_ExternalProducer">
-      <h4>Objecttype ExternalProducer</h4>
+   <a class="anchor" name="graph_EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD"></a><a class="anchor" name="global_class_Model_Fiets"></a><section id="global_class_Model_Fiets">
+      <h4>Objecttype Fiets</h4>
+      
+      <div class="imageinfo "><img src="data/Images/EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496.png" usemap="#imagemap-EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496"><map name="imagemap-EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496">
+            <area shape="rect" coords="28,115,143,35" alt="" href="#graph_EAID_7408CF3E_2E91_4d5e_AD53_48C10ABBE95F">
+            <area shape="rect" coords="25,307,165,159" alt="" href="#graph_EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD"></map><p><b>Fiets - detail</b></p>
+      </div>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -618,7 +550,27 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>ExternalProducer</td>
+               <td>Fiets</td>
+            </tr>
+            <tr>
+               <th>Alternatieve naam</th>
+               <td>Fiets</td>
+            </tr>
+            <tr>
+               <th>Herkomst</th>
+               <td>e</td>
+            </tr>
+            <tr>
+               <th>Definitie</th>
+               <td>Een voertuig met twéé wielen.</td>
+            </tr>
+            <tr>
+               <th>Herkomst definitie</th>
+               <td>f</td>
+            </tr>
+            <tr>
+               <th>Toelichting</th>
+               <td>j</td>
             </tr>
          </tbody>
       </table>
@@ -639,12 +591,77 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_ExternalProducer_postarea">postarea</a>
+                  <a class="link" href="#detail_attribute_Model_Fiets_kleur">kleur</a>
+                  
+               </td>
+               <td>De kleur van de fiets.</td>
+               <td>
+                  CHARACTERSTRING
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Fiets_nettogewicht">nettogewicht</a>
                   
                </td>
                <td></td>
                <td>
-                  <a class="link" href="#global_class_Model_Postcode">Postcode</a>
+                  <a class="link" href="#global_class_Model_Gewicht">Gewicht</a>
+                  
+               </td>
+               <td>0 .. 1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Fiets_status">status</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_Status">Status</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  
+                  <a class="link" href="#detail_class_Model_BikerName">eigenaar</a>
+                  
+                  :
+               </td>
+               <td>
+                  
+                  
+               </td>
+               <td></td>
+               <td>
+                  1 .. *
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>- 
+                  <a class="link" href="#detail_attribute_Model_BikerName_firstName">firstName</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  CHARACTERSTRING
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>- 
+                  <a class="link" href="#detail_attribute_Model_BikerName_lastName">lastName</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  CHARACTERSTRING
                   
                </td>
                <td>1</td>
@@ -666,10 +683,10 @@
             </tr>
             <tr>
                <td>
-                  ExternalProducer
+                  Fiets
                   is specialisatie van
                   
-                  <a class="link" href="#global_class_Model_Producer">Producer</a>
+                  <a class="link" href="#global_class_Model_BikeProps">BikeProps</a>
                   
                   
                </td>
@@ -680,8 +697,8 @@
       
       
    </section>
-   <a class="anchor" name="graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27"></a><a class="anchor" name="global_class_Model_Producer"></a><section id="global_class_Model_Producer">
-      <h4>Objecttype Producer</h4>
+   <a class="anchor" name="graph_EAID_7408CF3E_2E91_4d5e_AD53_48C10ABBE95F"></a><a class="anchor" name="global_class_Model_BikeProps"></a><section id="global_class_Model_BikeProps">
+      <h4>Objecttype BikeProps</h4>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -689,7 +706,11 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>Producer</td>
+               <td>BikeProps</td>
+            </tr>
+            <tr>
+               <th>Alternatieve naam</th>
+               <td>Bike properties</td>
             </tr>
          </tbody>
       </table>
@@ -710,36 +731,12 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Producer_id">id</a>
+                  <a class="link" href="#detail_attribute_Model_BikeProps_id">id</a>
                   
                </td>
                <td></td>
                <td>
                   CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Producer_contractDate">contractDate</a>
-                  
-               </td>
-               <td>Datum waarop het contract is afgesloten.</td>
-               <td>
-                  Datum
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_Producer_site">site</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  URI
                   
                </td>
                <td>1</td>
@@ -766,7 +763,7 @@
             </tr>
             <tr>
                <th>Relatiesoort</th>
-               <td>Client contract: contract Contract</td>
+               <td>Client contract Contract</td>
             </tr>
          </tbody>
       </table>
@@ -842,8 +839,8 @@
 </section>
 <section id="">
    <h3>Referentielijsten </h3>
-   <a class="anchor" name="graph_EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0"></a><a class="anchor" name="global_class_Model_ValueList"></a><section id="global_class_Model_ValueList">
-      <h4>Referentielijst ValueList</h4>
+   <a class="anchor" name="graph_EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0"></a><a class="anchor" name="global_class_Model_Wardenlijst"></a><section id="global_class_Model_Wardenlijst">
+      <h4>Referentielijst Wardenlijst</h4>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -851,7 +848,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>ValueList</td>
+               <td>Wardenlijst</td>
             </tr>
             <tr>
                <th>Toelichting</th>
@@ -862,47 +859,49 @@
          </tbody>
       </table>
       
-      <h5>Overzicht attributen</h5>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="50%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <colgroup width="10%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Attribuutnaam</th>
-               <th>Definitie</th>
-               <th>Formaat</th>
-               <th>Card</th>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ValueList_code">code</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-            <tr>
-               <td>
-                  <a class="link" href="#detail_attribute_Model_ValueList_value">value</a>
-                  
-               </td>
-               <td></td>
-               <td>
-                  CHARACTERSTRING
-                  
-               </td>
-               <td>1</td>
-            </tr>
-         </tbody>
-      </table>
-      
+      <section id="">
+         <h5>Overzicht referentie elementen </h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Referentie element</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Wardenlijst_code">code</a>
+                     
+                  </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Model_Wardenlijst_value">value</a>
+                     
+                  </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
       
    </section>
    
@@ -945,7 +944,7 @@
                   </td>
                   <td></td>
                   <td>
-                     <a class="link" href="#global_class_Model_Line">Line</a>
+                     <a class="link" href="#global_class_Model_Lijn">Lijn</a>
                      
                   </td>
                   <td>1</td>
@@ -957,7 +956,7 @@
                   </td>
                   <td></td>
                   <td>
-                     <a class="link" href="#global_class_Model_Surface">Surface</a>
+                     <a class="link" href="#global_class_Model_Oppervlak">Oppervlak</a>
                      
                   </td>
                   <td>1</td>
@@ -972,8 +971,8 @@
 </section>
 <section id="">
    <h3>Gestruktureerde datatypen </h3>
-   <a class="anchor" name="graph_EAID_11FD40A5_BE06_452a_9307_B5B5155E0EA4"></a><a class="anchor" name="global_class_Model_Weight"></a><section id="global_class_Model_Weight">
-      <h4>Gestructureerd datatype Weight</h4>
+   <a class="anchor" name="graph_EAID_11FD40A5_BE06_452a_9307_B5B5155E0EA4"></a><a class="anchor" name="global_class_Model_Gewicht"></a><section id="global_class_Model_Gewicht">
+      <h4>Gestructureerd datatype Gewicht</h4>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -981,7 +980,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>Weight</td>
+               <td>Gewicht</td>
             </tr>
             <tr>
                <th>Definitie</th>
@@ -1015,24 +1014,24 @@
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_Weight_amount">amount</a>
+                     <a class="link" href="#detail_attribute_Model_Gewicht_unit">unit</a>
                      
                   </td>
                   <td></td>
                   <td>
-                     REAL
+                     CHARACTERSTRING
                      
                   </td>
                   <td>1</td>
                </tr>
                <tr>
                   <td>
-                     <a class="link" href="#detail_attribute_Model_Weight_unit">unit</a>
+                     <a class="link" href="#detail_attribute_Model_Gewicht_amount">amount</a>
                      
                   </td>
                   <td></td>
                   <td>
-                     CHARACTERSTRING
+                     REAL
                      
                   </td>
                   <td>1</td>
@@ -1047,8 +1046,8 @@
 </section>
 <section id="">
    <h3>Primitieve datatypen </h3>
-   <a class="anchor" name="graph_EAID_8D034A6D_37F7_4765_9CFF_FE3DF59A8340"></a><a class="anchor" name="global_class_Model_AreaSize"></a><section id="global_class_Model_AreaSize">
-      <h4>Primitief datatype AreaSize</h4>
+   <a class="anchor" name="graph_EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509"></a><a class="anchor" name="global_class_Model_Lijn"></a><section id="global_class_Model_Lijn">
+      <h4>Primitief datatype Lijn</h4>
       
       <table>
          <colgroup width="30%"></colgroup>
@@ -1056,7 +1055,37 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td>AreaSize</td>
+               <td>Lijn</td>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
+   <a class="anchor" name="graph_EAID_8860422B_51C4_4f67_B9C4_90B01A356442"></a><a class="anchor" name="global_class_Model_Oppervlak"></a><section id="global_class_Model_Oppervlak">
+      <h4>Primitief datatype Oppervlak</h4>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>Oppervlak</td>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
+   <a class="anchor" name="graph_EAID_8D034A6D_37F7_4765_9CFF_FE3DF59A8340"></a><a class="anchor" name="global_class_Model_OppervlakGrootte"></a><section id="global_class_Model_OppervlakGrootte">
+      <h4>Primitief datatype OppervlakGrootte</h4>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>OppervlakGrootte</td>
             </tr>
             <tr>
                <th>Definitie</th>
@@ -1073,48 +1102,31 @@
          </tbody>
       </table>
       
-      <section id="">
-         <h5>Overzicht relaties </h5>
-         
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Supertype relaties</th>
-                  <th>Supertype definitie</th>
-               </tr>
-               <tr>
-                  <th>
-                     AreaSize
-                     is specialisatie van
-                     
-                     <a class="link" href="#global_class_MeasureType">Measure</a>
-                     
-                     
-                  </th>
-                  <td></td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
+      <h5>Overzicht relaties</h5>
       
-   </section>
-   <a class="anchor" name="graph_EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509"></a><a class="anchor" name="global_class_Model_Line"></a><section id="global_class_Model_Line">
-      <h4>Primitief datatype Line</h4>
       
       <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="50%"></colgroup>
          <tbody>
             <tr>
-               <th>Naam</th>
-               <td>Line</td>
+               <th>Supertype relaties</th>
+               <th>Supertype definitie</th>
+            </tr>
+            <tr>
+               <td>
+                  OppervlakGrootte
+                  is specialisatie van
+                  
+                  <a class="link" href="#global_class_MeasureType">Measure</a>
+                  
+                  
+               </td>
+               <td></td>
             </tr>
          </tbody>
       </table>
+      
       
    </section>
    <a class="anchor" name="graph_EAID_6E1568CE_9039_4ed8_B360_291D77922C9F"></a><a class="anchor" name="global_class_Model_Postcode"></a><section id="global_class_Model_Postcode">
@@ -1132,21 +1144,6 @@
       </table>
       
    </section>
-   <a class="anchor" name="graph_EAID_8860422B_51C4_4f67_B9C4_90B01A356442"></a><a class="anchor" name="global_class_Model_Surface"></a><section id="global_class_Model_Surface">
-      <h4>Primitief datatype Surface</h4>
-      
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Naam</th>
-               <td>Surface</td>
-            </tr>
-         </tbody>
-      </table>
-      
-   </section>
    
 </section>
 <section id="">
@@ -1157,8 +1154,8 @@
       <colgroup width="70%"></colgroup>
       <tbody>
          <tr>
-            <th><a class="anchor" name="global_class_Model_ProductionTag"></a><a class="link" href="#detail_class_Model_ProductionTag">ProductionTag</a></th>
-            <td></td>
+            <th><a class="anchor" name="global_class_Model_ProductieKenmerk"></a><a class="link" href="#detail_class_Model_ProductieKenmerk">ProductieKenmerk</a></th>
+            <td>Definitie van deze codelijst.</td>
          </tr>
       </tbody>
    </table>
@@ -1172,8 +1169,8 @@
       <colgroup width="70%"></colgroup>
       <tbody>
          <tr>
-            <th><a class="anchor" name="global_class_Model_BrickSize"></a><a class="link" href="#detail_class_Model_BrickSize">BrickSize</a></th>
-            <td></td>
+            <th><a class="anchor" name="global_class_Model_Steengrootte"></a><a class="link" href="#detail_class_Model_Steengrootte">Steengrootte</a></th>
+            <td>De omvang van de baksteen.</td>
          </tr>
          <tr>
             <th><a class="anchor" name="global_class_Model_Status"></a><a class="link" href="#detail_class_Model_Status">Status</a></th>
@@ -1186,254 +1183,6 @@
 <section id="">
    <h3>Attribuut- en relatiesoort details</h3>
    
-   <a class="anchor" name="detail_class_Model_Bike"></a><section id="detail_class_Model_Bike">
-      <h5>Objecttype Bike</h5>
-      <a class="anchor" name="detail_attribute_Model_Bike_color"></a><section id="detail_attribute_Model_Bike_color">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Bike">Bike</a> color
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>color</td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>CHARACTERSTRING</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <a class="anchor" name="detail_attribute_Model_Bike_netWeight"></a><section id="detail_attribute_Model_Bike_netWeight">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Bike">Bike</a> netWeight
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>netWeight</td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>0 .. 1</td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Weight</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <a class="anchor" name="detail_attribute_Model_Bike_status"></a><section id="detail_attribute_Model_Bike_status">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Bike">Bike</a> status
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>status</td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Status</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <a class="anchor" name="detail_class_Model_BikerName"></a><section id="detail_class_Model_BikerName">
-         <h6>Gegevensgroeptype details <a href="#global_class_Model_Bike">Bike</a> BikerName
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>BikerName</td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         <a class="anchor" name="detail_attribute_Model_BikerName_firstName"></a><section id="detail_attribute_Model_BikerName_firstName" class="notoc">
-            <h7>Attribuutsoort firstName  BikerName</h7>
-            
-            <table>
-               <tbody>
-                  <tr></tr>
-                  <tr>
-                     <th>Naam</th>
-                     <td>firstName</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <a class="anchor" name="detail_attribute_Model_BikerName_lastName"></a><section id="detail_attribute_Model_BikerName_lastName" class="notoc">
-            <h7>Attribuutsoort lastName  BikerName</h7>
-            
-            <table>
-               <tbody>
-                  <tr></tr>
-                  <tr>
-                     <th>Naam</th>
-                     <td>lastName</td>
-                  </tr>
-                  <tr>
-                     <th>Mogelijk geen waarde</th>
-                     <td>Nee</td>
-                  </tr>
-                  <tr>
-                     <th>Indicatie kardinaliteit</th>
-                     <td>1</td>
-                  </tr>
-                  <tr>
-                     <th>Formaat</th>
-                     <td>CHARACTERSTRING</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         
-      </section>
-      
-   </section>
-   <a class="anchor" name="detail_class_Model_BikeProps"></a><section id="detail_class_Model_BikeProps">
-      <h5>Objecttype BikeProps</h5>
-      <a class="anchor" name="detail_attribute_Model_BikeProps_id"></a><section id="detail_attribute_Model_BikeProps_id">
-         <h6>Attribuutsoort details <a href="#global_class_Model_BikeProps">BikeProps</a> id
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>id</td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>CHARACTERSTRING</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      
-   </section>
    <a class="anchor" name="detail_class_Model_Brick"></a><section id="detail_class_Model_Brick">
       <h5>Objecttype Brick</h5>
       <a class="anchor" name="detail_attribute_Model_Brick_stockId"></a><section id="detail_attribute_Model_Brick_stockId">
@@ -1554,7 +1303,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Weight</td>
+                  <td>Gewicht</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -1594,7 +1343,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>BrickSize</td>
+                  <td>Steengrootte</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -1634,7 +1383,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>ValueList</td>
+                  <td>Wardenlijst</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -1922,7 +1671,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>ProductionTag</td>
+                  <td>ProductieKenmerk</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -1972,8 +1721,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="detail_association_Model_Brick_primaryProducer"></a><section id="detail_association_Model_Brick_primaryProducer">
-         <h6>Relatiesoort details <a href="#global_class_Model_Brick">Brick</a> producedBy: primaryProducer
+      <a class="anchor" name="detail_association_Model_Brick_ontwerpBasis"></a><section id="detail_association_Model_Brick_ontwerpBasis">
+         <h6>Relatiesoort details <a href="#global_class_Model_Brick">Brick</a> gebaseerdOpOntwerp
          </h6>
          
          
@@ -1983,7 +1732,51 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>producedBy: primaryProducer</td>
+                  <td>gebaseerdOpOntwerp</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>0 .. *</td>
+               </tr>
+               <tr>
+                  <th>Gerelateerd obecttype</th>
+                  <td>
+                     <a class="link" href="#global_class_Model_Producent">Producent</a>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_association_Model_Brick_eersteProducent"></a><section id="detail_association_Model_Brick_eersteProducent">
+         <h6>Relatiesoort details <a href="#global_class_Model_Brick">Brick</a> geproduceerdDoor
+         </h6>
+         
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>geproduceerdDoor</td>
                </tr>
                <tr>
                   <th>Definitie</th>
@@ -2012,7 +1805,7 @@
                <tr>
                   <th>Gerelateerd obecttype</th>
                   <td>
-                     <a class="link" href="#global_class_Model_Producer">Producer</a>
+                     <a class="link" href="#global_class_Model_Producent">Producent</a>
                      
                   </td>
                </tr>
@@ -2020,10 +1813,13 @@
          </table>
          
       </section>
-      <a class="anchor" name="detail_association_Model_Brick_designBase"></a><section id="detail_association_Model_Brick_designBase">
-         <h6>Relatiesoort details <a href="#global_class_Model_Brick">Brick</a> baseOnDesign: designBase
+      
+   </section>
+   <a class="anchor" name="detail_class_Model_Producent"></a><section id="detail_class_Model_Producent">
+      <h5>Objecttype Producent</h5>
+      <a class="anchor" name="detail_attribute_Model_Producent_id"></a><section id="detail_attribute_Model_Producent_id">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Producent">Producent</a> id
          </h6>
-         
          
          <table>
             <colgroup width="30%"></colgroup>
@@ -2031,11 +1827,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>baseOnDesign: designBase</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
+                  <td>id</td>
                </tr>
                <tr>
                   <th>Mogelijk geen waarde</th>
@@ -2051,14 +1843,143 @@
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
-                  <td>0 .. *</td>
+                  <td>1</td>
                </tr>
                <tr>
-                  <th>Gerelateerd obecttype</th>
-                  <td>
-                     <a class="link" href="#global_class_Model_Producer">Producer</a>
-                     
-                  </td>
+                  <th>Formaat</th>
+                  <td>CHARACTERSTRING</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_Model_Producent_contractDate"></a><section id="detail_attribute_Model_Producent_contractDate">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Producent">Producent</a> contractDate
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>contractDate</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Datum waarop het contract is afgesloten.</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Datum</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_Model_Producent_site"></a><section id="detail_attribute_Model_Producent_site">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Producent">Producent</a> site
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>site</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>URI</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+   </section>
+   <a class="anchor" name="detail_class_Model_ExterneProducent"></a><section id="detail_class_Model_ExterneProducent">
+      <h5>Objecttype ExterneProducent</h5>
+      <a class="anchor" name="detail_attribute_Model_ExterneProducent_postarea"></a><section id="detail_attribute_Model_ExterneProducent_postarea">
+         <h6>Attribuutsoort details <a href="#global_class_Model_ExterneProducent">ExterneProducent</a> postarea
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>postarea</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Postcode</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
                </tr>
             </tbody>
          </table>
@@ -2109,7 +2030,7 @@
          
       </section>
       <a class="anchor" name="detail_association_Model_Client_contract"></a><section id="detail_association_Model_Client_contract">
-         <h6>Relatiesoort details <a href="#global_class_Model_Client">Client</a> contract: contract
+         <h6>Relatiesoort details <a href="#global_class_Model_Client">Client</a> contract
          </h6>
          
          
@@ -2119,7 +2040,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>contract: contract</td>
+                  <td>contract</td>
                </tr>
                <tr>
                   <th>Mogelijk geen waarde</th>
@@ -2194,10 +2115,10 @@
       </section>
       
    </section>
-   <a class="anchor" name="detail_class_Model_ExternalProducer"></a><section id="detail_class_Model_ExternalProducer">
-      <h5>Objecttype ExternalProducer</h5>
-      <a class="anchor" name="detail_attribute_Model_ExternalProducer_postarea"></a><section id="detail_attribute_Model_ExternalProducer_postarea">
-         <h6>Attribuutsoort details <a href="#global_class_Model_ExternalProducer">ExternalProducer</a> postarea
+   <a class="anchor" name="detail_class_Model_Fiets"></a><section id="detail_class_Model_Fiets">
+      <h5>Objecttype Fiets</h5>
+      <a class="anchor" name="detail_attribute_Model_Fiets_kleur"></a><section id="detail_attribute_Model_Fiets_kleur">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Fiets">Fiets</a> kleur
          </h6>
          
          <table>
@@ -2206,7 +2127,102 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>postarea</td>
+                  <td>kleur</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>De kleur van de fiets.</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td>Dit is een regel op de kleur van een fiets.
+                     Deze regel wordt geplaatst in de tagged value Regels.
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Regels IMBRO/A</th>
+                  <td>Dit zijn de IMBRO/A regels voor de kleur van de fiets</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>CHARACTERSTRING</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_Model_Fiets_nettogewicht"></a><section id="detail_attribute_Model_Fiets_nettogewicht">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Fiets">Fiets</a> nettogewicht
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>nettogewicht</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Gewicht</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_Model_Fiets_status"></a><section id="detail_attribute_Model_Fiets_status">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Fiets">Fiets</a> status
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>status</td>
                </tr>
                <tr>
                   <th>Mogelijk geen waarde</th>
@@ -2226,7 +2242,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Postcode</td>
+                  <td>Status</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -2236,12 +2252,92 @@
          </table>
          
       </section>
+      <a class="anchor" name="detail_class_Model_BikerName"></a><section id="detail_class_Model_BikerName">
+         <h6>Gegevensgroeptype details <a href="#global_class_Model_Fiets">Fiets</a> BikerName
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>BikerName</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         <a class="anchor" name="detail_attribute_Model_BikerName_firstName"></a><section id="detail_attribute_Model_BikerName_firstName" class="notoc">
+            <h7>Attribuutsoort firstName  BikerName</h7>
+            
+            <table>
+               <tbody>
+                  <tr></tr>
+                  <tr>
+                     <th>Naam</th>
+                     <td>firstName</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <a class="anchor" name="detail_attribute_Model_BikerName_lastName"></a><section id="detail_attribute_Model_BikerName_lastName" class="notoc">
+            <h7>Attribuutsoort lastName  BikerName</h7>
+            
+            <table>
+               <tbody>
+                  <tr></tr>
+                  <tr>
+                     <th>Naam</th>
+                     <td>lastName</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         
+      </section>
       
    </section>
-   <a class="anchor" name="detail_class_Model_Producer"></a><section id="detail_class_Model_Producer">
-      <h5>Objecttype Producer</h5>
-      <a class="anchor" name="detail_attribute_Model_Producer_id"></a><section id="detail_attribute_Model_Producer_id">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Producer">Producer</a> id
+   <a class="anchor" name="detail_class_Model_BikeProps"></a><section id="detail_class_Model_BikeProps">
+      <h5>Objecttype BikeProps</h5>
+      <a class="anchor" name="detail_attribute_Model_BikeProps_id"></a><section id="detail_attribute_Model_BikeProps_id">
+         <h6>Attribuutsoort details <a href="#global_class_Model_BikeProps">BikeProps</a> id
          </h6>
          
          <table>
@@ -2271,90 +2367,6 @@
                <tr>
                   <th>Formaat</th>
                   <td>CHARACTERSTRING</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <a class="anchor" name="detail_attribute_Model_Producer_contractDate"></a><section id="detail_attribute_Model_Producer_contractDate">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Producer">Producer</a> contractDate
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>contractDate</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>Datum waarop het contract is afgesloten.</td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>Datum</td>
-               </tr>
-               <tr>
-                  <th>Indicatie afleidbaar</th>
-                  <td>Nee</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <a class="anchor" name="detail_attribute_Model_Producer_site"></a><section id="detail_attribute_Model_Producer_site">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Producer">Producer</a> site
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>site</td>
-               </tr>
-               <tr>
-                  <th>Mogelijk geen waarde</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie materiële historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie formele historie</th>
-                  <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>URI</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -2536,10 +2548,10 @@
    </section>
    
    
-   <a class="anchor" name="detail_class_Model_ValueList"></a><section id="detail_class_Model_ValueList">
-      <h5>Referentielijst ValueList</h5>
-      <a class="anchor" name="detail_attribute_Model_ValueList_code"></a><section id="detail_attribute_Model_ValueList_code">
-         <h6>Referentie element details <a href="#global_class_Model_ValueList">ValueList</a> code
+   <a class="anchor" name="detail_class_Model_Wardenlijst"></a><section id="detail_class_Model_Wardenlijst">
+      <h5>Referentielijst Wardenlijst</h5>
+      <a class="anchor" name="detail_attribute_Model_Wardenlijst_code"></a><section id="detail_attribute_Model_Wardenlijst_code">
+         <h6>Referentie element details <a href="#global_class_Model_Wardenlijst">Wardenlijst</a> code
          </h6>
          
          <table>
@@ -2562,8 +2574,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="detail_attribute_Model_ValueList_value"></a><section id="detail_attribute_Model_ValueList_value">
-         <h6>Referentie element details <a href="#global_class_Model_ValueList">ValueList</a> value
+      <a class="anchor" name="detail_attribute_Model_Wardenlijst_value"></a><section id="detail_attribute_Model_Wardenlijst_value">
+         <h6>Referentie element details <a href="#global_class_Model_Wardenlijst">Wardenlijst</a> value
          </h6>
          
          <table>
@@ -2616,7 +2628,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Line</td>
+                  <td>Lijn</td>
                </tr>
             </tbody>
          </table>
@@ -2646,7 +2658,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Surface</td>
+                  <td>Oppervlak</td>
                </tr>
             </tbody>
          </table>
@@ -2656,40 +2668,10 @@
    </section>
    
    
-   <a class="anchor" name="detail_class_Model_Weight"></a><section id="detail_class_Model_Weight">
-      <h5>[TODO: GESTRUCTUREERD DATATYPE] Weight</h5>
-      <a class="anchor" name="detail_attribute_Model_Weight_amount"></a><section id="detail_attribute_Model_Weight_amount">
-         <h6>Data element details <a href="#global_class_Model_Weight">Weight</a> amount
-         </h6>
-         
-         <table>
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>amount</td>
-               </tr>
-               <tr>
-                  <th>Indicatie kardinaliteit</th>
-                  <td>1</td>
-               </tr>
-               <tr>
-                  <th>Patroon</th>
-                  <td>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)
-                     dan wel moeten voldoen aan een specifiek patroon.
-                  </td>
-               </tr>
-               <tr>
-                  <th>Formaat</th>
-                  <td>REAL</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <a class="anchor" name="detail_attribute_Model_Weight_unit"></a><section id="detail_attribute_Model_Weight_unit">
-         <h6>Data element details <a href="#global_class_Model_Weight">Weight</a> unit
+   <a class="anchor" name="detail_class_Model_Gewicht"></a><section id="detail_class_Model_Gewicht">
+      <h5>Gestructureerd datatype Gewicht</h5>
+      <a class="anchor" name="detail_attribute_Model_Gewicht_unit"></a><section id="detail_attribute_Model_Gewicht_unit">
+         <h6>Data element details <a href="#global_class_Model_Gewicht">Gewicht</a> unit
          </h6>
          
          <table>
@@ -2718,13 +2700,43 @@
          </table>
          
       </section>
+      <a class="anchor" name="detail_attribute_Model_Gewicht_amount"></a><section id="detail_attribute_Model_Gewicht_amount">
+         <h6>Data element details <a href="#global_class_Model_Gewicht">Gewicht</a> amount
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>amount</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Patroon</th>
+                  <td>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)
+                     dan wel moeten voldoen aan een specifiek patroon.
+                  </td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>REAL</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
       
    </section>
    
    
    
-   <a class="anchor" name="graph_EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"></a><a class="anchor" name="detail_class_Model_ProductionTag"></a><section id="detail_class_Model_ProductionTag">
-      <h5>Codelijst details <a href="#"></a> ProductionTag
+   <a class="anchor" name="graph_EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"></a><a class="anchor" name="detail_class_Model_ProductieKenmerk"></a><section id="detail_class_Model_ProductieKenmerk">
+      <h5>Codelijst details <a href="#"></a> ProductieKenmerk
       </h5>
       
       <table>
@@ -2733,17 +2745,26 @@
          <tbody>
             <tr>
                <th>Definitie</th>
-               <td></td>
+               <td>Definitie van deze codelijst.</td>
             </tr>
          </tbody>
       </table>
       
+      <table>
+         <tbody>
+            <tr>
+               <th>Code</th>
+               <th>Naam</th>
+               <th>Definitie</th>
+            </tr>
+         </tbody>
+      </table>
       
    </section>
    
    
-   <a class="anchor" name="graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"></a><a class="anchor" name="detail_class_Model_BrickSize"></a><section id="detail_class_Model_BrickSize">
-      <h5>Enumeratie details <a href="#"></a> BrickSize
+   <a class="anchor" name="graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"></a><a class="anchor" name="detail_class_Model_Steengrootte"></a><section id="detail_class_Model_Steengrootte">
+      <h5>Enumeratie details <a href="#"></a> Steengrootte
       </h5>
       
       <table>
@@ -2752,7 +2773,7 @@
          <tbody>
             <tr>
                <th>Definitie</th>
-               <td></td>
+               <td>De omvang van de baksteen.</td>
             </tr>
          </tbody>
       </table>
@@ -2770,7 +2791,7 @@
             <tr>
                <td></td>
                <td>large</td>
-               <td></td>
+               <td>Een grote baksteen.</td>
             </tr>
             <tr>
                <td></td>

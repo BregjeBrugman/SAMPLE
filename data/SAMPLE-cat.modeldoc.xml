@@ -3,8 +3,8 @@
       subpath="Conceptual model/SampleBase/20130318"
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
-      generator-version="1.44.2"
-      generator-date="2018-05-16T07:18:48Z">
+      generator-version="1.46.3"
+      generator-date="2018-07-31T10:10:10Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -23,194 +23,6 @@
          </section>
       </section>
       <section type="OVERVIEW-OBJECTTYPE">
-         <section name="Bike"
-                  type="OBJECTTYPE"
-                  id="global_class_Model_Bike"
-                  uuid="EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD">
-            <section type="IMAGEMAPS"
-                     name="Bike-imagemap"
-                     id="imagemap_class_Model_Bike">
-               <section type="IMAGEMAP"
-                        name="Bike - detail"
-                        id="EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>Bike - detail</item>
-                     </part>
-                     <part type="CFG-DOC-DESCRIPTION">
-                        <item>Omschrijving</item>
-                        <item/>
-                     </part>
-                  </content>
-               </section>
-            </section>
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Bike</item>
-               </part>
-               <part type="CFG-DOC-ALTERNATIEVENAAM">
-                  <item>Alternatieve naam</item>
-                  <item>Bicycle</item>
-               </part>
-               <part type="CFG-DOC-HERKOMST">
-                  <item>Herkomst</item>
-                  <item>e</item>
-               </part>
-               <part type="CFG-DOC-DEFINITIE">
-                  <item>Definitie</item>
-                  <item>A human-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other.</item>
-               </part>
-               <part type="CFG-DOC-HERKOMSTDEFINITIE">
-                  <item>Herkomst definitie</item>
-                  <item>f</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>j</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_Bike_color">color</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_Bike_netWeight">netWeight</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_Model_Weight">Weight</item>
-                     </item>
-                     <item>0 .. 1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_Bike_status">status</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global" idref="global_class_Model_Status">Status</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part type="COMPOSER">
-                     <item>
-                        <value>
-                           <item type="detail" idref="detail_class_Model_BikerName">owner</item>
-                        </value>
-                     </item>
-                     <item>
-                        <value/>
-                     </item>
-                     <item/>
-                     <item>
-                        <value>1 .. *</value>
-                     </item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_BikerName_firstName">firstName</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part type="COMPOSED">
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_BikerName_lastName">lastName</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Bike</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_BikeProps">BikeProps</item>
-                        </item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Bike</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_BikeProps">BikeProps</item>
-                        </item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-         </section>
-         <section name="BikeProps"
-                  type="OBJECTTYPE"
-                  id="global_class_Model_BikeProps"
-                  uuid="EAID_7408CF3E_2E91_4d5e_AD53_48C10ABBE95F">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>BikeProps</item>
-               </part>
-               <part type="CFG-DOC-ALTERNATIEVENAAM">
-                  <item>Alternatieve naam</item>
-                  <item>Bike properties</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_BikeProps_id">id</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-         </section>
          <section name="Brick"
                   type="OBJECTTYPE"
                   id="global_class_Model_Brick"
@@ -266,7 +78,7 @@
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_Weight">Weight</item>
+                        <item type="global" idref="global_class_Model_Gewicht">Gewicht</item>
                      </item>
                      <item>0 .. 1</item>
                   </part>
@@ -276,7 +88,7 @@
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_BrickSize">BrickSize</item>
+                        <item type="global" idref="global_class_Model_Steengrootte">Steengrootte</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -286,7 +98,7 @@
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_ValueList">ValueList</item>
+                        <item type="global" idref="global_class_Model_Wardenlijst">Wardenlijst</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -356,7 +168,7 @@
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_ProductionTag">ProductionTag</item>
+                        <item type="global" idref="global_class_Model_ProductieKenmerk">ProductieKenmerk</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -380,12 +192,12 @@
                   <part>
                      <item>
                         <item>Brick</item>
-                        <item>[ 1 ]</item>
+                        <item>[ 0 .. * ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Brick_primaryProducer">producedBy: primaryProducer</item>
+                           <item type="detail" idref="detail_association_Model_Brick_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
                         <item>[ 0 .. * ]</item>
                      </item>
@@ -394,12 +206,12 @@
                   <part>
                      <item>
                         <item>Brick</item>
-                        <item>[ 0 .. * ]</item>
+                        <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Brick_designBase">baseOnDesign: designBase</item>
+                           <item type="detail" idref="detail_association_Model_Brick_eersteProducent">geproduceerdDoor: eersteProducent</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
                         <item>[ 0 .. * ]</item>
                      </item>
@@ -413,30 +225,142 @@
                   <part>
                      <item>
                         <item>Brick</item>
-                        <item>[ 1 ]</item>
+                        <item>[ 0 .. * ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Brick_primaryProducer">producedBy: primaryProducer</item>
+                           <item type="detail" idref="detail_association_Model_Brick_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
                         </item>
                         <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item>Definitiie van de rol "Design base" in de relatie "based on design".</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>Brick</item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_Model_Brick_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                        </item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
                         <item>[ 0 .. * ]</item>
                      </item>
                      <item>Definition of the role "primary producer".</item>
                   </part>
+               </content>
+            </section>
+         </section>
+         <section name="Producent"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_Producent"
+                  uuid="EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Producent</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item>Brick</item>
-                        <item>[ 0 .. * ]</item>
-                        <item>
-                           <item type="detail" idref="detail_association_Model_Brick_designBase">baseOnDesign: designBase</item>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
-                        </item>
-                        <item>[ 0 .. * ]</item>
+                        <item type="detail" idref="detail_attribute_Model_Producent_id">id</item>
                      </item>
-                     <item>Definitiie van de rol "Design base" in de relatie "based on design".</item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Producent_contractDate">contractDate</item>
+                     </item>
+                     <item>Datum waarop het contract is afgesloten.</item>
+                     <item>
+                        <item type="global">Datum</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Producent_site">site</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">URI</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="ExterneProducent"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_ExterneProducent"
+                  uuid="EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>ExterneProducent</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_ExterneProducent_postarea">postarea</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_Postcode">Postcode</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>ExterneProducent</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>ExterneProducent</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </item>
+                     <item/>
                   </part>
                </content>
             </section>
@@ -541,14 +465,52 @@
                </content>
             </section>
          </section>
-         <section name="ExternalProducer"
+         <section name="Fiets"
                   type="OBJECTTYPE"
-                  id="global_class_Model_ExternalProducer"
-                  uuid="EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
+                  id="global_class_Model_Fiets"
+                  uuid="EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD">
+            <section type="IMAGEMAPS"
+                     name="Fiets-imagemap"
+                     id="imagemap_class_Model_Fiets">
+               <section type="IMAGEMAP"
+                        name="Fiets - detail"
+                        id="EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Fiets - detail</item>
+                     </part>
+                     <part type="CFG-DOC-DESCRIPTION">
+                        <item>Omschrijving</item>
+                        <item/>
+                     </part>
+                  </content>
+               </section>
+            </section>
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>ExternalProducer</item>
+                  <item>Fiets</item>
+               </part>
+               <part type="CFG-DOC-ALTERNATIEVENAAM">
+                  <item>Alternatieve naam</item>
+                  <item>Fiets</item>
+               </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>e</item>
+               </part>
+               <part type="CFG-DOC-DEFINITIE">
+                  <item>Definitie</item>
+                  <item>Een voertuig met twéé wielen.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>f</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>j</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -560,11 +522,65 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ExternalProducer_postarea">postarea</item>
+                        <item type="detail" idref="detail_attribute_Model_Fiets_kleur">kleur</item>
+                     </item>
+                     <item>De kleur van de fiets.</item>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Fiets_nettogewicht">nettogewicht</item>
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_Postcode">Postcode</item>
+                        <item type="global" idref="global_class_Model_Gewicht">Gewicht</item>
+                     </item>
+                     <item>0 .. 1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Fiets_status">status</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_Status">Status</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSER">
+                     <item>
+                        <value>
+                           <item type="detail" idref="detail_class_Model_BikerName">eigenaar</item>
+                        </value>
+                     </item>
+                     <item>
+                        <value/>
+                     </item>
+                     <item/>
+                     <item>
+                        <value>1 .. *</value>
+                     </item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_BikerName_firstName">firstName</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part type="COMPOSED">
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_BikerName_lastName">lastName</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -577,10 +593,10 @@
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item>ExternalProducer</item>
+                        <item>Fiets</item>
                         <item>is specialisatie van</item>
                         <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                           <item type="global" idref="global_class_Model_BikeProps">BikeProps</item>
                         </item>
                      </item>
                      <item/>
@@ -592,10 +608,10 @@
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>ExternalProducer</item>
+                        <item>Fiets</item>
                         <item>is specialisatie van</item>
                         <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                           <item type="global" idref="global_class_Model_BikeProps">BikeProps</item>
                         </item>
                      </item>
                      <item/>
@@ -603,14 +619,18 @@
                </content>
             </section>
          </section>
-         <section name="Producer"
+         <section name="BikeProps"
                   type="OBJECTTYPE"
-                  id="global_class_Model_Producer"
-                  uuid="EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+                  id="global_class_Model_BikeProps"
+                  uuid="EAID_7408CF3E_2E91_4d5e_AD53_48C10ABBE95F">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Producer</item>
+                  <item>BikeProps</item>
+               </part>
+               <part type="CFG-DOC-ALTERNATIEVENAAM">
+                  <item>Alternatieve naam</item>
+                  <item>Bike properties</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -622,31 +642,11 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Producer_id">id</item>
+                        <item type="detail" idref="detail_attribute_Model_BikeProps_id">id</item>
                      </item>
                      <item/>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_Producer_contractDate">contractDate</item>
-                     </item>
-                     <item>Datum waarop het contract is afgesloten.</item>
-                     <item>
-                        <item type="global">Datum</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_Producer_site">site</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">URI</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -666,7 +666,7 @@
                </part>
                <part type="CFG-DOC-RELATIESOORT">
                   <item>Relatiesoort</item>
-                  <item>Client contract: contract Contract</item>
+                  <item>Client contract Contract</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -721,30 +721,30 @@
          </section>
       </section>
       <section type="OVERVIEW-REFERENCELIST">
-         <section name="ValueList"
+         <section name="Wardenlijst"
                   type="REFERENCELIST"
-                  id="global_class_Model_ValueList"
+                  id="global_class_Model_Wardenlijst"
                   uuid="EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>ValueList</item>
+                  <item>Wardenlijst</item>
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
                   <item>Voor lijsten die deel uitmaken van een registratie betreft dit de daarin opgenomen toelichting.</item>
                </part>
             </content>
-            <section type="SHORT-ATTRIBUTES">
+            <section type="SHORT-REFERENCEELEMENTS">
                <content>
                   <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <itemtype type="REFERENCEELEMENT-NAME"/>
+                  <itemtype type="REFERENCEELEMENT-DEFINITION"/>
+                  <itemtype type="REFERENCEELEMENT-FORMAT"/>
+                  <itemtype type="REFERENCEELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ValueList_code">code</item>
+                        <item type="detail" idref="detail_attribute_Model_Wardenlijst_code">code</item>
                      </item>
                      <item/>
                      <item>
@@ -754,7 +754,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ValueList_value">value</item>
+                        <item type="detail" idref="detail_attribute_Model_Wardenlijst_value">value</item>
                      </item>
                      <item/>
                      <item>
@@ -790,7 +790,7 @@
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_Line">Line</item>
+                        <item type="global" idref="global_class_Model_Lijn">Lijn</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -800,7 +800,7 @@
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_Surface">Surface</item>
+                        <item type="global" idref="global_class_Model_Oppervlak">Oppervlak</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -809,14 +809,14 @@
          </section>
       </section>
       <section type="OVERVIEW-STRUCTUREDDATATYPE">
-         <section name="Weight"
+         <section name="Gewicht"
                   type="STRUCTUREDDATATYPE"
-                  id="global_class_Model_Weight"
+                  id="global_class_Model_Gewicht"
                   uuid="EAID_11FD40A5_BE06_452a_9307_B5B5155E0EA4">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Weight</item>
+                  <item>Gewicht</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -840,21 +840,21 @@
                   <itemtype type="DATAELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Weight_amount">amount</item>
+                        <item type="detail" idref="detail_attribute_Model_Gewicht_unit">unit</item>
                      </item>
                      <item/>
                      <item>
-                        <item type="global">REAL</item>
+                        <item type="global">CHARACTERSTRING</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Weight_unit">unit</item>
+                        <item type="detail" idref="detail_attribute_Model_Gewicht_amount">amount</item>
                      </item>
                      <item/>
                      <item>
-                        <item type="global">CHARACTERSTRING</item>
+                        <item type="global">REAL</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -863,14 +863,36 @@
          </section>
       </section>
       <section type="OVERVIEW-PRIMITIVEDATATYPE">
-         <section name="AreaSize"
+         <section name="Lijn"
                   type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_AreaSize"
+                  id="global_class_Model_Lijn"
+                  uuid="EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Lijn</item>
+               </part>
+            </content>
+         </section>
+         <section name="Oppervlak"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_Model_Oppervlak"
+                  uuid="EAID_8860422B_51C4_4f67_B9C4_90B01A356442">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Oppervlak</item>
+               </part>
+            </content>
+         </section>
+         <section name="OppervlakGrootte"
+                  type="PRIMITIVEDATATYPE"
+                  id="global_class_Model_OppervlakGrootte"
                   uuid="EAID_8D034A6D_37F7_4765_9CFF_FE3DF59A8340">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>AreaSize</item>
+                  <item>OppervlakGrootte</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
@@ -892,7 +914,7 @@
                   <itemtype type="SUPERTYPE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>AreaSize</item>
+                        <item>OppervlakGrootte</item>
                         <item>is specialisatie van</item>
                         <item>
                            <item type="global" idref="global_class_MeasureType">Measure</item>
@@ -907,7 +929,7 @@
                   <itemtype type="SUPERTYPE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>AreaSize</item>
+                        <item>OppervlakGrootte</item>
                         <item>is specialisatie van</item>
                         <item>
                            <item type="global" idref="global_class_MeasureType">Measure</item>
@@ -917,17 +939,6 @@
                   </part>
                </content>
             </section>
-         </section>
-         <section name="Line"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_Line"
-                  uuid="EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Line</item>
-               </part>
-            </content>
          </section>
          <section name="Postcode"
                   type="PRIMITIVEDATATYPE"
@@ -940,35 +951,24 @@
                </part>
             </content>
          </section>
-         <section name="Surface"
-                  type="PRIMITIVEDATATYPE"
-                  id="global_class_Model_Surface"
-                  uuid="EAID_8860422B_51C4_4f67_B9C4_90B01A356442">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Surface</item>
-               </part>
-            </content>
-         </section>
       </section>
       <section type="OVERVIEW-CODELIST">
          <content>
             <part>
-               <item id="global_class_Model_ProductionTag"
+               <item id="global_class_Model_ProductieKenmerk"
                      uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"
-                     idref="detail_class_Model_ProductionTag">ProductionTag</item>
-               <item/>
+                     idref="detail_class_Model_ProductieKenmerk">ProductieKenmerk</item>
+               <item>Definitie van deze codelijst.</item>
             </part>
          </content>
       </section>
       <section type="OVERVIEW-ENUMERATION">
          <content>
             <part>
-               <item id="global_class_Model_BrickSize"
+               <item id="global_class_Model_Steengrootte"
                      uuid="EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"
-                     idref="detail_class_Model_BrickSize">BrickSize</item>
-               <item/>
+                     idref="detail_class_Model_Steengrootte">Steengrootte</item>
+               <item>De omvang van de baksteen.</item>
             </part>
             <part>
                <item id="global_class_Model_Status"
@@ -980,231 +980,6 @@
       </section>
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
-            <section name="Bike"
-                     type="OBJECTTYPE"
-                     id="detail_class_Model_Bike"
-                     id-global="global_class_Model_Bike">
-               <section name="color"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Bike_color"
-                        id-global="global_attribute_Model_Bike_color">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>color</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CHARACTERSTRING</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="netWeight"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Bike_netWeight"
-                        id-global="global_attribute_Model_Bike_netWeight">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>netWeight</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Weight</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="status"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Bike_status"
-                        id-global="global_attribute_Model_Bike_status">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>status</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Status</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="BikerName"
-                        type="DETAIL-COMPOSITE"
-                        id="detail_class_Model_BikerName"
-                        id-global="global_class_Model_BikerName">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>BikerName</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-                  <section name="firstName"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Model_BikerName_firstName"
-                           id-global="global_attribute_Model_BikerName_firstName">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_Model_BikerName">BikerName</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>firstName</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="lastName"
-                           type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Model_BikerName_lastName"
-                           id-global="global_attribute_Model_BikerName_lastName">
-                     <content>
-                        <part type="COMPOSER">
-                           <item type="global" idref="global_class_Model_BikerName">BikerName</item>
-                        </part>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>lastName</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                     </content>
-                  </section>
-               </section>
-            </section>
-            <section name="BikeProps"
-                     type="OBJECTTYPE"
-                     id="detail_class_Model_BikeProps"
-                     id-global="global_class_Model_BikeProps">
-               <section name="id"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_BikeProps_id"
-                        id-global="global_attribute_Model_BikeProps_id">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>id</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>CHARACTERSTRING</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
             <section name="Brick"
                      type="OBJECTTYPE"
                      id="detail_class_Model_Brick"
@@ -1314,7 +1089,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Weight</item>
+                        <item>Gewicht</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1349,7 +1124,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>BrickSize</item>
+                        <item>Steengrootte</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1384,7 +1159,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>ValueList</item>
+                        <item>Wardenlijst</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1637,7 +1412,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>ProductionTag</item>
+                        <item>ProductieKenmerk</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1680,14 +1455,14 @@
                      </part>
                   </content>
                </section>
-               <section name="producedBy: primaryProducer"
+               <section name="gebaseerdOpOntwerp"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Brick_primaryProducer"
-                        id-global="global_association_Model_Brick_primaryProducer">
+                        id="detail_association_Model_Brick_ontwerpBasis"
+                        id-global="global_association_Model_Brick_ontwerpBasis">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>producedBy: primaryProducer</item>
+                        <item>gebaseerdOpOntwerp</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1696,14 +1471,67 @@
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd obecttype</item>
                         <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
                      </part>
                   </content>
                   <content approach="target">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>producedBy: primaryProducer</item>
+                        <item>gebaseerdOpOntwerp</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Definitiie van de rol "Design base" in de relatie "based on design".</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="geproduceerdDoor"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_Brick_eersteProducent"
+                        id-global="global_association_Model_Brick_eersteProducent">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geproduceerdDoor</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd obecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geproduceerdDoor</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -1732,39 +1560,24 @@
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
                         <item>Gerelateerd obecttype</item>
                         <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
                      </part>
                   </content>
                </section>
-               <section name="baseOnDesign: designBase"
-                        type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Brick_designBase"
-                        id-global="global_association_Model_Brick_designBase">
-                  <content approach="association">
+            </section>
+            <section name="Producent"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_Producent"
+                     id-global="global_class_Model_Producent">
+               <section name="id"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Producent_id"
+                        id-global="global_attribute_Model_Producent_id">
+                  <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>baseOnDesign: designBase</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>0 .. *</item>
-                     </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>baseOnDesign: designBase</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Definitiie van de rol "Design base" in de relatie "based on design".</item>
+                        <item>id</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1780,13 +1593,129 @@
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
-                        <item>0 .. *</item>
+                        <item>1</item>
                      </part>
-                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Producer">Producer</item>
-                        </item>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="contractDate"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Producent_contractDate"
+                        id-global="global_attribute_Model_Producent_contractDate">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>contractDate</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Datum waarop het contract is afgesloten.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Datum</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="site"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Producent_site"
+                        id-global="global_attribute_Model_Producent_site">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>site</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>URI</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="ExterneProducent"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_ExterneProducent"
+                     id-global="global_class_Model_ExterneProducent">
+               <section name="postarea"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ExterneProducent_postarea"
+                        id-global="global_attribute_Model_ExterneProducent_postarea">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>postarea</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Postcode</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
                      </part>
                   </content>
                </section>
@@ -1830,14 +1759,14 @@
                      </part>
                   </content>
                </section>
-               <section name="contract: contract"
+               <section name="contract"
                         type="DETAIL-ASSOCIATION"
                         id="detail_association_Model_Client_contract"
                         id-global="global_association_Model_Client_contract">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>contract: contract</item>
+                        <item>contract</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1853,7 +1782,7 @@
                   <content approach="target">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>contract: contract</item>
+                        <item>contract</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1920,18 +1849,102 @@
                   </content>
                </section>
             </section>
-            <section name="ExternalProducer"
+            <section name="Fiets"
                      type="OBJECTTYPE"
-                     id="detail_class_Model_ExternalProducer"
-                     id-global="global_class_Model_ExternalProducer">
-               <section name="postarea"
+                     id="detail_class_Model_Fiets"
+                     id-global="global_class_Model_Fiets">
+               <section name="kleur"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ExternalProducer_postarea"
-                        id-global="global_attribute_Model_ExternalProducer_postarea">
+                        id="detail_attribute_Model_Fiets_kleur"
+                        id-global="global_attribute_Model_Fiets_kleur">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>postarea</item>
+                        <item>kleur</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>De kleur van de fiets.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>Dit is een regel op de kleur van een fiets.
+Deze regel wordt geplaatst in de tagged value Regels.
+</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Dit zijn de IMBRO/A regels voor de kleur van de fiets</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="nettogewicht"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Fiets_nettogewicht"
+                        id-global="global_attribute_Model_Fiets_nettogewicht">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>nettogewicht</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Gewicht</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="status"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Fiets_status"
+                        id-global="global_attribute_Model_Fiets_status">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>status</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1951,7 +1964,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Postcode</item>
+                        <item>Status</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1959,15 +1972,90 @@
                      </part>
                   </content>
                </section>
+               <section name="BikerName"
+                        type="DETAIL-COMPOSITE"
+                        id="detail_class_Model_BikerName"
+                        id-global="global_class_Model_BikerName">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>BikerName</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+                  <section name="firstName"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_BikerName_firstName"
+                           id-global="global_attribute_Model_BikerName_firstName">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_BikerName">BikerName</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>firstName</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>CHARACTERSTRING</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="lastName"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_BikerName_lastName"
+                           id-global="global_attribute_Model_BikerName_lastName">
+                     <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_BikerName">BikerName</item>
+                        </part>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>lastName</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>CHARACTERSTRING</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
             </section>
-            <section name="Producer"
+            <section name="BikeProps"
                      type="OBJECTTYPE"
-                     id="detail_class_Model_Producer"
-                     id-global="global_class_Model_Producer">
+                     id="detail_class_Model_BikeProps"
+                     id-global="global_class_Model_BikeProps">
                <section name="id"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Producer_id"
-                        id-global="global_attribute_Model_Producer_id">
+                        id="detail_attribute_Model_BikeProps_id"
+                        id-global="global_attribute_Model_BikeProps_id">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1992,80 +2080,6 @@
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>CHARACTERSTRING</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="contractDate"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Producer_contractDate"
-                        id-global="global_attribute_Model_Producer_contractDate">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>contractDate</item>
-                     </part>
-                     <part type="CFG-DOC-DEFINITIE">
-                        <item>Definitie</item>
-                        <item>Datum waarop het contract is afgesloten.</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>Datum</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                        <item>Indicatie afleidbaar</item>
-                        <item>Nee</item>
-                     </part>
-                  </content>
-               </section>
-               <section name="site"
-                        type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Producer_site"
-                        id-global="global_attribute_Model_Producer_site">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>site</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>URI</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -2219,14 +2233,14 @@
             </section>
          </section>
          <section type="DETAILS-REFERENCELIST">
-            <section name="ValueList"
+            <section name="Wardenlijst"
                      type="REFERENTIELIJST"
-                     id="detail_class_Model_ValueList"
-                     id-global="global_class_Model_ValueList">
+                     id="detail_class_Model_Wardenlijst"
+                     id-global="global_class_Model_Wardenlijst">
                <section name="code"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_ValueList_code"
-                        id-global="global_attribute_Model_ValueList_code">
+                        id="detail_attribute_Model_Wardenlijst_code"
+                        id-global="global_attribute_Model_Wardenlijst_code">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2244,8 +2258,8 @@
                </section>
                <section name="value"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_ValueList_value"
-                        id-global="global_attribute_Model_ValueList_value">
+                        id="detail_attribute_Model_Wardenlijst_value"
+                        id-global="global_attribute_Model_Wardenlijst_value">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2287,7 +2301,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Line</item>
+                        <item>Lijn</item>
                      </part>
                   </content>
                </section>
@@ -2310,44 +2324,21 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Surface</item>
+                        <item>Oppervlak</item>
                      </part>
                   </content>
                </section>
             </section>
          </section>
          <section type="DETAILS-STRUCTUREDDATATYPE">
-            <section name="Weight"
+            <section name="Gewicht"
                      type="GESTRUCTUREERD DATATYPE"
-                     id="detail_class_Model_Weight"
-                     id-global="global_class_Model_Weight">
-               <section name="amount"
-                        type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_Model_Weight_amount"
-                        id-global="global_attribute_Model_Weight_amount">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>amount</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                        <item>Indicatie kardinaliteit</item>
-                        <item>1</item>
-                     </part>
-                     <part type="CFG-DOC-PATROON">
-                        <item>Patroon</item>
-                        <item>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
-                     </part>
-                     <part type="CFG-DOC-FORMAAT">
-                        <item>Formaat</item>
-                        <item>REAL</item>
-                     </part>
-                  </content>
-               </section>
+                     id="detail_class_Model_Gewicht"
+                     id-global="global_class_Model_Gewicht">
                <section name="unit"
                         type="DETAIL-DATAELEMENT"
-                        id="detail_attribute_Model_Weight_unit"
-                        id-global="global_attribute_Model_Weight_unit">
+                        id="detail_attribute_Model_Gewicht_unit"
+                        id-global="global_attribute_Model_Gewicht_unit">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2367,34 +2358,61 @@
                      </part>
                   </content>
                </section>
+               <section name="amount"
+                        type="DETAIL-DATAELEMENT"
+                        id="detail_attribute_Model_Gewicht_amount"
+                        id-global="global_attribute_Model_Gewicht_amount">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>amount</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>REAL</item>
+                     </part>
+                  </content>
+               </section>
             </section>
          </section>
-         <section type="DETAILS-PRIMITIVEDATATYPE"/>
+         <!--removed empty content-->
          <section type="DETAILS-CODELIST">
-            <section name="ProductionTag"
+            <section name="ProductieKenmerk"
                      type="DETAIL-CODELIST"
-                     id="detail_class_Model_ProductionTag"
-                     id-global="global_class_Model_ProductionTag"
+                     id="detail_class_Model_ProductieKenmerk"
+                     id-global="global_class_Model_ProductieKenmerk"
                      uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1">
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Definitie van deze codelijst.</item>
                   </part>
                </content>
-               <!--removed empty content-->
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
             </section>
          </section>
          <section type="DETAILS-ENUMERATION">
-            <section name="BrickSize"
+            <section name="Steengrootte"
                      type="DETAIL-ENUMERATION"
-                     id="detail_class_Model_BrickSize"
-                     id-global="global_class_Model_BrickSize"
+                     id="detail_class_Model_Steengrootte"
+                     id-global="global_class_Model_Steengrootte"
                      uuid="EAID_65363897_E229_41fd_BE6F_E6B1BACAD458">
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>De omvang van de baksteen.</item>
                   </part>
                </content>
                <content>
@@ -2404,7 +2422,7 @@
                   <part>
                      <item/>
                      <item>large</item>
-                     <item/>
+                     <item>Een grote baksteen.</item>
                   </part>
                   <part>
                      <item/>
