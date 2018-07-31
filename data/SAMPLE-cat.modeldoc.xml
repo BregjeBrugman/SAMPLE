@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.46.3"
-      generator-date="2018-07-31T10:10:10Z">
+      generator-date="2018-07-31T10:25:13Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -23,14 +23,14 @@
          </section>
       </section>
       <section type="OVERVIEW-OBJECTTYPE">
-         <section name="Brick"
+         <section name="Baksteen"
                   type="OBJECTTYPE"
-                  id="global_class_Model_Brick"
+                  id="global_class_Model_Baksteen"
                   uuid="EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Brick</item>
+                  <item>Baksteen</item>
                </part>
                <part type="CFG-DOC-ALTERNATIEVENAAM">
                   <item>Alternatieve naam</item>
@@ -54,7 +54,7 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_stockId">stockId</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_stockId">stockId</item>
                      </item>
                      <item>The identifier of the brick in stock.</item>
                      <item>
@@ -64,7 +64,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_color">color</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_kleur">kleur</item>
                      </item>
                      <item>The color of the brick; any free and descriptive information.</item>
                      <item>
@@ -74,7 +74,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_netWeight">netWeight</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_nettogewicht">nettogewicht</item>
                      </item>
                      <item/>
                      <item>
@@ -84,7 +84,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_size">size</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_omvang">omvang</item>
                      </item>
                      <item/>
                      <item>
@@ -94,17 +94,17 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_type">type</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_type">type</item>
                      </item>
                      <item/>
                      <item>
-                        <item type="global" idref="global_class_Model_Wardenlijst">Wardenlijst</item>
+                        <item type="global" idref="global_class_Model_Waardenlijst">Waardenlijst</item>
                      </item>
                      <item>1</item>
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_corners">corners</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_hoeken">hoeken</item>
                      </item>
                      <item/>
                      <item>
@@ -114,7 +114,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_description">description</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_omschrijving">omschrijving</item>
                      </item>
                      <item/>
                      <item>
@@ -124,7 +124,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_maxTemperature">maxTemperature</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_maxTemperatuur">maxTemperatuur</item>
                      </item>
                      <item/>
                      <item>
@@ -134,7 +134,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_measure">measure</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_meting">meting</item>
                      </item>
                      <item/>
                      <item>
@@ -144,7 +144,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_inStock">inStock</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_inMagazijn">inMagazijn</item>
                      </item>
                      <item/>
                      <item>
@@ -154,7 +154,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_geoLocation">geoLocation</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_geoLocatie">geoLocatie</item>
                      </item>
                      <item/>
                      <item>
@@ -164,7 +164,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_tag">tag</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_tag">tag</item>
                      </item>
                      <item/>
                      <item>
@@ -174,7 +174,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Brick_envelope">envelope</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_envelope">envelope</item>
                      </item>
                      <item/>
                      <item>
@@ -191,10 +191,10 @@
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Brick</item>
+                        <item>Baksteen</item>
                         <item>[ 0 .. * ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Brick_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
@@ -205,10 +205,10 @@
                   </part>
                   <part>
                      <item>
-                        <item>Brick</item>
+                        <item>Baksteen</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Brick_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
@@ -224,10 +224,10 @@
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Brick</item>
+                        <item>Baksteen</item>
                         <item>[ 0 .. * ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Brick_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
@@ -238,10 +238,10 @@
                   </part>
                   <part>
                      <item>
-                        <item>Brick</item>
+                        <item>Baksteen</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Brick_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
@@ -553,7 +553,7 @@
                   <part type="COMPOSER">
                      <item>
                         <value>
-                           <item type="detail" idref="detail_class_Model_BikerName">eigenaar</item>
+                           <item type="detail" idref="detail_class_Model_FietserNaam">eigenaar</item>
                         </value>
                      </item>
                      <item>
@@ -566,7 +566,7 @@
                   </part>
                   <part type="COMPOSED">
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_BikerName_firstName">firstName</item>
+                        <item type="detail" idref="detail_attribute_Model_FietserNaam_voornaam">voornaam</item>
                      </item>
                      <item/>
                      <item>
@@ -576,7 +576,7 @@
                   </part>
                   <part type="COMPOSED">
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_BikerName_lastName">lastName</item>
+                        <item type="detail" idref="detail_attribute_Model_FietserNaam_achternaam">achternaam</item>
                      </item>
                      <item/>
                      <item>
@@ -596,7 +596,7 @@
                         <item>Fiets</item>
                         <item>is specialisatie van</item>
                         <item>
-                           <item type="global" idref="global_class_Model_BikeProps">BikeProps</item>
+                           <item type="global" idref="global_class_Model_FietsProps">fietsProps</item>
                         </item>
                      </item>
                      <item/>
@@ -611,7 +611,7 @@
                         <item>Fiets</item>
                         <item>is specialisatie van</item>
                         <item>
-                           <item type="global" idref="global_class_Model_BikeProps">BikeProps</item>
+                           <item type="global" idref="global_class_Model_FietsProps">fietsProps</item>
                         </item>
                      </item>
                      <item/>
@@ -619,14 +619,14 @@
                </content>
             </section>
          </section>
-         <section name="BikeProps"
+         <section name="fietsProps"
                   type="OBJECTTYPE"
-                  id="global_class_Model_BikeProps"
+                  id="global_class_Model_FietsProps"
                   uuid="EAID_7408CF3E_2E91_4d5e_AD53_48C10ABBE95F">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>BikeProps</item>
+                  <item>fietsProps</item>
                </part>
                <part type="CFG-DOC-ALTERNATIEVENAAM">
                   <item>Alternatieve naam</item>
@@ -642,7 +642,7 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_BikeProps_id">id</item>
+                        <item type="detail" idref="detail_attribute_Model_FietsProps_id">id</item>
                      </item>
                      <item/>
                      <item>
@@ -678,7 +678,7 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Deal_signedAt">SignedAt</item>
+                        <item type="detail" idref="detail_attribute_Model_Deal_ondertekendOp">ondertekendOp</item>
                      </item>
                      <item/>
                      <item>
@@ -688,7 +688,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Deal_festivityYear">FestivityYear</item>
+                        <item type="detail" idref="detail_attribute_Model_Deal_feestJaar">feestJaar</item>
                      </item>
                      <item/>
                      <item>
@@ -698,7 +698,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Deal_festivityMonth">FestivityMonth</item>
+                        <item type="detail" idref="detail_attribute_Model_Deal_feestMaand">feestMaand</item>
                      </item>
                      <item/>
                      <item>
@@ -708,7 +708,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Deal_festivityDay">FestivityDay</item>
+                        <item type="detail" idref="detail_attribute_Model_Deal_feestDag">feestDag</item>
                      </item>
                      <item/>
                      <item>
@@ -721,14 +721,14 @@
          </section>
       </section>
       <section type="OVERVIEW-REFERENCELIST">
-         <section name="Wardenlijst"
+         <section name="Waardenlijst"
                   type="REFERENCELIST"
-                  id="global_class_Model_Wardenlijst"
+                  id="global_class_Model_Waardenlijst"
                   uuid="EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Wardenlijst</item>
+                  <item>Waardenlijst</item>
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
@@ -744,7 +744,7 @@
                   <itemtype type="REFERENCEELEMENT-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Wardenlijst_code">code</item>
+                        <item type="detail" idref="detail_attribute_Model_Waardenlijst_code">code</item>
                      </item>
                      <item/>
                      <item>
@@ -754,7 +754,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Wardenlijst_value">value</item>
+                        <item type="detail" idref="detail_attribute_Model_Waardenlijst_waarde">waarde</item>
                      </item>
                      <item/>
                      <item>
@@ -980,14 +980,14 @@
       </section>
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
-            <section name="Brick"
+            <section name="Baksteen"
                      type="OBJECTTYPE"
-                     id="detail_class_Model_Brick"
-                     id-global="global_class_Model_Brick">
+                     id="detail_class_Model_Baksteen"
+                     id-global="global_class_Model_Baksteen">
                <section name="stockId"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_stockId"
-                        id-global="global_attribute_Model_Brick_stockId">
+                        id="detail_attribute_Model_Baksteen_stockId"
+                        id-global="global_attribute_Model_Baksteen_stockId">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1023,14 +1023,14 @@
                      </part>
                   </content>
                </section>
-               <section name="color"
+               <section name="kleur"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_color"
-                        id-global="global_attribute_Model_Brick_color">
+                        id="detail_attribute_Model_Baksteen_kleur"
+                        id-global="global_attribute_Model_Baksteen_kleur">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>color</item>
+                        <item>kleur</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -1062,14 +1062,14 @@
                      </part>
                   </content>
                </section>
-               <section name="netWeight"
+               <section name="nettogewicht"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_netWeight"
-                        id-global="global_attribute_Model_Brick_netWeight">
+                        id="detail_attribute_Model_Baksteen_nettogewicht"
+                        id-global="global_attribute_Model_Baksteen_nettogewicht">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>netWeight</item>
+                        <item>nettogewicht</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1097,14 +1097,14 @@
                      </part>
                   </content>
                </section>
-               <section name="size"
+               <section name="omvang"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_size"
-                        id-global="global_attribute_Model_Brick_size">
+                        id="detail_attribute_Model_Baksteen_omvang"
+                        id-global="global_attribute_Model_Baksteen_omvang">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>size</item>
+                        <item>omvang</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1134,8 +1134,8 @@
                </section>
                <section name="type"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_type"
-                        id-global="global_attribute_Model_Brick_type">
+                        id="detail_attribute_Model_Baksteen_type"
+                        id-global="global_attribute_Model_Baksteen_type">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1159,7 +1159,7 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Wardenlijst</item>
+                        <item>Waardenlijst</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -1167,14 +1167,14 @@
                      </part>
                   </content>
                </section>
-               <section name="corners"
+               <section name="hoeken"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_corners"
-                        id-global="global_attribute_Model_Brick_corners">
+                        id="detail_attribute_Model_Baksteen_hoeken"
+                        id-global="global_attribute_Model_Baksteen_hoeken">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>corners</item>
+                        <item>hoeken</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1202,14 +1202,14 @@
                      </part>
                   </content>
                </section>
-               <section name="description"
+               <section name="omschrijving"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_description"
-                        id-global="global_attribute_Model_Brick_description">
+                        id="detail_attribute_Model_Baksteen_omschrijving"
+                        id-global="global_attribute_Model_Baksteen_omschrijving">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>description</item>
+                        <item>omschrijving</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1237,14 +1237,14 @@
                      </part>
                   </content>
                </section>
-               <section name="maxTemperature"
+               <section name="maxTemperatuur"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_maxTemperature"
-                        id-global="global_attribute_Model_Brick_maxTemperature">
+                        id="detail_attribute_Model_Baksteen_maxTemperatuur"
+                        id-global="global_attribute_Model_Baksteen_maxTemperatuur">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>maxTemperature</item>
+                        <item>maxTemperatuur</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1272,14 +1272,14 @@
                      </part>
                   </content>
                </section>
-               <section name="measure"
+               <section name="meting"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_measure"
-                        id-global="global_attribute_Model_Brick_measure">
+                        id="detail_attribute_Model_Baksteen_meting"
+                        id-global="global_attribute_Model_Baksteen_meting">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>measure</item>
+                        <item>meting</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1311,14 +1311,14 @@
                      </part>
                   </content>
                </section>
-               <section name="inStock"
+               <section name="inMagazijn"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_inStock"
-                        id-global="global_attribute_Model_Brick_inStock">
+                        id="detail_attribute_Model_Baksteen_inMagazijn"
+                        id-global="global_attribute_Model_Baksteen_inMagazijn">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>inStock</item>
+                        <item>inMagazijn</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1350,14 +1350,14 @@
                      </part>
                   </content>
                </section>
-               <section name="geoLocation"
+               <section name="geoLocatie"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_geoLocation"
-                        id-global="global_attribute_Model_Brick_geoLocation">
+                        id="detail_attribute_Model_Baksteen_geoLocatie"
+                        id-global="global_attribute_Model_Baksteen_geoLocatie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>geoLocation</item>
+                        <item>geoLocatie</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1387,8 +1387,8 @@
                </section>
                <section name="tag"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_tag"
-                        id-global="global_attribute_Model_Brick_tag">
+                        id="detail_attribute_Model_Baksteen_tag"
+                        id-global="global_attribute_Model_Baksteen_tag">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1422,8 +1422,8 @@
                </section>
                <section name="envelope"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Brick_envelope"
-                        id-global="global_attribute_Model_Brick_envelope">
+                        id="detail_attribute_Model_Baksteen_envelope"
+                        id-global="global_attribute_Model_Baksteen_envelope">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1457,8 +1457,8 @@
                </section>
                <section name="gebaseerdOpOntwerp"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Brick_ontwerpBasis"
-                        id-global="global_association_Model_Brick_ontwerpBasis">
+                        id="detail_association_Model_Baksteen_ontwerpBasis"
+                        id-global="global_association_Model_Baksteen_ontwerpBasis">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1510,8 +1510,8 @@
                </section>
                <section name="geproduceerdDoor"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_Model_Brick_eersteProducent"
-                        id-global="global_association_Model_Brick_eersteProducent">
+                        id="detail_association_Model_Baksteen_eersteProducent"
+                        id-global="global_association_Model_Baksteen_eersteProducent">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -1972,14 +1972,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      </part>
                   </content>
                </section>
-               <section name="BikerName"
+               <section name="fietserNaam"
                         type="DETAIL-COMPOSITE"
-                        id="detail_class_Model_BikerName"
-                        id-global="global_class_Model_BikerName">
+                        id="detail_class_Model_FietserNaam"
+                        id-global="global_class_Model_FietserNaam">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>BikerName</item>
+                        <item>fietserNaam</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1994,17 +1994,17 @@ Deze regel wordt geplaatst in de tagged value Regels.
                         <item>Nee</item>
                      </part>
                   </content>
-                  <section name="firstName"
+                  <section name="voornaam"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Model_BikerName_firstName"
-                           id-global="global_attribute_Model_BikerName_firstName">
+                           id="detail_attribute_Model_FietserNaam_voornaam"
+                           id-global="global_attribute_Model_FietserNaam_voornaam">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_Model_BikerName">BikerName</item>
+                           <item type="global" idref="global_class_Model_FietserNaam">fietserNaam</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>firstName</item>
+                           <item>voornaam</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -2020,17 +2020,17 @@ Deze regel wordt geplaatst in de tagged value Regels.
                         </part>
                      </content>
                   </section>
-                  <section name="lastName"
+                  <section name="achternaam"
                            type="DETAIL-COMPOSITE-ATTRIBUTE"
-                           id="detail_attribute_Model_BikerName_lastName"
-                           id-global="global_attribute_Model_BikerName_lastName">
+                           id="detail_attribute_Model_FietserNaam_achternaam"
+                           id-global="global_attribute_Model_FietserNaam_achternaam">
                      <content>
                         <part type="COMPOSER">
-                           <item type="global" idref="global_class_Model_BikerName">BikerName</item>
+                           <item type="global" idref="global_class_Model_FietserNaam">fietserNaam</item>
                         </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>lastName</item>
+                           <item>achternaam</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -2048,14 +2048,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
                   </section>
                </section>
             </section>
-            <section name="BikeProps"
+            <section name="fietsProps"
                      type="OBJECTTYPE"
-                     id="detail_class_Model_BikeProps"
-                     id-global="global_class_Model_BikeProps">
+                     id="detail_class_Model_FietsProps"
+                     id-global="global_class_Model_FietsProps">
                <section name="id"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_BikeProps_id"
-                        id-global="global_attribute_Model_BikeProps_id">
+                        id="detail_attribute_Model_FietsProps_id"
+                        id-global="global_attribute_Model_FietsProps_id">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2094,14 +2094,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      type="RELATIEKLASSE"
                      id="detail_class_Model_Deal"
                      id-global="global_class_Model_Deal">
-               <section name="SignedAt"
+               <section name="ondertekendOp"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Deal_signedAt"
-                        id-global="global_attribute_Model_Deal_signedAt">
+                        id="detail_attribute_Model_Deal_ondertekendOp"
+                        id-global="global_attribute_Model_Deal_ondertekendOp">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>SignedAt</item>
+                        <item>ondertekendOp</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -2125,14 +2125,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      </part>
                   </content>
                </section>
-               <section name="FestivityYear"
+               <section name="feestJaar"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Deal_festivityYear"
-                        id-global="global_attribute_Model_Deal_festivityYear">
+                        id="detail_attribute_Model_Deal_feestJaar"
+                        id-global="global_attribute_Model_Deal_feestJaar">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>FestivityYear</item>
+                        <item>feestJaar</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -2160,14 +2160,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      </part>
                   </content>
                </section>
-               <section name="FestivityMonth"
+               <section name="feestMaand"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Deal_festivityMonth"
-                        id-global="global_attribute_Model_Deal_festivityMonth">
+                        id="detail_attribute_Model_Deal_feestMaand"
+                        id-global="global_attribute_Model_Deal_feestMaand">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>FestivityMonth</item>
+                        <item>feestMaand</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -2195,14 +2195,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      </part>
                   </content>
                </section>
-               <section name="FestivityDay"
+               <section name="feestDag"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Deal_festivityDay"
-                        id-global="global_attribute_Model_Deal_festivityDay">
+                        id="detail_attribute_Model_Deal_feestDag"
+                        id-global="global_attribute_Model_Deal_feestDag">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>FestivityDay</item>
+                        <item>feestDag</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -2233,14 +2233,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
             </section>
          </section>
          <section type="DETAILS-REFERENCELIST">
-            <section name="Wardenlijst"
+            <section name="Waardenlijst"
                      type="REFERENTIELIJST"
-                     id="detail_class_Model_Wardenlijst"
-                     id-global="global_class_Model_Wardenlijst">
+                     id="detail_class_Model_Waardenlijst"
+                     id-global="global_class_Model_Waardenlijst">
                <section name="code"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Wardenlijst_code"
-                        id-global="global_attribute_Model_Wardenlijst_code">
+                        id="detail_attribute_Model_Waardenlijst_code"
+                        id-global="global_attribute_Model_Waardenlijst_code">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2256,14 +2256,14 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      </part>
                   </content>
                </section>
-               <section name="value"
+               <section name="waarde"
                         type="DETAIL-REFERENCEELEMENT"
-                        id="detail_attribute_Model_Wardenlijst_value"
-                        id-global="global_attribute_Model_Wardenlijst_value">
+                        id="detail_attribute_Model_Waardenlijst_waarde"
+                        id-global="global_attribute_Model_Waardenlijst_waarde">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>value</item>
+                        <item>waarde</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -2420,18 +2420,24 @@ Deze regel wordt geplaatst in de tagged value Regels.
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
                   <part>
-                     <item/>
-                     <item>large</item>
+                     <item>
+                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">large</imvert:alias>
+                     </item>
+                     <item>groot</item>
                      <item>Een grote baksteen.</item>
                   </part>
                   <part>
-                     <item/>
+                     <item>
+                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">medium</imvert:alias>
+                     </item>
                      <item>medium</item>
                      <item/>
                   </part>
                   <part>
-                     <item/>
-                     <item>small</item>
+                     <item>
+                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">small</imvert:alias>
+                     </item>
+                     <item>klein</item>
                      <item/>
                   </part>
                </content>
