@@ -3,8 +3,8 @@
       subpath="Conceptual model/SampleBase/20130318"
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
-      generator-version="1.46.3"
-      generator-date="2018-07-31T10:54:20Z">
+      generator-version="1.46.4"
+      generator-date="2018-08-05T10:37:58Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -54,7 +54,7 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Baksteen_stockId">stockId</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_magazijnID">magazijnID</item>
                      </item>
                      <item>The identifier of the brick in stock.</item>
                      <item>
@@ -282,7 +282,7 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Producent_contractDate">contractDate</item>
+                        <item type="detail" idref="detail_attribute_Model_Producent_contractdatum">contractdatum</item>
                      </item>
                      <item>Datum waarop het contract is afgesloten.</item>
                      <item>
@@ -322,7 +322,8 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_ExterneProducent_postarea">postarea</item>
+                        <item type="detail"
+                              idref="detail_attribute_Model_ExterneProducent_postcodegebied">postcodegebied</item>
                      </item>
                      <item/>
                      <item>
@@ -404,7 +405,7 @@
                         <item>Client</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Client_contract">contract: contract</item>
+                           <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Contract">Contract</item>
@@ -423,7 +424,7 @@
                         <item>Client</item>
                         <item>[ 1 ]</item>
                         <item>
-                           <item type="detail" idref="detail_association_Model_Client_contract">contract: contract</item>
+                           <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_Model_Contract">Contract</item>
@@ -510,7 +511,8 @@
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>j</item>
+                  <item>Hier valt expliciet niet de driewieler onder.
+Dus altijd twee wielen...</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -666,7 +668,7 @@
                </part>
                <part type="CFG-DOC-RELATIESOORT">
                   <item>Relatiesoort</item>
-                  <item>Client contract Contract</item>
+                  <item>Client deal Contract</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -917,7 +919,7 @@
                         <item>OppervlakGrootte</item>
                         <item>is specialisatie van</item>
                         <item>
-                           <item type="global" idref="global_class_MeasureType">Measure</item>
+                           <item type="global" idref="global_class_Measure">Measure</item>
                         </item>
                      </item>
                      <item/>
@@ -932,7 +934,7 @@
                         <item>OppervlakGrootte</item>
                         <item>is specialisatie van</item>
                         <item>
-                           <item type="global" idref="global_class_MeasureType">Measure</item>
+                           <item type="global" idref="global_class_Measure">Measure</item>
                         </item>
                      </item>
                      <item/>
@@ -984,14 +986,14 @@
                      type="OBJECTTYPE"
                      id="detail_class_Model_Baksteen"
                      id-global="global_class_Model_Baksteen">
-               <section name="stockId"
+               <section name="magazijnID"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Baksteen_stockId"
-                        id-global="global_attribute_Model_Baksteen_stockId">
+                        id="detail_attribute_Model_Baksteen_magazijnID"
+                        id-global="global_attribute_Model_Baksteen_magazijnID">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>stockId</item>
+                        <item>magazijnID</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -1605,14 +1607,14 @@
                      </part>
                   </content>
                </section>
-               <section name="contractDate"
+               <section name="contractdatum"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Producent_contractDate"
-                        id-global="global_attribute_Model_Producent_contractDate">
+                        id="detail_attribute_Model_Producent_contractdatum"
+                        id-global="global_attribute_Model_Producent_contractdatum">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>contractDate</item>
+                        <item>contractdatum</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
@@ -1684,14 +1686,14 @@
                      type="OBJECTTYPE"
                      id="detail_class_Model_ExterneProducent"
                      id-global="global_class_Model_ExterneProducent">
-               <section name="postarea"
+               <section name="postcodegebied"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_ExterneProducent_postarea"
-                        id-global="global_attribute_Model_ExterneProducent_postarea">
+                        id="detail_attribute_Model_ExterneProducent_postcodegebied"
+                        id-global="global_attribute_Model_ExterneProducent_postcodegebied">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>postarea</item>
+                        <item>postcodegebied</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1759,14 +1761,14 @@
                      </part>
                   </content>
                </section>
-               <section name="contract"
+               <section name="deal"
                         type="DETAIL-ASSOCIATION"
                         id="detail_association_Model_Client_contract"
                         id-global="global_association_Model_Client_contract">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>contract</item>
+                        <item>deal</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -1782,7 +1784,7 @@
                   <content approach="target">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>contract</item>
+                        <item>deal</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -1888,10 +1890,6 @@
 Deze regel wordt geplaatst in de tagged value Regels.
 </item>
                      </part>
-                     <part type="CFG-DOC-REGELS-IMBROA">
-                        <item>Regels IMBRO/A</item>
-                        <item>Dit zijn de IMBRO/A regels voor de kleur van de fiets</item>
-                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>CHARACTERSTRING</item>
@@ -1980,18 +1978,6 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>fietserNaam</item>
-                     </part>
-                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                        <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                        <item>Indicatie materiële historie</item>
-                        <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                        <item>Indicatie formele historie</item>
-                        <item>Nee</item>
                      </part>
                   </content>
                   <section name="voornaam"
@@ -2400,6 +2386,20 @@ Deze regel wordt geplaatst in de tagged value Regels.
                   <itemtype type="CODE"/>
                   <itemtype type="NAME"/>
                   <itemtype type="DEFINITION"/>
+                  <part>
+                     <item>
+                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">PKM1</imvert:alias>
+                     </item>
+                     <item>PKM1</item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">PKM2</imvert:alias>
+                     </item>
+                     <item>PKM2</item>
+                     <item/>
+                  </part>
                </content>
             </section>
          </section>
