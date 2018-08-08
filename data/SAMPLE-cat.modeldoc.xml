@@ -4,24 +4,8 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.46.4"
-      generator-date="2018-08-08T10:11:18Z">
+      generator-date="2018-08-08T10:19:20Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
-      <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
-         <section type="IMAGEMAP"
-                  name="Model - overzicht"
-                  id="EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Model - overzicht</item>
-               </part>
-               <part type="CFG-DOC-DESCRIPTION">
-                  <item>Omschrijving</item>
-                  <item>Overzicht van alle constructies in dit conceptuele model.</item>
-               </part>
-            </content>
-         </section>
-      </section>
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Baksteen"
                   type="OBJECTTYPE"
@@ -470,24 +454,6 @@
                   type="OBJECTTYPE"
                   id="global_class_Model_Fiets"
                   uuid="EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD">
-            <section type="IMAGEMAPS"
-                     name="Fiets-imagemap"
-                     id="imagemap_class_Model_Fiets">
-               <section type="IMAGEMAP"
-                        name="Fiets - detail"
-                        id="EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496">
-                  <content>
-                     <part type="CFG-DOC-NAAM">
-                        <item>Naam</item>
-                        <item>Fiets - detail</item>
-                     </part>
-                     <part type="CFG-DOC-DESCRIPTION">
-                        <item>Omschrijving</item>
-                        <item/>
-                     </part>
-                  </content>
-               </section>
-            </section>
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
