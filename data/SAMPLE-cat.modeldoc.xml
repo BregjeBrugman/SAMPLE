@@ -3,14 +3,48 @@
       subpath="Conceptual model/SampleBase/20130318"
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
-      generator-version="1.46.4"
-      generator-date="2018-08-08T10:20:01Z">
+      generator-version="1.47.2"
+      generator-date="2018-08-21T08:38:42Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
+      <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
+         <section type="IMAGEMAP"
+                  name="Model - overzicht"
+                  id="EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Model - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item>Overzicht van alle constructies in dit conceptuele model.</item>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Baksteen"
                   type="OBJECTTYPE"
                   id="global_class_Model_Baksteen"
                   uuid="EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
+            <section type="IMAGEMAPS"
+                     name="Baksteen-imagemap"
+                     id="imagemap_class_Model_Baksteen">
+               <section type="IMAGEMAP"
+                        name="Baksteen - detail"
+                        id="EAID_EB759E5B_3FAA_4064_A73E_704926072F89">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Baksteen - detail</item>
+                     </part>
+                     <part type="CFG-DOC-DESCRIPTION">
+                        <item>Omschrijving</item>
+                        <item>Gedetailleerde informatie over Baksteen objectttype, inclusief traces.</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -454,6 +488,24 @@
                   type="OBJECTTYPE"
                   id="global_class_Model_Fiets"
                   uuid="EAID_20AE8076_FDED_4d00_A531_BF5659DFA9AD">
+            <section type="IMAGEMAPS"
+                     name="Fiets-imagemap"
+                     id="imagemap_class_Model_Fiets">
+               <section type="IMAGEMAP"
+                        name="Fiets - detail"
+                        id="EAID_DAE1BE5A_1A64_453e_B4C8_2D5C5294C496">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Fiets - detail</item>
+                     </part>
+                     <part type="CFG-DOC-DESCRIPTION">
+                        <item>Omschrijving</item>
+                        <item/>
+                     </part>
+                  </content>
+               </section>
+            </section>
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
