@@ -3,8 +3,8 @@
       subpath="Conceptual model/SampleBase/20130318"
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
-      generator-version="1.47.1"
-      generator-date="2018-08-23T12:30:49Z">
+      generator-version="1.47.2"
+      generator-date="2018-08-23T13:13:02Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1489,7 +1489,7 @@ Dus altijd twee wielen...</item>
                         <item>0 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
+                        <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
@@ -1521,7 +1521,7 @@ Dus altijd twee wielen...</item>
                         <item>0 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
+                        <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
@@ -1542,7 +1542,7 @@ Dus altijd twee wielen...</item>
                         <item>0 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
+                        <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
@@ -1578,7 +1578,7 @@ Dus altijd twee wielen...</item>
                         <item>0 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
+                        <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_Model_Producent">Producent</item>
                         </item>
@@ -1793,7 +1793,7 @@ Dus altijd twee wielen...</item>
                         <item>1 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
+                        <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_Model_Contract">Contract</item>
                         </item>
@@ -1821,7 +1821,7 @@ Dus altijd twee wielen...</item>
                         <item>1 .. *</item>
                      </part>
                      <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                        <item>Gerelateerd obecttype</item>
+                        <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global" idref="global_class_Model_Contract">Contract</item>
                         </item>
