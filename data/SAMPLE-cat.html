@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SampleBase" door Imvertor 1.47.2 op August 23, 2018 at 13:24:01.
+   "SampleBase" door Imvertor 1.47.2 op September 20, 2018 at 13:31:47.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SampleBase-1.0.0-2-20130318-20180823-152403"</i> door. 
+   <i>"Conceptualmodel-SampleBase-1.0.0-2-20130318-20180920-153150"</i> door. 
    
 </p>
 <div class="imageinfo overview"><img src="data/Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1"><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
@@ -350,6 +350,51 @@
       </table>
       
       
+      <h5>Overzicht relaties</h5>
+      
+      
+      <table>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Rol naam met kardinaliteiten</th>
+               <th>Definitie</th>
+            </tr>
+            <tr>
+               <td>
+                  
+                  <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
+                  
+                  [ 0 .. * ]
+                  
+                  <a class="link" href="#detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</a>
+                  
+                  Producent
+                  [ 0 .. * ]
+                  
+               </td>
+               <td>Definitiie van de rol "Design base" in de relatie "based on design".</td>
+            </tr>
+            <tr>
+               <td>
+                  
+                  <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
+                  
+                  [ 1 ]
+                  
+                  <a class="link" href="#detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</a>
+                  
+                  Producent
+                  [ 0 .. * ]
+                  
+               </td>
+               <td>Definition of the role "primary producer".</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      
    </section>
    <a class="anchor" name="graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F"></a><a class="anchor" name="global_class_Model_ExterneProducent"></a><section id="global_class_Model_ExterneProducent">
       <h4>Objecttype ExterneProducent</h4>
@@ -536,6 +581,36 @@
                   
                </td>
                <td>1</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      
+      <h5>Overzicht relaties</h5>
+      
+      
+      <table>
+         <colgroup width="50%"></colgroup>
+         <colgroup width="50%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Rol naam met kardinaliteiten</th>
+               <th>Definitie</th>
+            </tr>
+            <tr>
+               <td>
+                  
+                  <a class="link" href="#global_class_Model_Client">Client</a>
+                  
+                  [ 1 ]
+                  
+                  <a class="link" href="#detail_association_Model_Client_contract">deal: contract</a>
+                  
+                  Contract
+                  [ 1 .. * ]
+                  
+               </td>
+               <td></td>
             </tr>
          </tbody>
       </table>

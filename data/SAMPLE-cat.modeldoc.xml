@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.47.2"
-      generator-date="2018-08-23T13:24:01Z">
+      generator-date="2018-09-20T13:31:47Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -320,6 +320,74 @@
                   </part>
                </content>
             </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                        </item>
+                        <item>[ 0 .. * ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                        </item>
+                        <item>Producent</item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                        </item>
+                        <item>Producent</item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                        </item>
+                        <item>[ 0 .. * ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                        </item>
+                        <item>Producent</item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item>Definitiie van de rol "Design base" in de relatie "based on design".</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                        </item>
+                        <item>Producent</item>
+                        <item>[ 0 .. * ]</item>
+                     </item>
+                     <item>Definition of the role "primary producer".</item>
+                  </part>
+               </content>
+            </section>
          </section>
          <section name="ExterneProducent"
                   type="OBJECTTYPE"
@@ -480,6 +548,46 @@
                         <item type="global">CHARACTERSTRING</item>
                      </item>
                      <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Client">Client</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                        </item>
+                        <item>Contract</item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Client">Client</item>
+                        </item>
+                        <item>[ 1 ]</item>
+                        <item>
+                           <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                        </item>
+                        <item>Contract</item>
+                        <item>[ 1 .. * ]</item>
+                     </item>
+                     <item/>
                   </part>
                </content>
             </section>
