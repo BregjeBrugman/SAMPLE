@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.47.3"
-      generator-date="2018-10-05T09:20:39Z">
+      generator-date="2018-10-12T07:22:21Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1184,6 +1184,10 @@ Dus altijd twee wielen...</item>
                         <item>Regels</item>
                         <item>Dit zijn de regels die gelden voor de kleur.</item>
                      </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Dit zijn de IMBRO/A regels die gelden voor de kleur.</item>
+                     </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>CHARACTERSTRING</item>
@@ -2019,6 +2023,10 @@ Dus altijd twee wielen...</item>
                         <item>Dit is een regel op de kleur van een fiets.
 Deze regel wordt geplaatst in de tagged value Regels.
 </item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>Dit zijn de IMBRO/A regels voor de kleur van de fiets</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
