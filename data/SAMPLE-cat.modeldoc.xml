@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.47.4"
-      generator-date="2018-10-15T07:19:18Z">
+      generator-date="2018-10-15T07:44:02Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -154,7 +154,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_Model_Baksteen_lengte">lengte</item>
                      </item>
-                     <item>Lengte in meters</item>
+                     <item>Lengte in meters.</item>
                      <item>
                         <item type="global" idref="global_class_Measure">Measure</item>
                      </item>
@@ -1419,7 +1419,7 @@ Dus altijd twee wielen...</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Lengte in meters</item>
+                        <item>Lengte in meters.</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1448,6 +1448,10 @@ Dus altijd twee wielen...</item>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m</item>
                      </part>
                   </content>
                </section>
