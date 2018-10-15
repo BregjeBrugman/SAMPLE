@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.47.4"
-      generator-date="2018-10-15T07:11:29Z">
+      generator-date="2018-10-15T07:19:18Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -152,11 +152,11 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Baksteen_meting">meting</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_lengte">lengte</item>
                      </item>
-                     <item/>
+                     <item>Lengte in meters</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Goniometric">Goniometric</item>
+                        <item type="global" idref="global_class_Measure">Measure</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1408,14 +1408,18 @@ Dus altijd twee wielen...</item>
                      </part>
                   </content>
                </section>
-               <section name="meting"
+               <section name="lengte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Baksteen_meting"
-                        id-global="global_attribute_Model_Baksteen_meting">
+                        id="detail_attribute_Model_Baksteen_lengte"
+                        id-global="global_attribute_Model_Baksteen_lengte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>meting</item>
+                        <item>lengte</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Lengte in meters</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1439,7 +1443,7 @@ Dus altijd twee wielen...</item>
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Goniometric</item>
+                        <item>Measure</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
