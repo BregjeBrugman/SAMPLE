@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "SampleBase" door Imvertor 1.47.4 op October 15, 2018 at 07:44:02.
+   "SampleBase" door Imvertor 1.47.4 op October 15, 2018 at 08:23:02.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-SampleBase-1.0.0-2-20130318-20181015-094404"</i> door. 
+   <i>"Conceptualmodel-SampleBase-1.0.0-2-20130318-20181015-102304"</i> door. 
    
 </p>
 <div class="imageinfo overview"><img src="data/Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1"><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
@@ -34,8 +34,8 @@
       <h4>Objecttype Baksteen</h4>
       
       <div class="imageinfo "><img src="data/Images/EAID_EB759E5B_3FAA_4064_A73E_704926072F89.png" usemap="#imagemap-EAID_EB759E5B_3FAA_4064_A73E_704926072F89"><map name="imagemap-EAID_EB759E5B_3FAA_4064_A73E_704926072F89">
-            <area shape="rect" coords="201,137,316,35" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
-            <area shape="rect" coords="186,454,363,222" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></map><p><b>Baksteen - detail</b> — Gedetailleerde informatie over Baksteen objectttype, inclusief traces.
+            <area shape="rect" coords="110,137,225,35" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+            <area shape="rect" coords="95,467,272,222" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></map><p><b>Baksteen - detail</b> — Gedetailleerde informatie over Baksteen objectttype, inclusief traces.
          </p>
       </div>
       
@@ -174,10 +174,10 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Baksteen_lengte">lengte</a>
+                  <a class="link" href="#detail_attribute_Model_Baksteen_lengteInline">lengteInline</a>
                   
                </td>
-               <td>Lengte in meters.</td>
+               <td>Lengte in meters</td>
                <td>
                   <a class="link" href="#global_class_Measure">Measure</a>
                   
@@ -228,6 +228,18 @@
                <td></td>
                <td>
                   <a class="link" href="#global_class_Envelope">GM_Envelope</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Baksteen_lengteExpliciet">lengteExpliciet</a>
+                  
+               </td>
+               <td></td>
+               <td>
+                  <a class="link" href="#global_class_Model_OppervlakGrootte">OppervlakGrootte</a>
                   
                </td>
                <td>1</td>
@@ -1172,7 +1184,7 @@
             </tr>
             <tr>
                <th>Definitie</th>
-               <td>The rectangular size of a section.</td>
+               <td>The rectangular size of a section</td>
             </tr>
             <tr>
                <th>Patroon</th>
@@ -1604,8 +1616,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="detail_attribute_Model_Baksteen_lengte"></a><section id="detail_attribute_Model_Baksteen_lengte">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Baksteen">Baksteen</a> lengte
+      <a class="anchor" name="detail_attribute_Model_Baksteen_lengteInline"></a><section id="detail_attribute_Model_Baksteen_lengteInline">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Baksteen">Baksteen</a> lengteInline
          </h6>
          
          <table>
@@ -1614,11 +1626,11 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>lengte</td>
+                  <td>lengteInline</td>
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Lengte in meters.</td>
+                  <td>Lengte in meters</td>
                </tr>
                <tr>
                   <th>Toelichting</th>
@@ -1647,10 +1659,6 @@
                <tr>
                   <th>Indicatie afleidbaar</th>
                   <td>Nee</td>
-               </tr>
-               <tr>
-                  <th>Meeteenheid</th>
-                  <td>m</td>
                </tr>
             </tbody>
          </table>
@@ -1811,6 +1819,46 @@
                <tr>
                   <th>Formaat</th>
                   <td>GM_Envelope</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_Model_Baksteen_lengteExpliciet"></a><section id="detail_attribute_Model_Baksteen_lengteExpliciet">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Baksteen">Baksteen</a> lengteExpliciet
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>lengteExpliciet</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>OppervlakGrootte</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>

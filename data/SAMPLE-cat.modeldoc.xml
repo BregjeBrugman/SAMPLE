@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.47.4"
-      generator-date="2018-10-15T07:44:02Z">
+      generator-date="2018-10-15T08:23:02Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -152,9 +152,9 @@
                   </part>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Baksteen_lengte">lengte</item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_lengteInline">lengteInline</item>
                      </item>
-                     <item>Lengte in meters.</item>
+                     <item>Lengte in meters</item>
                      <item>
                         <item type="global" idref="global_class_Measure">Measure</item>
                      </item>
@@ -197,6 +197,16 @@
                      <item/>
                      <item>
                         <item type="global" idref="global_class_Envelope">GM_Envelope</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Baksteen_lengteExpliciet">lengteExpliciet</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_OppervlakGrootte">OppervlakGrootte</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -1024,7 +1034,7 @@ Dus altijd twee wielen...</item>
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>The rectangular size of a section.</item>
+                  <item>The rectangular size of a section</item>
                </part>
                <part type="CFG-DOC-PATROON">
                   <item>Patroon</item>
@@ -1408,18 +1418,18 @@ Dus altijd twee wielen...</item>
                      </part>
                   </content>
                </section>
-               <section name="lengte"
+               <section name="lengteInline"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Baksteen_lengte"
-                        id-global="global_attribute_Model_Baksteen_lengte">
+                        id="detail_attribute_Model_Baksteen_lengteInline"
+                        id-global="global_attribute_Model_Baksteen_lengteInline">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>lengte</item>
+                        <item>lengteInline</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Lengte in meters.</item>
+                        <item>Lengte in meters</item>
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
@@ -1448,10 +1458,6 @@ Dus altijd twee wielen...</item>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
-                     </part>
-                     <part type="CFG-DOC-UNITOFMEASURE">
-                        <item>Meeteenheid</item>
-                        <item>m</item>
                      </part>
                   </content>
                </section>
@@ -1592,6 +1598,41 @@ Dus altijd twee wielen...</item>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>GM_Envelope</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="lengteExpliciet"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_lengteExpliciet"
+                        id-global="global_attribute_Model_Baksteen_lengteExpliciet">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>lengteExpliciet</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>OppervlakGrootte</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
