@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.47.4"
-      generator-date="2018-10-16T09:08:06Z">
+      generator-date="2018-10-16T09:17:44Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -959,6 +959,46 @@ Dus altijd twee wielen...</item>
                      <item/>
                      <item>
                         <item type="global" idref="global_class_Model_Oppervlak">Oppervlak</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Geo2"
+                  type="UNION"
+                  id="global_class_Model_Geo2"
+                  uuid="EAID_03FBE3BF_61C1_4ba2_BC77_76EF1F3719A8">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Geo2</item>
+               </part>
+            </content>
+            <section type="SHORT-UNIONELEMENTS">
+               <content>
+                  <itemtype/>
+                  <itemtype type="UNIONELEMENT-NAME"/>
+                  <itemtype type="UNIONELEMENT-DEFINITION"/>
+                  <itemtype type="UNIONELEMENT-FORMAT"/>
+                  <itemtype type="UNIONELEMENT-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Geo2_lijn">lijn</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Geo2_polygoon">polygoon</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -2588,6 +2628,49 @@ Deze regel wordt geplaatst in de tagged value Regels.
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
                         <item>Oppervlak</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Geo2"
+                     type="KEUZE"
+                     id="detail_class_Model_Geo2"
+                     id-global="global_class_Model_Geo2">
+               <section name="lijn"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Model_Geo2_lijn"
+                        id-global="global_attribute_Model_Geo2_lijn">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>lijn</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="polygoon"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Model_Geo2_polygoon"
+                        id-global="global_attribute_Model_Geo2_polygoon">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>polygoon</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
                      </part>
                   </content>
                </section>
