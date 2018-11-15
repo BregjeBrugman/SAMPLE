@@ -4,7 +4,7 @@
       type="TOEPASSING"
       id="EAPK_7A808B6B_92E8_4277_9CBF_4DD3F3CC9890"
       generator-version="1.48.1"
-      generator-date="2018-11-15T08:28:47Z"><!--removed empty content-->
+      generator-date="2018-11-15T08:34:03Z"><!--removed empty content-->
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Class1"
@@ -83,6 +83,10 @@
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
                         <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-MINIMUMVALUE">
+                        <item>Minimumwaarde</item>
+                        <item>10</item>
                      </part>
                      <part type="CFG-DOC-MAXIMUMVALUE">
                         <item>Maximumwaarde</item>
