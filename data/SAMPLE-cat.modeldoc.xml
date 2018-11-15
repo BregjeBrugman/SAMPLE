@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book name="Github-54-Generalization"
-      subpath="Conceptual model/Github-54-Generalization/20170302"
+<book name="Github-55 Minimum value"
+      subpath="Conceptual model/Github-55 Minimum value/20170302"
       type="TOEPASSING"
-      id="EAPK_5B8ED2F6_047D_46f3_9A90_73F73E410C70"
-      generator-version="1.47.7"
-      generator-date="2018-11-13T14:33:22Z"><!--removed empty content-->
+      id="EAPK_7A808B6B_92E8_4277_9CBF_4DD3F3CC9890"
+      generator-version="1.48.1"
+      generator-date="2018-11-15T08:21:09Z"><!--removed empty content-->
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Class1"
                   type="OBJECTTYPE"
                   id="global_class_Model_Class1"
-                  uuid="EAID_6390FA5F_FE1C_46e7_B15B_5B2BB5CDDD88">
+                  uuid="EAID_17BB4195_5707_4f33_9ABC_C632DF3984BA">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -40,7 +40,7 @@
          <section name="Class3"
                   type="OBJECTTYPE"
                   id="global_class_Model_Class3"
-                  uuid="EAID_B3902648_A5DD_43e8_9382_00D1595A6EC0">
+                  uuid="EAID_31F7D972_6AAE_4a5d_9E6B_5D6769464A7D">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -99,72 +99,10 @@
                </content>
             </section>
          </section>
-         <section name="Class2"
-                  type="OBJECTTYPE"
-                  id="global_class_Model_Class2"
-                  uuid="EAID_E960F2CB_BA94_4d95_972E_D2C51EAE3ADF">
-            <content>
-               <part type="CFG-DOC-NAAM">
-                  <item>Naam</item>
-                  <item>Class2</item>
-               </part>
-            </content>
-            <section type="SHORT-ATTRIBUTES">
-               <content>
-                  <itemtype/>
-                  <itemtype type="ATTRIBUTE-NAME"/>
-                  <itemtype type="ATTRIBUTE-DEFINITION"/>
-                  <itemtype type="ATTRIBUTE-FORMAT"/>
-                  <itemtype type="ATTRIBUTE-CARD"/>
-                  <part>
-                     <item>
-                        <item type="detail" idref="detail_attribute_Model_Class2_attribuut2">attribuut2</item>
-                     </item>
-                     <item/>
-                     <item>
-                        <item type="global">CHARACTERSTRING</item>
-                     </item>
-                     <item>1</item>
-                  </part>
-               </content>
-            </section>
-            <section type="SHORT-ASSOCIATIONS">
-               <content approach="association">
-                  <itemtype/>
-                  <itemtype type="ASSOCIATION-NAME"/>
-                  <itemtype type="ASSOCIATION-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Class2</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Class1">Class1</item>
-                        </item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-               <content approach="target">
-                  <itemtype/>
-                  <itemtype type="ROLE-NAME"/>
-                  <itemtype type="ROLE-DEFINITION"/>
-                  <part>
-                     <item>
-                        <item>Class2</item>
-                        <item>is specialisatie van</item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Class1">Class1</item>
-                        </item>
-                     </item>
-                     <item/>
-                  </part>
-               </content>
-            </section>
-         </section>
          <section name="Class4"
                   type="OBJECTTYPE"
                   id="global_class_Model_Class4"
-                  uuid="EAID_F67517D9_3873_4b8a_9559_301D4A998AB0">
+                  uuid="EAID_967704A4_6EB8_4d2b_9881_3DF200C98F71">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
@@ -213,6 +151,68 @@
                   <part>
                      <item>
                         <item>Class4</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Class1">Class1</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+         </section>
+         <section name="Class2"
+                  type="OBJECTTYPE"
+                  id="global_class_Model_Class2"
+                  uuid="EAID_F46430B4_EB96_463b_ABDB_320200601E92">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Class2</item>
+               </part>
+            </content>
+            <section type="SHORT-ATTRIBUTES">
+               <content>
+                  <itemtype/>
+                  <itemtype type="ATTRIBUTE-NAME"/>
+                  <itemtype type="ATTRIBUTE-DEFINITION"/>
+                  <itemtype type="ATTRIBUTE-FORMAT"/>
+                  <itemtype type="ATTRIBUTE-CARD"/>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Class2_attribuut2">attribuut2</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global">CHARACTERSTRING</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+               </content>
+            </section>
+            <section type="SHORT-ASSOCIATIONS">
+               <content approach="association">
+                  <itemtype/>
+                  <itemtype type="ASSOCIATION-NAME"/>
+                  <itemtype type="ASSOCIATION-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Class2</item>
+                        <item>is specialisatie van</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Class1">Class1</item>
+                        </item>
+                     </item>
+                     <item/>
+                  </part>
+               </content>
+               <content approach="target">
+                  <itemtype/>
+                  <itemtype type="ROLE-NAME"/>
+                  <itemtype type="ROLE-DEFINITION"/>
+                  <part>
+                     <item>
+                        <item>Class2</item>
                         <item>is specialisatie van</item>
                         <item>
                            <item type="global" idref="global_class_Model_Class1">Class1</item>
@@ -313,18 +313,18 @@
                   </content>
                </section>
             </section>
-            <section name="Class2"
+            <section name="Class4"
                      type="OBJECTTYPE"
-                     id="detail_class_Model_Class2"
-                     id-global="global_class_Model_Class2">
-               <section name="attribuut2"
+                     id="detail_class_Model_Class4"
+                     id-global="global_class_Model_Class4">
+               <section name="attribuut4"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Class2_attribuut2"
-                        id-global="global_attribute_Model_Class2_attribuut2">
+                        id="detail_attribute_Model_Class4_attribuut4"
+                        id-global="global_attribute_Model_Class4_attribuut4">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>attribuut2</item>
+                        <item>attribuut4</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -353,18 +353,18 @@
                   </content>
                </section>
             </section>
-            <section name="Class4"
+            <section name="Class2"
                      type="OBJECTTYPE"
-                     id="detail_class_Model_Class4"
-                     id-global="global_class_Model_Class4">
-               <section name="attribuut4"
+                     id="detail_class_Model_Class2"
+                     id-global="global_class_Model_Class2">
+               <section name="attribuut2"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Class4_attribuut4"
-                        id-global="global_attribute_Model_Class4_attribuut4">
+                        id="detail_attribute_Model_Class2_attribuut2"
+                        id-global="global_attribute_Model_Class2_attribuut2">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>attribuut4</item>
+                        <item>attribuut2</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
