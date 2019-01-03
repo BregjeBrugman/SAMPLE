@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.50.1"
-      generator-date="2019-01-03T14:05:08Z">
+      generator-date="2019-01-03T14:09:18Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -2761,7 +2761,7 @@ Deze regel wordt geplaatst in de tagged value Regels.
                         <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">PKM1</imvert:alias>
                      </item>
                      <item>PKM1</item>
-                     <item/>
+                     <item>Dit is de definitie van PKM1.</item>
                   </part>
                   <part>
                      <item>
