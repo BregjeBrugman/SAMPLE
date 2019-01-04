@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.50.1"
-      generator-date="2019-01-04T11:00:18Z">
+      generator-date="2019-01-04T11:24:21Z">
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
          <section type="IMAGEMAP"
@@ -1176,13 +1176,19 @@ Dus altijd twee wielen...</item>
                <item id="global_class_Model_Steengrootte"
                      uuid="EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"
                      idref="detail_class_Model_Steengrootte">Steengrootte</item>
-               <item>De omvang van de baksteen.</item>
+               <item/>
             </part>
             <part>
                <item id="global_class_Model_Status"
                      uuid="EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8"
                      idref="detail_class_Model_Status">Status</item>
-               <item>Status of brick production</item>
+               <item/>
+            </part>
+            <part>
+               <item id="global_class_Model_ProductieKenmerk"
+                     uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"
+                     idref="detail_class_Model_ProductieKenmerk">ProductieKenmerk</item>
+               <item>Definitie van deze codelijst.</item>
             </part>
          </content>
       </section>
@@ -2742,7 +2748,7 @@ Deze regel wordt geplaatst in de tagged value Regels.
          <!--removed empty content-->
          <section type="DETAILS-CODELIST">
             <section name="ProductieKenmerk"
-                     type="DETAIL-CODELIST"
+                     type="DETAIL-ENUMERATION"
                      id="detail_class_Model_ProductieKenmerk"
                      id-global="global_class_Model_ProductieKenmerk"
                      uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1">
@@ -2782,7 +2788,7 @@ Deze regel wordt geplaatst in de tagged value Regels.
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item>De omvang van de baksteen.</item>
+                     <item/>
                   </part>
                </content>
                <content>
@@ -2820,7 +2826,7 @@ Deze regel wordt geplaatst in de tagged value Regels.
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item>Status of brick production</item>
+                     <item/>
                   </part>
                </content>
                <content>
@@ -2835,6 +2841,37 @@ Deze regel wordt geplaatst in de tagged value Regels.
                   <part>
                      <item/>
                      <item>in-production</item>
+                     <item/>
+                  </part>
+               </content>
+            </section>
+            <section name="ProductieKenmerk"
+                     type="DETAIL-ENUMERATION"
+                     id="detail_class_Model_ProductieKenmerk"
+                     id-global="global_class_Model_ProductieKenmerk"
+                     uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>Definitie van deze codelijst.</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+                  <part>
+                     <item>
+                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">PKM1</imvert:alias>
+                     </item>
+                     <item>PKM1</item>
+                     <item>Dit is de definitie van PKM1.</item>
+                  </part>
+                  <part>
+                     <item>
+                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">PKM2</imvert:alias>
+                     </item>
+                     <item>PKM2</item>
                      <item/>
                   </part>
                </content>
