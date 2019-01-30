@@ -4,7 +4,7 @@
       type="TOEPASSING"
       id="EAPK_A1293360_654D_4dc1_AC6B_1D519B26A773"
       generator-version="1.50.2"
-      generator-date="2019-01-29T15:04:41Z"><!--removed empty content-->
+      generator-date="2019-01-30T09:26:26Z"><!--removed empty content-->
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Class1"
@@ -26,11 +26,31 @@
                   <itemtype type="ATTRIBUTE-CARD"/>
                   <part>
                      <item>
-                        <item type="detail" idref="detail_attribute_Model_Class1_attribuut1">attribuut1</item>
+                        <item type="detail" idref="detail_attribute_Model_Class1_oever">oever</item>
                      </item>
-                     <item/>
+                     <item>Definitie van het attribuut oever.</item>
                      <item>
-                        <item type="global" idref="global_class_Model_Codelist1">Codelist1</item>
+                        <item type="global" idref="global_class_Model_Oevertype">Oevertype</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Class1_parameter">parameter</item>
+                     </item>
+                     <item>Definitie van het attribuut parameter.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_Parameter">Parameter</item>
+                     </item>
+                     <item>1</item>
+                  </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Class1_meetapparaat">meetapparaat</item>
+                     </item>
+                     <item>Definitie van het attribuut meetapparaat.</item>
+                     <item>
+                        <item type="global" idref="global_class_Model_Meetapparaat">Meetapparaat</item>
                      </item>
                      <item>1</item>
                   </part>
@@ -46,10 +66,22 @@
       <section type="OVERVIEW-CODELIST">
          <content>
             <part>
-               <item id="global_class_Model_Codelist1"
+               <item id="global_class_Model_Meetapparaat"
+                     uuid="EAID_8AE9E2AD_9B9D_4bc3_B2C1_FC6575A8F27D"
+                     idref="detail_class_Model_Meetapparaat">Meetapparaat</item>
+               <item>Definitie van codelijst Meetapparaat.</item>
+            </part>
+            <part>
+               <item id="global_class_Model_Parameter"
+                     uuid="EAID_B939C19A_5324_4f9b_A499_6B610F2DFA7F"
+                     idref="detail_class_Model_Parameter">Parameter</item>
+               <item>Definitie van codelijst Parameter.</item>
+            </part>
+            <part>
+               <item id="global_class_Model_Oevertype"
                      uuid="EAID_DC76D008_FE04_4e0e_B221_E6B5306AD018"
-                     idref="detail_class_Model_Codelist1">Codelist1</item>
-               <item/>
+                     idref="detail_class_Model_Oevertype">Oevertype</item>
+               <item>Definitie van codelijst Oevertype.</item>
             </part>
          </content>
       </section>
@@ -60,14 +92,18 @@
                      type="OBJECTTYPE"
                      id="detail_class_Model_Class1"
                      id-global="global_class_Model_Class1">
-               <section name="attribuut1"
+               <section name="oever"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_Model_Class1_attribuut1"
-                        id-global="global_attribute_Model_Class1_attribuut1">
+                        id="detail_attribute_Model_Class1_oever"
+                        id-global="global_attribute_Model_Class1_oever">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
-                        <item>attribuut1</item>
+                        <item>oever</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Definitie van het attribuut oever.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -87,7 +123,85 @@
                      </part>
                      <part type="CFG-DOC-FORMAAT">
                         <item>Formaat</item>
-                        <item>Codelist1</item>
+                        <item>Oevertype</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="parameter"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Class1_parameter"
+                        id-global="global_attribute_Model_Class1_parameter">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>parameter</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Definitie van het attribuut parameter.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Parameter</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="meetapparaat"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Class1_meetapparaat"
+                        id-global="global_attribute_Model_Class1_meetapparaat">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>meetapparaat</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Definitie van het attribuut meetapparaat.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Meetapparaat</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                         <item>Indicatie afleidbaar</item>
@@ -103,15 +217,49 @@
          <!--removed empty content-->
          <!--removed empty content-->
          <section type="DETAILS-CODELIST">
-            <section name="Codelist1"
+            <section name="Meetapparaat"
                      type="DETAIL-CODELIST"
-                     id="detail_class_Model_Codelist1"
-                     id-global="global_class_Model_Codelist1"
+                     id="detail_class_Model_Meetapparaat"
+                     id-global="global_class_Model_Meetapparaat"
+                     uuid="EAID_8AE9E2AD_9B9D_4bc3_B2C1_FC6575A8F27D">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>Definitie van codelijst Meetapparaat.</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
+            </section>
+            <section name="Parameter"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_Model_Parameter"
+                     id-global="global_class_Model_Parameter"
+                     uuid="EAID_B939C19A_5324_4f9b_A499_6B610F2DFA7F">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>Definitie van codelijst Parameter.</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
+            </section>
+            <section name="Oevertype"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_Model_Oevertype"
+                     id-global="global_class_Model_Oevertype"
                      uuid="EAID_DC76D008_FE04_4e0e_B221_E6B5306AD018">
                <content>
                   <part>
                      <item>Definitie</item>
-                     <item/>
+                     <item>Definitie van codelijst Oevertype.</item>
                   </part>
                </content>
                <content>

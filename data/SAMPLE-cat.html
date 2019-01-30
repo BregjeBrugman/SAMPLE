@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "Github-65 Lists" door Imvertor 1.50.2 op January 29, 2019 at 15:04:41.
+   "Github-65 Lists" door Imvertor 1.50.2 op January 30, 2019 at 09:26:26.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"Conceptualmodel-Github-65Lists-1.0.0-1-20170302-20190129-160443"</i> door. 
+   <i>"Conceptualmodel-Github-65Lists-1.0.0-1-20170302-20190130-102628"</i> door. 
    
 </p>
 <section id="">
@@ -39,12 +39,36 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_Model_Class1_attribuut1">attribuut1</a>
+                  <a class="link" href="#detail_attribute_Model_Class1_oever">oever</a>
                   
                </td>
-               <td></td>
+               <td>Definitie van het attribuut oever.</td>
                <td>
-                  <a class="link" href="#global_class_Model_Codelist1">Codelist1</a>
+                  <a class="link" href="#global_class_Model_Oevertype">Oevertype</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Class1_parameter">parameter</a>
+                  
+               </td>
+               <td>Definitie van het attribuut parameter.</td>
+               <td>
+                  <a class="link" href="#global_class_Model_Parameter">Parameter</a>
+                  
+               </td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>
+                  <a class="link" href="#detail_attribute_Model_Class1_meetapparaat">meetapparaat</a>
+                  
+               </td>
+               <td>Definitie van het attribuut meetapparaat.</td>
+               <td>
+                  <a class="link" href="#global_class_Model_Meetapparaat">Meetapparaat</a>
                   
                </td>
                <td>1</td>
@@ -64,8 +88,16 @@
       <colgroup width="70%"></colgroup>
       <tbody>
          <tr>
-            <th><a class="anchor" name="global_class_Model_Codelist1"></a><a class="link" href="#detail_class_Model_Codelist1">Codelist1</a></th>
-            <td></td>
+            <th><a class="anchor" name="global_class_Model_Meetapparaat"></a><a class="link" href="#detail_class_Model_Meetapparaat">Meetapparaat</a></th>
+            <td>Definitie van codelijst Meetapparaat.</td>
+         </tr>
+         <tr>
+            <th><a class="anchor" name="global_class_Model_Parameter"></a><a class="link" href="#detail_class_Model_Parameter">Parameter</a></th>
+            <td>Definitie van codelijst Parameter.</td>
+         </tr>
+         <tr>
+            <th><a class="anchor" name="global_class_Model_Oevertype"></a><a class="link" href="#detail_class_Model_Oevertype">Oevertype</a></th>
+            <td>Definitie van codelijst Oevertype.</td>
          </tr>
       </tbody>
    </table>
@@ -76,8 +108,8 @@
    
    <a class="anchor" name="detail_class_Model_Class1"></a><section id="detail_class_Model_Class1">
       <h5>Objecttype Class1</h5>
-      <a class="anchor" name="detail_attribute_Model_Class1_attribuut1"></a><section id="detail_attribute_Model_Class1_attribuut1">
-         <h6>Attribuutsoort details <a href="#global_class_Model_Class1">Class1</a> attribuut1
+      <a class="anchor" name="detail_attribute_Model_Class1_oever"></a><section id="detail_attribute_Model_Class1_oever">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Class1">Class1</a> oever
          </h6>
          
          <table>
@@ -86,7 +118,11 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>attribuut1</td>
+                  <td>oever</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Definitie van het attribuut oever.</td>
                </tr>
                <tr>
                   <th>Mogelijk geen waarde</th>
@@ -106,7 +142,95 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Codelist1</td>
+                  <td>Oevertype</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_Model_Class1_parameter"></a><section id="detail_attribute_Model_Class1_parameter">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Class1">Class1</a> parameter
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>parameter</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Definitie van het attribuut parameter.</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Parameter</td>
+               </tr>
+               <tr>
+                  <th>Indicatie afleidbaar</th>
+                  <td>Nee</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_Model_Class1_meetapparaat"></a><section id="detail_attribute_Model_Class1_meetapparaat">
+         <h6>Attribuutsoort details <a href="#global_class_Model_Class1">Class1</a> meetapparaat
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>meetapparaat</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Definitie van het attribuut meetapparaat.</td>
+               </tr>
+               <tr>
+                  <th>Mogelijk geen waarde</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie materiële historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie formele historie</th>
+                  <td>Nee</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Meetapparaat</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -125,8 +249,8 @@
    
    
    
-   <a class="anchor" name="graph_EAID_DC76D008_FE04_4e0e_B221_E6B5306AD018"></a><a class="anchor" name="detail_class_Model_Codelist1"></a><section id="detail_class_Model_Codelist1">
-      <h5>Codelijst details Codelist1</h5>
+   <a class="anchor" name="graph_EAID_8AE9E2AD_9B9D_4bc3_B2C1_FC6575A8F27D"></a><a class="anchor" name="detail_class_Model_Meetapparaat"></a><section id="detail_class_Model_Meetapparaat">
+      <h5>Codelijst details Meetapparaat</h5>
       
       <table>
          <colgroup width="40%"></colgroup>
@@ -134,7 +258,57 @@
          <tbody>
             <tr>
                <th>Definitie</th>
-               <td></td>
+               <td>Definitie van codelijst Meetapparaat.</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table>
+         <tbody>
+            <tr>
+               <th>Code</th>
+               <th>Naam</th>
+               <th>Definitie</th>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
+   <a class="anchor" name="graph_EAID_B939C19A_5324_4f9b_A499_6B610F2DFA7F"></a><a class="anchor" name="detail_class_Model_Parameter"></a><section id="detail_class_Model_Parameter">
+      <h5>Codelijst details Parameter</h5>
+      
+      <table>
+         <colgroup width="40%"></colgroup>
+         <colgroup width="60%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Definitie</th>
+               <td>Definitie van codelijst Parameter.</td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table>
+         <tbody>
+            <tr>
+               <th>Code</th>
+               <th>Naam</th>
+               <th>Definitie</th>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
+   <a class="anchor" name="graph_EAID_DC76D008_FE04_4e0e_B221_E6B5306AD018"></a><a class="anchor" name="detail_class_Model_Oevertype"></a><section id="detail_class_Model_Oevertype">
+      <h5>Codelijst details Oevertype</h5>
+      
+      <table>
+         <colgroup width="40%"></colgroup>
+         <colgroup width="60%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Definitie</th>
+               <td>Definitie van codelijst Oevertype.</td>
             </tr>
          </tbody>
       </table>
