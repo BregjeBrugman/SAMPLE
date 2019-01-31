@@ -1,0 +1,619 @@
+<?xml version="1.0"?>
+<domeintabel>
+<Meetapparaat>
+  <ID>58</ID>
+  <Code>101</Code>
+  <Omschrijving>Centrifuge</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>59</ID>
+  <Code>102</Code>
+  <Omschrijving>Debietmeter</Omschrijving>
+  <Groep>Waterkwantiteit</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>60</ID>
+  <Code>103</Code>
+  <Omschrijving>Digitaliseer apparaat</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>61</ID>
+  <Code>104</Code>
+  <Omschrijving>Lichtintensiteitsmeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>62</ID>
+  <Code>105</Code>
+  <Omschrijving>Secchi schijf</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>63</ID>
+  <Code>106</Code>
+  <Omschrijving>Troebelheidsmeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>64</ID>
+  <Code>107</Code>
+  <Omschrijving>Fototoestel</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>65</ID>
+  <Code>108</Code>
+  <Omschrijving>Golfmeetboei</Omschrijving>
+  <Groep>Waterkwantiteit</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>20</ID>
+  <Code>109</Code>
+  <Omschrijving>Radar</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>66</ID>
+  <Code>110</Code>
+  <Omschrijving>Handmatig</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>7</ID>
+  <Code>111</Code>
+  <Omschrijving>Duimstok</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>67</ID>
+  <Code>112</Code>
+  <Omschrijving>Handlood</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>68</ID>
+  <Code>113</Code>
+  <Omschrijving>Laser</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>69</ID>
+  <Code>114</Code>
+  <Omschrijving>LiDar - Laserhoogtemeter</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>70</ID>
+  <Code>115</Code>
+  <Omschrijving>Multibeam echolood</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>71</ID>
+  <Code>116</Code>
+  <Omschrijving>Schuifmaat</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>72</ID>
+  <Code>117</Code>
+  <Omschrijving>Singlebeam echolood - hoog frequent</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>73</ID>
+  <Code>118</Code>
+  <Omschrijving>Singlebeam echolood - laag frequent</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>74</ID>
+  <Code>119</Code>
+  <Omschrijving>Slaggaard / Peilstok</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>75</ID>
+  <Code>120</Code>
+  <Omschrijving>Waterpasinstrument</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2016-01-04T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>21</ID>
+  <Code>121</Code>
+  <Omschrijving>Barometer</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>22</ID>
+  <Code>122</Code>
+  <Omschrijving>Hygrometer</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>23</ID>
+  <Code>123</Code>
+  <Omschrijving>MERIS instrument ENVISAT</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>24</ID>
+  <Code>124</Code>
+  <Omschrijving>Peilschaal</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>25</ID>
+  <Code>125</Code>
+  <Omschrijving>Stappenbaak</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>26</ID>
+  <Code>126</Code>
+  <Omschrijving>Ultrasoon</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>27</ID>
+  <Code>127</Code>
+  <Omschrijving>Vlotter</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>28</ID>
+  <Code>128</Code>
+  <Omschrijving>Pluviograaf</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>29</ID>
+  <Code>129</Code>
+  <Omschrijving>Tipping bucket</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>30</ID>
+  <Code>130</Code>
+  <Omschrijving>Gyrokompas</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>31</ID>
+  <Code>131</Code>
+  <Omschrijving>Hellinghoekmeter</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>32</ID>
+  <Code>132</Code>
+  <Omschrijving>Standopnemer</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>33</ID>
+  <Code>133</Code>
+  <Omschrijving>Stralingsmeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>34</ID>
+  <Code>134</Code>
+  <Omschrijving>Akoestisch Doppler (ADCP)</Omschrijving>
+  <Groep>Waterkwantiteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>35</ID>
+  <Code>135</Code>
+  <Omschrijving>Elektromagnetisch (EM)</Omschrijving>
+  <Groep>Waterkwantiteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>36</ID>
+  <Code>136</Code>
+  <Omschrijving>HF-Radar</Omschrijving>
+  <Groep>Waterkwantiteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>37</ID>
+  <Code>137</Code>
+  <Omschrijving>Propellor</Omschrijving>
+  <Groep>Waterkwantiteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>38</ID>
+  <Code>138</Code>
+  <Omschrijving>Kwikthermometer</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>39</ID>
+  <Code>139</Code>
+  <Omschrijving>Thermograaf</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>40</ID>
+  <Code>140</Code>
+  <Omschrijving>Verrekijker</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>41</ID>
+  <Code>141</Code>
+  <Omschrijving>Fluorescentiemeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>42</ID>
+  <Code>142</Code>
+  <Omschrijving>Geleidendheidmeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>43</ID>
+  <Code>143</Code>
+  <Omschrijving>Geluidssnelheidsmeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>44</ID>
+  <Code>144</Code>
+  <Omschrijving>Grondwater(monster) sonde</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>45</ID>
+  <Code>145</Code>
+  <Omschrijving>pH meter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>46</ID>
+  <Code>146</Code>
+  <Omschrijving>Saliniteitmeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>47</ID>
+  <Code>147</Code>
+  <Omschrijving>Titratiemeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>48</ID>
+  <Code>148</Code>
+  <Omschrijving>Zuurstofmeter</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>49</ID>
+  <Code>149</Code>
+  <Omschrijving>Windrichtingmeter</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>50</ID>
+  <Code>150</Code>
+  <Omschrijving>Windsnelheidsmeter</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>51</ID>
+  <Code>151</Code>
+  <Omschrijving>Wolkenmeter</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>52</ID>
+  <Code>152</Code>
+  <Omschrijving>Zichtmeter</Omschrijving>
+  <Groep>Meteorologie</Groep>
+  <D_BEGIN>2012-05-15T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>53</ID>
+  <Code>153</Code>
+  <Omschrijving>Temperatuursensor</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-05-31T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>54</ID>
+  <Code>154</Code>
+  <Omschrijving>Geleidendheid- en temperatuursensor</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2012-06-05T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>55</ID>
+  <Code>155</Code>
+  <Omschrijving>Druksensor</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2012-06-05T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>56</ID>
+  <Code>156</Code>
+  <Omschrijving>Stroomsnelheidsmeter</Omschrijving>
+  <Groep>Waterkwantiteit</Groep>
+  <D_BEGIN>2012-09-06T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>57</ID>
+  <Code>157</Code>
+  <Omschrijving>Elektrische capaciteitsmeter</Omschrijving>
+  <Groep>Niveaumeting</Groep>
+  <D_BEGIN>2013-07-20T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>76</ID>
+  <Code>158</Code>
+  <Omschrijving>Spectro-radiometer</Omschrijving>
+  <Groep>Waterkwaliteit</Groep>
+  <D_BEGIN>2016-07-09T00:00:00+02:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>77</ID>
+  <Code>159</Code>
+  <Omschrijving>Video</Omschrijving>
+  <Groep>Overig</Groep>
+  <D_BEGIN>2016-11-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>6</ID>
+  <Code>201</Code>
+  <Omschrijving>Akoestische afstandsmeter</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>8</ID>
+  <Code>203</Code>
+  <Omschrijving>Afstandkijker</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>9</ID>
+  <Code>204</Code>
+  <Omschrijving>Radiolog</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>10</ID>
+  <Code>205</Code>
+  <Omschrijving>Afstandsdraad</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>11</ID>
+  <Code>206</Code>
+  <Omschrijving>Meetband</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>12</ID>
+  <Code>207</Code>
+  <Omschrijving>Hi-Fix</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>13</ID>
+  <Code>208</Code>
+  <Omschrijving>Trisponder</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>14</ID>
+  <Code>209</Code>
+  <Omschrijving>Hyperfix</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>15</ID>
+  <Code>210</Code>
+  <Omschrijving>Trident</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>16</ID>
+  <Code>211</Code>
+  <Omschrijving>Decca</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>17</ID>
+  <Code>212</Code>
+  <Omschrijving>Sextant</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>18</ID>
+  <Code>213</Code>
+  <Omschrijving>Theodoliet</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>19</ID>
+  <Code>214</Code>
+  <Omschrijving>Total Station</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>4</ID>
+  <Code>216</Code>
+  <Omschrijving>Tachymeter</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>2</ID>
+  <Code>217</Code>
+  <Omschrijving>DGPS</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>1</ID>
+  <Code>218</Code>
+  <Omschrijving>GPS</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>3</ID>
+  <Code>219</Code>
+  <Omschrijving>RTK/LRK DGPS</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+<Meetapparaat>
+  <ID>5</ID>
+  <Code>220</Code>
+  <Omschrijving>Geografische kaart</Omschrijving>
+  <Groep>Plaatsbepalingsapparaat</Groep>
+  <D_BEGIN>2016-01-05T00:00:00+01:00</D_BEGIN>
+  <D_STATUS>G</D_STATUS>
+</Meetapparaat>
+</domeintabel>
