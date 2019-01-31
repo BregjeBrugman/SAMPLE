@@ -4,7 +4,7 @@
       type="TOEPASSING"
       id="EAPK_A1293360_654D_4dc1_AC6B_1D519B26A773"
       generator-version="1.50.2"
-      generator-date="2019-01-30T09:26:26Z"><!--removed empty content-->
+      generator-date="2019-01-31T15:35:31Z"><!--removed empty content-->
    <section type="DOMAIN" name="Model" id="global_package_Model">
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Class1"
@@ -54,6 +54,16 @@
                      </item>
                      <item>1</item>
                   </part>
+                  <part>
+                     <item>
+                        <item type="detail" idref="detail_attribute_Model_Class1_kleur">kleur</item>
+                     </item>
+                     <item/>
+                     <item>
+                        <item type="global" idref="global_class_Model_Kleur">Kleur</item>
+                     </item>
+                     <item>1</item>
+                  </part>
                </content>
             </section>
          </section>
@@ -72,20 +82,29 @@
                <item>Definitie van codelijst Meetapparaat.</item>
             </part>
             <part>
-               <item id="global_class_Model_Parameter"
-                     uuid="EAID_B939C19A_5324_4f9b_A499_6B610F2DFA7F"
-                     idref="detail_class_Model_Parameter">Parameter</item>
-               <item>Definitie van codelijst Parameter.</item>
-            </part>
-            <part>
                <item id="global_class_Model_Oevertype"
                      uuid="EAID_DC76D008_FE04_4e0e_B221_E6B5306AD018"
                      idref="detail_class_Model_Oevertype">Oevertype</item>
                <item>Definitie van codelijst Oevertype.</item>
             </part>
+            <part>
+               <item id="global_class_Model_Parameter"
+                     uuid="EAID_B939C19A_5324_4f9b_A499_6B610F2DFA7F"
+                     idref="detail_class_Model_Parameter">Parameter</item>
+               <item>Definitie van codelijst Parameter.</item>
+            </part>
          </content>
       </section>
-      <!--removed empty content-->
+      <section type="OVERVIEW-ENUMERATION">
+         <content>
+            <part>
+               <item id="global_class_Model_Kleur"
+                     uuid="EAID_0F1C1E21_E0B0_4f6f_9557_63B89E1FB3DB"
+                     idref="detail_class_Model_Kleur">Kleur</item>
+               <item>Defnitie van enumeratie Kleur.</item>
+            </part>
+         </content>
+      </section>
       <section type="DETAILS">
          <section type="DETAILS-OBJECTTYPE">
             <section name="Class1"
@@ -209,6 +228,41 @@
                      </part>
                   </content>
                </section>
+               <section name="kleur"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Class1_kleur"
+                        id-global="global_attribute_Model_Class1_kleur">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>kleur</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Kleur</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
             </section>
          </section>
          <!--removed empty content-->
@@ -234,23 +288,6 @@
                   <itemtype type="DEFINITION"/>
                </content>
             </section>
-            <section name="Parameter"
-                     type="DETAIL-CODELIST"
-                     id="detail_class_Model_Parameter"
-                     id-global="global_class_Model_Parameter"
-                     uuid="EAID_B939C19A_5324_4f9b_A499_6B610F2DFA7F">
-               <content>
-                  <part>
-                     <item>Definitie</item>
-                     <item>Definitie van codelijst Parameter.</item>
-                  </part>
-               </content>
-               <content>
-                  <itemtype type="CODE"/>
-                  <itemtype type="NAME"/>
-                  <itemtype type="DEFINITION"/>
-               </content>
-            </section>
             <section name="Oevertype"
                      type="DETAIL-CODELIST"
                      id="detail_class_Model_Oevertype"
@@ -268,8 +305,58 @@
                   <itemtype type="DEFINITION"/>
                </content>
             </section>
+            <section name="Parameter"
+                     type="DETAIL-CODELIST"
+                     id="detail_class_Model_Parameter"
+                     id-global="global_class_Model_Parameter"
+                     uuid="EAID_B939C19A_5324_4f9b_A499_6B610F2DFA7F">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>Definitie van codelijst Parameter.</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+               </content>
+            </section>
          </section>
-         <!--removed empty content-->
+         <section type="DETAILS-ENUMERATION">
+            <section name="Kleur"
+                     type="DETAIL-ENUMERATION"
+                     id="detail_class_Model_Kleur"
+                     id-global="global_class_Model_Kleur"
+                     uuid="EAID_0F1C1E21_E0B0_4f6f_9557_63B89E1FB3DB">
+               <content>
+                  <part>
+                     <item>Definitie</item>
+                     <item>Defnitie van enumeratie Kleur.</item>
+                  </part>
+               </content>
+               <content>
+                  <itemtype type="CODE"/>
+                  <itemtype type="NAME"/>
+                  <itemtype type="DEFINITION"/>
+                  <part>
+                     <item/>
+                     <item>rood</item>
+                     <item>Definitie van waarde rood.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>blauw</item>
+                     <item>Definitie van waarde blauw.</item>
+                  </part>
+                  <part>
+                     <item/>
+                     <item>geel</item>
+                     <item>Definitie van waarde geel.</item>
+                  </part>
+               </content>
+            </section>
+         </section>
       </section>
    </section>
 </book>
