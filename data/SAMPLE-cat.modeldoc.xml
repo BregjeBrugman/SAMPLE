@@ -4,8 +4,24 @@
       type="TOEPASSING"
       id="EAPK_A1293360_654D_4dc1_AC6B_1D519B26A773"
       generator-version="1.52.2"
-      generator-date="2019-03-22T08:21:00Z">
-   <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
+      generator-date="2019-03-22T08:27:47Z">
+   <chapter title="CHAPTER-CATALOG" type="cat">
+      <section type="IMAGEMAPS" name="-imagemap" id="imagemap_d5095e1">
+         <section type="IMAGEMAP"
+                  name="Github 65 - overzicht"
+                  id="EAID_CEFB5624_B7C3_4379_BEFF_918376973C78">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Github 65 - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="OVERVIEW-OBJECTTYPE">
             <section name="Class1"
