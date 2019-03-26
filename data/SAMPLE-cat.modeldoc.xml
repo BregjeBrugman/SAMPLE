@@ -4,7 +4,7 @@
       type="TOEPASSING"
       id="EAPK_A1293360_654D_4dc1_AC6B_1D519B26A773"
       generator-version="1.52.3"
-      generator-date="2019-03-26T10:43:11Z">
+      generator-date="2019-03-26T10:49:11Z">
    <chapter title="CHAPTER-CATALOG" type="cat">
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -106,6 +106,16 @@
                         <item/>
                         <item>
                            <item type="global" idref="global_class_Model_CodelijstMetVerkeerdeLocatie">Codelijst met verkeerde locatie</item>
+                        </item>
+                        <item>1</item>
+                     </part>
+                     <part>
+                        <item>
+                           <item type="detail" idref="detail_attribute_Model_Class1_parameters">parameters</item>
+                        </item>
+                        <item/>
+                        <item>
+                           <item type="global" idref="global_class_Model_Parameterlijst">Parameterlijst</item>
                         </item>
                         <item>1</item>
                      </part>
@@ -520,6 +530,41 @@
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
                            <item>Codelijst met verkeerde locatie</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                           <item>Indicatie afleidbaar</item>
+                           <item>Nee</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section name="parameters"
+                           type="DETAIL-ATTRIBUTE"
+                           id="detail_attribute_Model_Class1_parameters"
+                           id-global="global_attribute_Model_Class1_parameters">
+                     <content>
+                        <part type="CFG-DOC-NAAM">
+                           <item>Naam</item>
+                           <item>parameters</item>
+                        </part>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                           <item>Indicatie materiële historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                           <item>Indicatie formele historie</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>Parameterlijst</item>
                         </part>
                         <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
                            <item>Indicatie afleidbaar</item>
