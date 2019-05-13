@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.52.6"
-      generator-date="2019-05-13T11:00:44Z">
+      generator-date="2019-05-13T11:04:29Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -1260,1389 +1260,1194 @@
                </part>
             </content>
          </section>
-         <section type="DETAILS" include="true">
-            <section type="DETAILS-OBJECTTYPE" include="true">
-               <section name="Baksteen"
-                        type="OBJECTTYPE"
-                        id="detail_class_Model_Baksteen"
-                        id-global="global_class_Model_Baksteen">
-                  <section name="magazijnID"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_magazijnID"
-                           id-global="global_attribute_Model_Baksteen_magazijnID">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>magazijnID</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De identificatie van de baksteen in het magazijn.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="kleur"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_kleur"
-                           id-global="global_attribute_Model_Baksteen_kleur">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>kleur</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende relevantie.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1 .. 5</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Basisgegeven</item>
-                        </part>
-                        <part type="CFG-DOC-REGELS">
-                           <item>Regels</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de regels die gelden voor de kleur.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-REGELS-IMBROA">
-                           <item>Regels IMBRO/A</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de IMBRO/A regels die gelden voor de kleur.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="nettogewicht"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_nettogewicht"
-                           id-global="global_attribute_Model_Baksteen_nettogewicht">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>nettogewicht</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het droog gewicht van de baksteen.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Gewicht</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="status"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_status"
-                           id-global="global_attribute_Model_Baksteen_status">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>status</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Status</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="omvang"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_omvang"
-                           id-global="global_attribute_Model_Baksteen_omvang">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>omvang</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen. </p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Uitgedrukt in steengrootte.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Steengrootte</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="type"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_type"
-                           id-global="global_attribute_Model_Baksteen_type">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>type</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Type baksteen.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Baksteentype</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="hoeken"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_hoeken"
-                           id-global="global_attribute_Model_Baksteen_hoeken">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>hoeken</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal hoeken van de baksteen.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Dit moet een getal deelbaar door 8 zijn.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Integer</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="omschrijving"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_omschrijving"
-                           id-global="global_attribute_Model_Baksteen_omschrijving">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>omschrijving</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke taal omschrijving van dit type baksteen.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. 1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="maxTemperatuur"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_maxTemperatuur"
-                           id-global="global_attribute_Model_Baksteen_maxTemperatuur">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>maxTemperatuur</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>REAL</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="lengte"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_lengte"
-                           id-global="global_attribute_Model_Baksteen_lengte">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>lengte</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">FDe lengte van de baksteen, dus volgens de langste zijde.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Lengte in meters.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Measure</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-UNITOFMEASURE">
-                           <item>Meeteenheid</item>
-                           <item>m</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="inMagazijn"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_inMagazijn"
-                           id-global="global_attribute_Model_Baksteen_inMagazijn">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>inMagazijn</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Is de baksteen nog beschikbaar/leverbaar?</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Boolean</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="tag"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_tag"
-                           id-global="global_attribute_Model_Baksteen_tag">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>tag</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>ProductieKenmerk</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="oppervlak"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Baksteen_oppervlak"
-                           id-global="global_attribute_Model_Baksteen_oppervlak">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>oppervlak</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de steen.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Dit is de oppervlakte van de grootste zijde.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>OppervlakGrootte</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="gebaseerdOpOntwerp"
-                           type="DETAIL-ASSOCIATION"
-                           id="detail_association_Model_Baksteen_ontwerpBasis"
-                           id-global="global_association_Model_Baksteen_ontwerpBasis">
-                     <content approach="association">
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>gebaseerdOpOntwerp</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen heeft een vorm die is gebasered op een klassiek ontwerp, gelecerd door de aangegeven producent.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. *</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                           <item>Gerelateerd objecttype</item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                        </part>
-                     </content>
-                     <content approach="target">
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>gebaseerdOpOntwerp</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De steen is ontworpen door een producent, die daarvoor de basis heeft gelegd.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. *</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                           <item>Gerelateerd objecttype</item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="geproduceerdDoor"
-                           type="DETAIL-ASSOCIATION"
-                           id="detail_association_Model_Baksteen_eersteProducent"
-                           id-global="global_association_Model_Baksteen_eersteProducent">
-                     <content approach="association">
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>geproduceerdDoor</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen wordt geproduceerd door mogelijk meerdere producenten.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. *</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                           <item>Gerelateerd objecttype</item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                        </part>
-                     </content>
-                     <content approach="target">
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>geproduceerdDoor</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De eerste producent is de maker die als eerste met de baksteen op de markt is gekomen, en de steen nog levert.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>0 .. *</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                           <item>Gerelateerd objecttype</item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                        </part>
-                     </content>
-                  </section>
+         <section type="DETAILS" include="true"><!--skipped excluded section-->
+            <section name="Baksteen"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_Baksteen"
+                     id-global="global_class_Model_Baksteen">
+               <section name="magazijnID"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_magazijnID"
+                        id-global="global_attribute_Model_Baksteen_magazijnID">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>magazijnID</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De identificatie van de baksteen in het magazijn.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
                </section>
-               <section name="Producent"
-                        type="OBJECTTYPE"
-                        id="detail_class_Model_Producent"
-                        id-global="global_class_Model_Producent">
-                  <section name="id"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Producent_id"
-                           id-global="global_attribute_Model_Producent_id">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>id</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de producent.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="contractdatum"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Producent_contractdatum"
-                           id-global="global_attribute_Model_Producent_contractdatum">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>contractdatum</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Datum waarop het contract is afgesloten.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Datum</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="site"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Producent_site"
-                           id-global="global_attribute_Model_Producent_site">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>site</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Website van de producent.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De website moet publiek toegankelijk zijn.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>URI</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
+               <section name="kleur"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_kleur"
+                        id-global="global_attribute_Model_Baksteen_kleur">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>kleur</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende relevantie.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. 5</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Basisgegeven</item>
+                     </part>
+                     <part type="CFG-DOC-REGELS">
+                        <item>Regels</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de regels die gelden voor de kleur.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-REGELS-IMBROA">
+                        <item>Regels IMBRO/A</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de IMBRO/A regels die gelden voor de kleur.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
                </section>
-               <section name="ExterneProducent"
-                        type="OBJECTTYPE"
-                        id="detail_class_Model_ExterneProducent"
-                        id-global="global_class_Model_ExterneProducent">
-                  <section name="postcodegebied"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_ExterneProducent_postcodegebied"
-                           id-global="global_attribute_Model_ExterneProducent_postcodegebied">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>postcodegebied</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Postcodegebied van de producent.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Postcode</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="geoLocatie"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_ExterneProducent_geoLocatie"
-                           id-global="global_attribute_Model_ExterneProducent_geoLocatie">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>geoLocatie</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De locatie waar de producent is gevestigd.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft hier het hoofdkantoor van de betreffende producent.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>GM_Point</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="goniometrie"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_ExterneProducent_goniometrie"
-                           id-global="global_attribute_Model_ExterneProducent_goniometrie">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>goniometrie</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Goniometrische beschrijving van de producent in de routekaart.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Goniometric</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
+               <section name="nettogewicht"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_nettogewicht"
+                        id-global="global_attribute_Model_Baksteen_nettogewicht">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>nettogewicht</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het droog gewicht van de baksteen.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Gewicht</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
                </section>
-               <section name="Client"
-                        type="OBJECTTYPE"
-                        id="detail_class_Model_Client"
-                        id-global="global_class_Model_Client">
-                  <section name="id"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Client_id"
-                           id-global="global_attribute_Model_Client_id">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>id</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de client.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="Accountmanager"
-                           type="DETAIL-COMPOSITE"
-                           id="detail_class_Model_Accountmanager"
-                           id-global="global_class_Model_Accountmanager"
-                           uuid="EAID_29D6B892_B943_494c_94C7_A13DB031E998">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>Accountmanager</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                     </content>
-                     <section name="voornaam"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_Accountmanager_voornaam"
-                              id-global="global_attribute_Model_Accountmanager_voornaam">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_Accountmanager">Accountmanager</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>voornaam</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                              <item>Indicatie authentiek</item>
-                              <item>Authentiek</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>CHARACTERSTRING</item>
-                           </part>
-                        </content>
-                     </section>
-                     <section name="achternaam"
-                              type="DETAIL-COMPOSITE-ATTRIBUTE"
-                              id="detail_attribute_Model_Accountmanager_achternaam"
-                              id-global="global_attribute_Model_Accountmanager_achternaam">
-                        <content>
-                           <part type="COMPOSER">
-                              <item type="global" idref="global_class_Model_Accountmanager">Accountmanager</item>
-                           </part>
-                           <part type="CFG-DOC-NAAM">
-                              <item>Naam</item>
-                              <item>achternaam</item>
-                           </part>
-                           <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                              <item>Mogelijk geen waarde</item>
-                              <item>Nee</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                              <item>Indicatie kardinaliteit</item>
-                              <item>1</item>
-                           </part>
-                           <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                              <item>Indicatie authentiek</item>
-                              <item>Authentiek</item>
-                           </part>
-                           <part type="CFG-DOC-FORMAAT">
-                              <item>Formaat</item>
-                              <item>CHARACTERSTRING</item>
-                           </part>
-                        </content>
-                     </section>
-                  </section>
-                  <section name="deal"
-                           type="DETAIL-ASSOCIATION"
-                           id="detail_association_Model_Client_contract"
-                           id-global="global_association_Model_Client_contract">
-                     <content approach="association">
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>deal</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De client wordt aan een of meerdere contracten gebonden op basis van een afspraak (deal).</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1 .. *</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                           <item>Gerelateerd objecttype</item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Contract">Contract</item>
-                           </item>
-                        </part>
-                     </content>
-                     <content approach="target">
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>deal</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1 .. *</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
-                           <item>Gerelateerd objecttype</item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Contract">Contract</item>
-                           </item>
-                        </part>
-                     </content>
-                  </section>
+               <section name="status"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_status"
+                        id-global="global_attribute_Model_Baksteen_status">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>status</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Status</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
                </section>
-               <section name="Contract"
-                        type="OBJECTTYPE"
-                        id="detail_class_Model_Contract"
-                        id-global="global_class_Model_Contract">
-                  <section name="id"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Contract_id"
-                           id-global="global_attribute_Model_Contract_id">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>id</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van het contract.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
-                           <item>Indicatie materiële historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
-                           <item>Indicatie formele historie</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
+               <section name="omvang"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_omvang"
+                        id-global="global_attribute_Model_Baksteen_omvang">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>omvang</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen. </p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Uitgedrukt in steengrootte.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Steengrootte</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="type"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_type"
+                        id-global="global_attribute_Model_Baksteen_type">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>type</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Type baksteen.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Baksteentype</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="hoeken"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_hoeken"
+                        id-global="global_attribute_Model_Baksteen_hoeken">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>hoeken</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal hoeken van de baksteen.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Dit moet een getal deelbaar door 8 zijn.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Integer</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="omschrijving"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_omschrijving"
+                        id-global="global_attribute_Model_Baksteen_omschrijving">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>omschrijving</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke taal omschrijving van dit type baksteen.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. 1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="maxTemperatuur"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_maxTemperatuur"
+                        id-global="global_attribute_Model_Baksteen_maxTemperatuur">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>maxTemperatuur</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>REAL</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="lengte"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_lengte"
+                        id-global="global_attribute_Model_Baksteen_lengte">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>lengte</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">FDe lengte van de baksteen, dus volgens de langste zijde.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Lengte in meters.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Measure</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-UNITOFMEASURE">
+                        <item>Meeteenheid</item>
+                        <item>m</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="inMagazijn"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_inMagazijn"
+                        id-global="global_attribute_Model_Baksteen_inMagazijn">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>inMagazijn</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Is de baksteen nog beschikbaar/leverbaar?</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Boolean</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="tag"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_tag"
+                        id-global="global_attribute_Model_Baksteen_tag">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>tag</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>ProductieKenmerk</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="oppervlak"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Baksteen_oppervlak"
+                        id-global="global_attribute_Model_Baksteen_oppervlak">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>oppervlak</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de steen.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Dit is de oppervlakte van de grootste zijde.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>OppervlakGrootte</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="gebaseerdOpOntwerp"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_Baksteen_ontwerpBasis"
+                        id-global="global_association_Model_Baksteen_ontwerpBasis">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>gebaseerdOpOntwerp</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen heeft een vorm die is gebasered op een klassiek ontwerp, gelecerd door de aangegeven producent.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>gebaseerdOpOntwerp</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De steen is ontworpen door een producent, die daarvoor de basis heeft gelegd.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="geproduceerdDoor"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_Baksteen_eersteProducent"
+                        id-global="global_association_Model_Baksteen_eersteProducent">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geproduceerdDoor</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen wordt geproduceerd door mogelijk meerdere producenten.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geproduceerdDoor</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De eerste producent is de maker die als eerste met de baksteen op de markt is gekomen, en de steen nog levert.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>0 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Producent">Producent</item>
+                        </item>
+                     </part>
+                  </content>
                </section>
             </section>
-            <section type="DETAILS-ASSOCIATIONCLASS" include="true">
-               <section name="Deal"
-                        type="RELATIEKLASSE"
-                        id="detail_class_Model_Deal"
-                        id-global="global_class_Model_Deal">
-                  <section name="ondertekendOp"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Deal_ondertekendOp"
-                           id-global="global_attribute_Model_Deal_ondertekendOp">
+            <section name="Producent"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_Producent"
+                     id-global="global_class_Model_Producent">
+               <section name="id"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Producent_id"
+                        id-global="global_attribute_Model_Producent_id">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>id</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de producent.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="contractdatum"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Producent_contractdatum"
+                        id-global="global_attribute_Model_Producent_contractdatum">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>contractdatum</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Datum waarop het contract is afgesloten.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Datum</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="site"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Producent_site"
+                        id-global="global_attribute_Model_Producent_site">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>site</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Website van de producent.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De website moet publiek toegankelijk zijn.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>URI</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="ExterneProducent"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_ExterneProducent"
+                     id-global="global_class_Model_ExterneProducent">
+               <section name="postcodegebied"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ExterneProducent_postcodegebied"
+                        id-global="global_attribute_Model_ExterneProducent_postcodegebied">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>postcodegebied</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Postcodegebied van de producent.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Postcode</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="geoLocatie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ExterneProducent_geoLocatie"
+                        id-global="global_attribute_Model_ExterneProducent_geoLocatie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>geoLocatie</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De locatie waar de producent is gevestigd.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft hier het hoofdkantoor van de betreffende producent.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>GM_Point</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="goniometrie"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_ExterneProducent_goniometrie"
+                        id-global="global_attribute_Model_ExterneProducent_goniometrie">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>goniometrie</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Goniometrische beschrijving van de producent in de routekaart.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Goniometric</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Client"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_Client"
+                     id-global="global_class_Model_Client">
+               <section name="id"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Client_id"
+                        id-global="global_attribute_Model_Client_id">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>id</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de client.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Accountmanager"
+                        type="DETAIL-COMPOSITE"
+                        id="detail_class_Model_Accountmanager"
+                        id-global="global_class_Model_Accountmanager"
+                        uuid="EAID_29D6B892_B943_494c_94C7_A13DB031E998">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Accountmanager</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                  </content>
+                  <section name="voornaam"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_Accountmanager_voornaam"
+                           id-global="global_attribute_Model_Accountmanager_voornaam">
                      <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_Accountmanager">Accountmanager</item>
+                        </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>ondertekendOp</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Bhet moment dat de afspraak is vastgelegd.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
+                           <item>voornaam</item>
                         </part>
                         <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                            <item>Mogelijk geen waarde</item>
@@ -2658,298 +2463,492 @@
                         </part>
                         <part type="CFG-DOC-FORMAAT">
                            <item>Formaat</item>
-                           <item>DatumTijd</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
+                           <item>CHARACTERSTRING</item>
                         </part>
                      </content>
                   </section>
-                  <section name="feestJaar"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Deal_feestJaar"
-                           id-global="global_attribute_Model_Deal_feestJaar">
+                  <section name="achternaam"
+                           type="DETAIL-COMPOSITE-ATTRIBUTE"
+                           id="detail_attribute_Model_Accountmanager_achternaam"
+                           id-global="global_attribute_Model_Accountmanager_achternaam">
                      <content>
+                        <part type="COMPOSER">
+                           <item type="global" idref="global_class_Model_Accountmanager">Accountmanager</item>
+                        </part>
                         <part type="CFG-DOC-NAAM">
                            <item>Naam</item>
-                           <item>feestJaar</item>
+                           <item>achternaam</item>
                         </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het eerstvolgende jaar dat voor de client een feest is.<br clear="none"/>
+                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                           <item>Mogelijk geen waarde</item>
+                           <item>Nee</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                           <item>Indicatie kardinaliteit</item>
+                           <item>1</item>
+                        </part>
+                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                           <item>Indicatie authentiek</item>
+                           <item>Authentiek</item>
+                        </part>
+                        <part type="CFG-DOC-FORMAAT">
+                           <item>Formaat</item>
+                           <item>CHARACTERSTRING</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <section name="deal"
+                        type="DETAIL-ASSOCIATION"
+                        id="detail_association_Model_Client_contract"
+                        id-global="global_association_Model_Client_contract">
+                  <content approach="association">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>deal</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De client wordt aan een of meerdere contracten gebonden op basis van een afspraak (deal).</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Contract">Contract</item>
+                        </item>
+                     </part>
+                  </content>
+                  <content approach="target">
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>deal</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1 .. *</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-GERELATEERDOBJECTTYPE">
+                        <item>Gerelateerd objecttype</item>
+                        <item>
+                           <item type="global" idref="global_class_Model_Contract">Contract</item>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <section name="Contract"
+                     type="OBJECTTYPE"
+                     id="detail_class_Model_Contract"
+                     id-global="global_class_Model_Contract">
+               <section name="id"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Contract_id"
+                        id-global="global_attribute_Model_Contract_id">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>id</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van het contract.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
+                        <item>Indicatie materiële historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEFORMELEHISTORIE">
+                        <item>Indicatie formele historie</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+            </section>
+            <!--skipped excluded section-->
+            <section name="Deal"
+                     type="RELATIEKLASSE"
+                     id="detail_class_Model_Deal"
+                     id-global="global_class_Model_Deal">
+               <section name="ondertekendOp"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Deal_ondertekendOp"
+                        id-global="global_attribute_Model_Deal_ondertekendOp">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>ondertekendOp</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Bhet moment dat de afspraak is vastgelegd.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DatumTijd</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="feestJaar"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Deal_feestJaar"
+                        id-global="global_attribute_Model_Deal_feestJaar">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>feestJaar</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Het eerstvolgende jaar dat voor de client een feest is.<br clear="none"/>
                                     </p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-PATROON">
-                           <item>Patroon</item>
-                           <item>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)  danwel moeten voldoen aan een specifiek patroon.</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Jaar</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="feestMaand"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Deal_feestMaand"
-                           id-global="global_attribute_Model_Deal_feestMaand">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>feestMaand</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende maand dat voor de client een feest is.<br clear="none"/>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)  danwel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Jaar</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="feestMaand"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Deal_feestMaand"
+                        id-global="global_attribute_Model_Deal_feestMaand">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>feestMaand</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende maand dat voor de client een feest is.<br clear="none"/>
                                     </p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-PATROON">
-                           <item>Patroon</item>
-                           <item>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)  danwel moeten voldoen aan een specifiek patroon.</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>MONTH</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="feestDag"
-                           type="DETAIL-ATTRIBUTE"
-                           id="detail_attribute_Model_Deal_feestDag"
-                           id-global="global_attribute_Model_Deal_feestDag">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>feestDag</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende dag dat voor de client een feest is.<br clear="none"/>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)  danwel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>MONTH</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="feestDag"
+                        type="DETAIL-ATTRIBUTE"
+                        id="detail_attribute_Model_Deal_feestDag"
+                        id-global="global_attribute_Model_Deal_feestDag">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>feestDag</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende dag dat voor de client een feest is.<br clear="none"/>
                                     </p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-TOELICHTING">
-                           <item>Toelichting</item>
-                           <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
-                        </part>
-                        <part type="CFG-DOC-MOGELIJKGEENWAARDE">
-                           <item>Mogelijk geen waarde</item>
-                           <item>Nee</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAUTHENTIEK">
-                           <item>Indicatie authentiek</item>
-                           <item>Authentiek</item>
-                        </part>
-                        <part type="CFG-DOC-PATROON">
-                           <item>Patroon</item>
-                           <item>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)  danwel moeten voldoen aan een specifiek patroon.</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>DAY</item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
-                           <item>Indicatie afleidbaar</item>
-                           <item>Nee</item>
-                        </part>
-                     </content>
-                  </section>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Een inhoudelijke toelichting op de attribuutsoort.</item>
+                     </part>
+                     <part type="CFG-DOC-MOGELIJKGEENWAARDE">
+                        <item>Mogelijk geen waarde</item>
+                        <item>Nee</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAUTHENTIEK">
+                        <item>Indicatie authentiek</item>
+                        <item>Authentiek</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben (bereik)  danwel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>DAY</item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
+                        <item>Indicatie afleidbaar</item>
+                        <item>Nee</item>
+                     </part>
+                  </content>
                </section>
             </section>
-            <section type="DETAILS-UNION" include="true">
-               <section name="Goniometric"
-                        type="KEUZE"
-                        id="detail_class_Model_Goniometric"
-                        id-global="global_class_Model_Goniometric">
-                  <section name="line"
-                           type="DETAIL-UNIONELEMENT"
-                           id="detail_attribute_Model_Goniometric_line"
-                           id-global="global_attribute_Model_Goniometric_line">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>line</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een lijn.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-PATROON">
-                           <item>Patroon</item>
-                           <item>De verzameling van waarden die gegevens van deze union element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Lijn</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="surface"
-                           type="DETAIL-UNIONELEMENT"
-                           id="detail_attribute_Model_Goniometric_surface"
-                           id-global="global_attribute_Model_Goniometric_surface">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>surface</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een oppervlak</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-PATROON">
-                           <item>Patroon</item>
-                           <item>De verzameling van waarden die gegevens van deze union element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>Oppervlak</item>
-                        </part>
-                     </content>
-                  </section>
+            <!--skipped excluded section-->
+            <section name="Goniometric"
+                     type="KEUZE"
+                     id="detail_class_Model_Goniometric"
+                     id-global="global_class_Model_Goniometric">
+               <section name="line"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Model_Goniometric_line"
+                        id-global="global_attribute_Model_Goniometric_line">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>line</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een lijn.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze union element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Lijn</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="surface"
+                        type="DETAIL-UNIONELEMENT"
+                        id="detail_attribute_Model_Goniometric_surface"
+                        id-global="global_attribute_Model_Goniometric_surface">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>surface</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een oppervlak</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze union element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>Oppervlak</item>
+                     </part>
+                  </content>
                </section>
             </section>
-            <section type="DETAILS-STRUCTUREDDATATYPE" include="true">
-               <section name="Gewicht"
-                        type="GESTRUCTUREERD DATATYPE"
-                        id="detail_class_Model_Gewicht"
-                        id-global="global_class_Model_Gewicht">
-                  <section name="unit"
-                           type="DETAIL-DATAELEMENT"
-                           id="detail_attribute_Model_Gewicht_unit"
-                           id-global="global_attribute_Model_Gewicht_unit">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>unit</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">Eenheid van gewicht.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-PATROON">
-                           <item>Patroon</item>
-                           <item>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>CHARACTERSTRING</item>
-                        </part>
-                     </content>
-                  </section>
-                  <section name="amount"
-                           type="DETAIL-DATAELEMENT"
-                           id="detail_attribute_Model_Gewicht_amount"
-                           id-global="global_attribute_Model_Gewicht_amount">
-                     <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>amount</item>
-                        </part>
-                        <part type="CFG-DOC-DEFINITIE">
-                           <item>Definitie</item>
-                           <item>
-                              <p xmlns="http://www.w3.org/1999/xhtml"
-                                 xmlns:html="http://www.w3.org/1999/xhtml"
-                                 xmlns:imvert="http://www.imvertor.org/schema/system">De hoeveelheid van het gewicht in de eenheid zoals aangegeven.</p>
-                           </item>
-                        </part>
-                        <part type="CFG-DOC-INDICATIEKARDINALITEIT">
-                           <item>Indicatie kardinaliteit</item>
-                           <item>1</item>
-                        </part>
-                        <part type="CFG-DOC-PATROON">
-                           <item>Patroon</item>
-                           <item>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
-                        </part>
-                        <part type="CFG-DOC-FORMAAT">
-                           <item>Formaat</item>
-                           <item>REAL</item>
-                        </part>
-                     </content>
-                  </section>
+            <!--skipped excluded section-->
+            <section name="Gewicht"
+                     type="GESTRUCTUREERD DATATYPE"
+                     id="detail_class_Model_Gewicht"
+                     id-global="global_class_Model_Gewicht">
+               <section name="unit"
+                        type="DETAIL-DATAELEMENT"
+                        id="detail_attribute_Model_Gewicht_unit"
+                        id-global="global_attribute_Model_Gewicht_unit">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>unit</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Eenheid van gewicht.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>CHARACTERSTRING</item>
+                     </part>
+                  </content>
+               </section>
+               <section name="amount"
+                        type="DETAIL-DATAELEMENT"
+                        id="detail_attribute_Model_Gewicht_amount"
+                        id-global="global_attribute_Model_Gewicht_amount">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>amount</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De hoeveelheid van het gewicht in de eenheid zoals aangegeven.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-INDICATIEKARDINALITEIT">
+                        <item>Indicatie kardinaliteit</item>
+                        <item>1</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>De verzameling van waarden die gegevens van deze data element kunnen hebben (bereik)  dan wel moeten voldoen aan een specifiek patroon.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMAAT">
+                        <item>Formaat</item>
+                        <item>REAL</item>
+                     </part>
+                  </content>
                </section>
             </section>
+            <!--skipped excluded section-->
+            <!--removed empty content-->
+            <!--removed empty content-->
+            <!--removed empty content-->
             <!--removed empty content-->
          </section>
       </section>
