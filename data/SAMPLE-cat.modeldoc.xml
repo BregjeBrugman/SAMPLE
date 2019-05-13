@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.52.6"
-      generator-date="2019-05-13T08:49:51Z">
+      generator-date="2019-05-13T09:01:05Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -23,570 +23,337 @@
                </content>
             </section>
          </section>
-         <section type="OVERVIEW-OBJECTTYPE">
-            <section name="Baksteen"
-                     type="OBJECTTYPE"
-                     id="global_class_Model_Baksteen"
-                     uuid="EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
-               <section type="IMAGEMAPS"
-                        name="Baksteen-imagemap"
-                        id="imagemap_class_Model_Baksteen">
-                  <section type="IMAGEMAP"
-                           name="Baksteen - detail"
-                           id="EAID_EB759E5B_3FAA_4064_A73E_704926072F89">
+         <section type="OVERVIEW">
+            <section type="OVERVIEW-OBJECTTYPE" include="true">
+               <section name="Baksteen"
+                        type="OBJECTTYPE"
+                        id="global_class_Model_Baksteen"
+                        uuid="EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
+                  <section type="IMAGEMAPS"
+                           name="Baksteen-imagemap"
+                           id="imagemap_class_Model_Baksteen">
+                     <section type="IMAGEMAP"
+                              name="Baksteen - detail"
+                              id="EAID_EB759E5B_3FAA_4064_A73E_704926072F89">
+                        <content>
+                           <part type="CFG-DOC-NAAM">
+                              <item>Naam</item>
+                              <item>Baksteen - detail</item>
+                           </part>
+                           <part type="CFG-DOC-DESCRIPTION">
+                              <item>Omschrijving</item>
+                              <item>Gedetailleerde informatie over Baksteen objectttype, inclusief traces.</item>
+                           </part>
+                        </content>
+                     </section>
+                  </section>
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Baksteen</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een onderdeel van een bouwwerk met een rechthoekige vorm, bedoeld om muren mee te maken.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een baksteen is een soort bouwmateriaal, <em>maar alleen als het uit klei is gemaakt door mensen</em>.</p>
+                        </item>
+                     </part>
+                  </content>
+                  <section type="SHORT-ATTRIBUTES">
                      <content>
-                        <part type="CFG-DOC-NAAM">
-                           <item>Naam</item>
-                           <item>Baksteen - detail</item>
+                        <itemtype/>
+                        <itemtype type="ATTRIBUTE-NAME"/>
+                        <itemtype type="ATTRIBUTE-DEFINITION"/>
+                        <itemtype type="ATTRIBUTE-FORMAT"/>
+                        <itemtype type="ATTRIBUTE-CARD"/>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_magazijnID">magazijnID</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De identificatie van de baksteen in het magazijn.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
                         </part>
-                        <part type="CFG-DOC-DESCRIPTION">
-                           <item>Omschrijving</item>
-                           <item>Gedetailleerde informatie over Baksteen objectttype, inclusief traces.</item>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_kleur">kleur</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende relevantie.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1 .. 5</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_nettogewicht">nettogewicht</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het droog gewicht van de baksteen.</p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_Gewicht">Gewicht</item>
+                           </item>
+                           <item>0 .. 1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_status">status</item>
+                           </item>
+                           <item/>
+                           <item>
+                              <item type="global" idref="global_class_Model_Status">Status</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_omvang">omvang</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen. </p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_Steengrootte">Steengrootte</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_type">type</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Type baksteen.</p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_Baksteentype">Baksteentype</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_hoeken">hoeken</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal hoeken van de baksteen.</p>
+                           </item>
+                           <item>
+                              <item type="global">Integer</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_omschrijving">omschrijving</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke taal omschrijving van dit type baksteen.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>0 .. 1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_maxTemperatuur">maxTemperatuur</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
+                           </item>
+                           <item>
+                              <item type="global">REAL</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_lengte">lengte</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">FDe lengte van de baksteen, dus volgens de langste zijde.</p>
+                           </item>
+                           <item>
+                              <item type="global"
+                                    idref="http://www.opengeospatial.org/standards/gml"
+                                    idref-type="external">Measure</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_inMagazijn">inMagazijn</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Is de baksteen nog beschikbaar/leverbaar?</p>
+                           </item>
+                           <item>
+                              <item type="global">Boolean</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_tag">tag</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_ProductieKenmerk">ProductieKenmerk</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteen_oppervlak">oppervlak</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de steen.</p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_OppervlakGrootte">OppervlakGrootte</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section type="SHORT-ASSOCIATIONS">
+                     <content approach="association">
+                        <itemtype/>
+                        <itemtype type="ASSOCIATION-NAME"/>
+                        <itemtype type="ASSOCIATION-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>Baksteen</item>
+                              <item>[ 0 .. * ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                              </item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Producent">Producent</item>
+                              </item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen heeft een vorm die is gebasered op een klassiek ontwerp, gelecerd door de aangegeven producent.</p>
+                           </item>
+                        </part>
+                        <part>
+                           <item>
+                              <item>Baksteen</item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                              </item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Producent">Producent</item>
+                              </item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen wordt geproduceerd door mogelijk meerdere producenten.</p>
+                           </item>
+                        </part>
+                     </content>
+                     <content approach="target">
+                        <itemtype/>
+                        <itemtype type="ROLE-NAME"/>
+                        <itemtype type="ROLE-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>Baksteen</item>
+                              <item>[ 0 .. * ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                              </item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Producent">Producent</item>
+                              </item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De steen is ontworpen door een producent, die daarvoor de basis heeft gelegd.</p>
+                           </item>
+                        </part>
+                        <part>
+                           <item>
+                              <item>Baksteen</item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                              </item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Producent">Producent</item>
+                              </item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De eerste producent is de maker die als eerste met de baksteen op de markt is gekomen, en de steen nog levert.</p>
+                           </item>
                         </part>
                      </content>
                   </section>
                </section>
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Baksteen</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een onderdeel van een bouwwerk met een rechthoekige vorm, bedoeld om muren mee te maken.</p>
-                     </item>
-                  </part>
-                  <part type="CFG-DOC-TOELICHTING">
-                     <item>Toelichting</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een baksteen is een soort bouwmateriaal, <em>maar alleen als het uit klei is gemaakt door mensen</em>.</p>
-                     </item>
-                  </part>
-               </content>
-               <section type="SHORT-ATTRIBUTES">
+               <section name="Producent"
+                        type="OBJECTTYPE"
+                        id="global_class_Model_Producent"
+                        uuid="EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
                   <content>
-                     <itemtype/>
-                     <itemtype type="ATTRIBUTE-NAME"/>
-                     <itemtype type="ATTRIBUTE-DEFINITION"/>
-                     <itemtype type="ATTRIBUTE-FORMAT"/>
-                     <itemtype type="ATTRIBUTE-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_magazijnID">magazijnID</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De identificatie van de baksteen in het magazijn.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Producent</item>
                      </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_kleur">kleur</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende relevantie.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1 .. 5</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_nettogewicht">nettogewicht</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het droog gewicht van de baksteen.</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Gewicht">Gewicht</item>
-                        </item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_status">status</item>
-                        </item>
-                        <item/>
-                        <item>
-                           <item type="global" idref="global_class_Model_Status">Status</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_omvang">omvang</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen. </p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Steengrootte">Steengrootte</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_type">type</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Type baksteen.</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Baksteentype">Baksteentype</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_hoeken">hoeken</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal hoeken van de baksteen.</p>
-                        </item>
-                        <item>
-                           <item type="global">Integer</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_omschrijving">omschrijving</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke taal omschrijving van dit type baksteen.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>0 .. 1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_maxTemperatuur">maxTemperatuur</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
-                        </item>
-                        <item>
-                           <item type="global">REAL</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_lengte">lengte</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">FDe lengte van de baksteen, dus volgens de langste zijde.</p>
-                        </item>
-                        <item>
-                           <item type="global"
-                                 idref="http://www.opengeospatial.org/standards/gml"
-                                 idref-type="external">Measure</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_inMagazijn">inMagazijn</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Is de baksteen nog beschikbaar/leverbaar?</p>
-                        </item>
-                        <item>
-                           <item type="global">Boolean</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_tag">tag</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_ProductieKenmerk">ProductieKenmerk</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteen_oppervlak">oppervlak</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de steen.</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_OppervlakGrootte">OppervlakGrootte</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-               <section type="SHORT-ASSOCIATIONS">
-                  <content approach="association">
-                     <itemtype/>
-                     <itemtype type="ASSOCIATION-NAME"/>
-                     <itemtype type="ASSOCIATION-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>Baksteen</item>
-                           <item>[ 0 .. * ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
-                           </item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen heeft een vorm die is gebasered op een klassiek ontwerp, gelecerd door de aangegeven producent.</p>
-                        </item>
-                     </part>
-                     <part>
-                        <item>
-                           <item>Baksteen</item>
-                           <item>[ 1 ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
-                           </item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen wordt geproduceerd door mogelijk meerdere producenten.</p>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <itemtype/>
-                     <itemtype type="ROLE-NAME"/>
-                     <itemtype type="ROLE-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>Baksteen</item>
-                           <item>[ 0 .. * ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
-                           </item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De steen is ontworpen door een producent, die daarvoor de basis heeft gelegd.</p>
-                        </item>
-                     </part>
-                     <part>
-                        <item>
-                           <item>Baksteen</item>
-                           <item>[ 1 ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
-                           </item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De eerste producent is de maker die als eerste met de baksteen op de markt is gekomen, en de steen nog levert.</p>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-            <section name="Producent"
-                     type="OBJECTTYPE"
-                     id="global_class_Model_Producent"
-                     uuid="EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Producent</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
-                     </item>
-                  </part>
-               </content>
-               <section type="SHORT-ATTRIBUTES">
-                  <content>
-                     <itemtype/>
-                     <itemtype type="ATTRIBUTE-NAME"/>
-                     <itemtype type="ATTRIBUTE-DEFINITION"/>
-                     <itemtype type="ATTRIBUTE-FORMAT"/>
-                     <itemtype type="ATTRIBUTE-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Producent_id">id</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de producent.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Producent_contractdatum">contractdatum</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Datum waarop het contract is afgesloten.</p>
-                        </item>
-                        <item>
-                           <item type="global">Datum</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Producent_site">site</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Website van de producent.</p>
-                        </item>
-                        <item>
-                           <item type="global">URI</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-               <section type="SHORT-ASSOCIATIONS">
-                  <content approach="association">
-                     <itemtype/>
-                     <itemtype type="ASSOCIATION-NAME"/>
-                     <itemtype type="ASSOCIATION-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
-                           </item>
-                           <item>[ 0 .. * ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
-                           </item>
-                           <item>Producent</item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen heeft een vorm die is gebasered op een klassiek ontwerp, gelecerd door de aangegeven producent.</p>
-                        </item>
-                     </part>
-                     <part>
-                        <item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
-                           </item>
-                           <item>[ 1 ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
-                           </item>
-                           <item>Producent</item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen wordt geproduceerd door mogelijk meerdere producenten.</p>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <itemtype/>
-                     <itemtype type="ROLE-NAME"/>
-                     <itemtype type="ROLE-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
-                           </item>
-                           <item>[ 0 .. * ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
-                           </item>
-                           <item>Producent</item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De steen is ontworpen door een producent, die daarvoor de basis heeft gelegd.</p>
-                        </item>
-                     </part>
-                     <part>
-                        <item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
-                           </item>
-                           <item>[ 1 ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
-                           </item>
-                           <item>Producent</item>
-                           <item>[ 0 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De eerste producent is de maker die als eerste met de baksteen op de markt is gekomen, en de steen nog levert.</p>
-                        </item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-            <section name="ExterneProducent"
-                     type="OBJECTTYPE"
-                     id="global_class_Model_ExterneProducent"
-                     uuid="EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>ExterneProducent</item>
-                  </part>
-                  <part type="CFG-DOC-ALTERNATIEVENAAM">
-                     <item>Alternatieve naam</item>
-                     <item>Externe producent</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">De producent die niet op het terein van het bakstenen distributiecentrum is gelegen.</p>
-                     </item>
-                  </part>
-               </content>
-               <section type="SHORT-ATTRIBUTES">
-                  <content>
-                     <itemtype/>
-                     <itemtype type="ATTRIBUTE-NAME"/>
-                     <itemtype type="ATTRIBUTE-DEFINITION"/>
-                     <itemtype type="ATTRIBUTE-FORMAT"/>
-                     <itemtype type="ATTRIBUTE-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_attribute_Model_ExterneProducent_postcodegebied">postcodegebied</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Postcodegebied van de producent.</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Postcode">Postcode</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_attribute_Model_ExterneProducent_geoLocatie">geoLocatie</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De locatie waar de producent is gevestigd.</p>
-                        </item>
-                        <item>
-                           <item type="global"
-                                 idref="http://www.opengeospatial.org/standards/gml"
-                                 idref-type="external">GM_Point</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail"
-                                 idref="detail_attribute_Model_ExterneProducent_goniometrie">goniometrie</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Goniometrische beschrijving van de producent in de routekaart.</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Goniometric">Goniometric</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-               <section type="SHORT-ASSOCIATIONS">
-                  <content approach="association">
-                     <itemtype/>
-                     <itemtype type="ASSOCIATION-NAME"/>
-                     <itemtype type="ASSOCIATION-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>ExterneProducent</item>
-                           <item>is specialisatie van</item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
-                           </item>
-                        </item>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
@@ -594,673 +361,908 @@
                         </item>
                      </part>
                   </content>
-                  <content approach="target">
-                     <itemtype/>
-                     <itemtype type="ROLE-NAME"/>
-                     <itemtype type="ROLE-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>ExterneProducent</item>
-                           <item>is specialisatie van</item>
+                  <section type="SHORT-ATTRIBUTES">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="ATTRIBUTE-NAME"/>
+                        <itemtype type="ATTRIBUTE-DEFINITION"/>
+                        <itemtype type="ATTRIBUTE-FORMAT"/>
+                        <itemtype type="ATTRIBUTE-CARD"/>
+                        <part>
                            <item>
-                              <item type="global" idref="global_class_Model_Producent">Producent</item>
+                              <item type="detail" idref="detail_attribute_Model_Producent_id">id</item>
                            </item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
-                        </item>
-                     </part>
-                  </content>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de producent.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Producent_contractdatum">contractdatum</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Datum waarop het contract is afgesloten.</p>
+                           </item>
+                           <item>
+                              <item type="global">Datum</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Producent_site">site</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Website van de producent.</p>
+                           </item>
+                           <item>
+                              <item type="global">URI</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section type="SHORT-ASSOCIATIONS">
+                     <content approach="association">
+                        <itemtype/>
+                        <itemtype type="ASSOCIATION-NAME"/>
+                        <itemtype type="ASSOCIATION-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                              </item>
+                              <item>[ 0 .. * ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                              </item>
+                              <item>Producent</item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen heeft een vorm die is gebasered op een klassiek ontwerp, gelecerd door de aangegeven producent.</p>
+                           </item>
+                        </part>
+                        <part>
+                           <item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                              </item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                              </item>
+                              <item>Producent</item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De baksteen wordt geproduceerd door mogelijk meerdere producenten.</p>
+                           </item>
+                        </part>
+                     </content>
+                     <content approach="target">
+                        <itemtype/>
+                        <itemtype type="ROLE-NAME"/>
+                        <itemtype type="ROLE-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                              </item>
+                              <item>[ 0 .. * ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</item>
+                              </item>
+                              <item>Producent</item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De steen is ontworpen door een producent, die daarvoor de basis heeft gelegd.</p>
+                           </item>
+                        </part>
+                        <part>
+                           <item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Baksteen">Baksteen</item>
+                              </item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Baksteen_eersteProducent">geproduceerdDoor: eersteProducent</item>
+                              </item>
+                              <item>Producent</item>
+                              <item>[ 0 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De eerste producent is de maker die als eerste met de baksteen op de markt is gekomen, en de steen nog levert.</p>
+                           </item>
+                        </part>
+                     </content>
+                  </section>
                </section>
-            </section>
-            <section name="Client"
-                     type="OBJECTTYPE"
-                     id="global_class_Model_Client"
-                     uuid="EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Client</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">De klant.</p>
-                     </item>
-                  </part>
-               </content>
-               <section type="SHORT-ATTRIBUTES">
+               <section name="ExterneProducent"
+                        type="OBJECTTYPE"
+                        id="global_class_Model_ExterneProducent"
+                        uuid="EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
                   <content>
-                     <itemtype/>
-                     <itemtype type="ATTRIBUTE-NAME"/>
-                     <itemtype type="ATTRIBUTE-DEFINITION"/>
-                     <itemtype type="ATTRIBUTE-FORMAT"/>
-                     <itemtype type="ATTRIBUTE-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Client_id">id</item>
-                        </item>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>ExterneProducent</item>
+                     </part>
+                     <part type="CFG-DOC-ALTERNATIEVENAAM">
+                        <item>Alternatieve naam</item>
+                        <item>Externe producent</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
                         <item>
                            <p xmlns="http://www.w3.org/1999/xhtml"
                               xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de client.</p>
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De producent die niet op het terein van het bakstenen distributiecentrum is gelegen.</p>
                         </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part type="COMPOSER">
-                        <item>
-                           <item type="detail" idref="detail_class_Model_Accountmanager">contactIntern (Accountmanager)</item>
-                        </item>
-                        <item/>
-                        <item/>
-                        <item>1 .. *</item>
-                     </part>
-                     <part type="COMPOSED">
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Accountmanager_voornaam">voornaam</item>
-                        </item>
-                        <item/>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part type="COMPOSED">
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Accountmanager_achternaam">achternaam</item>
-                        </item>
-                        <item/>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
                      </part>
                   </content>
-               </section>
-               <section type="SHORT-ASSOCIATIONS">
-                  <content approach="association">
-                     <itemtype/>
-                     <itemtype type="ASSOCIATION-NAME"/>
-                     <itemtype type="ASSOCIATION-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>Client</item>
-                           <item>[ 1 ]</item>
+                  <section type="SHORT-ATTRIBUTES">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="ATTRIBUTE-NAME"/>
+                        <itemtype type="ATTRIBUTE-DEFINITION"/>
+                        <itemtype type="ATTRIBUTE-FORMAT"/>
+                        <itemtype type="ATTRIBUTE-CARD"/>
+                        <part>
                            <item>
-                              <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                              <item type="detail"
+                                    idref="detail_attribute_Model_ExterneProducent_postcodegebied">postcodegebied</item>
                            </item>
                            <item>
-                              <item type="global" idref="global_class_Model_Contract">Contract</item>
-                           </item>
-                           <item>[ 1 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De client wordt aan een of meerdere contracten gebonden op basis van een afspraak (deal).</p>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <itemtype/>
-                     <itemtype type="ROLE-NAME"/>
-                     <itemtype type="ROLE-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>Client</item>
-                           <item>[ 1 ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Postcodegebied van de producent.</p>
                            </item>
                            <item>
-                              <item type="global" idref="global_class_Model_Contract">Contract</item>
+                              <item type="global" idref="global_class_Model_Postcode">Postcode</item>
                            </item>
-                           <item>[ 1 .. * ]</item>
-                        </item>
-                        <item/>
-                     </part>
-                  </content>
-               </section>
-            </section>
-            <section name="Contract"
-                     type="OBJECTTYPE"
-                     id="global_class_Model_Contract"
-                     uuid="EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Contract</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Formele registratie van voorwaarden volgens welke een levering plaatsvindt.</p>
-                     </item>
-                  </part>
-               </content>
-               <section type="SHORT-ATTRIBUTES">
-                  <content>
-                     <itemtype/>
-                     <itemtype type="ATTRIBUTE-NAME"/>
-                     <itemtype type="ATTRIBUTE-DEFINITION"/>
-                     <itemtype type="ATTRIBUTE-FORMAT"/>
-                     <itemtype type="ATTRIBUTE-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Contract_id">id</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van het contract.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-               <section type="SHORT-ASSOCIATIONS">
-                  <content approach="association">
-                     <itemtype/>
-                     <itemtype type="ASSOCIATION-NAME"/>
-                     <itemtype type="ASSOCIATION-DEFINITION"/>
-                     <part>
-                        <item>
+                           <item>1</item>
+                        </part>
+                        <part>
                            <item>
-                              <item type="global" idref="global_class_Model_Client">Client</item>
+                              <item type="detail"
+                                    idref="detail_attribute_Model_ExterneProducent_geoLocatie">geoLocatie</item>
                            </item>
-                           <item>[ 1 ]</item>
                            <item>
-                              <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De locatie waar de producent is gevestigd.</p>
                            </item>
-                           <item>Contract</item>
-                           <item>[ 1 .. * ]</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De client wordt aan een of meerdere contracten gebonden op basis van een afspraak (deal).</p>
-                        </item>
-                     </part>
-                  </content>
-                  <content approach="target">
-                     <itemtype/>
-                     <itemtype type="ROLE-NAME"/>
-                     <itemtype type="ROLE-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>
-                              <item type="global" idref="global_class_Model_Client">Client</item>
-                           </item>
-                           <item>[ 1 ]</item>
-                           <item>
-                              <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
-                           </item>
-                           <item>Contract</item>
-                           <item>[ 1 .. * ]</item>
-                        </item>
-                        <item/>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
-         <section type="OVERVIEW-ASSOCIATIONCLASS">
-            <section name="Deal"
-                     type="ASSOCIATIONCLASS"
-                     id="global_class_Model_Deal"
-                     uuid="EAID_77692663_02DC_482e_827D_F7D28AF607D8">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Deal</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Afspraak tussen distributiekantoor en client.</p>
-                     </item>
-                  </part>
-                  <part type="CFG-DOC-TOELICHTING">
-                     <item>Toelichting</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">De afspraak is vastgelegd in een contract.</p>
-                     </item>
-                  </part>
-                  <part type="CFG-DOC-RELATIESOORT">
-                     <item>Relatiesoort</item>
-                     <item>Client deal Contract</item>
-                  </part>
-               </content>
-               <section type="SHORT-ATTRIBUTES">
-                  <content>
-                     <itemtype/>
-                     <itemtype type="ATTRIBUTE-NAME"/>
-                     <itemtype type="ATTRIBUTE-DEFINITION"/>
-                     <itemtype type="ATTRIBUTE-FORMAT"/>
-                     <itemtype type="ATTRIBUTE-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Deal_ondertekendOp">ondertekendOp</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Bhet moment dat de afspraak is vastgelegd.</p>
-                        </item>
-                        <item>
-                           <item type="global">DatumTijd</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Deal_feestJaar">feestJaar</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Het eerstvolgende jaar dat voor de client een feest is.<br clear="none"/>
-                                    </p>
-                        </item>
-                        <item>
-                           <item type="global">Jaar</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Deal_feestMaand">feestMaand</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende maand dat voor de client een feest is.<br clear="none"/>
-                                    </p>
-                        </item>
-                        <item>
-                           <item type="global">MONTH</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Deal_feestDag">feestDag</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende dag dat voor de client een feest is.<br clear="none"/>
-                                    </p>
-                        </item>
-                        <item>
-                           <item type="global">DAY</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
-         <section type="OVERVIEW-REFERENCELIST">
-            <section name="Baksteentype"
-                     type="REFERENCELIST"
-                     id="global_class_Model_Baksteentype"
-                     uuid="EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Baksteentype</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Type van baksteen. </p>
-                     </item>
-                  </part>
-                  <part type="CFG-DOC-TOELICHTING">
-                     <item>Toelichting</item>
-                     <item>Voor lijsten die deel uitmaken van een registratie betreft dit de daarin opgenomen toelichting.</item>
-                  </part>
-               </content>
-               <section type="SHORT-REFERENCEELEMENTS">
-                  <content>
-                     <itemtype/>
-                     <itemtype type="REFERENCEELEMENT-NAME"/>
-                     <itemtype type="REFERENCEELEMENT-DEFINITION"/>
-                     <itemtype type="REFERENCEELEMENT-FORMAT"/>
-                     <itemtype type="REFERENCEELEMENT-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteentype_code">code</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Code van het baksteen type.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Baksteentype_waarde">waarde</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het baksteentype, in natuurlijke taal.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
-         <section type="OVERVIEW-UNION">
-            <section name="Goniometric"
-                     type="UNION"
-                     id="global_class_Model_Goniometric"
-                     uuid="EAID_22DF50AD_91EB_4db3_AA33_D5C2CE2FB906">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Goniometric</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Goneometische beschrrijving in de vorm van een lijn of oppervlak.</p>
-                     </item>
-                  </part>
-               </content>
-               <section type="SHORT-UNIONELEMENTS">
-                  <content>
-                     <itemtype/>
-                     <itemtype type="UNIONELEMENT-NAME"/>
-                     <itemtype type="UNIONELEMENT-DEFINITION"/>
-                     <itemtype type="UNIONELEMENT-FORMAT"/>
-                     <itemtype type="UNIONELEMENT-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Goniometric_line">line</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een lijn.</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Lijn">Lijn</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Goniometric_surface">surface</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een oppervlak</p>
-                        </item>
-                        <item>
-                           <item type="global" idref="global_class_Model_Oppervlak">Oppervlak</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
-         <section type="OVERVIEW-STRUCTUREDDATATYPE">
-            <section name="Gewicht"
-                     type="STRUCTUREDDATATYPE"
-                     id="global_class_Model_Gewicht"
-                     uuid="EAID_11FD40A5_BE06_452a_9307_B5B5155E0EA4">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Gewicht</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>Drooggewicht</item>
-                  </part>
-                  <part type="CFG-DOC-PATROON">
-                     <item>Patroon</item>
-                     <item>Metingswaarde, gevolgd door eenheid uit SI.</item>
-                  </part>
-                  <part type="CFG-DOC-FORMEELPATROON">
-                     <item>Formeel patroon</item>
-                     <item>\d+(mm|cm|dm|m)</item>
-                  </part>
-               </content>
-               <section type="SHORT-DATAELEMENTS">
-                  <content>
-                     <itemtype/>
-                     <itemtype type="DATAELEMENT-NAME"/>
-                     <itemtype type="DATAELEMENT-DEFINITION"/>
-                     <itemtype type="DATAELEMENT-FORMAT"/>
-                     <itemtype type="DATAELEMENT-CARD"/>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Gewicht_unit">unit</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">Eenheid van gewicht.</p>
-                        </item>
-                        <item>
-                           <item type="global">CHARACTERSTRING</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                     <part>
-                        <item>
-                           <item type="detail" idref="detail_attribute_Model_Gewicht_amount">amount</item>
-                        </item>
-                        <item>
-                           <p xmlns="http://www.w3.org/1999/xhtml"
-                              xmlns:html="http://www.w3.org/1999/xhtml"
-                              xmlns:imvert="http://www.imvertor.org/schema/system">De hoeveelheid van het gewicht in de eenheid zoals aangegeven.</p>
-                        </item>
-                        <item>
-                           <item type="global">REAL</item>
-                        </item>
-                        <item>1</item>
-                     </part>
-                  </content>
-               </section>
-            </section>
-         </section>
-         <section type="OVERVIEW-PRIMITIVEDATATYPE">
-            <section name="Lijn"
-                     type="PRIMITIVEDATATYPE"
-                     id="global_class_Model_Lijn"
-                     uuid="EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Lijn</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een geometrische lijn.</p>
-                     </item>
-                  </part>
-               </content>
-            </section>
-            <section name="Oppervlak"
-                     type="PRIMITIVEDATATYPE"
-                     id="global_class_Model_Oppervlak"
-                     uuid="EAID_8860422B_51C4_4f67_B9C4_90B01A356442">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Oppervlak</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een geometrisch oppervlak.</p>
-                     </item>
-                  </part>
-               </content>
-            </section>
-            <section name="OppervlakGrootte"
-                     type="PRIMITIVEDATATYPE"
-                     id="global_class_Model_OppervlakGrootte"
-                     uuid="EAID_8D034A6D_37F7_4765_9CFF_FE3DF59A8340">
-               <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>OppervlakGrootte</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
-                     <item>
-                        <p xmlns="http://www.w3.org/1999/xhtml"
-                           xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">The rectangular size of a section</p>
-                     </item>
-                  </part>
-                  <part type="CFG-DOC-PATROON">
-                     <item>Patroon</item>
-                     <item>Eerst breedte, dan hoogte. Breedte is altijd breedste maat.</item>
-                  </part>
-                  <part type="CFG-DOC-FORMEELPATROON">
-                     <item>Formeel patroon</item>
-                     <item>\d+:\d+</item>
-                  </part>
-               </content>
-               <section type="SHORT-TYPERELATIONS">
-                  <content approach="association">
-                     <itemtype/>
-                     <itemtype type="SUPERTYPE-NAME"/>
-                     <itemtype type="SUPERTYPE-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>OppervlakGrootte</item>
-                           <item>is specialisatie van</item>
                            <item>
                               <item type="global"
                                     idref="http://www.opengeospatial.org/standards/gml"
-                                    idref-type="external">Measure</item>
+                                    idref-type="external">GM_Point</item>
                            </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail"
+                                    idref="detail_attribute_Model_ExterneProducent_goniometrie">goniometrie</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Goniometrische beschrijving van de producent in de routekaart.</p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_Goniometric">Goniometric</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section type="SHORT-ASSOCIATIONS">
+                     <content approach="association">
+                        <itemtype/>
+                        <itemtype type="ASSOCIATION-NAME"/>
+                        <itemtype type="ASSOCIATION-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>ExterneProducent</item>
+                              <item>is specialisatie van</item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Producent">Producent</item>
+                              </item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
+                           </item>
+                        </part>
+                     </content>
+                     <content approach="target">
+                        <itemtype/>
+                        <itemtype type="ROLE-NAME"/>
+                        <itemtype type="ROLE-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>ExterneProducent</item>
+                              <item>is specialisatie van</item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Producent">Producent</item>
+                              </item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
+                           </item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <section name="Client"
+                        type="OBJECTTYPE"
+                        id="global_class_Model_Client"
+                        uuid="EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Client</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De klant.</p>
                         </item>
-                        <item/>
                      </part>
                   </content>
-                  <content approach="target">
-                     <itemtype/>
-                     <itemtype type="SUPERTYPE-NAME"/>
-                     <itemtype type="SUPERTYPE-DEFINITION"/>
-                     <part>
-                        <item>
-                           <item>OppervlakGrootte</item>
-                           <item>is specialisatie van</item>
+                  <section type="SHORT-ATTRIBUTES">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="ATTRIBUTE-NAME"/>
+                        <itemtype type="ATTRIBUTE-DEFINITION"/>
+                        <itemtype type="ATTRIBUTE-FORMAT"/>
+                        <itemtype type="ATTRIBUTE-CARD"/>
+                        <part>
                            <item>
-                              <item type="global"
-                                    idref="http://www.opengeospatial.org/standards/gml"
-                                    idref-type="external">Measure</item>
+                              <item type="detail" idref="detail_attribute_Model_Client_id">id</item>
                            </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de client.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part type="COMPOSER">
+                           <item>
+                              <item type="detail" idref="detail_class_Model_Accountmanager">contactIntern (Accountmanager)</item>
+                           </item>
+                           <item/>
+                           <item/>
+                           <item>1 .. *</item>
+                        </part>
+                        <part type="COMPOSED">
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Accountmanager_voornaam">voornaam</item>
+                           </item>
+                           <item/>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part type="COMPOSED">
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Accountmanager_achternaam">achternaam</item>
+                           </item>
+                           <item/>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section type="SHORT-ASSOCIATIONS">
+                     <content approach="association">
+                        <itemtype/>
+                        <itemtype type="ASSOCIATION-NAME"/>
+                        <itemtype type="ASSOCIATION-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>Client</item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                              </item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Contract">Contract</item>
+                              </item>
+                              <item>[ 1 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De client wordt aan een of meerdere contracten gebonden op basis van een afspraak (deal).</p>
+                           </item>
+                        </part>
+                     </content>
+                     <content approach="target">
+                        <itemtype/>
+                        <itemtype type="ROLE-NAME"/>
+                        <itemtype type="ROLE-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>Client</item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                              </item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Contract">Contract</item>
+                              </item>
+                              <item>[ 1 .. * ]</item>
+                           </item>
+                           <item/>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <section name="Contract"
+                        type="OBJECTTYPE"
+                        id="global_class_Model_Contract"
+                        uuid="EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Contract</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Formele registratie van voorwaarden volgens welke een levering plaatsvindt.</p>
                         </item>
-                        <item/>
+                     </part>
+                  </content>
+                  <section type="SHORT-ATTRIBUTES">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="ATTRIBUTE-NAME"/>
+                        <itemtype type="ATTRIBUTE-DEFINITION"/>
+                        <itemtype type="ATTRIBUTE-FORMAT"/>
+                        <itemtype type="ATTRIBUTE-CARD"/>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Contract_id">id</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van het contract.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+                  <section type="SHORT-ASSOCIATIONS">
+                     <content approach="association">
+                        <itemtype/>
+                        <itemtype type="ASSOCIATION-NAME"/>
+                        <itemtype type="ASSOCIATION-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Client">Client</item>
+                              </item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                              </item>
+                              <item>Contract</item>
+                              <item>[ 1 .. * ]</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De client wordt aan een of meerdere contracten gebonden op basis van een afspraak (deal).</p>
+                           </item>
+                        </part>
+                     </content>
+                     <content approach="target">
+                        <itemtype/>
+                        <itemtype type="ROLE-NAME"/>
+                        <itemtype type="ROLE-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>
+                                 <item type="global" idref="global_class_Model_Client">Client</item>
+                              </item>
+                              <item>[ 1 ]</item>
+                              <item>
+                                 <item type="detail" idref="detail_association_Model_Client_contract">deal: contract</item>
+                              </item>
+                              <item>Contract</item>
+                              <item>[ 1 .. * ]</item>
+                           </item>
+                           <item/>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+            </section>
+            <section type="OVERVIEW-ASSOCIATIONCLASS" include="true">
+               <section name="Deal"
+                        type="ASSOCIATIONCLASS"
+                        id="global_class_Model_Deal"
+                        uuid="EAID_77692663_02DC_482e_827D_F7D28AF607D8">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Deal</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Afspraak tussen distributiekantoor en client.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">De afspraak is vastgelegd in een contract.</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-RELATIESOORT">
+                        <item>Relatiesoort</item>
+                        <item>Client deal Contract</item>
+                     </part>
+                  </content>
+                  <section type="SHORT-ATTRIBUTES">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="ATTRIBUTE-NAME"/>
+                        <itemtype type="ATTRIBUTE-DEFINITION"/>
+                        <itemtype type="ATTRIBUTE-FORMAT"/>
+                        <itemtype type="ATTRIBUTE-CARD"/>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Deal_ondertekendOp">ondertekendOp</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Bhet moment dat de afspraak is vastgelegd.</p>
+                           </item>
+                           <item>
+                              <item type="global">DatumTijd</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Deal_feestJaar">feestJaar</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Het eerstvolgende jaar dat voor de client een feest is.<br clear="none"/>
+                                    </p>
+                           </item>
+                           <item>
+                              <item type="global">Jaar</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Deal_feestMaand">feestMaand</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende maand dat voor de client een feest is.<br clear="none"/>
+                                    </p>
+                           </item>
+                           <item>
+                              <item type="global">MONTH</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Deal_feestDag">feestDag</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De eerstvolgende dag dat voor de client een feest is.<br clear="none"/>
+                                    </p>
+                           </item>
+                           <item>
+                              <item type="global">DAY</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+            </section>
+            <section type="OVERVIEW-REFERENCELIST" include="true">
+               <section name="Baksteentype"
+                        type="REFERENCELIST"
+                        id="global_class_Model_Baksteentype"
+                        uuid="EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Baksteentype</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Type van baksteen. </p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-TOELICHTING">
+                        <item>Toelichting</item>
+                        <item>Voor lijsten die deel uitmaken van een registratie betreft dit de daarin opgenomen toelichting.</item>
+                     </part>
+                  </content>
+                  <section type="SHORT-REFERENCEELEMENTS">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="REFERENCEELEMENT-NAME"/>
+                        <itemtype type="REFERENCEELEMENT-DEFINITION"/>
+                        <itemtype type="REFERENCEELEMENT-FORMAT"/>
+                        <itemtype type="REFERENCEELEMENT-CARD"/>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteentype_code">code</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Code van het baksteen type.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Baksteentype_waarde">waarde</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De waarde van het baksteentype, in natuurlijke taal.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+            </section>
+            <section type="OVERVIEW-UNION" include="true">
+               <section name="Goniometric"
+                        type="UNION"
+                        id="global_class_Model_Goniometric"
+                        uuid="EAID_22DF50AD_91EB_4db3_AA33_D5C2CE2FB906">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Goniometric</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Goneometische beschrrijving in de vorm van een lijn of oppervlak.</p>
+                        </item>
+                     </part>
+                  </content>
+                  <section type="SHORT-UNIONELEMENTS">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="UNIONELEMENT-NAME"/>
+                        <itemtype type="UNIONELEMENT-DEFINITION"/>
+                        <itemtype type="UNIONELEMENT-FORMAT"/>
+                        <itemtype type="UNIONELEMENT-CARD"/>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Goniometric_line">line</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een lijn.</p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_Lijn">Lijn</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Goniometric_surface">surface</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De keuze van een oppervlak</p>
+                           </item>
+                           <item>
+                              <item type="global" idref="global_class_Model_Oppervlak">Oppervlak</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+            </section>
+            <section type="OVERVIEW-STRUCTUREDDATATYPE" include="true">
+               <section name="Gewicht"
+                        type="STRUCTUREDDATATYPE"
+                        id="global_class_Model_Gewicht"
+                        uuid="EAID_11FD40A5_BE06_452a_9307_B5B5155E0EA4">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Gewicht</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>Drooggewicht</item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>Metingswaarde, gevolgd door eenheid uit SI.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMEELPATROON">
+                        <item>Formeel patroon</item>
+                        <item>\d+(mm|cm|dm|m)</item>
+                     </part>
+                  </content>
+                  <section type="SHORT-DATAELEMENTS">
+                     <content>
+                        <itemtype/>
+                        <itemtype type="DATAELEMENT-NAME"/>
+                        <itemtype type="DATAELEMENT-DEFINITION"/>
+                        <itemtype type="DATAELEMENT-FORMAT"/>
+                        <itemtype type="DATAELEMENT-CARD"/>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Gewicht_unit">unit</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">Eenheid van gewicht.</p>
+                           </item>
+                           <item>
+                              <item type="global">CHARACTERSTRING</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                        <part>
+                           <item>
+                              <item type="detail" idref="detail_attribute_Model_Gewicht_amount">amount</item>
+                           </item>
+                           <item>
+                              <p xmlns="http://www.w3.org/1999/xhtml"
+                                 xmlns:html="http://www.w3.org/1999/xhtml"
+                                 xmlns:imvert="http://www.imvertor.org/schema/system">De hoeveelheid van het gewicht in de eenheid zoals aangegeven.</p>
+                           </item>
+                           <item>
+                              <item type="global">REAL</item>
+                           </item>
+                           <item>1</item>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+            </section>
+            <section type="OVERVIEW-PRIMITIVEDATATYPE" include="true">
+               <section name="Lijn"
+                        type="PRIMITIVEDATATYPE"
+                        id="global_class_Model_Lijn"
+                        uuid="EAID_05E012A3_0E45_4b91_8F93_3CC0D50B0509">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Lijn</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een geometrische lijn.</p>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="Oppervlak"
+                        type="PRIMITIVEDATATYPE"
+                        id="global_class_Model_Oppervlak"
+                        uuid="EAID_8860422B_51C4_4f67_B9C4_90B01A356442">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Oppervlak</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een geometrisch oppervlak.</p>
+                        </item>
+                     </part>
+                  </content>
+               </section>
+               <section name="OppervlakGrootte"
+                        type="PRIMITIVEDATATYPE"
+                        id="global_class_Model_OppervlakGrootte"
+                        uuid="EAID_8D034A6D_37F7_4765_9CFF_FE3DF59A8340">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>OppervlakGrootte</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">The rectangular size of a section</p>
+                        </item>
+                     </part>
+                     <part type="CFG-DOC-PATROON">
+                        <item>Patroon</item>
+                        <item>Eerst breedte, dan hoogte. Breedte is altijd breedste maat.</item>
+                     </part>
+                     <part type="CFG-DOC-FORMEELPATROON">
+                        <item>Formeel patroon</item>
+                        <item>\d+:\d+</item>
+                     </part>
+                  </content>
+                  <section type="SHORT-TYPERELATIONS">
+                     <content approach="association">
+                        <itemtype/>
+                        <itemtype type="SUPERTYPE-NAME"/>
+                        <itemtype type="SUPERTYPE-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>OppervlakGrootte</item>
+                              <item>is specialisatie van</item>
+                              <item>
+                                 <item type="global"
+                                       idref="http://www.opengeospatial.org/standards/gml"
+                                       idref-type="external">Measure</item>
+                              </item>
+                           </item>
+                           <item/>
+                        </part>
+                     </content>
+                     <content approach="target">
+                        <itemtype/>
+                        <itemtype type="SUPERTYPE-NAME"/>
+                        <itemtype type="SUPERTYPE-DEFINITION"/>
+                        <part>
+                           <item>
+                              <item>OppervlakGrootte</item>
+                              <item>is specialisatie van</item>
+                              <item>
+                                 <item type="global"
+                                       idref="http://www.opengeospatial.org/standards/gml"
+                                       idref-type="external">Measure</item>
+                              </item>
+                           </item>
+                           <item/>
+                        </part>
+                     </content>
+                  </section>
+               </section>
+               <section name="Postcode"
+                        type="PRIMITIVEDATATYPE"
+                        id="global_class_Model_Postcode"
+                        uuid="EAID_6E1568CE_9039_4ed8_B360_291D77922C9F">
+                  <content>
+                     <part type="CFG-DOC-NAAM">
+                        <item>Naam</item>
+                        <item>Postcode</item>
+                     </part>
+                     <part type="CFG-DOC-DEFINITIE">
+                        <item>Definitie</item>
+                        <item>
+                           <p xmlns="http://www.w3.org/1999/xhtml"
+                              xmlns:html="http://www.w3.org/1999/xhtml"
+                              xmlns:imvert="http://www.imvertor.org/schema/system">Een postcode volgens de PostNL postcodetabel.</p>
+                        </item>
                      </part>
                   </content>
                </section>
             </section>
-            <section name="Postcode"
-                     type="PRIMITIVEDATATYPE"
-                     id="global_class_Model_Postcode"
-                     uuid="EAID_6E1568CE_9039_4ed8_B360_291D77922C9F">
+            <section type="OVERVIEW-CODELIST" include="true">
                <content>
-                  <part type="CFG-DOC-NAAM">
-                     <item>Naam</item>
-                     <item>Postcode</item>
-                  </part>
-                  <part type="CFG-DOC-DEFINITIE">
-                     <item>Definitie</item>
+                  <part>
+                     <item id="global_class_Model_ProductieKenmerk"
+                           uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"
+                           idref="detail_class_Model_ProductieKenmerk">ProductieKenmerk</item>
                      <item>
                         <p xmlns="http://www.w3.org/1999/xhtml"
                            xmlns:html="http://www.w3.org/1999/xhtml"
-                           xmlns:imvert="http://www.imvertor.org/schema/system">Een postcode volgens de PostNL postcodetabel.</p>
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Een lijst van productiekenmerken.</p>
                      </item>
                   </part>
                </content>
             </section>
-         </section>
-         <section type="OVERVIEW-CODELIST">
-            <content>
-               <part>
-                  <item id="global_class_Model_ProductieKenmerk"
-                        uuid="EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"
-                        idref="detail_class_Model_ProductieKenmerk">ProductieKenmerk</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Een lijst van productiekenmerken.</p>
-                  </item>
-               </part>
-            </content>
-         </section>
-         <section type="OVERVIEW-ENUMERATION">
-            <content>
-               <part>
-                  <item id="global_class_Model_Steengrootte"
-                        uuid="EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"
-                        idref="detail_class_Model_Steengrootte">Steengrootte</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen.</p>
-                  </item>
-               </part>
-               <part>
-                  <item id="global_class_Model_Status"
-                        uuid="EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8"
-                        idref="detail_class_Model_Status">Status</item>
-                  <item>
-                     <p xmlns="http://www.w3.org/1999/xhtml"
-                        xmlns:html="http://www.w3.org/1999/xhtml"
-                        xmlns:imvert="http://www.imvertor.org/schema/system">Status van het baksteen productieproces.</p>
-                  </item>
-               </part>
-            </content>
+            <section type="OVERVIEW-ENUMERATION" include="true">
+               <content>
+                  <part>
+                     <item id="global_class_Model_Steengrootte"
+                           uuid="EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"
+                           idref="detail_class_Model_Steengrootte">Steengrootte</item>
+                     <item>
+                        <p xmlns="http://www.w3.org/1999/xhtml"
+                           xmlns:html="http://www.w3.org/1999/xhtml"
+                           xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen.</p>
+                     </item>
+                  </part>
+                  <part>
+                     <item id="global_class_Model_Status"
+                           uuid="EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8"
+                           idref="detail_class_Model_Status">Status</item>
+                     <item>
+                        <p xmlns="http://www.w3.org/1999/xhtml"
+                           xmlns:html="http://www.w3.org/1999/xhtml"
+                           xmlns:imvert="http://www.imvertor.org/schema/system">Status van het baksteen productieproces.</p>
+                     </item>
+                  </part>
+               </content>
+            </section>
          </section>
          <section type="DETAILS">
-            <section type="DETAILS-OBJECTTYPE">
+            <section type="DETAILS-OBJECTTYPE" include="true">
                <section name="Baksteen"
                         type="OBJECTTYPE"
                         id="detail_class_Model_Baksteen"
@@ -2617,7 +2619,7 @@
                   </section>
                </section>
             </section>
-            <section type="DETAILS-ASSOCIATIONCLASS">
+            <section type="DETAILS-ASSOCIATIONCLASS" include="true">
                <section name="Deal"
                         type="RELATIEKLASSE"
                         id="detail_class_Model_Deal"
@@ -2811,7 +2813,7 @@
                   </section>
                </section>
             </section>
-            <section type="DETAILS-UNION">
+            <section type="DETAILS-UNION" include="true">
                <section name="Goniometric"
                         type="KEUZE"
                         id="detail_class_Model_Goniometric"
@@ -2880,7 +2882,7 @@
                   </section>
                </section>
             </section>
-            <section type="DETAILS-STRUCTUREDDATATYPE">
+            <section type="DETAILS-STRUCTUREDDATATYPE" include="true">
                <section name="Gewicht"
                         type="GESTRUCTUREERD DATATYPE"
                         id="detail_class_Model_Gewicht"
