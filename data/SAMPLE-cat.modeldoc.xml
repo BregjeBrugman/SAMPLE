@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_EA49E768_3579_460e_BD39_A9FDF771ABC6"
       generator-version="1.53.2"
-      generator-date="2019-06-17T10:04:31Z">
+      generator-date="2019-06-17T10:05:56Z">
    <chapter title="CHAPTER-CATALOG" type="cat"><!--removed empty content-->
       <section type="DOMAIN" name="Model" id="global_package_Model">
          <section type="IMAGEMAPS" name="Model-imagemap" id="imagemap_package_Model">
@@ -2156,7 +2156,7 @@
                         <item>Datum</item>
                      </part>
                      <part type="CFG-DOC-DOMAIN-IMBROA">
-                        <item>Domein IMBRO/A</item>
+                        <item>Formaat IMBRO/A</item>
                         <item>OnvolledigeDatum</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEAFLEIDBAAR">
