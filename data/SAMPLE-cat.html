@@ -1,7 +1,7 @@
 <section id="cat" class="normative" level="1">
    <h2>Gegevensdefinitie</h2>
-   <p><b>Deze tekst is normatief.</b><b>2019-07-29T13:12:37.803+02:00</b>
-      <!--Conceptualmodel-SampleBase-1.0.0-2-20130318-20190729-131231 imvertor 1.53.3--></p>
+   <p><b>Deze tekst is normatief.</b><b>2019-07-29T13:13:41.671+02:00</b>
+      <!--Conceptualmodel-SampleBase-1.0.0-2-20130318-20190729-131335 imvertor 1.53.3--></p>
    <section id="" level="3">
       <h3>Het domeinmodel </h3>
       <div class="imageinfo overview"><img src="data/Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1"><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
@@ -10,6 +10,7 @@
             <area shape="rect" coords="250,661,380,557" alt="" href="#graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458">
             <area shape="rect" coords="58,660,193,558" alt="" href="#graph_EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8">
             <area shape="rect" coords="405,477,540,375" alt="" href="#graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
+            <area shape="rect" coords="35,446,238,175" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
             <area shape="rect" coords="395,330,530,185" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
             <area shape="rect" coords="1026,401,1161,312" alt="" href="#graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
             <area shape="rect" coords="615,435,792,315" alt="" href="#graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B"></map><p><b>Model - overzicht</b> — Overzicht van alle constructies in dit conceptuele model.
@@ -17,68 +18,757 @@
       </div>
    </section>
    <section id="" level="3">
-      <h3>Registratieobject </h3>
-      <section id="" level="4">
-         <h4>[TODO: IMAGEMAP-NOT-SUPPORTED-HERE] </h4>
-         UNSUPPORTED 
-         
+      <h3>Registratieobject </h3><a class="anchor" name="graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></a><a class="anchor" name="global_class_Model_Baksteen"></a><section id="global_class_Model_Baksteen" level="4">
+         <h4>Objecttype Baksteen</h4>
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Baksteen</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een onderdeel van een bouwwerk met een rechthoekige vorm, bedoeld om muren mee te
+                        maken.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een baksteen is een soort bouwmateriaal, <em>maar alleen als het uit klei is gemaakt door mensen</em>.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Relaties met andere objecttypen</th>
+                  <td>
+                     Omschrijving van de relaties: 
+                     
+                     Baksteen
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</a>
+                     
+                     
+                     <a class="link" href="#global_class_Model_Producent">Producent</a>
+                     
+                     [ 0 .. * ]
+                     
+                     Baksteen
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</a>
+                     
+                     
+                     <a class="link" href="#global_class_Model_Producent">Producent</a>
+                     
+                     [ 0 .. * ]
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" name="detail_attribute_Model_Baksteen_magazijnID"></a><section id="detail_attribute_Model_Baksteen_magazijnID" level="5">
+            <h5>Attribuutsoort details magazijnID</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>magazijnID</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De identificatie van de baksteen in het magazijn.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_kleur"></a><section id="detail_attribute_Model_Baksteen_kleur" level="5">
+            <h5>Attribuutsoort details kleur</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>kleur</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende
+                           relevantie.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1 .. 5</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Basisgegeven (niet-authentiek)</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de regels die gelden voor de kleur.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de IMBRO/A regels die gelden voor de kleur.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_nettogewicht"></a><section id="detail_attribute_Model_Baksteen_nettogewicht" level="5">
+            <h5>Attribuutsoort details nettogewicht</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>nettogewicht</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het droog gewicht van de baksteen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Gewicht</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_status"></a><section id="detail_attribute_Model_Baksteen_status" level="5">
+            <h5>Attribuutsoort details status</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>status</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Status</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_omvang"></a><section id="detail_attribute_Model_Baksteen_omvang" level="5">
+            <h5>Attribuutsoort details omvang</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>omvang</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen. </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Uitgedrukt in steengrootte.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Steengrootte</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_type"></a><section id="detail_attribute_Model_Baksteen_type" level="5">
+            <h5>Attribuutsoort details type</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>type</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Type baksteen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Baksteentype</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_hoeken"></a><section id="detail_attribute_Model_Baksteen_hoeken" level="5">
+            <h5>Attribuutsoort details hoeken</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>hoeken</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal hoeken van de baksteen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit moet een getal deelbaar door 8 zijn.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Integer</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_omschrijving"></a><section id="detail_attribute_Model_Baksteen_omschrijving" level="5">
+            <h5>Attribuutsoort details omschrijving</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>omschrijving</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke taal omschrijving van dit type baksteen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_maxTemperatuur"></a><section id="detail_attribute_Model_Baksteen_maxTemperatuur" level="5">
+            <h5>Attribuutsoort details maxTemperatuur</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>maxTemperatuur</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>REAL</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_lengte"></a><section id="detail_attribute_Model_Baksteen_lengte" level="5">
+            <h5>Attribuutsoort details lengte</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>lengte</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">FDe lengte van de baksteen, dus volgens de langste zijde.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Lengte in meters.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Measure</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Meeteenheid</th>
+                     <td>m</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_inMagazijn"></a><section id="detail_attribute_Model_Baksteen_inMagazijn" level="5">
+            <h5>Attribuutsoort details inMagazijn</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>inMagazijn</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Is de baksteen nog beschikbaar/leverbaar?</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>Boolean</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_tag"></a><section id="detail_attribute_Model_Baksteen_tag" level="5">
+            <h5>Attribuutsoort details tag</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>tag</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>ProductieKenmerk</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_oppervlak"></a><section id="detail_attribute_Model_Baksteen_oppervlak" level="5">
+            <h5>Attribuutsoort details oppervlak</h5>
+            
+            <table>
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Naam</th>
+                     <td>oppervlak</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de steen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit is de oppervlakte van de grootste zijde.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie materiële historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie formele historie</th>
+                     <td>Nee</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie authentiek</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Formaat</th>
+                     <td>OppervlakGrootte</td>
+                  </tr>
+                  <tr>
+                     <th>Indicatie afleidbaar</th>
+                     <td>Nee</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
       </section>
-      <table>
-         <colgroup width="30%"></colgroup>
-         <colgroup width="70%"></colgroup>
-         <tbody>
-            <tr>
-               <th>Naam</th>
-               <td>Baksteen</td>
-            </tr>
-            <tr>
-               <th>Definitie</th>
-               <td>
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een onderdeel van een bouwwerk met een rechthoekige vorm, bedoeld om muren mee te
-                     maken.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <th>Toelichting</th>
-               <td>
-                  
-                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een baksteen is een soort bouwmateriaal, <em>maar alleen als het uit klei is gemaakt door mensen</em>.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <th>Relaties met andere objecttypen</th>
-               <td>
-                  Omschrijving van de relaties: 
-                  
-                  Baksteen
-                  [ 0 .. * ]
-                  
-                  <a class="link" href="#detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</a>
-                  
-                  
-                  <a class="link" href="#global_class_Model_Producent">Producent</a>
-                  
-                  [ 0 .. * ]
-                  
-                  Baksteen
-                  [ 0 .. * ]
-                  
-                  <a class="link" href="#detail_association_Model_Baksteen_ontwerpBasis">gebaseerdOpOntwerp: ontwerpBasis</a>
-                  
-                  
-                  <a class="link" href="#global_class_Model_Producent">Producent</a>
-                  
-                  [ 0 .. * ]
-                  
-               </td>
-            </tr>
-         </tbody>
-      </table>
    </section>
    <section id="" level="3">
       <h3>Objecttypen en attributen </h3><a class="anchor" name="graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27"></a><a class="anchor" name="global_class_Model_Producent"></a><section id="global_class_Model_Producent" level="4">
