@@ -1,7 +1,7 @@
 <section id="cat" class="normative" level="1">
    <h2>Gegevensdefinitie</h2>
    <p><b>Deze tekst is normatief.</b>
-      <!--Conceptualmodel-SampleBase-1.0.0-2-20130318-20190729-164918 imvertor 1.53.4--></p>
+      <!--Conceptualmodel-SampleBase-1.0.0-2-20130318-20190729-165334 imvertor 1.53.4--></p>
    <section id="" level="3">
       <h3>Het domeinmodel </h3>
       <div class="imageinfo overview"><img src="data/Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1"><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
@@ -55,7 +55,7 @@
                   [ 0 .. * ]
                   <a class="link" href="#global_class_Model_Producent">Producent</a>
                   <br>Baksteen
-                  gebaseerdOpOntwerp: ontwerpBasis
+                  geproduceerdDoor: eersteProducent
                   [ 0 .. * ]
                   <a class="link" href="#global_class_Model_Producent">Producent</a>
                   <br></td>
@@ -733,7 +733,7 @@
                      [ 0 .. * ]Producent<br>
                      <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
                      
-                     gebaseerdOpOntwerp: ontwerpBasis
+                     geproduceerdDoor: eersteProducent
                      [ 0 .. * ]Producent<br></td>
                </tr>
             </tbody>
@@ -906,8 +906,6 @@
                   <th>Relaties met andere entiteiten</th>
                   <td>
                      Omschrijving van de relaties: 
-                     <br>ExterneProducent
-                     <a class="link" href="#global_class_Model_Producent">Producent</a>
                      <br>ExterneProducent
                      <a class="link" href="#global_class_Model_Producent">Producent</a>
                      <br></td>
@@ -1086,10 +1084,6 @@
                      deal: contract
                      [ 1 .. * ]
                      <a class="link" href="#global_class_Model_Contract">Contract</a>
-                     <br>Client
-                     deal: contract
-                     [ 1 .. * ]
-                     <a class="link" href="#global_class_Model_Contract">Contract</a>
                      <br></td>
                </tr>
             </tbody>
@@ -1163,10 +1157,6 @@
                   <td>
                      Omschrijving van de relaties: 
                      <br>
-                     <a class="link" href="#global_class_Model_Client">Client</a>
-                     
-                     deal: contract
-                     [ 1 .. * ]Contract<br>
                      <a class="link" href="#global_class_Model_Client">Client</a>
                      
                      deal: contract
