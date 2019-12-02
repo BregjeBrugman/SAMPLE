@@ -1,5 +1,5 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-CV",
   specType: "IM",
   publishDate: "2017-07-28",
   editors: [{
