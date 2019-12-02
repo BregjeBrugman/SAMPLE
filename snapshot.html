@@ -1,0 +1,2074 @@
+<!DOCTYPE html><html lang="nl"><head><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta content="text/html; charset=utf-8" http-equiv="content-type"><meta name="generator" content="ReSpec 24.5.2">
+  
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico">
+  <link rel="stylesheet" type="text/css" href="localstyle.css">
+  <title>BRO SAMPLE</title>
+  
+  <style id="respec-mainstyle">/*****************************************************************
+ * ReSpec 3 CSS
+ * Robin Berjon - http://berjon.com/
+ *****************************************************************/
+
+/* Override code highlighter background */
+.hljs {
+  background: transparent !important;
+}
+
+/* --- INLINES --- */
+h1 abbr,
+h2 abbr,
+h3 abbr,
+h4 abbr,
+h5 abbr,
+h6 abbr,
+a abbr {
+  border: none;
+}
+
+dfn {
+  font-weight: bold;
+}
+
+a.internalDFN {
+  color: inherit;
+  border-bottom: 1px solid #99c;
+  text-decoration: none;
+}
+
+a.externalDFN {
+  color: inherit;
+  border-bottom: 1px dotted #ccc;
+  text-decoration: none;
+}
+
+a.bibref {
+  text-decoration: none;
+}
+
+#references :target {
+  background: #eaf3ff;
+}
+
+cite .bibref {
+  font-style: normal;
+}
+
+code {
+  color: #c83500;
+}
+
+th code {
+  color: inherit;
+}
+
+/* --- TOC --- */
+
+.toc a,
+.tof a {
+  text-decoration: none;
+}
+
+a .secno,
+a .figno {
+  color: #000;
+}
+
+ul.tof,
+ol.tof {
+  list-style: none outside none;
+}
+
+.caption {
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+/* --- TABLE --- */
+
+table.simple {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-bottom: 3px solid #005a9c;
+}
+
+.simple th {
+  background: #005a9c;
+  color: #fff;
+  padding: 3px 5px;
+  text-align: left;
+}
+
+.simple th[scope="row"] {
+  background: inherit;
+  color: inherit;
+  border-top: 1px solid #ddd;
+}
+
+.simple td {
+  padding: 3px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.simple tr:nth-child(even) {
+  background: #f0f6ff;
+}
+
+/* --- DL --- */
+
+.section dd>p:first-child {
+  margin-top: 0;
+}
+
+.section dd>p:last-child {
+  margin-bottom: 0;
+}
+
+.section dd {
+  margin-bottom: 1em;
+}
+
+.section dl.attrs dd,
+.section dl.eldef dd {
+  margin-bottom: 0;
+}
+
+#issue-summary>ul,
+.respec-dfn-list {
+  column-count: 2;
+}
+
+#issue-summary li,
+.respec-dfn-list li {
+  list-style: none;
+}
+
+details.respec-tests-details {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+details.respec-tests-details>* {
+  padding-right: 2em;
+}
+
+details.respec-tests-details[open] {
+  z-index: 999999;
+  position: absolute;
+  border: thin solid #cad3e2;
+  border-radius: 0.3em;
+  background-color: white;
+  padding-bottom: 0.5em;
+}
+
+details.respec-tests-details[open]>summary {
+  border-bottom: thin solid #cad3e2;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  line-height: 2em;
+}
+
+details.respec-tests-details>ul {
+  width: 100%;
+  margin-top: -0.3em;
+}
+
+details.respec-tests-details>li {
+  padding-left: 1em;
+}
+
+a[href].self-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+aside.example .marker > a.self-link {
+  color: inherit;
+}
+
+h2>a.self-link,
+h3>a.self-link,
+h4>a.self-link,
+h5>a.self-link,
+h6>a.self-link {
+  border: none;
+  color: inherit;
+  font-size: 83%;
+  height: 2em;
+  left: -1.6em;
+  opacity: .5;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  transition: opacity .2s;
+  width: 2em;
+}
+
+h2>a.self-link::before,
+h3>a.self-link::before,
+h4>a.self-link::before,
+h5>a.self-link::before,
+h6>a.self-link::before {
+  content: "§";
+  display: block;
+}
+
+@media (max-width: 767px) {
+  dd {
+    margin-left: 0;
+  }
+
+  /* Don't position self-link in headings off-screen */
+  h2>a.self-link,
+  h3>a.self-link,
+  h4>a.self-link,
+  h5>a.self-link,
+  h6>a.self-link {
+    left: auto;
+    top: auto;
+  }
+}
+
+@media print {
+  .removeOnSave {
+    display: none;
+  }
+}
+</style>
+<link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/GN-WV.css"><link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico"><script id="initialUserConfig" type="application/json">{
+  "specStatus": "GN-WV",
+  "specType": "IM",
+  "publishDate": "2017-07-28",
+  "editors": [
+    {
+      "name": "First Lastname",
+      "company": "Company",
+      "companyURL": "CompanyURL"
+    },
+    {
+      "name": "Second Lastname",
+      "company": "Company",
+      "companyURL": "CompanyURL"
+    }
+  ],
+  "shortName": "bro-SAMPLE",
+  "pubDomain": "bro",
+  "github": "https://github.com/BROprogramma/SAMPLE",
+  "publishISODate": "2017-07-28T00:00:00.000Z",
+  "generatedSubtitle": "Werkversie 28 juli 2017"
+}</script><meta name="description" content="Samenvatting van informatiemodel."><script type="application/ld+json">{
+  "@context": [
+    "http://schema.org",
+    {
+      "@vocab": "http://schema.org/",
+      "@language": "nl",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      },
+      "inLanguage": {
+        "@language": null
+      },
+      "isBasedOn": {
+        "@type": "@id"
+      },
+      "license": {
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://broprogramma.github.io/SAMPLE/",
+  "type": [
+    "TechArticle"
+  ],
+  "name": "BRO SAMPLE",
+  "inLanguage": "nl",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "datePublished": "2017-07-28",
+  "copyrightHolder": {
+    "name": "Geonovum",
+    "url": "https://www.geonovum.nl/"
+  },
+  "discussionUrl": "https://github.com/BROprogramma/SAMPLE/issues/",
+  "alternativeHeadline": "",
+  "description": "Samenvatting van informatiemodel.",
+  "editor": [
+    {
+      "type": "Person",
+      "name": "First Lastname",
+      "worksFor": {
+        "name": "Company",
+        "url": "CompanyURL"
+      }
+    },
+    {
+      "type": "Person",
+      "name": "Second Lastname",
+      "worksFor": {
+        "name": "Company",
+        "url": "CompanyURL"
+      }
+    }
+  ],
+  "citation": []
+}</script></head>
+
+<body class="h-entry"><div class="head">
+  <a href="https://www.geonovum.nl/" class="logo"><img id="Geonovum" alt="Geonovum" width="132" height="67" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg"></a>
+  <h1 class="title p-name" id="title">BRO SAMPLE</h1>
+  
+  <h2>Geonovum Informatiemodel<br>
+  Werkversie <time class="dt-published" datetime="2017-07-28">28 juli 2017</time></h2>
+  <dl>
+    <dt>Deze versie:</dt><dd><a class="u-url" href="https://broprogramma.github.io/SAMPLE/">https://broprogramma.github.io/SAMPLE/</a></dd><dt>Laatst gepubliceerde versie:</dt><dd><a href="https://docs.geostandaarden.nl/bro/bro-SAMPLE/">https://docs.geostandaarden.nl/bro/bro-SAMPLE/</a></dd>
+    
+    
+    <dt>Laatste werkversie:</dt><dd><a href="https://broprogramma.github.io/SAMPLE/">https://broprogramma.github.io/SAMPLE/</a></dd>
+    <dt>Redacteurs:</dt>
+    <dd class="p-author h-card vcard"><span class="p-name fn">First Lastname</span>, <a class="p-org org h-org h-card" href="CompanyURL">Company</a></dd><dd class="p-author h-card vcard"><span class="p-name fn">Second Lastname</span>, <a class="p-org org h-org h-card" href="CompanyURL">Company</a></dd>
+    
+    <dt>Doe mee:</dt><dd>
+      <a href="https://github.com/BROprogramma/SAMPLE/">GitHub BROprogramma/SAMPLE</a>
+    </dd><dd>
+      <a href="https://github.com/BROprogramma/SAMPLE/issues/">Dien een melding in</a>
+    </dd><dd>
+      <a href="https://github.com/BROprogramma/SAMPLE/commits/gh-pages">Revisiehistorie</a>
+    </dd><dd>
+      <a href="https://github.com/BROprogramma/SAMPLE/pulls/">Pull requests</a>
+    </dd>
+  </dl>
+  
+  
+    <dl>
+          <dt>Rechtenbeleid:</dt>
+          <dd>
+            <div class="copyright" style="margin: 0.25em 0;">
+              <abbr title="Creative Commons Attribution 4.0 International Public License">
+              <a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img width="115" height="40" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Creative Commons Attribution 4.0 International Public License"></a>
+            </abbr>
+              <div style="display:inline-block; vertical-align:top">
+                <p style="font-size: small;">Creative Commons Attribution 4.0 International Public License<br>(CC-BY)</p>
+              </div>
+            </div>
+          </dd>
+        </dl>
+  <hr title="Separator for header">
+</div>
+  <section id="abstract" class="introductory">
+    <h2>Samenvatting</h2>
+    <p>Samenvatting van informatiemodel.</p>
+  </section>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>
+    <em>Deze paragraaf beschrijft de status van dit document ten tijde van publicatie. Het is mogelijk dat er actuelere versies van dit document bestaan. Een lijst van Geonovum publicaties en de laatste gepubliceerde versie van dit document zijn te vinden op <a href="https://www.geonovum.nl/geo-standaarden/alle-standaarden">https://www.geonovum.nl/geo-standaarden/alle-standaarden</a>.</em>
+  </p><p>
+
+
+  Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door de werkgroep goedgekeurde consultatieversie.
+
+
+
+
+
+
+
+</p>
+    <p>Status van dit document.</p>
+  </section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#inleiding"><span class="secno">1. </span>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel-en-doelgroep"><span class="secno">1.1 </span>Doel en doelgroep</a></li><li class="tocline"><a class="tocxref" href="#totstandkoming"><span class="secno">1.2 </span>Totstandkoming</a></li><li class="tocline"><a class="tocxref" href="#beheer"><span class="secno">1.3 </span>Beheer</a></li><li class="tocline"><a class="tocxref" href="#algemene-kenmerken-en-begrippen"><span class="secno">1.4 </span>Algemene kenmerken en begrippen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#opzet-van-het-systeem"><span class="secno">1.4.1 </span>Opzet van de landelijke voorziening</a></li><li class="tocline"><a class="tocxref" href="#registratieobject"><span class="secno">1.4.2 </span>Registratieobject</a></li><li class="tocline"><a class="tocxref" href="#registratiedomein"><span class="secno">1.4.3 </span>Registratiedomein</a></li><li class="tocline"><a class="tocxref" href="#kwaliteitsregime"><span class="secno">1.4.4 </span>Kwaliteitsregime</a></li><li class="tocline"><a class="tocxref" href="#formele-en-materiële-geschiedenis"><span class="secno">1.4.5 </span>Formele en materiële geschiedenis</a></li><li class="tocline"><a class="tocxref" href="#coördinaten-en-referentiestelsels"><span class="secno">1.4.6 </span>Coördinaten en referentiestelsels</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#referentiestelsels-voor-de-horizontale-positie"><span class="secno">1.4.6.1 </span>Referentiestelsels voor de horizontale positie</a></li><li class="tocline"><a class="tocxref" href="#referentiestelsels-voor-de-verticale-positie"><span class="secno">1.4.6.2 </span>Referentiestelsels voor de verticale positie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#gegevens-op-land-en-op-zee"><span class="secno">1.4.7 </span>Gegevens op land en op zee</a></li><li class="tocline"><a class="tocxref" href="#nauwkeurigheid-van-meetwaarden"><span class="secno">1.4.8 </span>Nauwkeurigheid van meetwaarden</a></li><li class="tocline"><a class="tocxref" href="#authentiek-gegeven"><span class="secno">1.4.9 </span>Authentiek gegeven</a></li></ol></li><li class="tocline"><a class="tocxref" href="#geotechnisch-sondeeronderzoek"><span class="secno">1.5 </span>Geotechnisch sondeeronderzoek</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bodem-en-grondonderzoek"><span class="secno">1.5.1 </span>Bodem- en grondonderzoek</a></li><li class="tocline"><a class="tocxref" href="#sonderen"><span class="secno">1.5.2 </span>Sonderen</a></li><li class="tocline"><a class="tocxref" href="#registratieobject-cpt"><span class="secno">1.5.3 </span>Registratieobject Geotechnisch sondeeronderzoek</a></li><li class="tocline"><a class="tocxref" href="#domeinmodel"><span class="secno">1.5.4 </span>Domeinmodel</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#het-domeinmodel"><span class="secno">1.5.4.1 </span>Het domeinmodel</a></li><li class="tocline"><a class="tocxref" href="#cpt"><span class="secno">1.5.4.2 </span>Geotechnisch sondeeronderzoek</a></li><li class="tocline"><a class="tocxref" href="#reg-gesch"><span class="secno">1.5.4.3 </span>Registratiegeschiedenis</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><span class="secno">1.6 </span>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#het-domeinmodel-0"><span class="secno">1.6.1 </span>Het domeinmodel   </a></li><li class="tocline"><a class="tocxref" href="#global_class_Model_Registratieobject"><span class="secno">1.6.2 </span>   Registratieobject</a></li><li class="tocline"><a class="tocxref" href="#entiteiten-en-attributen"><span class="secno">1.6.3 </span>Entiteiten en attributen   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_Model_Baksteen"><span class="secno">1.6.3.1 </span>   Baksteen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_bROID"><span class="secno">1.6.3.1.1 </span>  BRO-ID</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_magazijnID"><span class="secno">1.6.3.1.2 </span>  magazijnID</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_kleur"><span class="secno">1.6.3.1.3 </span>  kleur</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_nettogewicht"><span class="secno">1.6.3.1.4 </span>  nettogewicht</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_status"><span class="secno">1.6.3.1.5 </span>  status</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_omvang"><span class="secno">1.6.3.1.6 </span>  omvang</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_type"><span class="secno">1.6.3.1.7 </span>  type</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_hoeken"><span class="secno">1.6.3.1.8 </span>  hoeken</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_omschrijving"><span class="secno">1.6.3.1.9 </span>  omschrijving</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_maxTemperatuur"><span class="secno">1.6.3.1.10 </span>  maxTemperatuur</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_lengte"><span class="secno">1.6.3.1.11 </span>  lengte</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_inMagazijn"><span class="secno">1.6.3.1.12 </span>  inMagazijn</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_tag"><span class="secno">1.6.3.1.13 </span>  tag</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Baksteen_oppervlak"><span class="secno">1.6.3.1.14 </span>  oppervlak</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_class_Model_Producent"><span class="secno">1.6.3.2 </span>   Producent</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Producent_id"><span class="secno">1.6.3.2.1 </span>  id</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Producent_contractdatum"><span class="secno">1.6.3.2.2 </span>  contractdatum</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Producent_site"><span class="secno">1.6.3.2.3 </span>  site</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_class_Model_ExterneProducent"><span class="secno">1.6.3.3 </span>   ExterneProducent</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_ExterneProducent_postcodegebied"><span class="secno">1.6.3.3.1 </span>  postcodegebied</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_ExterneProducent_geoLocatie"><span class="secno">1.6.3.3.2 </span>  geoLocatie</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_ExterneProducent_goniometrie"><span class="secno">1.6.3.3.3 </span>  goniometrie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_class_Model_Client"><span class="secno">1.6.3.4 </span>   Client</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Client_id"><span class="secno">1.6.3.4.1 </span>  id</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_class_Model_Accountmanager"><span class="secno">1.6.3.5 </span>   Accountmanager</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Accountmanager_voornaam"><span class="secno">1.6.3.5.1 </span>  voornaam</a></li><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Accountmanager_achternaam"><span class="secno">1.6.3.5.2 </span>  achternaam</a></li></ol></li><li class="tocline"><a class="tocxref" href="#global_class_Model_Contract"><span class="secno">1.6.3.6 </span>   Contract</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_Model_Contract_id"><span class="secno">1.6.3.6.1 </span>  id</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#uitbreidbare-waardelijsten"><span class="secno">1.6.4 </span>Uitbreidbare waardelijsten   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_class_Model_Baksteentype"><span class="secno">1.6.4.1 </span>   Baksteentype</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Model_ProductieKenmerk"><span class="secno">1.6.4.2 </span>  ProductieKenmerk</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Model_Steengrootte"><span class="secno">1.6.4.3 </span>Enumeratie details  Steengrootte</a></li><li class="tocline"><a class="tocxref" href="#detail_class_Model_Status"><span class="secno">1.6.4.4 </span>Enumeratie details  Status</a></li></ol></li></ol></li></ol></li></ol></nav>
+  <section id="inleiding">
+<!--OddPage--><h2 id="x1-inleiding"><span class="secno">1. </span>Inleiding</h2>
+    <section id="doel-en-doelgroep" class="generic">  <h3 id="x1-1-doel-en-doelgroep"><span class="secno">1.1 </span>Doel en doelgroep</h3>
+  <p>In de basisregistratie ondergrond (BRO) wordt een aantal typen gegevens geregistreerd, de <i>registratieobjecten</i>.</p>
+  <p>Een catalogus is de gegevensdefinitie van een registratieobject en beschrijft welke gegevens van het object in de BRO zijn opgeslagen. 
+    Het document is bedoeld voor alle gebruikers van de BRO en moet duidelijk maken welke gegevens er precies in het systeem zitten. 
+    Aan aanleverende partijen moet het vertellen welke gegevens in de basisregistratie ondergrond moeten komen en aan welke eisen die moeten
+    voldoen, en aan afnemende partijen welke gegevens zij in de basisregistratie ondergrond mogen verwachten.
+    Het document is voor een breed publiek bedoeld en de informatie moet naast precies ook begrijpelijk zijn.</p>
+</section>
+    <section id="totstandkoming" class="generic"><h3 id="x1-2-totstandkoming"><span class="secno">1.2 </span>Totstandkoming</h3>
+<p>Een catalogus is het resultaat van een proces van standaardisatie dat geruime tijd in beslag kan nemen. De standaardisatie is een open proces waarin de belanghebbende partijen actief betrokken worden. Het eindresultaat wordt door de wetgever vastgesteld in een ministeriële regeling.</p>
+<p>In bepaalde gevallen is de verscheidenheid aan gegevens van een object zo groot, dat er eerst deelverzamelingen worden gedefinieerd. Het standaardisatieproces wordt dan per deelverzameling doorlopen. De deelverzamelingen worden zo gekozen dat de gegevens die in de bijbehorende catalogus worden beschreven, direct na vaststelling aan de BRO kunnen worden aangeleverd. Wanneer er deelverzamelingen worden onderscheiden, komt de catalogus van het registratieobject dus gefaseerd tot stand. Omdat inzichten in de loop van de tijd kunnen wijzigen kan het aan het eind van het hele proces nodig blijken revisies door te voeren om ongewenste verschillen tussen deelverzamelingen weg te nemen.</p>
+</section>
+    <section id="beheer" class="generic"><h3 id="x1-3-beheer"><span class="secno">1.3 </span>Beheer</h3>
+<p>Een vastgestelde catalogus wordt met het daarbij horende deel van het systeem van de basisregistratie ondergrond in gebruik genomen. 
+De eerste formeel vastgestelde catalogus krijgt het versienummer 1.0. Verwacht mag worden dat er na enige tijd behoefte gaat ontstaan aan gegevens die nog niet in de catalogus zijn opgenomen. 
+Het versiebeheer van de catalogus moet nog worden ingericht.</p>
+</section>
+    <section id="inleiding-specifiek" class="respec-offending-element" title="Linter (no-headingless-sections): Alle secties moeten beginnen met een `h2-6` element. Voeg een `h2-6` toe aan de conflicterende sectie of gebruik een `<div>`. Zie de developer console. Occured">
+      <p>Voor geotechnisch sondeeronderzoek is er nog een aanvullend document, de handreiking voor conversie. In die handreiking
+        wordt inzichtelijk gemaakt hoe de informatie uit het GEF-CPT formaat naar IMBRO-XML moet worden omgezet. Het GEF-formaat
+        is de thans in het werkveld gebruikte standaard voor uitwisseling, en IMBRO-XML is het formaat dat de BRO vraagt.
+        Geotechnisch sondeeronderzoek kan ook via het BRO-innameloket worden aangeboden. De dataleverancier kan daar ook
+        GEF-bestanden aanbieden. In de handreiking voor conversie wordt beschreven waaraan zo’n GEF-bestand moet voldoen.</p>
+      <p>Deze documenten hangen samen zoals hieronder afgebeeld.</p>
+      <figure id="image001"><img src="media/image001.png" width="600">
+        <figcaption>Figuur <span class="figno">1</span> <span class="fig-title">Samenhang tussen documentatie
+        </span></figcaption>
+      </figure>
+    </section>
+    <section id="leeswijzer" class="respec-offending-element" title="Linter (no-headingless-sections): Alle secties moeten beginnen met een `h2-6` element. Voeg een `h2-6` toe aan de conflicterende sectie of gebruik een `<div>`. Zie de developer console. Occured">
+    <section id="leeswijzer">
+    <h4 id="leeswijzer-0">Leeswijzer</h4>
+	    <p><a href="#inleiding">Hoofdstuk 1</a> geeft het doel en de doelgroep van een catalogus.</p>
+	    <p><a href="#algemene-kenmerken-en-begrippen">Hoofdstuk 2</a> behandelt enkele algemene aspecten van het BRO-systeem en begrippen van algemene aard.</p>
+	    <p><a href="#grondwatersamenstellingsonderzoek">Hoofdstuk 3</a> plaatst het object in de gegevenssystematiek van de basisregistratie ondergrond en vertelt wat de benadering is geweest bij het opstellen van de <a href="#cat">gegevensdefinitie</a>.</p>
+	    <p><a href="#intro-gegevensdefinitie">Hoofdstuk 4</a> vertelt hoe de catalogus is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.</p>
+    </section>
+  </section>
+  <section id="algemene-kenmerken-en-begrippen" class="generic"><h3 id="x1-4-algemene-kenmerken-en-begrippen"><span class="secno">1.4 </span>Algemene kenmerken en begrippen</h3>
+<section id="opzet-van-het-systeem">
+    <h4 id="x1-4-1-opzet-van-de-landelijke-voorziening"><span class="secno">1.4.1 </span>Opzet van de landelijke voorziening</h4>
+    <p>De landelijke voorziening van de basisregistratie ondergrond is een systeem dat een schakel vormt in een informatieketen. Aan het begin van de keten staan bestuursorganen die opdracht geven tot de productie van gegevens, of zelf gegevens produceren. Die bestuursorganen worden <i>bronhouders</i> genoemd. De geproduceerde gegevens worden door een <i>dataleverancier</i> geleverd aan de beheerder van het systeem, de <i>registerbeheerder</i>. De bronhouder is verantwoordelijk voor de levering van gegevens. Hij kan besluiten zelf dataleverancier te zijn of andere partijen een machtiging voor levering te verlenen. De beheerder van de landelijke voorziening van de BRO registreert de aangeleverde gegevens en levert ze voor (her)gebruik door aan allerlei afnemers.</p>
+    <p>De opzet van het systeem moet begrepen worden vanuit de verantwoordelijkheden die in de keten zijn belegd. De aangeleverde gegevens vallen onder de verantwoordelijkheid van de bronhouder en de registerbeheerder mag die gegevens niet veranderen. De registerbeheerder moet echter wel gegevens toevoegen om het systeem te kunnen beheren en hij kan gegevens toevoegen om de afnemers goed van dienst te kunnen zijn.</p>
+    <p>Bij wet is geregeld dat de basisregistratie ondergrond zo wordt opgezet dat er onderscheid bestaat tussen de gegevens die aan de registerbeheerder zijn aangeleverd en de gegevens die de registerbeheerder aan de afnemers verstrekt. Het systeem valt uiteen in twee grote deelsystemen, het register <i>brondocumenten ondergrond</i> en de <i>registratie
+          ondergrond</i> (zie <a href="#image001" class="fig-ref">figuur 1</a>).</p>
+
+    <p>Een geheel van gegevens dat door of onder verantwoordelijkheid van een bronhouder wordt aangeleverd, wordt een <i>brondocument</i> genoemd. De brondocumenten worden in het <i>register brondocumenten ondergrond</i> opgeslagen. De gegevens uit de brondocumenten worden samen met de gegevens die de registerbeheerder toevoegt in de <i>registratie ondergrond</i> vastgelegd. De <i>registratie ondergrond</i> is het deelsysteem dat gebruikt wordt voor uitgifte.</p>
+    
+        <figure id="image001"><img src="https://docs.geostandaarden.nl/bro/gen/media/image002.png" width="350">
+        <figcaption>Figuur <span class="figno">2</span> <span class="fig-title">De twee grote deelsystemen van de landelijke voorziening van de BRO.
+        </span></figcaption>
+    </figure>
+    
+    <p>Met deze opzet verkrijgt het systeem de nodige flexibiliteit. Zo kan een object in de registratie ondergrond gegevens bevatten die uit meer dan één brondocument afkomstig zijn en bij uitgifte kunnen gegevens van verschillende objecten met elkaar gecombineerd worden. Ook is het mogelijk met het brondocument gegevens op te slaan die alleen voor de bronhouder en de aanleverende partij van belang zijn.</p>
+    <p>De catalogus dekt alle gegevens die opgenomen zijn in de registratie ondergrond. Verreweg de meeste gegevens komen uit de brondocumenten die de dataleverancier aanlevert en een paar gegevens komen voort uit de overdracht van een brondocument aan de registerbeheerder. Aan de aangeleverde gegevens worden enkele gegevens door de registerbeheerder toegevoegd. Als een gegeven is toegevoegd door de BRO wordt dat in de beschrijving expliciet vermeld.</p>
+    <p>Alle gegevens in de registratie ondergrond worden uitgegeven, maar niet alle afnemers kunnen alle gegevens geleverd krijgen. De gegevens die niet aan alle afnemers worden uitgeleverd zijn de gegevens die alleen nodig zijn in de communicatie tussen de registerbeheerder enerzijds en de dataleveranciers en bronhouders anderzijds.</p>
+</section>
+<section id="registratieobject">
+    <h4 id="x1-4-2-registratieobject"><span class="secno">1.4.2 </span>Registratieobject</h4>
+    <p>Het <i>registratieobject</i> is dé eenheid in de data-architectuur van de basisregistratie ondergrond. Voor de registerbeheerder is het de elementaire bouwsteen van het systeem dat hij moet beheren.</p>
+    <p>Een <i>registratieobject</i> verwijst naar een eenheid van informatie die onder de verantwoordelijkheid van één bronhouder valt en die met een bepaald doel is of wordt gemaakt. Het is in directe of indirecte zin gedefinieerd in de ruimte en dat wil zeggen dat een registratieobject een plaats op het aardoppervlak heeft of dat het gekoppeld is aan een ander type registratieobject met een plaats op het aardoppervlak.</p>
+    <p>Een <i>registratieobject</i> is niet alleen in de ruimte maar ook in de tijd gedefinieerd. Het leven van een registratieobject begint op het moment dat de gegevens zijn geregistreerd en dat is zo kort mogelijk nadat de gegevens zijn geproduceerd. De levensduur van een registratieobject, en de veranderlijkheid van de gegevens verschilt van object tot object. Een grondwatermonitoringput kan tientallen jaren gebruikt worden voor het meten van grondwaterstanden en in de periode kunnen er nieuwe gegevens ontstaan. Dat betekent dat de gegevens van de put in de registratie ondergrond gedurende zijn hele levensduur bijgewerkt moeten kunnen worden. Aan de andere kant van het spectrum staan de objecten waarvan alle gegevens in een keer worden vastgelegd. Geotechnisch sondeeronderzoek is daar een voorbeeld van. Sondeeronderzoek is eenmalig onderzoek en het resultaat ervan kan al na een of enkele dagen aan de bronhouder worden overhandigd.</p>
+</section>
+<section id="registratiedomein">
+    <h4 id="x1-4-3-registratiedomein"><span class="secno">1.4.3 </span>Registratiedomein</h4>
+    <p>Registratieobjecten worden in de basisregistratie ondergrond gegroepeerd in domeinen. Vooralsnog worden zes domeinen onderscheiden:
+        </p><ul>
+            <li>bodem- en grondonderzoek</li>
+            <li>bodemkwaliteit</li>
+            <li>grondwatermonitoring</li>
+            <li>grondwatergebruik</li>
+            <li>mijnbouwwet</li>
+            <li>modellen.</li>
+        </ul>
+    <p></p>
+    <p>De domeinen zijn vanuit het oogpunt van beheer van belang voor de ordening van het systeem. Daarnaast zijn zij nuttig in de communicatie met de partijen die bij de realisatie van het systeem betrokken zijn.</p>
+</section>
+<section id="kwaliteitsregime">
+    <h4 id="x1-4-4-kwaliteitsregime"><span class="secno">1.4.4 </span>Kwaliteitsregime</h4>
+    <p>In de basisregistratie ondergrond worden niet alleen gegevens geregistreerd die dateren van na de datum waarop de wet van kracht is geworden. Ook oudere gegevens zullen in de basisregistratie ondergrond worden opgenomen. De noodzaak daartoe ligt in de wet verankerd. Die schrijft voor dat de gegevens uit de eerder bestaande systemen DINO en BIS zo veel mogelijk naar de BRO moeten worden overgezet. Verder staat de wet toe dat bronhouders tot vijf jaar na de inwerkingtreding van de wet historische gegevens ter registratie mogen aanbieden.
+    </p>
+    <p>Historische gegevens kunnen niet altijd voldoen aan de strikte regels die de BRO stelt. Zo kan het voorkomen dat voor gegevens die volgens de strikte regels van de BRO verplicht zijn, geen waarde bekend is. Om de verwerking van de twee categorieën gegevens naast elkaar mogelijk te maken, worden twee kwaliteitsregimes gehanteerd. Voor de aanlevering van gegevens volgens de strikte regels geldt het IMBRO-regime. Bij de aanlevering van historische gegevens wordt geaccepteerd dat een aantal formeel verplichte gegevens geen waarde heeft. Voor deze gegevens wordt het IMBRO/A-regime gehanteerd en dat kent dus minder strikte regels.</p>
+    <p>De introductie van de twee kwaliteitsregimes geeft de bronhouder gedurende een bepaalde periode een zekere mate van vrijheid. Het kan bijvoorbeeld praktisch blijken het IMBRO/A-regime te hanteren voor gegevens die weliswaar pas na de datum waarop de wet in werking is getreden zijn geproduceerd maar die voortkomen uit opdrachten die al voor die datum zijn gegeven. Ook kan het voorkomen dat historische gegevens wel aan alle strikte voorwaarden voldoen en dan is het wenselijk de gegevens onder IMBRO-regime aan te leveren.
+    </p>
+    <p>De periode waarin de bronhouders die vrijheid hebben wordt de <i>transitieperiode</i> genoemd. Over de duur van de transitieperiode zijn nog geen afspraken gemaakt. Na afloop van de transitieperiode kan alleen onder het strikte IMBRO-regime worden aangeleverd.
+    </p>
+</section>
+<section id="formele-en-materiële-geschiedenis">
+    <h4 id="x1-4-5-formele-en-materiele-geschiedenis"><span class="secno">1.4.5 </span>Formele en materiële geschiedenis</h4>
+    <p>De basisregistratie ondergrond maakt deel uit van een stelsel van basisregistraties. Binnen het stelsel maakt men onderscheid tussen de materiële geschiedenis en de formele geschiedenis van een object.</p>
+    <p>Het begrip <i>materiële geschiedenis</i> wordt gebruikt om de veranderingen van eigenschappen van een object in de werkelijkheid aan te duiden. De materiële geschiedenis van een object wordt, voor zover relevant, in de registratie ondergrond vastgelegd. Niet alle registratieobjecten hebben een materiële geschiedenis, alleen de objecten met een levensduur, zoals de grondwatermonitoringput. </p>
+    <p>Het begrip <i>formele geschiedenis</i> wordt gebruikt voor de veranderingen van eigenschappen van een object in de registratie zelf. De meeste van die veranderingen gaan terug op een verandering van eigenschappen in de werkelijkheid, en de formele geschiedenis geeft aan wanneer de veranderingen in het systeem geregistreerd zijn. De formele geschiedenis kent ook gebeurtenissen die niet het gevolg zijn van een verandering in de werkelijke eigenschappen van een object. Die gebeurtenissen hebben betrekking op correcties. Het kan gebeuren dat een bronhouder erachter komt dat er een onjuiste waarde was geregistreerd en dan zorgt hij ervoor dat die verbeterd wordt. De registratie van de verbetering is een formele gebeurtenis.
+    </p>
+    <p>Alle registratieobjecten hebben een formele geschiedenis en die wordt in de registratie ondergrond globaal vastgelegd in de <i>registratiegeschiedenis</i> van het object. Globaal wil zeggen dat de registratie ondergrond alleen een overzicht van de formele geschiedenis geeft. Voor de details moet het register brondocumenten ondergrond worden geraadpleegd.</p>
+    <p>Bij correctie wordt het betreffende gegeven in de registratie ondergrond overschreven en is de oude waarde van het gegeven niet meer direct beschikbaar voor de afnemers.
+Zou een afnemer toch willen weten wat de eerdere foute waarde was, dan moet hij het register brondocumenten ondergrond raadplegen.
+</p>
+</section>
+
+<section id="coördinaten-en-referentiestelsels">
+    <h4 id="x1-4-6-coordinaten-en-referentiestelsels"><span class="secno">1.4.6 </span>Coördinaten en referentiestelsels</h4>
+    <p>De registratieobjecten van de basisregistratie ondergrond zijn gedefinieerd in de ruimte en dat wil zeggen dat een object zelf een plaats op het aardoppervlak, een locatie, heeft, of dat het gekoppeld is aan een ander type registratieobject met een locatie. Afhankelijk van het type registratieobject, wordt de locatie geregistreerd als een punt, een lijn of een vlak.</p>
+    <p>De locatie is de horizontale positie van een object. Voor bepaalde objecten is het voldoende dat alleen die horizontale positie wordt vastgelegd, maar voor veel objecten is ook de verticale positie van belang.</p>
+    <p>Posities worden vastgelegd in coördinaten en die zijn gedefinieerd in een bepaald referentiestelsel.</p>
+    <p>Er zijn verschillende typen referentiestelsels. Zo spreekt men van horizontale referentiestelsels (2D), verticale referentiestelsels (1D), gecombineerde referentiestelsels (2D, 1D) en werkelijke 3D referentiestelsels. In Nederland worden de horizontale en de verticale component van een positie in een afzonderlijk stelsel uitgedrukt. Het is vandaag de dag mogelijk met gps een positie in een 3D-referentiestelsel vast te leggen, maar de wens over te stappen op het gebruik van 3D is nog door geen van de partijen die betrokken zijn bij de basisregistratie ondergrond naar voren gebracht.</p>
+    
+    <section id="referentiestelsels-voor-de-horizontale-positie">
+        <h5 id="x1-4-6-1-referentiestelsels-voor-de-horizontale-positie"><span class="secno">1.4.6.1 </span>Referentiestelsels voor de horizontale positie</h5>
+        <p>In Nederland zijn traditioneel verschillende referentiestelsels voor de horizontale positie in gebruik. In 2009, bij de eerste voorbereidingen voor de totstandkoming van de basisregistratie ondergrond, is al vastgesteld dat de verscheidenheid aan referentiestelsels de basisregistratie ondergrond voor problemen stelt omdat de registratie dan niet gemakkelijk op een eenduidige manier bevraagd kan worden. In de registratie ondergrond worden namelijk zowel gegevens met een locatie op land als gegevens met een locatie op zee geregistreerd. In de toenmalige praktijk werden op land en op zee verschillende stelsels gebruikt. Op land werd RD gebruikt en op zee waren verschillende stelsels in gebruik, waarvan WGS84 de belangrijkste was.</p>
+        <p>In 2009 was ook al bekend dat de Europese kaderrichtlijn INSPIRE de lidstaten vraagt de gegevens in Europa in één referentiestelsel uit te gaan wisselen, te weten in ETRS89. Met dat in gedachten, is het besluit genomen het BRO-systeem zo in te richten dat de registratie bevraagd gaat worden in ETRS89.</p>
+        <p>Het besluit wordt ondersteund door ontwikkelingen in Nederland. Sinds 2013 wordt er door de drie belangrijkste autoriteiten in Nederland op het gebied van referentiestelsels, het Kadaster, de Dienst der Hydrografie en Rijkswaterstaat, gewerkt aan de totstandkoming van nieuwe afspraken. Die afspraken moeten in lijn zijn met Europese afspraken en leiden tot heldere en eenduidige transformatieprocedures tussen referentiestelsels. Concreet betekent dit dat in Nederland op termijn het ETRS89-stelsel als standaard zal worden gehanteerd voor het uitwisselen van geo-informatie.
+        </p>
+        <p>Het besluit betekent niet dat de gegevens ook in ETRS89 aangeleverd moeten worden. De basisregistratie ondergrond voorziet een periode van transitie waarin de aanleverende partijen zelf bepalen wanneer zij overstappen op ETRS89. Die periode zal naar verwachting jaren duren. Om de transitie te ondersteunen hanteert de basisregistratie ondergrond de volgende spelregels: 
+            </p><ul>
+                <li>Gegevens mogen in een beperkt aantal referentiestelsels worden aangeleverd (RD, WGS84 en ETRS89).
+                    <ul>
+                        <li>Voor locaties op land wordt alleen RD of ETRS89 toegestaan.</li>
+                        <li>Voor locaties op zee wordt alleen WGS84 of ETRS89 toegestaan.</li>
+                    </ul>
+                </li>
+                <li>De aangeleverde coördinaten worden in de registratie opgeslagen.</li>
+                <li>De aangeleverde coördinaten worden door de basisregistratie ondergrond getransformeerd naar
+                    het ETRS89 referentiestelsel.</li>
+                <li>De getransformeerde coördinaten worden naast de aangeleverde coördinaten opgeslagen.
+                </li>
+                <li>Bij de getransformeerde coördinaten wordt ook een identificatie van de gebruikte transformatiemethode opgeslagen.
+                </li>
+                <li>Als de coördinaten in ETRS89 zijn aangeleverd, dan staat bij aangeleverde en getransformeerde positie dezelfde
+                    informatie. Voor de locatie worden de getransformeerde coördinaten en de aangeleverde coördinaten beide
+                    aan de afnemers verstrekt.
+                </li>
+            </ul>
+        <p></p>
+    </section>
+    <section id="referentiestelsels-voor-de-verticale-positie">
+        <h5 id="x1-4-6-2-referentiestelsels-voor-de-verticale-positie"><span class="secno">1.4.6.2 </span>Referentiestelsels voor de verticale positie</h5>
+        <p>In Nederland zijn voor verticale posities op land en zee verschillende referentiestelsels in gebruik. Op land wordt NAP gebruikt. Op zee is het in de voor de BRO relevante werkvelden gebruikelijk posities uit te drukken t.o.v. het gemiddeld zeeniveau (MSL, Mean Sea Level), maar posities t.o.v. LAT komen ook voor (Lowest Astronomical Tide). Dit laatstgenoemde stelsel wordt in de kaderrichtlijn INSPIRE genoemd als het stelsel van voorkeur voor het uitdrukken van verticale posities op zee. De basisregistratie ondergrond staat daarom op zee het gebruik van LAT naast MSL toe. Aangeleverde verticale posities worden door de BRO niet getransformeerd.</p>
+    </section>
+</section>
+<section id="gegevens-op-land-en-op-zee">
+    <h4 id="x1-4-7-gegevens-op-land-en-op-zee"><span class="secno">1.4.7 </span>Gegevens op land en op zee</h4>
+    <p>De basisregistratie ondergrond bevat gegevens over de ondergrond van Nederland en zijn zgn. Exclusieve Economische Zone (EEZ). De EEZ is het gebied op de Noordzee waar Nederland economische rechten heeft. Voor de referentiestelsels die bij aanlevering worden toegestaan, is het van belang te weten of de locatie van een object op zee of op land ligt.
+    </p>
+    <p>Als scheidingslijn tussen land en zee wordt in de basisregistratie ondergrond de UNCLOS-basislijn gehanteerd. Het beheer van de basislijn valt onder de verantwoordelijkheid van de Dienst der Hydrografie van het ministerie van Defensie. Deze dienst voert die taak uit op basis van het Zeerechtverdrag van de Verenigde Naties uit 1982, dat in het Engels de United Nations Convention on the Law of the Sea (UNCLOS) heet. 
+De basislijn is opgebouwd uit de nulmeterdieptelijn zoals weergegeven op de zeekaarten en enkele rechte basislijnen die onder meer de monding van de Westerschelde en de wateren tussen de Waddeneilanden afsluiten.
+</p>
+    <p>De grens tussen land en zee is veranderlijk. De Dienst der Hydrografie stelt de grens opnieuw vast wanneer daartoe voldoende aanleiding is. De BRO hanteert bij inname de meest recente versie van de UNCLOS-basislijn en controleert daarmee of de juiste referentiestelsels gebruikt worden.</p>
+    <p>Tussen het moment waarop de locatie van een object wordt bepaald en het moment waarop het gegeven in de basisregistratie ondergrond wordt vastgelegd verloopt enige tijd. In die periode kan de positie van de UNCLOS-basislijn opnieuw zijn vastgesteld, en dan ontstaat er een discrepantie die bij het aanleveren van gegevens tot problemen kan leiden. Wanneer een dergelijk probleem zich voordoet, wordt de dataleverancier gevraagd contact op te nemen met de registratiebeheerder om gezamenlijk tot een oplossing te komen.</p>
+    <p>Een soortgelijk probleem doet zich voor met betrekking tot de begrenzing van Nederland, met name van het Nederlands territoir. De grenzen van Nederland worden ieder jaar op 1 januari vastgesteld door het Kadaster en vastgelegd in de basisregistratie kadaster. De BRO controleert bij inname of een object in het gebied ligt dat Nederland en zijn Exclusieve Economische Zone omvat, en hanteert daarbij de actuele grenzen. Ook bij problemen die te herleiden zijn tot een verandering in de begrenzing van Nederland, wordt de dataleverancier gevraagd contact op te nemen met de registratiebeheerder om gezamenlijk tot een oplossing te komen.</p>
+</section>
+<section id="nauwkeurigheid-van-meetwaarden">
+    <h4 id="x1-4-8-nauwkeurigheid-van-meetwaarden"><span class="secno">1.4.8 </span>Nauwkeurigheid van meetwaarden</h4>
+    <p>Voor zinvol gebruik van gegevens met een gemeten, berekende of anderszins bepaalde waarde is het noodzakelijk dat de nauwkeurigheid van die gegevens bekend is.
+    </p>
+    <p>Het begrip nauwkeurigheid laat zich in deze context het best omschrijven als de juistheid van een gemeten of berekende waarde. In de meeste processen waarin de waarde van een gegeven wordt bepaald, kan de afwijking van de daadwerkelijke waarde slechts via een kalibratie- of statistisch proces worden verkregen. Het resultaat omvat dan niet alleen een van de mogelijke realisaties van een meetwaarde maar ook informatie over de mogelijke spreiding van de meetwaarden.</p>
+    <p>De basisregistratie ondergrond gaat ervan uit dat de producenten van gegevens de metingen en berekeningen uitvoeren binnen een stelsel van afspraken dat binnen het desbetreffende werkveld is vastgelegd. Uitgangspunt is dat ook de eisen waaraan de gegevens op het gebied van nauwkeurigheid moeten voldoen in afspraken zijn vastgelegd. Dat kunnen praktische werkafspraken zijn, maar ook afspraken die vertaald zijn naar ISO- en NEN-normen. In de catalogus wordt in beginsel verwezen naar die normen. Waar deze normen niet voorzien in afspraken over de nauwkeurigheid, stelt de basisregistratie ondergrond hieraan specifieke eisen. Deze zijn dan vermeld in de catalogus.
+    </p>
+</section>
+<section id="authentiek-gegeven">
+    <h4 id="x1-4-9-authentiek-gegeven"><span class="secno">1.4.9 </span>Authentiek gegeven</h4>
+    <p>In de wet is een aantal gegevens expliciet als authentiek aangeduid. Dit wordt in de catalogus nader uitgewerkt; verreweg de meeste gegevens zijn authentiek.</p>
+    <p>Met de aanduiding <i>authentiek</i> wordt, zoals geformuleerd in de memorie van toelichting op de wet, tot uitdrukking gebracht dat:
+        </p><ol type="a">
+            <li>Het gegeven in samenhang met andere gegevens door een groot aantal bestuursorganen in verschillende processen wordt gebruikt en derhalve bestemd is voor informatie-uitwisseling tussen bestuursorganen;</li>
+            <li>de verantwoordelijkheid voor betrouwbaarheid van het gegeven eenduidig geregeld is;
+            </li>
+            <li>het gegeven onderworpen is aan intern en extern kwaliteitsonderzoek, en</li>
+            <li>het gegeven zich leent voor verplicht gebruik door bestuursorganen en eenmalige verstrekking door burgers en bedrijven aan de overheid.</li>
+        </ol>
+    <p></p>
+    <p>In de praktijk mag een gebruiker van de gegevens ervan uitgaan dat alle gegevens correct zijn. De catalogus moet de gebruiker alle informatie geven die voor een goed begrip daarvan nodig is.
+        Heeft een gebruiker echter gerede twijfel over de juistheid van een <i>authentiek</i> gegeven dan wordt verwacht dat hij de registerbeheerder daarvan op de hoogte brengt. Bestuursorganen zijn, bij gerede twijfel over de juistheid van een authentiek gegeven (of het ontbreken ervan), zelfs verplicht daarvan melding te maken. 
+
+</p>
+<p>Voor alle gegevens is aangegeven of ze authentiek zijn. Ook is voor alle gegevens aangegeven of ze aanwezig moeten zijn en een waarde moeten hebben. Dat laat zien dat er gegevens kunnen zijn die authentiek zijn maar geen waarde hoeven te hebben. Juist omdat er verplichtingen gelden t.a.v. authentieke gegevens, vraagt dit om een korte toelichting. 
+Wanneer een authentiek gegeven geen waarde heeft moet de gebruiker ervan uitgaan dat het gegeven niet is geproduceerd. Dat geval kan zich uiteraard alleen voordoen wanneer er vrijheid van beslissen bestaat bij de bronhouder of de producent. 
+Voor de duidelijkheid, als er wel een waarde is dan moet die ook in de BRO worden opgenomen. Bij gerede twijfel over het ontbreken van een waarde, moet een bestuursorgaan dat melden. </p>
+</section>
+</section>
+  <section id="geotechnisch-sondeeronderzoek">
+    <h3 id="x1-5-geotechnisch-sondeeronderzoek"><span class="secno">1.5 </span>Geotechnisch sondeeronderzoek</h3>
+    <section id="bodem-en-grondonderzoek">
+      <h4 id="x1-5-1-bodem-en-grondonderzoek"><span class="secno">1.5.1 </span>Bodem- en grondonderzoek</h4>
+      <p>Geotechnisch sondeeronderzoek is een van de vijf registratieobjecten in het domein bodem- en grondonderzoek. In dat
+        domein gaat het om onderzoek dat er op gericht is gegevens te produceren over de opbouw en de eigenschappen van bodem
+        en ondergrond zonder dat daarvoor direct een bepaald wettelijk of beleidsmatig kader bestaat. Vaak wordt het onderzoek
+        uitgevoerd omdat men de opbouw en de eigenschappen van de ondergrond moet kennen voor het realiseren van projecten
+        in de grond-, weg- en waterbouw, of voor het onderhoud van bestaande infrastructuur.</p>
+      <p>[...]</p>
+    </section>
+    <section id="sonderen">
+      <h4 id="x1-5-2-sonderen"><span class="secno">1.5.2 </span>Sonderen</h4>
+      <p>Geotechnisch sondeeronderzoek is de formele naam die in de BRO gebruikt wordt en het begrip verwijst naar een onderzoekstechniek
+        die gewoonlijk sonderen wordt genoemd. Bij sonderen wordt de informatie direct in het veld verzameld. Sondeeronderzoek
+        is binnen het domein van de geotechniek ontwikkeld. Bij dit type onderzoek wordt een sondeerconus gelijkmatig de
+        grond ingedrukt en terwijl de conus naar beneden gaat, worden quasi-continu waarnemingen gedaan van fysieke grootheden.</p>
+      <p>[...]</p>
+    </section>
+    <section id="registratieobject-cpt">
+      <h4 id="x1-5-3-registratieobject-geotechnisch-sondeeronderzoek"><span class="secno">1.5.3 </span>Registratieobject Geotechnisch sondeeronderzoek</h4>
+      <p>Een registratieobject is de belangrijkste eenheid van informatie in de basisregistratie ondergrond. Een registratieobject
+        bestaat uit delen (entiteiten), en de delen hebben eigenschappen (attributen). Om het geotechnisch sondeeronderzoek
+        als informatieobject goed te kunnen definiëren, wordt vanuit een bepaalde benadering gedacht. Deze benadering wordt
+        hieronder toegelicht.</p>
+      <p>[...]</p>
+    </section>
+    <section id="domeinmodel">
+      <h4 id="x1-5-4-domeinmodel"><span class="secno">1.5.4 </span>Domeinmodel</h4>
+      <section class="generic" id="het-domeinmodel"><h5 id="x1-5-4-1-het-domeinmodel"><span class="secno">1.5.4.1 </span>Het domeinmodel</h5>
+<p>Het domeinmodel geeft een overzicht van de gegevens van het registratieobject en laat de onderlinge samenhang zien. Modellering van informatie kent verschillende invalshoeken. In de catalogus is het inhoudelijke perspectief gekozen omdat dat de meeste waarde heeft voor de mensen die de informatie moeten begrijpen. Een dergelijk model wordt in de basisregistratie ondergrond een <i>domeinmodel</i> genoemd. Uit het domeinmodel wordt een technisch model afgeleid dat meeweegt dat informatiesystemen efficiënt met elkaar moeten kunnen spreken. Het meer technische model heet <i>productmodel</i> en dat staat aan de basis van de documentatie van de software. 
+Voor het domeinmodel wordt de UML-notatie gebruikt. Met kennis van de gebruikte symbolen is het gemakkelijk te lezen.
+</p>
+<p>Het domeinmodel is hiërarchisch opgebouwd. De genummerde blokjes in het domeinmodel staan voor de entiteiten waaruit het object is opgebouwd. In de blokjes staan de namen opgesomd van de attributen, de eigenschappen van de entiteiten, met daarachter de naam van de bijbehorende waardenverzameling (domein) en de kardinaliteit. Bij attributen is de kardinaliteit alleen opgenomen wanneer die ongelijk is aan 1. Overigens moet de kardinaliteit altijd in samenhang met de regels die in de definitie van het gegeven zijn opgenomen worden begrepen. De kardinaliteit en de regels bepalen samen of een gegeven al dan niet aanwezig is. De figuren laten ook zien welke attributen alleen aan de dataleverancier en de bronhouder worden uitgeleverd.</p>
+<p>De getallen bij de entiteiten geven aan hoe vaak een entiteit voorkomt. De meeste entiteiten hebben kardinaliteit [1] en dat betekent dat een gegeven precies een keer voorkomt. Sommige entiteiten mogen een of meer keer voorkomen, die hebben kardinaliteit [1..*]. Een derde categorie vormen de entiteiten die kardinaliteit [0..1] hebben. Een dergelijk gegeven komt 1 keer voor of niet. De vierde en laatste categorie heeft kardinaliteit [0..*], en een dergelijk gegeven kan 0, 1 of meer keren voorkomen.</p>
+<p>Een registratieobject heeft een bepaald kwaliteitsregime. Zoals eerder gesteld wordt een gegevensdefinitie opgesteld vanuit  het streven IMBRO/A zo min mogelijk te laten afwijken van en IMBRO. Wanneer dat niet helemaal gelukt is en er voor een IMBRO/A een apart domein nodig is, is dat niet in het domeinmodel zichtbaar. Wanneer dat niet gelukt is en er voor IMBRO/A bijzondere attributen (of entiteiten) bestaan is dat wel in het model aangegeven.</p>
+</section>
+      <section id="cpt">
+        <h5 id="x1-5-4-2-geotechnisch-sondeeronderzoek"><span class="secno">1.5.4.2 </span>Geotechnisch sondeeronderzoek</h5>
+        <p><i>Geotechnisch sondeeronderzoek</i> is het geheel van gegevens dat betrekking heeft op een specifiek sondeeronderzoek
+          dat op een specifieke locatie in Nederland is uitgevoerd en dat door of onder de verantwoordelijkheid van een bepaalde
+          bronhouder is aangeleverd aan de registerbeheerder van de BRO en vervolgens onder zijn verantwoordelijkheid in
+          de registratie ondergrond is opgenomen. De activiteiten van het sondeeronderzoek omvatten in ieder geval het op
+          locatie doen van metingen met een sondeerapparaat en de uiteindelijke rapportage van de resultaten aan de opdrachtgever.
+          Gegevens over de plaats waar het onderzoek is uitgevoerd worden over verschillende entiteiten verdeeld.
+        </p>
+      </section>
+      <section id="reg-gesch">
+        <h5 id="x1-5-4-3-registratiegeschiedenis"><span class="secno">1.5.4.3 </span>Registratiegeschiedenis</h5>
+        <p>[...]</p>
+        <!-- 
+        <figure id="domeinmodel-cpt" class="scalable">
+          <img src="media/image003.png">
+          <figcaption>Domeinmodel geotechnisch sondeeronderzoek</figcaption>
+        </figure>
+        -->
+      </section>
+    </section>
+  </section>
+  <section id="cat" class="normative" level="1">
+   <h3 id="x1-6-gegevensdefinitie"><span class="secno">1.6 </span>Gegevensdefinitie</h3>
+   <p><b>Deze tekst is normatief.</b>
+      <!--Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20191005-164644 imvertor 1.55.2--></p>
+   <section id="het-domeinmodel-0" level="3">
+      <h4 id="x1-6-1-het-domeinmodel"><span class="secno">1.6.1 </span>Het domeinmodel   </h4>
+      <div class="imageinfo overview"><img src="data/Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1"><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
+            <area shape="rect" coords="285,184,407,95" alt="" href="#graph_EAID_9E9289AB_19E6_48af_87FD_8BC9E0875C28">
+            <area shape="rect" coords="665,744,822,638" alt="" href="#graph_EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1">
+            <area shape="rect" coords="855,750,1001,644" alt="" href="#graph_EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0">
+            <area shape="rect" coords="500,740,630,636" alt="" href="#graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458">
+            <area shape="rect" coords="1085,586,1235,484" alt="" href="#graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998">
+            <area shape="rect" coords="308,739,443,637" alt="" href="#graph_EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8">
+            <area shape="rect" coords="655,556,790,454" alt="" href="#graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
+            <area shape="rect" coords="285,525,488,254" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
+            <area shape="rect" coords="645,409,780,264" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+            <area shape="rect" coords="1276,480,1411,391" alt="" href="#graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
+            <area shape="rect" coords="865,514,1042,394" alt="" href="#graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B"></map><p><b>Model A</b> — Overzicht van alle constructies in dit conceptuele model.
+         </p>
+      </div>
+      <div class="imageinfo overview"><img src="data/Images/EAID_D5BFC0BD_7840_455a_AC11_714A9AF4F12B.png" usemap="#imagemap-EAID_D5BFC0BD_7840_455a_AC11_714A9AF4F12B"><map name="imagemap-EAID_D5BFC0BD_7840_455a_AC11_714A9AF4F12B">
+            <area shape="rect" coords="463,141,604,52" alt="" href="#graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998">
+            <area shape="rect" coords="596,132,711,52" alt="" href="#graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
+            <area shape="rect" coords="228,363,359,248" alt="" href="#graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
+            <area shape="rect" coords="176,143,291,41" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+            <area shape="rect" coords="596,358,773,252" alt="" href="#graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B">
+            <area shape="rect" coords="25,707,202,436" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></map><p><b>Model B</b></p>
+      </div>
+   </section><a class="anchor" name="graph_EAID_9E9289AB_19E6_48af_87FD_8BC9E0875C28"></a><a class="anchor" name="global_class_Model_Registratieobject"></a><section id="global_class_Model_Registratieobject" level="3">
+      <h4 id="x1-6-2-registratieobject"><span class="secno">1.6.2 </span>   Registratieobject</h4>
+      
+      <table width="100%">
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>SampleBase </td>
+            </tr>
+            <tr>
+               <th>Code</th>
+               <td>SAMPLE</td>
+            </tr>
+            <tr>
+               <th>Definitie</th>
+               <td>
+                  
+                  <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geheel van gegevens dat betrekking heeft op baksteenproductie .</p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <th>Populatie</th>
+               <td>heel veel</td>
+            </tr>
+         </tbody>
+      </table>
+      
+   </section>
+   <section id="entiteiten-en-attributen" level="3">
+      <h4 id="x1-6-3-entiteiten-en-attributen"><span class="secno">1.6.3 </span>Entiteiten en attributen   </h4><a class="anchor" name="graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></a><a class="anchor" name="global_class_Model_Baksteen"></a><section id="global_class_Model_Baksteen" level="4">
+         <h5 id="x1-6-3-1-baksteen"><span class="secno">1.6.3.1 </span>   Baksteen</h5>
+         <div class="imageinfo "><img src="data/Images/EAID_EB759E5B_3FAA_4064_A73E_704926072F89.png" usemap="#imagemap-EAID_EB759E5B_3FAA_4064_A73E_704926072F89"><map name="imagemap-EAID_EB759E5B_3FAA_4064_A73E_704926072F89">
+               <area shape="rect" coords="110,137,225,35" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+               <area shape="rect" coords="95,470,272,222" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></map><p><b>Baksteen</b> — Gedetailleerde informatie over Baksteen objectttype, inclusief traces.
+            </p>
+         </div>
+         <table width="100%">
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een onderdeel van een bouwwerk met een rechthoekige vorm, bedoeld om muren mee te
+                        maken.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Regels tav bakstenen</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Regels IMBRO/A</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Regels IMBRO/A tav bakstenen</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een baksteen is een soort bouwmateriaal, <em>maar alleen als het uit klei is gemaakt door mensen</em>.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Relaties met andere entiteiten</th>
+                  <td>Baksteen 
+                     gebaseerdOpOntwerp 0, 1 of meer 
+                     <a class="link" href="#global_class_Model_Producent">Producent</a>
+                     <br>Baksteen 
+                     geproduceerdDoor 0, 1 of meer 
+                     <a class="link" href="#global_class_Model_Producent">Producent</a>
+                     <br>Baksteen is specialisatie van 
+                     <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
+                     <br></td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" name="detail_attribute_Model_Baksteen_bROID"></a><section id="detail_attribute_Model_Baksteen_bROID" level="5">
+            <h6 id="x1-6-3-1-1-bro-id"><span class="secno">1.6.3.1.1 </span>  BRO-ID</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_magazijnID"></a><section id="detail_attribute_Model_Baksteen_magazijnID" level="5">
+            <h6 id="x1-6-3-1-2-magazijnid"><span class="secno">1.6.3.1.2 </span>  magazijnID</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De identificatie van de baksteen in het magazijn.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Mogelijk geen waarde</th>
+                     <td>Ja</td>
+                  </tr>
+                  <tr>
+                     <th>Reden geen waarde</th>
+                     <td>Dit is de reden waarom dit attribuut wellicht geen waarde heeft.</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_kleur"></a><section id="detail_attribute_Model_Baksteen_kleur" level="5">
+            <h6 id="x1-6-3-1-3-kleur"><span class="secno">1.6.3.1.3 </span>  kleur</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst</th>
+                     <td>Ergens vandaan</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende
+                           relevantie.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Herkomst definitie</th>
+                     <td>Ook ergens vandaan</td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Basisgegeven (niet-authentiek)</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1 .. 5</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Regels</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de regels die gelden voor de kleur.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de IMBRO/A regels die gelden voor de kleur.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_nettogewicht"></a><section id="detail_attribute_Model_Baksteen_nettogewicht" level="5">
+            <h6 id="x1-6-3-1-4-nettogewicht"><span class="secno">1.6.3.1.4 </span>  nettogewicht</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het <em>droog</em> gewicht van de baksteen.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Gewicht</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Is afgeleid</th>
+                     <td>Ja</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_status"></a><section id="detail_attribute_Model_Baksteen_status" level="5">
+            <h6 id="x1-6-3-1-5-status"><span class="secno">1.6.3.1.5 </span>  status</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td><a class="link" href="#detail_class_Model_Status">Status</a></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_omvang"></a><section id="detail_attribute_Model_Baksteen_omvang" level="5">
+            <h6 id="x1-6-3-1-6-omvang"><span class="secno">1.6.3.1.6 </span>  omvang</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen. </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td><a class="link" href="#detail_class_Model_Steengrootte">Steengrootte</a></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Uitgedrukt in steengrootte.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_type"></a><section id="detail_attribute_Model_Baksteen_type" level="5">
+            <h6 id="x1-6-3-1-7-type"><span class="secno">1.6.3.1.7 </span>  type</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Type baksteen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td><a class="link" href="#detail_class_Model_Baksteentype">Baksteentype</a></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_hoeken"></a><section id="detail_attribute_Model_Baksteen_hoeken" level="5">
+            <h6 id="x1-6-3-1-8-hoeken"><span class="secno">1.6.3.1.8 </span>  hoeken</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal hoeken van de baksteen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Integer</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit moet een getal deelbaar door 8 zijn.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_omschrijving"></a><section id="detail_attribute_Model_Baksteen_omschrijving" level="5">
+            <h6 id="x1-6-3-1-9-omschrijving"><span class="secno">1.6.3.1.9 </span>  omschrijving</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke taal omschrijving van dit type baksteen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>0 .. 1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_maxTemperatuur"></a><section id="detail_attribute_Model_Baksteen_maxTemperatuur" level="5">
+            <h6 id="x1-6-3-1-10-maxtemperatuur"><span class="secno">1.6.3.1.10 </span>  maxTemperatuur</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>REAL</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_lengte"></a><section id="detail_attribute_Model_Baksteen_lengte" level="5">
+            <h6 id="x1-6-3-1-11-lengte"><span class="secno">1.6.3.1.11 </span>  lengte</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">FDe lengte van de baksteen, dus volgens de langste zijde.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Measure</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Lengte in meters.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_inMagazijn"></a><section id="detail_attribute_Model_Baksteen_inMagazijn" level="5">
+            <h6 id="x1-6-3-1-12-inmagazijn"><span class="secno">1.6.3.1.12 </span>  inMagazijn</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Is de baksteen nog beschikbaar/leverbaar?</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Boolean</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_tag"></a><section id="detail_attribute_Model_Baksteen_tag" level="5">
+            <h6 id="x1-6-3-1-13-tag"><span class="secno">1.6.3.1.13 </span>  tag</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td><a class="link" href="#detail_class_Model_ProductieKenmerk">ProductieKenmerk</a></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Baksteen_oppervlak"></a><section id="detail_attribute_Model_Baksteen_oppervlak" level="5">
+            <h6 id="x1-6-3-1-14-oppervlak"><span class="secno">1.6.3.1.14 </span>  oppervlak</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de steen.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>OppervlakGrootte</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit is de oppervlakte van de grootste zijde.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+      </section><a class="anchor" name="graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27"></a><a class="anchor" name="global_class_Model_Producent"></a><section id="global_class_Model_Producent" level="4">
+         <h5 id="x1-6-3-2-producent"><span class="secno">1.6.3.2 </span>   Producent</h5>
+         <table width="100%">
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Relaties met andere entiteiten</th>
+                  <td>
+                     <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
+                     
+                     gebaseerdOpOntwerp 0, 1 of meer Producent<br>
+                     <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
+                     
+                     geproduceerdDoor 0, 1 of meer Producent<br></td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" name="detail_attribute_Model_Producent_id"></a><section id="detail_attribute_Model_Producent_id" level="5">
+            <h6 id="x1-6-3-2-1-id"><span class="secno">1.6.3.2.1 </span>  id</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Producent</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de producent.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Producent_contractdatum"></a><section id="detail_attribute_Model_Producent_contractdatum" level="5">
+            <h6 id="x1-6-3-2-2-contractdatum"><span class="secno">1.6.3.2.2 </span>  contractdatum</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Producent</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Datum waarop het contract is afgesloten.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Datum</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam IMBRO/A</th>
+                     <td>OnvolledigeDatum</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Producent_site"></a><section id="detail_attribute_Model_Producent_site" level="5">
+            <h6 id="x1-6-3-2-3-site"><span class="secno">1.6.3.2.3 </span>  site</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Producent</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Website van de producent.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>URI</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De website moet publiek toegankelijk zijn.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+      </section><a class="anchor" name="graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F"></a><a class="anchor" name="global_class_Model_ExterneProducent"></a><section id="global_class_Model_ExterneProducent" level="4">
+         <h5 id="x1-6-3-3-externeproducent"><span class="secno">1.6.3.3 </span>   ExterneProducent</h5>
+         <table width="100%">
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De producent die niet op het terein van het bakstenen distributiecentrum is gelegen.</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Relaties met andere entiteiten</th>
+                  <td>ExterneProducent is specialisatie van 
+                     <a class="link" href="#global_class_Model_Producent">Producent</a>
+                     <br></td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" name="detail_attribute_Model_ExterneProducent_postcodegebied"></a><section id="detail_attribute_Model_ExterneProducent_postcodegebied" level="5">
+            <h6 id="x1-6-3-3-1-postcodegebied"><span class="secno">1.6.3.3.1 </span>  postcodegebied</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van ExterneProducent</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Postcodegebied van de producent.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Postcode</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_ExterneProducent_geoLocatie"></a><section id="detail_attribute_Model_ExterneProducent_geoLocatie" level="5">
+            <h6 id="x1-6-3-3-2-geolocatie"><span class="secno">1.6.3.3.2 </span>  geoLocatie</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van ExterneProducent</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De locatie waar de producent is gevestigd.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>GM_Point</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft hier het hoofdkantoor van de betreffende producent.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_ExterneProducent_goniometrie"></a><section id="detail_attribute_Model_ExterneProducent_goniometrie" level="5">
+            <h6 id="x1-6-3-3-3-goniometrie"><span class="secno">1.6.3.3.3 </span>  goniometrie</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van ExterneProducent</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Goniometrische beschrijving van de producent in de routekaart.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Goniometric</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+      </section><a class="anchor" name="graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B"></a><a class="anchor" name="global_class_Model_Client"></a><section id="global_class_Model_Client" level="4">
+         <h5 id="x1-6-3-4-client"><span class="secno">1.6.3.4 </span>   Client</h5>
+         <table width="100%">
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De klant.</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Relaties met andere entiteiten</th>
+                  <td>Client 
+                     deal 1 of meer 
+                     <a class="link" href="#global_class_Model_Contract">Contract</a>
+                     <br>Client 
+                     contactIntern 1 of meer 
+                     <a class="link" href="#global_class_Model_Accountmanager">Accountmanager</a>
+                     <br></td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" name="detail_attribute_Model_Client_id"></a><section id="detail_attribute_Model_Client_id" level="5">
+            <h6 id="x1-6-3-4-1-id"><span class="secno">1.6.3.4.1 </span>  id</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Client</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de client.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+      </section><a class="anchor" name="graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998"></a><a class="anchor" name="global_class_Model_Accountmanager"></a><section id="global_class_Model_Accountmanager" level="4">
+         <h5 id="x1-6-3-5-accountmanager"><span class="secno">1.6.3.5 </span>   Accountmanager</h5>
+         <table width="100%">
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+               <tr>
+                  <th>Relaties met andere entiteiten</th>
+                  <td>
+                     <a class="link" href="#global_class_Model_Client">Client</a>
+                     
+                     contactIntern 1 of meer Accountmanager<br></td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" name="detail_attribute_Model_Accountmanager_voornaam"></a><section id="detail_attribute_Model_Accountmanager_voornaam" level="5">
+            <h6 id="x1-6-3-5-1-voornaam"><span class="secno">1.6.3.5.1 </span>  voornaam</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Accountmanager</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section><a class="anchor" name="detail_attribute_Model_Accountmanager_achternaam"></a><section id="detail_attribute_Model_Accountmanager_achternaam" level="5">
+            <h6 id="x1-6-3-5-2-achternaam"><span class="secno">1.6.3.5.2 </span>  achternaam</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Accountmanager</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+      </section><a class="anchor" name="graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812"></a><a class="anchor" name="global_class_Model_Contract"></a><section id="global_class_Model_Contract" level="4">
+         <h5 id="x1-6-3-6-contract"><span class="secno">1.6.3.6 </span>   Contract</h5>
+         <table width="100%">
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Formele registratie van voorwaarden volgens welke een levering plaatsvindt.</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Relaties met andere entiteiten</th>
+                  <td>
+                     <a class="link" href="#global_class_Model_Client">Client</a>
+                     
+                     deal 1 of meer Contract<br></td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" name="detail_attribute_Model_Contract_id"></a><section id="detail_attribute_Model_Contract_id" level="5">
+            <h6 id="x1-6-3-6-1-id"><span class="secno">1.6.3.6.1 </span>  id</h6>
+            
+            <table width="100%">
+               <colgroup width="30%"></colgroup>
+               <colgroup width="70%"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Contract</td>
+                  </tr>
+                  <tr>
+                     <th>Definitie</th>
+                     <td>
+                        
+                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van het contract.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>CHARACTERSTRING</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+      </section>
+   </section>
+   <section id="uitbreidbare-waardelijsten" level="3">
+      <h4 id="x1-6-4-uitbreidbare-waardelijsten"><span class="secno">1.6.4 </span>Uitbreidbare waardelijsten   </h4><a class="anchor" name="graph_EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0"></a><a class="anchor" name="detail_class_Model_Baksteentype"></a><section id="detail_class_Model_Baksteentype" level="4">
+         <h5 id="x1-6-4-1-baksteentype"><span class="secno">1.6.4.1 </span>   Baksteentype</h5>
+         
+         <table width="100%">
+            <colgroup width="50%"></colgroup>
+            <tbody>
+               <tr>
+                  <td>Definitie</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Type van baksteen. </p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table width="100%">
+            <tbody>
+               <tr>
+                  <th>code</th>
+                  <th>waarde</th>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section><a class="anchor" name="graph_EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"></a><a class="anchor" name="detail_class_Model_ProductieKenmerk"></a><section id="detail_class_Model_ProductieKenmerk" level="4">
+         <h5 id="x1-6-4-2-productiekenmerk"><span class="secno">1.6.4.2 </span>  ProductieKenmerk</h5>
+         
+         <table width="100%">
+            <colgroup width="20%"></colgroup>
+            <tbody>
+               <tr>
+                  <td>Definitie</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een lijst van productiekenmerken.</p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table width="100%">
+            <colgroup width="20%"></colgroup>
+            <colgroup width="5%"></colgroup>
+            <colgroup width="5%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Waarde</th>
+                  <th>IMBRO</th>
+                  <th>IMBRO/A</th>
+                  <th>Omschrijving</th>
+               </tr>
+               <tr>
+                  <td>1</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>Natuurlijke oever</td>
+               </tr>
+               <tr>
+                  <td>2</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>Natuurvriendelijke oever</td>
+               </tr>
+               <tr>
+                  <td>3</td>
+                  <td></td>
+                  <td>✔</td>
+                  <td>Cultuurlijke oever</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section><a class="anchor" name="graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"></a><a class="anchor" name="detail_class_Model_Steengrootte"></a><section id="detail_class_Model_Steengrootte" level="4">
+         <h5 id="x1-6-4-3-enumeratie-details-steengrootte"><span class="secno">1.6.4.3 </span>Enumeratie details  Steengrootte</h5>
+         
+         <table width="100%">
+            <colgroup width="20%"></colgroup>
+            <tbody>
+               <tr>
+                  <td>Definitie</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen.</p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table width="100%">
+            <colgroup width="20%"></colgroup>
+            <colgroup width="20%"></colgroup>
+            <colgroup width="5%"></colgroup>
+            <colgroup width="5%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Code</th>
+                  <th>Waarde</th>
+                  <th>IMBRO</th>
+                  <th>IMBRO/A</th>
+                  <th>Omschrijving</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">large</imvert:alias>
+                     
+                  </td>
+                  <td>groot</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een grote baksteen.</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">medium</imvert:alias>
+                     
+                  </td>
+                  <td>medium</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een middelgrote baksteen</p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">small</imvert:alias>
+                     
+                  </td>
+                  <td>klein</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een kleine baksteen.</p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section><a class="anchor" name="graph_EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8"></a><a class="anchor" name="detail_class_Model_Status"></a><section id="detail_class_Model_Status" level="4">
+         <h5 id="x1-6-4-4-enumeratie-details-status"><span class="secno">1.6.4.4 </span>Enumeratie details  Status</h5>
+         
+         <table width="100%">
+            <colgroup width="20%"></colgroup>
+            <tbody>
+               <tr>
+                  <td>Definitie</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Status van het baksteen productieproces.</p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <table width="100%">
+            <colgroup width="20%"></colgroup>
+            <colgroup width="5%"></colgroup>
+            <colgroup width="5%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Waarde</th>
+                  <th>IMBRO</th>
+                  <th>IMBRO/A</th>
+                  <th>Omschrijving</th>
+               </tr>
+               <tr>
+                  <td>in-progress</td>
+                  <td>✔</td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Nog niet in productie, dus staat op de rol om te worden gebakken, of bakken we niet
+                        meer.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <td>in-production</td>
+                  <td></td>
+                  <td>✔</td>
+                  <td>
+                     
+                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In productie, dus wordt gebakken.</p>
+                     
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+   </section>
+</section>
+
+
+
+</section><p role="navigation" id="back-to-top"><a href="#title"><abbr title="Naar begin">↑</abbr></a></p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
