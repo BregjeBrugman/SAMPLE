@@ -2,1233 +2,1215 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <title>Conceptual model/SampleBase (SAMPLE)/20130318</title><style>
-                    table tbody tr th {text-align: left; vertical-align: top;} 
+                    table tbody tr th,
                     table tbody tr td {text-align: left; vertical-align: top;} 
+                    
+                    table.list { border-collapse: collapse; }
+                    table.list tbody tr th {background-color: #d3d3d3;}
+                    table.list tbody tr th,
+                    table.list tbody tr td {border: 1px solid black;}
                 </style></head>
    <body>
       <p>Conceptual model/SampleBase (SAMPLE)/20130318</p>
-      <p>Imvertor: 1.55.2</p>
-      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20191005-164644</p>
+      <p>Imvertor: 1.57.0</p>
+      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20200101-104051</p>
       <hr>
-      <section id="global_class_Model_Registratieobject" level="3">
-         <h1>Artikel 1     Registratieobject</h1>
-         
-         <table width="100%">
-            <colgroup width="30%"></colgroup>
-            <colgroup width="70%"></colgroup>
-            <tbody>
-               <tr>
-                  <th>Naam</th>
-                  <td>SampleBase </td>
-               </tr>
-               <tr>
-                  <th>Code</th>
-                  <td>SAMPLE</td>
-               </tr>
-               <tr>
-                  <th>Definitie</th>
-                  <td>
-                     
-                     <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het geheel van gegevens dat betrekking heeft op baksteenproductie .</p>
-                     
-                  </td>
-               </tr>
-               <tr>
-                  <th>Populatie</th>
-                  <td>heel veel</td>
-               </tr>
-            </tbody>
-         </table>
-         
-      </section>
-      <section id="" level="3">
-         <h1>Artikel 2  Entiteiten en attributen   </h1><a class="anchor" name="graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></a><a class="anchor" name="global_class_Model_Baksteen"></a><section id="global_class_Model_Baksteen" level="4">
-            <h2>   Baksteen</h2>
-            <table width="100%">
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Type gegeven</th>
-                     <td>Entiteit</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een onderdeel van een bouwwerk met een rechthoekige vorm, bedoeld om muren mee te
-                           maken.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Regels</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Regels tav bakstenen</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Regels IMBRO/A tav bakstenen</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een baksteen is een soort bouwmateriaal, <em>maar alleen als het uit klei is gemaakt door mensen</em>.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Relaties met andere entiteiten</th>
-                     <td>Baksteen 
-                        gebaseerdOpOntwerp 0, 1 of meer 
-                        <a class="link" href="#global_class_Model_Producent">Producent</a>
-                        <br>Baksteen 
-                        geproduceerdDoor 0, 1 of meer 
-                        <a class="link" href="#global_class_Model_Producent">Producent</a>
-                        <br>Baksteen is specialisatie van 
-                        <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
-                        <br></td>
-                  </tr>
-               </tbody>
-            </table><a class="anchor" name="detail_attribute_Model_Baksteen_bROID"></a><section id="detail_attribute_Model_Baksteen_bROID" level="5">
-               <h3>  BRO-ID</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_magazijnID"></a><section id="detail_attribute_Model_Baksteen_magazijnID" level="5">
-               <h3>  magazijnID</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De identificatie van de baksteen in het magazijn.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Mogelijk geen waarde</th>
-                        <td>Ja</td>
-                     </tr>
-                     <tr>
-                        <th>Reden geen waarde</th>
-                        <td>Dit is de reden waarom dit attribuut wellicht geen waarde heeft.</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_kleur"></a><section id="detail_attribute_Model_Baksteen_kleur" level="5">
-               <h3>  kleur</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst</th>
-                        <td>Ergens vandaan</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende
-                              relevantie.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Herkomst definitie</th>
-                        <td>Ook ergens vandaan</td>
-                     </tr>
-                     <tr>
-                        <th>Juridische status</th>
-                        <td>Basisgegeven (niet-authentiek)</td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1 .. 5</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Regels</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de regels die gelden voor de kleur.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Regels IMBRO/A</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit zijn de IMBRO/A regels die gelden voor de kleur.</p>
-                           
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_nettogewicht"></a><section id="detail_attribute_Model_Baksteen_nettogewicht" level="5">
-               <h3>  nettogewicht</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het <em>droog</em> gewicht van de baksteen.
-                           </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Juridische status</th>
-                        <td>Authentiek</td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>0 .. 1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>Gewicht</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Is afgeleid</th>
-                        <td>Ja</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_status"></a><section id="detail_attribute_Model_Baksteen_status" level="5">
-               <h3>  status</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td><a class="link" href="#detail_class_Model_Status">Status</a></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_omvang"></a><section id="detail_attribute_Model_Baksteen_omvang" level="5">
-               <h3>  omvang</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen. </p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td><a class="link" href="#detail_class_Model_Steengrootte">Steengrootte</a></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Uitgedrukt in steengrootte.</p>
-                           
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_type"></a><section id="detail_attribute_Model_Baksteen_type" level="5">
-               <h3>  type</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Type baksteen.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td><a class="link" href="#detail_class_Model_Baksteentype">Baksteentype</a></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_hoeken"></a><section id="detail_attribute_Model_Baksteen_hoeken" level="5">
-               <h3>  hoeken</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het aantal hoeken van de baksteen.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>Integer</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit moet een getal deelbaar door 8 zijn.</p>
-                           
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_omschrijving"></a><section id="detail_attribute_Model_Baksteen_omschrijving" level="5">
-               <h3>  omschrijving</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Natuurlijke taal omschrijving van dit type baksteen.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>0 .. 1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_maxTemperatuur"></a><section id="detail_attribute_Model_Baksteen_maxTemperatuur" level="5">
-               <h3>  maxTemperatuur</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>REAL</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_lengte"></a><section id="detail_attribute_Model_Baksteen_lengte" level="5">
-               <h3>  lengte</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">FDe lengte van de baksteen, dus volgens de langste zijde.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>Measure</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Lengte in meters.</p>
-                           
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_inMagazijn"></a><section id="detail_attribute_Model_Baksteen_inMagazijn" level="5">
-               <h3>  inMagazijn</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Is de baksteen nog beschikbaar/leverbaar?</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>Boolean</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_tag"></a><section id="detail_attribute_Model_Baksteen_tag" level="5">
-               <h3>  tag</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td><a class="link" href="#detail_class_Model_ProductieKenmerk">ProductieKenmerk</a></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Baksteen_oppervlak"></a><section id="detail_attribute_Model_Baksteen_oppervlak" level="5">
-               <h3>  oppervlak</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Baksteen</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De oppervlakte van de steen.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>OppervlakGrootte</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Dit is de oppervlakte van de grootste zijde.</p>
-                           
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
+      <section>
+         <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
+         <section>
+            <h2>Het domeinmodel</h2>
+            <section id="">
+               <div class="imageinfo overview"><img src="Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1" alt="Diagram Overzicht van alle constructies in dit conceptuele model."><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
+                     <area shape="rect" alt="Registratieobject" coords="27,107,227,196" href="#graph_EAID_9E9289AB_19E6_48af_87FD_8BC9E0875C28">
+                     <area shape="rect" alt="ProductieKenmerk" coords="405,627,562,733" href="#graph_EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1">
+                     <area shape="rect" alt="Baksteentype" coords="595,633,741,739" href="#graph_EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0">
+                     <area shape="rect" alt="Steengrootte" coords="240,625,370,729" href="#graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458">
+                     <area shape="rect" alt="Accountmanager" coords="825,473,975,575" href="#graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998">
+                     <area shape="rect" alt="Status" coords="48,626,183,728" href="#graph_EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8">
+                     <area shape="rect" alt="ExterneProducent" coords="395,443,530,545" href="#graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
+                     <area shape="rect" alt="Baksteen" coords="25,243,228,514" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
+                     <area shape="rect" alt="Producent" coords="385,253,520,398" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+                     <area shape="rect" alt="Contract" coords="1016,380,1151,469" href="#graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
+                     <area shape="rect" alt="Client" coords="605,383,782,503" href="#graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B"></map><p><b>Bakstenen</b> — Overzicht van alle constructies in dit conceptuele model.
+                  </p>
+               </div>
             </section>
-         </section><a class="anchor" name="graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27"></a><a class="anchor" name="global_class_Model_Producent"></a><section id="global_class_Model_Producent" level="4">
-            <h2>   Producent</h2>
-            <table width="100%">
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Type gegeven</th>
-                     <td>Entiteit</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Relaties met andere entiteiten</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
-                        
-                        gebaseerdOpOntwerp 0, 1 of meer Producent<br>
-                        <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
-                        
-                        geproduceerdDoor 0, 1 of meer Producent<br></td>
-                  </tr>
-               </tbody>
-            </table><a class="anchor" name="detail_attribute_Model_Producent_id"></a><section id="detail_attribute_Model_Producent_id" level="5">
-               <h3>  id</h3>
+         </section>
+         <section>
+            <h2>Registratieobject</h2>
+            <section id="global_class_Model_Registratieobject">
                
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
                   <tbody>
                      <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Producent</td>
+                        <th>Naam</th>
+                        <td>Baksteen</td>
+                     </tr>
+                     <tr>
+                        <th>Code</th>
+                        <td>SAMPLE</td>
                      </tr>
                      <tr>
                         <th>Definitie</th>
                         <td>
                            
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de producent.</p>
+                           <p>Het geheel van gegevens dat betrekking heeft op baksteenproductie .</p>
                            
                         </td>
                      </tr>
                      <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Producent_contractdatum"></a><section id="detail_attribute_Model_Producent_contractdatum" level="5">
-               <h3>  contractdatum</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Producent</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Datum waarop het contract is afgesloten.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>Datum</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                        <td>OnvolledigeDatum</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Producent_site"></a><section id="detail_attribute_Model_Producent_site" level="5">
-               <h3>  site</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Producent</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Website van de producent.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>URI</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De website moet publiek toegankelijk zijn.</p>
-                           
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-         </section><a class="anchor" name="graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F"></a><a class="anchor" name="global_class_Model_ExterneProducent"></a><section id="global_class_Model_ExterneProducent" level="4">
-            <h2>   ExterneProducent</h2>
-            <table width="100%">
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Type gegeven</th>
-                     <td>Entiteit</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De producent die niet op het terein van het bakstenen distributiecentrum is gelegen.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Relaties met andere entiteiten</th>
-                     <td>ExterneProducent is specialisatie van 
-                        <a class="link" href="#global_class_Model_Producent">Producent</a>
-                        <br></td>
-                  </tr>
-               </tbody>
-            </table><a class="anchor" name="detail_attribute_Model_ExterneProducent_postcodegebied"></a><section id="detail_attribute_Model_ExterneProducent_postcodegebied" level="5">
-               <h3>  postcodegebied</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van ExterneProducent</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Postcodegebied van de producent.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>Postcode</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_ExterneProducent_geoLocatie"></a><section id="detail_attribute_Model_ExterneProducent_geoLocatie" level="5">
-               <h3>  geoLocatie</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van ExterneProducent</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De locatie waar de producent is gevestigd.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>GM_Point</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                     <tr>
-                        <th>Toelichting</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Het betreft hier het hoofdkantoor van de betreffende producent.</p>
-                           
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_ExterneProducent_goniometrie"></a><section id="detail_attribute_Model_ExterneProducent_goniometrie" level="5">
-               <h3>  goniometrie</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van ExterneProducent</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Goniometrische beschrijving van de producent in de routekaart.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>Goniometric</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-         </section><a class="anchor" name="graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B"></a><a class="anchor" name="global_class_Model_Client"></a><section id="global_class_Model_Client" level="4">
-            <h2>   Client</h2>
-            <table width="100%">
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Type gegeven</th>
-                     <td>Entiteit</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De klant.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Relaties met andere entiteiten</th>
-                     <td>Client 
-                        deal 1 of meer 
-                        <a class="link" href="#global_class_Model_Contract">Contract</a>
-                        <br>Client 
-                        contactIntern 1 of meer 
-                        <a class="link" href="#global_class_Model_Accountmanager">Accountmanager</a>
-                        <br></td>
-                  </tr>
-               </tbody>
-            </table><a class="anchor" name="detail_attribute_Model_Client_id"></a><section id="detail_attribute_Model_Client_id" level="5">
-               <h3>  id</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Client</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van de client.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-         </section><a class="anchor" name="graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998"></a><a class="anchor" name="global_class_Model_Accountmanager"></a><section id="global_class_Model_Accountmanager" level="4">
-            <h2>   Accountmanager</h2>
-            <table width="100%">
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Type gegeven</th>
-                     <td>Entiteit</td>
-                  </tr>
-                  <tr>
-                     <th>Relaties met andere entiteiten</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Client">Client</a>
-                        
-                        contactIntern 1 of meer Accountmanager<br></td>
-                  </tr>
-               </tbody>
-            </table><a class="anchor" name="detail_attribute_Model_Accountmanager_voornaam"></a><section id="detail_attribute_Model_Accountmanager_voornaam" level="5">
-               <h3>  voornaam</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Accountmanager</td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section><a class="anchor" name="detail_attribute_Model_Accountmanager_achternaam"></a><section id="detail_attribute_Model_Accountmanager_achternaam" level="5">
-               <h3>  achternaam</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Accountmanager</td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-            </section>
-         </section><a class="anchor" name="graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812"></a><a class="anchor" name="global_class_Model_Contract"></a><section id="global_class_Model_Contract" level="4">
-            <h2>   Contract</h2>
-            <table width="100%">
-               <colgroup width="30%"></colgroup>
-               <colgroup width="70%"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Type gegeven</th>
-                     <td>Entiteit</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>
-                        
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Formele registratie van voorwaarden volgens welke een levering plaatsvindt.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>Relaties met andere entiteiten</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Client">Client</a>
-                        
-                        deal 1 of meer Contract<br></td>
-                  </tr>
-               </tbody>
-            </table><a class="anchor" name="detail_attribute_Model_Contract_id"></a><section id="detail_attribute_Model_Contract_id" level="5">
-               <h3>  id</h3>
-               
-               <table width="100%">
-                  <colgroup width="30%"></colgroup>
-                  <colgroup width="70%"></colgroup>
-                  <tbody>
-                     <tr>
-                        <th>Type gegeven</th>
-                        <td>Attribuut van Contract</td>
-                     </tr>
-                     <tr>
-                        <th>Definitie</th>
-                        <td>
-                           
-                           <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Identificatie van het contract.</p>
-                           
-                        </td>
-                     </tr>
-                     <tr>
-                        <th>Kardinaliteit</th>
-                        <td>1</td>
-                     </tr>
-                     <tr>
-                        <th>Domein</th>
-                        <td></td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Naam</th>
-                        <td>CHARACTERSTRING</td>
-                     </tr>
-                     <tr>
-                        <th>&nbsp;&nbsp;Type</th>
-                        <td>Waardelijst uitbreidbaar</td>
+                        <th>Populatie</th>
+                        <td>heel veel</td>
                      </tr>
                   </tbody>
                </table>
                
             </section>
          </section>
+         <section>
+            <h2>Entiteiten en attributen</h2>
+            <section id=""><a class="anchor" id="graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></a><section id="global_class_Model_Baksteen">
+                  <h3>   Baksteen</h3>
+                  <div class="imageinfo "><img src="Images/EAID_EB759E5B_3FAA_4064_A73E_704926072F89.png" usemap="#imagemap-EAID_EB759E5B_3FAA_4064_A73E_704926072F89" alt="Diagram Gedetailleerde informatie over Baksteen objectttype, inclusief traces."><map name="imagemap-EAID_EB759E5B_3FAA_4064_A73E_704926072F89">
+                        <area shape="rect" alt="Producent" coords="110,35,225,137" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
+                        <area shape="rect" alt="Baksteen" coords="95,222,272,470" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></map><p><b>Baksteen</b> — Gedetailleerde informatie over Baksteen objectttype, inclusief traces.
+                     </p>
+                  </div>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>Een onderdeel van een bouwwerk met een rechthoekige vorm, bedoeld om muren mee te
+                                 maken.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p>Regels tav bakstenen</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Regels IMBRO/A</th>
+                           <td>
+                              
+                              <p>Regels IMBRO/A tav bakstenen</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Toelichting</th>
+                           <td>
+                              
+                              <p>Een baksteen is een soort bouwmateriaal, <em>maar alleen als het uit klei is gemaakt door mensen</em>.
+                              </p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>Baksteen 
+                              gebaseerdOpOntwerp 0..* 
+                              <a class="link" href="#global_class_Model_Producent">Producent</a>
+                              <br>Baksteen 
+                              geproduceerdDoor 0..* 
+                              <a class="link" href="#global_class_Model_Producent">Producent</a>
+                              <br>Baksteen is specialisatie van 
+                              <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
+                              <br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <section id="detail_attribute_Model_Baksteen_bROID">
+                     <h4>  BRO-ID</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_magazijnID">
+                     <h4>  magazijnID</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De identificatie van de baksteen in het magazijn.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Ja</td>
+                           </tr>
+                           <tr>
+                              <th>Reden geen waarde</th>
+                              <td>
+                                 
+                                 <p>Dit is de reden waarom dit attribuut wellicht geen waarde heeft.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_kleur">
+                     <h4>  kleur</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst</th>
+                              <td>Ergens vandaan</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De kleur van de baksteen; meerdere kleuren kunnen hier worden beschreven, in aflopende
+                                    relevantie.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Herkomst definitie</th>
+                              <td>Ook ergens vandaan</td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Niet-authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1..5</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Dit zijn de regels die gelden voor de kleur.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Regels IMBRO/A</th>
+                              <td>
+                                 
+                                 <p>Dit zijn de IMBRO/A regels die gelden voor de kleur.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_nettogewicht">
+                     <h4>  nettogewicht</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het <em>droog</em> gewicht van de baksteen.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>0..1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Gewicht</td>
+                           </tr>
+                           <tr>
+                              <th>Is afgeleid</th>
+                              <td>Ja</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_status">
+                     <h4>  status</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td><a class="link" href="#detail_class_Model_Status">Status</a></td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_omvang">
+                     <h4>  omvang</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De omvang van de baksteen. </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td><a class="link" href="#detail_class_Model_Steengrootte">Steengrootte</a></td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Uitgedrukt in steengrootte.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_type">
+                     <h4>  type</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Type baksteen.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td><a class="link" href="#detail_class_Model_Baksteentype">Baksteentype</a></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_hoeken">
+                     <h4>  hoeken</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het aantal hoeken van de baksteen.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Integer</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Dit moet een getal deelbaar door 8 zijn.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_omschrijving">
+                     <h4>  omschrijving</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Natuurlijke taal omschrijving van dit type baksteen.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>0..1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_maxTemperatuur">
+                     <h4>  maxTemperatuur</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De max temperatuur die de baksteen kan verdragen in de praktijk.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>REAL</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_lengte">
+                     <h4>  lengte</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>FDe lengte van de baksteen, dus volgens de langste zijde.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Measure</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Lengte in meters.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_inMagazijn">
+                     <h4>  inMagazijn</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Is de baksteen nog beschikbaar/leverbaar?</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Boolean</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_tag">
+                     <h4>  tag</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Een kenmerk waarin wordt uigedrukt welk type productie deze steen heeft voortgebracht.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td><a class="link" href="#detail_class_Model_ProductieKenmerk">ProductieKenmerk</a></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Baksteen_oppervlak">
+                     <h4>  oppervlak</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Baksteen</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De oppervlakte van de steen.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>OppervlakGrootte</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Dit is de oppervlakte van de grootste zijde.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+               </section><a class="anchor" id="graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27"></a><section id="global_class_Model_Producent">
+                  <h3>   Producent</h3>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>
+                              <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
+                              
+                              geproduceerdDoor 0..* Producent<br>
+                              <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
+                              
+                              gebaseerdOpOntwerp 0..* Producent<br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <section id="detail_attribute_Model_Producent_id">
+                     <h4>  id</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Producent</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Identificatie van de producent.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Producent_contractdatum">
+                     <h4>  contractdatum</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Producent</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Datum waarop het contract is afgesloten.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Datum</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
+                              <td>OnvolledigeDatum</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Producent_site">
+                     <h4>  site</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Producent</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Website van de producent.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>URI</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>De website moet publiek toegankelijk zijn.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+               </section><a class="anchor" id="graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F"></a><section id="global_class_Model_ExterneProducent">
+                  <h3>   ExterneProducent</h3>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>De producent die niet op het terein van het bakstenen distributiecentrum is gelegen.</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>ExterneProducent is specialisatie van 
+                              <a class="link" href="#global_class_Model_Producent">Producent</a>
+                              <br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <section id="detail_attribute_Model_ExterneProducent_postcodegebied">
+                     <h4>  postcodegebied</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van ExterneProducent</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Postcodegebied van de producent.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Postcode</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_ExterneProducent_geoLocatie">
+                     <h4>  geoLocatie</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van ExterneProducent</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De locatie waar de producent is gevestigd.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>GM_Point</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het betreft hier het hoofdkantoor van de betreffende producent.</p>
+                                 
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_ExterneProducent_goniometrie">
+                     <h4>  goniometrie</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van ExterneProducent</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Goniometrische beschrijving van de producent in de routekaart.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Goniometric</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+               </section><a class="anchor" id="graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B"></a><section id="global_class_Model_Client">
+                  <h3>   Client</h3>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>De klant.</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>Client 
+                              contactIntern 1..* 
+                              <a class="link" href="#global_class_Model_Accountmanager">Accountmanager</a>
+                              <br>Client 
+                              deal 1..* 
+                              <a class="link" href="#global_class_Model_Contract">Contract</a>
+                              <br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <section id="detail_attribute_Model_Client_id">
+                     <h4>  id</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Client</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Identificatie van de client.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+               </section><a class="anchor" id="graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998"></a><section id="global_class_Model_Accountmanager">
+                  <h3>   Accountmanager</h3>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>
+                              <a class="link" href="#global_class_Model_Client">Client</a>
+                              
+                              contactIntern 1..* Accountmanager<br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <section id="detail_attribute_Model_Accountmanager_voornaam">
+                     <h4>  voornaam</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Accountmanager</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_Model_Accountmanager_achternaam">
+                     <h4>  achternaam</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Accountmanager</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+               </section><a class="anchor" id="graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812"></a><section id="global_class_Model_Contract">
+                  <h3>   Contract</h3>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>Formele registratie van voorwaarden volgens welke een levering plaatsvindt.</p>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>
+                              <a class="link" href="#global_class_Model_Client">Client</a>
+                              
+                              deal 1..* Contract<br></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <section id="detail_attribute_Model_Contract_id">
+                     <h4>  id</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Contract</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Identificatie van het contract.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>CHARACTERSTRING</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+               </section>
+            </section>
+         </section>
       </section>
-      <section id="" level="3">
-         <h1>Artikel 3  Beschrijving van uitbreidbare waardelijsten   </h1><a class="anchor" name="graph_EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0"></a><a class="anchor" name="detail_class_Model_Baksteentype"></a><section id="detail_class_Model_Baksteentype" level="4">
-            <h2>   Baksteentype</h2>
+      <section>
+         <h1>Artikel 2 Beschrijving van uitbreidbare waardelijsten    </h1>
+         <section id="detail_class_Model_Baksteentype">
+            <h3>   Baksteentype</h3>
             
-            <table width="100%">
-               <colgroup width="50%"></colgroup>
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 50%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <td>Definitie</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Type van baksteen. </p>
+                        <p>Type van baksteen. </p>
                         
                      </td>
                   </tr>
                </tbody>
             </table>
             
-            <table width="100%">
+            <table style="width: 100%;">
                <tbody>
                   <tr>
                      <th>code</th>
@@ -1237,27 +1219,30 @@
                </tbody>
             </table>
             
-         </section><a class="anchor" name="graph_EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1"></a><a class="anchor" name="detail_class_Model_ProductieKenmerk"></a><section id="detail_class_Model_ProductieKenmerk" level="4">
-            <h2>  ProductieKenmerk</h2>
+         </section>
+         <section id="detail_class_Model_ProductieKenmerk">
+            <h3>  ProductieKenmerk</h3>
             
-            <table width="100%">
-               <colgroup width="20%"></colgroup>
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <td>Definitie</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een lijst van productiekenmerken.</p>
+                        <p>Een lijst van productiekenmerken.</p>
                         
                      </td>
                   </tr>
                </tbody>
             </table>
             
-            <table width="100%">
-               <colgroup width="20%"></colgroup>
-               <colgroup width="5%"></colgroup>
-               <colgroup width="5%"></colgroup>
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <th>Waarde</th>
@@ -1286,28 +1271,31 @@
                </tbody>
             </table>
             
-         </section><a class="anchor" name="graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458"></a><a class="anchor" name="detail_class_Model_Steengrootte"></a><section id="detail_class_Model_Steengrootte" level="4">
-            <h2>Enumeratie details  Steengrootte</h2>
+         </section>
+         <section id="detail_class_Model_Steengrootte">
+            <h3>Enumeratie details  Steengrootte</h3>
             
-            <table width="100%">
-               <colgroup width="20%"></colgroup>
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <td>Definitie</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">De omvang van de baksteen.</p>
+                        <p>De omvang van de baksteen.</p>
                         
                      </td>
                   </tr>
                </tbody>
             </table>
             
-            <table width="100%">
-               <colgroup width="20%"></colgroup>
-               <colgroup width="20%"></colgroup>
-               <colgroup width="5%"></colgroup>
-               <colgroup width="5%"></colgroup>
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <th>Code</th>
@@ -1319,7 +1307,7 @@
                   <tr>
                      <td>
                         
-                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">large</imvert:alias>
+                        <alias>large</alias>
                         
                      </td>
                      <td>groot</td>
@@ -1327,14 +1315,14 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een grote baksteen.</p>
+                        <p>Een grote baksteen.</p>
                         
                      </td>
                   </tr>
                   <tr>
                      <td>
                         
-                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">medium</imvert:alias>
+                        <alias>medium</alias>
                         
                      </td>
                      <td>medium</td>
@@ -1342,14 +1330,14 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een middelgrote baksteen</p>
+                        <p>Een middelgrote baksteen</p>
                         
                      </td>
                   </tr>
                   <tr>
                      <td>
                         
-                        <imvert:alias xmlns:imvert="http://www.imvertor.org/schema/system">small</imvert:alias>
+                        <alias>small</alias>
                         
                      </td>
                      <td>klein</td>
@@ -1357,34 +1345,37 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Een kleine baksteen.</p>
+                        <p>Een kleine baksteen.</p>
                         
                      </td>
                   </tr>
                </tbody>
             </table>
             
-         </section><a class="anchor" name="graph_EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8"></a><a class="anchor" name="detail_class_Model_Status"></a><section id="detail_class_Model_Status" level="4">
-            <h2>Enumeratie details  Status</h2>
+         </section>
+         <section id="detail_class_Model_Status">
+            <h3>Enumeratie details  Status</h3>
             
-            <table width="100%">
-               <colgroup width="20%"></colgroup>
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <td>Definitie</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Status van het baksteen productieproces.</p>
+                        <p>Status van het baksteen productieproces.</p>
                         
                      </td>
                   </tr>
                </tbody>
             </table>
             
-            <table width="100%">
-               <colgroup width="20%"></colgroup>
-               <colgroup width="5%"></colgroup>
-               <colgroup width="5%"></colgroup>
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup></colgroup>
                <tbody>
                   <tr>
                      <th>Waarde</th>
@@ -1398,7 +1389,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">Nog niet in productie, dus staat op de rol om te worden gebakken, of bakken we niet
+                        <p>Nog niet in productie, dus staat op de rol om te worden gebakken, of bakken we niet
                            meer.
                         </p>
                         
@@ -1410,7 +1401,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:imvert="http://www.imvertor.org/schema/system">In productie, dus wordt gebakken.</p>
+                        <p>In productie, dus wordt gebakken.</p>
                         
                      </td>
                   </tr>
@@ -1418,31 +1409,6 @@
             </table>
             
          </section>
-      </section>
-      <section id="" level="3">
-         <h1>Artikel 4 Het domeinmodel</h1>
-         <div class="imageinfo overview"><img src="Images/EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1.png" usemap="#imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1"><map name="imagemap-EAID_08513AA0_8A50_46c1_AD86_9B80D9A6AAE1">
-               <area shape="rect" coords="285,184,407,95" alt="" href="#graph_EAID_9E9289AB_19E6_48af_87FD_8BC9E0875C28">
-               <area shape="rect" coords="665,744,822,638" alt="" href="#graph_EAID_4D78F0AD_88ED_44ef_9A76_163426CD74D1">
-               <area shape="rect" coords="855,750,1001,644" alt="" href="#graph_EAID_705E4D02_09C2_4812_AA1F_D80E12C89EE0">
-               <area shape="rect" coords="500,740,630,636" alt="" href="#graph_EAID_65363897_E229_41fd_BE6F_E6B1BACAD458">
-               <area shape="rect" coords="1085,586,1235,484" alt="" href="#graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998">
-               <area shape="rect" coords="308,739,443,637" alt="" href="#graph_EAID_E86D21EE_58FD_4975_9CCB_AFF2434704A8">
-               <area shape="rect" coords="655,556,790,454" alt="" href="#graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
-               <area shape="rect" coords="285,525,488,254" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814">
-               <area shape="rect" coords="645,409,780,264" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
-               <area shape="rect" coords="1276,480,1411,391" alt="" href="#graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
-               <area shape="rect" coords="865,514,1042,394" alt="" href="#graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B"></map><p><b>Model A</b> — Overzicht van alle constructies in dit conceptuele model.
-            </p>
-         </div>
-         <div class="imageinfo overview"><img src="Images/EAID_D5BFC0BD_7840_455a_AC11_714A9AF4F12B.png" usemap="#imagemap-EAID_D5BFC0BD_7840_455a_AC11_714A9AF4F12B"><map name="imagemap-EAID_D5BFC0BD_7840_455a_AC11_714A9AF4F12B">
-               <area shape="rect" coords="463,141,604,52" alt="" href="#graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998">
-               <area shape="rect" coords="596,132,711,52" alt="" href="#graph_EAID_77987690_1141_457d_A33B_E1C7AA1EA812">
-               <area shape="rect" coords="228,363,359,248" alt="" href="#graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F">
-               <area shape="rect" coords="176,143,291,41" alt="" href="#graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27">
-               <area shape="rect" coords="596,358,773,252" alt="" href="#graph_EAID_DF955A82_3E49_4c9d_9C0C_74738600FE1B">
-               <area shape="rect" coords="25,707,202,436" alt="" href="#graph_EAID_CF7C4448_E50C_4c7a_B1D0_C4FCB2EB1814"></map><p><b>Model B</b></p>
-         </div>
       </section>
    </body>
 </html>
