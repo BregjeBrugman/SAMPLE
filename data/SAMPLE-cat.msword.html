@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/SampleBase (SAMPLE)/20130318</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20200227-142242</p>
+      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20200227-142735</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -133,18 +133,6 @@
                               </p>
                               
                            </td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>Baksteen 
-                              gebaseerdOpOntwerp 0..* 
-                              <a class="link" href="#global_class_Model_Producent">Producent</a>
-                              <br>Baksteen 
-                              geproduceerdDoor 0..* 
-                              <a class="link" href="#global_class_Model_Producent">Producent</a>
-                              <br>Baksteen is specialisatie van 
-                              <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
-                              <br></td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Baksteen_bROID"></a><section id="detail_attribute_Model_Baksteen_bROID">
@@ -767,16 +755,6 @@
                               
                            </td>
                         </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>
-                              <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
-                              
-                              geproduceerdDoor 0..* Producent<br>
-                              <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
-                              
-                              gebaseerdOpOntwerp 0..* Producent<br></td>
-                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Producent_id"></a><section id="detail_attribute_Model_Producent_id">
                      <h4>  id</h4>
@@ -911,12 +889,6 @@
                               
                            </td>
                         </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>ExterneProducent is specialisatie van 
-                              <a class="link" href="#global_class_Model_Producent">Producent</a>
-                              <br></td>
-                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_ExterneProducent_postcodegebied"></a><section id="detail_attribute_Model_ExterneProducent_postcodegebied">
                      <h4>  postcodegebied</h4>
@@ -1047,16 +1019,6 @@
                               
                            </td>
                         </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>Client 
-                              contactIntern 1..* 
-                              <a class="link" href="#global_class_Model_Accountmanager">Accountmanager</a>
-                              <br>Client 
-                              deal 1..10 
-                              <a class="link" href="#global_class_Model_Contract">Contract</a>
-                              <br></td>
-                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Client_id"></a><section id="detail_attribute_Model_Client_id">
                      <h4>  id</h4>
@@ -1102,13 +1064,6 @@
                         <tr>
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>
-                              <a class="link" href="#global_class_Model_Client">Client</a>
-                              
-                              contactIntern 1..* Accountmanager<br></td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Accountmanager_voornaam"></a><section id="detail_attribute_Model_Accountmanager_voornaam">
@@ -1181,13 +1136,6 @@
                               <p>Formele registratie van voorwaarden volgens welke een levering plaatsvindt.</p>
                               
                            </td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>
-                              <a class="link" href="#global_class_Model_Client">Client</a>
-                              
-                              deal 1..10 Contract<br></td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Contract_id"></a><section id="detail_attribute_Model_Contract_id">
