@@ -12,8 +12,8 @@
                 </style></head>
    <body>
       <p>Conceptual model/SampleBase (SAMPLE)/20130318</p>
-      <p>Imvertor: 1.59.2.20200304</p>
-      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20200304-163814</p>
+      <p>Imvertor: 1.59.3</p>
+      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20200305-083005</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -436,6 +436,10 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Identificerend gegeven</th>
+                              <td>ID</td>
+                           </tr>
                         </tbody>
                      </table>
                      
@@ -659,6 +663,10 @@
                            <tr>
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Identificerend gegeven</th>
+                              <td></td>
                            </tr>
                         </tbody>
                      </table>
@@ -1187,9 +1195,51 @@
                   <tr>
                      <td>
                         
+                        
                         <p>De lijst met stoffen en andere eigenschappen die in een grondwatersamenstellingsonderzoek
                            bepaald worden.
                         </p>
+                        
+                        
+                        
+                        <ol>
+                           
+                           <li>
+                              <b>ID</b>: Het ID van de parameter zoals uitgegeven door het SIKB.<br>Dit is een persistent, identificerend volgnummer binnen de referentielijst. Voor nieuwe
+                              stoffen kan een nieuwe aquocode met een nieuw ID worden aangevraagd.
+                           </li>
+                           
+                           <li>
+                              <b>aquocode</b>: De Aquocode van de laboratoriumparameter.<br>De aquocode is een codering voor een stof die afgeleid is van de naam van de stof.
+                              Voor nieuwe stoffen kan een nieuwe aquocode worden aangevraagd waarbij ook een nieuw
+                              ID wordt aangemaakt.
+                           </li>
+                           
+                           <li>
+                              <b>CASnummer</b>: Het Chemical Abstracts Service nummer van de laboratoriumparameter.<br>Alleen chemische parameters hebben een CAS-nummer. Een Chemical Abstracts Service
+                              nummer is uniek voor elke parameter. Voor bv somparameters ontbreekt het CAS-nummer.
+                           </li>
+                           
+                           <li>
+                              <b>omschrijving</b>: De volledige naam van de parameter.
+                           </li>
+                           
+                           <li>
+                              <b>eenheid</b>: De eenheid waarin de parameter geregistreerd moet worden. De prefix, het voorvoegsel
+                              van de eenheid, mag worden aangepast als dit beter aansluit bij de hoogte van de gemeten
+                              waarde. Wanneer bijvoorbeeld ug/l in de parameterlijst staat, is mg/l ook toegestaan.
+                           </li>
+                           
+                           <li>
+                              <b>hoedanigheid</b>: De afgesproken hoedanigheid waarin de parameter wordt gerapporteerd.<br>De hoedanigheid is een nadere duiding van de eenheid, behorend bij een meetwaarde,
+                              bijvoorbeeld ten opzicht van 25 graden Celcius. De hoedanigheid kan ook de fractie
+                              van de parameter aangeven waarop de meetwaarde betrekking heeft, bijvoorbeeld de opgeloste
+                              fractie (bijv. na filtratie): nf. Bij stiksfofverbindingen wordt bijvoorbeeld aangegeven
+                              dat de waarde wordt uitgedrukt in stikstof in opgeloste fractie (Nnf).
+                           </li>
+                           
+                        </ol>
+                        
                         
                      </td>
                   </tr>
