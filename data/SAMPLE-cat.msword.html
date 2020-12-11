@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/SampleBase (SAMPLE)/20130318</p>
       <p>Imvertor: 1.62.3</p>
-      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20201211-111657</p>
+      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20201211-112224</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -111,18 +111,6 @@
                               
                               <p>Water formuleren we als H<sub>2</sub>O. Daarin zit geen CO<sup>2</sup>.</p>
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>Baksteen 
-                              geproduceerdDoor 0..* 
-                              <a class="link" href="#global_class_Model_Producent">Producent</a>
-                              <br>Baksteen 
-                              gebaseerdOpOntwerp 0..* 
-                              <a class="link" href="#global_class_Model_Producent">Producent</a>
-                              <br>Baksteen is specialisatie van 
-                              <a class="link" href="#global_class_Model_Registratieobject">Registratieobject</a>
-                              <br></td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Baksteen_BROID"></a><section id="detail_attribute_Model_Baksteen_BROID">
@@ -734,6 +722,69 @@
                            </tr>
                         </tbody>
                      </table>
+                     </section><a class="anchor" id="detail_association_Model_Baksteen_eersteProducent"></a><section id="detail_association_Model_Baksteen_eersteProducent">
+                     <h4>Relatiesoort details  geproduceerdDoor</h4>
+                     
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>geproduceerdDoor</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De eerste producent is de maker die als eerste met de baksteen op de markt is gekomen,
+                                    en de steen nog levert.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>0 .. *</td>
+                           </tr>
+                           <tr>
+                              <th>Gerelateerd objecttype</th>
+                              <td>
+                                 <a class="link" href="#global_class_Model_Producent">Producent</a>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_association_Model_Baksteen_ontwerpBasis"></a><section id="detail_association_Model_Baksteen_ontwerpBasis">
+                     <h4>Relatiesoort details  gebaseerdOpOntwerp</h4>
+                     
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>gebaseerdOpOntwerp</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De steen is ontworpen door een producent, die daarvoor de basis heeft gelegd.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>0 .. *</td>
+                           </tr>
+                           <tr>
+                              <th>Gerelateerd objecttype</th>
+                              <td>
+                                 <a class="link" href="#global_class_Model_Producent">Producent</a>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
                      </section>
                </section><a class="anchor" id="graph_EAID_04EED45C_4D30_41b9_83EE_65237E1F8E27"></a><a class="anchor" id="global_class_Model_Producent"></a><section id="global_class_Model_Producent">
                   <h3>   Producent</h3>
@@ -751,16 +802,6 @@
                               
                               <p>De instantie die de baksteen heeft geproduceerd en/of ontworpen.</p>
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>
-                              <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
-                              
-                              geproduceerdDoor 0..* Producent<br>
-                              <a class="link" href="#global_class_Model_Baksteen">Baksteen</a>
-                              
-                              gebaseerdOpOntwerp 0..* Producent<br></td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Producent_id"></a><section id="detail_attribute_Model_Producent_id">
@@ -888,12 +929,6 @@
                               <p>De producent die niet op het terein van het bakstenen distributiecentrum is gelegen.</p>
                               </td>
                         </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>ExterneProducent is specialisatie van 
-                              <a class="link" href="#global_class_Model_Producent">Producent</a>
-                              <br></td>
-                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_ExterneProducent_postcodegebied"></a><section id="detail_attribute_Model_ExterneProducent_postcodegebied">
                      <h4>  postcodegebied</h4>
@@ -1016,16 +1051,6 @@
                               <p>De klant.</p>
                               </td>
                         </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>Client 
-                              deal 1..10 
-                              <a class="link" href="#global_class_Model_Contract">Contract</a>
-                              <br>Client 
-                              contactIntern 1..* 
-                              <a class="link" href="#global_class_Model_Accountmanager">Accountmanager</a>
-                              <br></td>
-                        </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Client_id"></a><section id="detail_attribute_Model_Client_id">
                      <h4>  id</h4>
@@ -1059,6 +1084,61 @@
                            </tr>
                         </tbody>
                      </table>
+                     </section><a class="anchor" id="detail_association_Model_Client_contract"></a><section id="detail_association_Model_Client_contract">
+                     <h4>Relatiesoort details  deal</h4>
+                     
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>deal</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1 .. 10</td>
+                           </tr>
+                           <tr>
+                              <th>Gerelateerd objecttype</th>
+                              <td>
+                                 <a class="link" href="#global_class_Model_Contract">Contract</a>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_d17955e4195"></a><section id="detail_d17955e4195">
+                     <h4>Relatiesoort details  contactIntern</h4>
+                     
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Naam</th>
+                              <td>contactIntern</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Interne persoon die betreffende client vertegenwoordigt.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1 .. *</td>
+                           </tr>
+                           <tr>
+                              <th>Gerelateerd objecttype</th>
+                              <td>
+                                 <a class="link" href="#global_class_Model_Accountmanager">Accountmanager</a>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
                      </section>
                </section><a class="anchor" id="graph_EAID_29D6B892_B943_494c_94C7_A13DB031E998"></a><a class="anchor" id="global_class_Model_Accountmanager"></a><section id="global_class_Model_Accountmanager">
                   <h3>   Accountmanager</h3>
@@ -1069,13 +1149,6 @@
                         <tr>
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>
-                              <a class="link" href="#global_class_Model_Client">Client</a>
-                              
-                              contactIntern 1..* Accountmanager<br></td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Accountmanager_voornaam"></a><section id="detail_attribute_Model_Accountmanager_voornaam">
@@ -1159,13 +1232,6 @@
                               
                               <p>Formele registratie van voorwaarden volgens welke een levering plaatsvindt.</p>
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>
-                              <a class="link" href="#global_class_Model_Client">Client</a>
-                              
-                              deal 1..10 Contract<br></td>
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Contract_id"></a><section id="detail_attribute_Model_Contract_id">
