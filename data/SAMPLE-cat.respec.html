@@ -699,7 +699,8 @@
                </tbody>
             </table>
             </section><a class="anchor" id="detail_association_Model_Baksteen_eersteProducent"></a><section id="detail_association_Model_Baksteen_eersteProducent">
-            <h4>Relatiesoort details  geproduceerdDoor</h4>
+            <h4>  geproduceerdDoor</h4>
+            
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -708,43 +709,6 @@
                   <tr>
                      <th>Type gegeven</th>
                      <td>Associatie van Baksteen</td>
-                  </tr>
-                  <tr>
-                     <th>Kardinaliteit</th>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <th>Relatiesoort naam</th>
-                     <td>geproduceerdDoor</td>
-                  </tr>
-                  <tr>
-                     <th>Relatierol naam</th>
-                     <td>ONBEKEND1</td>
-                  </tr>
-                  <tr>
-                     <th>Source</th>
-                     <td>Baksteen</td>
-                  </tr>
-                  <tr>
-                     <th>Target</th>
-                     <td>
-                        Producent
-                        </td>
-                  </tr>
-                  <tr>
-                     <th>Type aggregatie</th>
-                     <td>ONBEKEND2</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            <table style="width: 100%;">
-               <colgroup style="width: 30%;"></colgroup>
-               <colgroup style="width: 70%;"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>geproduceerdDoor</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
@@ -756,38 +720,16 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0 .. *</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd objecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Producent">Producent</a>
-                        </td>
-                  </tr>
-               </tbody>
-            </table>
-            </section><a class="anchor" id="detail_association_Model_Baksteen_ontwerpBasis"></a><section id="detail_association_Model_Baksteen_ontwerpBasis">
-            <h4>Relatiesoort details  gebaseerdOpOntwerp</h4>
-            
-            <table style="width: 100%;">
-               <colgroup style="width: 30%;"></colgroup>
-               <colgroup style="width: 70%;"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Type gegeven</th>
-                     <td>Associatie van Baksteen</td>
-                  </tr>
-                  <tr>
-                     <th>Kardinaliteit</th>
-                     <td></td>
+                     <td>0..*</td>
                   </tr>
                   <tr>
                      <th>Relatiesoort naam</th>
-                     <td>gebaseerdOpOntwerp</td>
+                     <td>geproduceerdDoor</td>
                   </tr>
                   <tr>
                      <th>Relatierol naam</th>
-                     <td>ONBEKEND1</td>
+                     <td>eersteProducent
+                        </td>
                   </tr>
                   <tr>
                      <th>Source</th>
@@ -805,14 +747,17 @@
                   </tr>
                </tbody>
             </table>
+            </section><a class="anchor" id="detail_association_Model_Baksteen_ontwerpBasis"></a><section id="detail_association_Model_Baksteen_ontwerpBasis">
+            <h4>  gebaseerdOpOntwerp</h4>
+            
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
                <colgroup style="width: 70%;"></colgroup>
                <tbody>
                   <tr>
-                     <th>Naam</th>
-                     <td>gebaseerdOpOntwerp</td>
+                     <th>Type gegeven</th>
+                     <td>Associatie van Baksteen</td>
                   </tr>
                   <tr>
                      <th>Definitie</th>
@@ -823,13 +768,30 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0 .. *</td>
+                     <td>0..*</td>
                   </tr>
                   <tr>
-                     <th>Gerelateerd objecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Producent">Producent</a>
+                     <th>Relatiesoort naam</th>
+                     <td>gebaseerdOpOntwerp</td>
+                  </tr>
+                  <tr>
+                     <th>Relatierol naam</th>
+                     <td>ontwerpBasis
                         </td>
+                  </tr>
+                  <tr>
+                     <th>Source</th>
+                     <td>Baksteen</td>
+                  </tr>
+                  <tr>
+                     <th>Target</th>
+                     <td>
+                        Producent
+                        </td>
+                  </tr>
+                  <tr>
+                     <th>Type aggregatie</th>
+                     <td>ONBEKEND2</td>
                   </tr>
                </tbody>
             </table>
@@ -1133,7 +1095,8 @@
                </tbody>
             </table>
             </section><a class="anchor" id="detail_association_Model_Client_contract"></a><section id="detail_association_Model_Client_contract">
-            <h4>Relatiesoort details  deal</h4>
+            <h4>  deal</h4>
+            
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1144,16 +1107,8 @@
                      <td>Associatie van Client</td>
                   </tr>
                   <tr>
-                     <th>Definitie</th>
-                     <td>
-                        
-                        <p>De client wordt aan een of meerdere contracten gebonden op basis van een afspraak
-                           (deal).</p>
-                        </td>
-                  </tr>
-                  <tr>
                      <th>Kardinaliteit</th>
-                     <td></td>
+                     <td>1..10</td>
                   </tr>
                   <tr>
                      <th>Relatiesoort naam</th>
@@ -1161,7 +1116,8 @@
                   </tr>
                   <tr>
                      <th>Relatierol naam</th>
-                     <td>ONBEKEND1</td>
+                     <td>contract
+                        </td>
                   </tr>
                   <tr>
                      <th>Source</th>
@@ -1179,29 +1135,9 @@
                   </tr>
                </tbody>
             </table>
-            
-            <table style="width: 100%;">
-               <colgroup style="width: 30%;"></colgroup>
-               <colgroup style="width: 70%;"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>deal</td>
-                  </tr>
-                  <tr>
-                     <th>Kardinaliteit</th>
-                     <td>1 .. 10</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd objecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Contract">Contract</a>
-                        </td>
-                  </tr>
-               </tbody>
-            </table>
             </section><a class="anchor" id="detail_d17955e4195"></a><section id="detail_d17955e4195">
-            <h4>Relatiesoort details  contactIntern</h4>
+            <h4>  contactIntern</h4>
+            
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1220,7 +1156,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td></td>
+                     <td>1..*</td>
                   </tr>
                   <tr>
                      <th>Relatiesoort naam</th>
@@ -1228,7 +1164,8 @@
                   </tr>
                   <tr>
                      <th>Relatierol naam</th>
-                     <td>ONBEKEND1</td>
+                     <td>contactIntern
+                        </td>
                   </tr>
                   <tr>
                      <th>Source</th>
@@ -1243,34 +1180,6 @@
                   <tr>
                      <th>Type aggregatie</th>
                      <td>ONBEKEND2</td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            <table style="width: 100%;">
-               <colgroup style="width: 30%;"></colgroup>
-               <colgroup style="width: 70%;"></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Naam</th>
-                     <td>contactIntern</td>
-                  </tr>
-                  <tr>
-                     <th>Definitie</th>
-                     <td>
-                        
-                        <p>Interne persoon die betreffende client vertegenwoordigt.</p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <th>Kardinaliteit</th>
-                     <td>1 .. *</td>
-                  </tr>
-                  <tr>
-                     <th>Gerelateerd objecttype</th>
-                     <td>
-                        <a class="link" href="#global_class_Model_Accountmanager">Accountmanager</a>
-                        </td>
                   </tr>
                </tbody>
             </table>
