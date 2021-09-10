@@ -14,8 +14,8 @@
    </head>
    <body>
       <p>Conceptual model/SampleBase (SAMPLE)/20130318</p>
-      <p>Imvertor: 1.65.1</p>
-      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20210719-141057</p>
+      <p>Imvertor: 1.65.2</p>
+      <p>Model release: Conceptualmodel-SampleBaseSAMPLE-1.0.0-2-20130318-20210910-101114</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -114,7 +114,7 @@
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Baksteen_BROID"></a><section id="detail_attribute_Model_Baksteen_BROID">
-                     <h4>Attribuutsoort details  BRO-ID</h4>
+                     <h4>  BRO-ID</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -143,7 +143,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_magazijnID"></a><section id="detail_attribute_Model_Baksteen_magazijnID">
-                     <h4>Attribuutsoort details  magazijn­ID</h4>
+                     <h4>  magazijnID</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -183,12 +183,12 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>
-                                 Character­String
+                                 CharacterString
                                  </td>
                            </tr>
                            <tr>
                               <th>Regels</th>
-                              <td>Regel mbt het magazijn­ID</td>
+                              <td>Regel mbt het magazijnID</td>
                            </tr>
                            <tr>
                               <th>Materiële geschiedenis</th>
@@ -209,10 +209,14 @@
                               <th>Toelichting</th>
                               <td>Toelichting...</td>
                            </tr>
+                           <tr>
+                              <th>Identificerend</th>
+                              <td>Ja</td>
+                           </tr>
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_kleur"></a><section id="detail_attribute_Model_Baksteen_kleur">
-                     <h4>Attribuutsoort details  kleur</h4>
+                     <h4>  kleur</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -275,7 +279,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_nettogewicht"></a><section id="detail_attribute_Model_Baksteen_nettogewicht">
-                     <h4>Attribuutsoort details  nettogewicht</h4>
+                     <h4>  nettogewicht</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -321,7 +325,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_status"></a><section id="detail_attribute_Model_Baksteen_status">
-                     <h4>Attribuutsoort details  status</h4>
+                     <h4>  status</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -341,9 +345,9 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>
-                                 Status
-                                 </td>
+                              <td><a class="link" href="#detail_class_Model_Status">
+                                    Status
+                                    </a></td>
                            </tr>
                            <tr>
                               <th>Materiële geschiedenis</th>
@@ -352,7 +356,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_omvang"></a><section id="detail_attribute_Model_Baksteen_omvang">
-                     <h4>Attribuutsoort details  omvang</h4>
+                     <h4>  omvang</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -379,9 +383,9 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>
-                                 Steengrootte
-                                 </td>
+                              <td><a class="link" href="#detail_class_Model_Steengrootte">
+                                    Steengrootte
+                                    </a></td>
                            </tr>
                            <tr>
                               <th>Materiële geschiedenis</th>
@@ -397,7 +401,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_type"></a><section id="detail_attribute_Model_Baksteen_type">
-                     <h4>Attribuutsoort details  type</h4>
+                     <h4>  type</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -424,9 +428,17 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>
-                                 Parameterlijst
-                                 </td>
+                              <td><a class="link" href="#detail_class_Model_Parameterlijst">
+                                    Parameterlijst
+                                    </a></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Identificerend gegeven</th>
+                              <td>ID</td>
                            </tr>
                            <tr>
                               <th>Materiële geschiedenis</th>
@@ -435,7 +447,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_hoeken"></a><section id="detail_attribute_Model_Baksteen_hoeken">
-                     <h4>Attribuutsoort details  hoeken</h4>
+                     <h4>  hoeken</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -478,7 +490,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_omschrijving"></a><section id="detail_attribute_Model_Baksteen_omschrijving">
-                     <h4>Attribuutsoort details  omschrijving</h4>
+                     <h4>  omschrijving</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -514,7 +526,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_minTemperatuur"></a><section id="detail_attribute_Model_Baksteen_minTemperatuur">
-                     <h4>Attribuutsoort details  min­Temperatuur</h4>
+                     <h4>  minTemperatuur</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -552,7 +564,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_maxTemperatuur"></a><section id="detail_attribute_Model_Baksteen_maxTemperatuur">
-                     <h4>Attribuutsoort details  max­Temperatuur</h4>
+                     <h4>  maxTemperatuur</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -594,7 +606,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_lengte"></a><section id="detail_attribute_Model_Baksteen_lengte">
-                     <h4>Attribuutsoort details  lengte</h4>
+                     <h4>  lengte</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -639,7 +651,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_inMagazijn"></a><section id="detail_attribute_Model_Baksteen_inMagazijn">
-                     <h4>Attribuutsoort details  in­Magazijn</h4>
+                     <h4>  inMagazijn</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -675,7 +687,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_tag"></a><section id="detail_attribute_Model_Baksteen_tag">
-                     <h4>Attribuutsoort details  tag</h4>
+                     <h4>  tag</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -702,9 +714,13 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>
-                                 Productie­Kenmerk
-                                 </td>
+                              <td><a class="link" href="#detail_class_Model_ProductieKenmerk">
+                                    ProductieKenmerk
+                                    </a></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
                            </tr>
                            <tr>
                               <th>Materiële geschiedenis</th>
@@ -713,7 +729,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_oppervlk"></a><section id="detail_attribute_Model_Baksteen_oppervlk">
-                     <h4>Attribuutsoort details  oppervlák</h4>
+                     <h4>  oppervlák</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -741,7 +757,7 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>
-                                 Oppervlak­Grootte
+                                 OppervlakGrootte
                                  </td>
                            </tr>
                            <tr>
@@ -758,7 +774,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Baksteen_vindplaats"></a><section id="detail_attribute_Model_Baksteen_vindplaats">
-                     <h4>Attribuutsoort details  vindplaats</h4>
+                     <h4>  vindplaats</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -793,7 +809,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_association_Model_Baksteen_ontwerpBasis"></a><section id="detail_association_Model_Baksteen_ontwerpBasis">
-                     <h4>Relatiesoort details  ontwerp­Basis</h4>
+                     <h4>  ontwerpBasis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
                         <colgroup style="width: 70%;"></colgroup>
@@ -815,11 +831,11 @@
                            </tr>
                            <tr>
                               <th>Relatiesoort naam</th>
-                              <td>gebaseerd­Op­Ontwerp</td>
+                              <td>gebaseerdOpOntwerp</td>
                            </tr>
                            <tr>
                               <th>Relatierol naam</th>
-                              <td>ontwerp­Basis</td>
+                              <td>ontwerpBasis</td>
                            </tr>
                            <tr>
                               <th>Bron</th>
@@ -838,7 +854,7 @@
                         </tbody>
                      </table>
                   </section><a class="anchor" id="detail_association_Model_Baksteen_eersteProducent"></a><section id="detail_association_Model_Baksteen_eersteProducent">
-                     <h4>Relatiesoort details  eerste­Producent</h4>
+                     <h4>  eersteProducent</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
                         <colgroup style="width: 70%;"></colgroup>
@@ -861,11 +877,11 @@
                            </tr>
                            <tr>
                               <th>Relatiesoort naam</th>
-                              <td>geproduceerd­Door</td>
+                              <td>geproduceerdDoor</td>
                            </tr>
                            <tr>
                               <th>Relatierol naam</th>
-                              <td>eerste­Producent</td>
+                              <td>eersteProducent</td>
                            </tr>
                            <tr>
                               <th>Bron</th>
@@ -881,14 +897,14 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Regels op rol eerste­Producent</p>
+                                 <p>Regels op rol eersteProducent</p>
                                  </td>
                            </tr>
                            <tr>
                               <th>Regels IMBRO/A</th>
                               <td>
                                  
-                                 <p>Regels IMBRO/A op rol eerste­Producent</p>
+                                 <p>Regels IMBRO/A op rol eersteProducent</p>
                                  </td>
                            </tr>
                            <tr>
@@ -917,7 +933,7 @@
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Producent_id"></a><section id="detail_attribute_Model_Producent_id">
-                     <h4>Attribuutsoort details  id</h4>
+                     <h4>  id</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -950,10 +966,14 @@
                               <th>Materiële geschiedenis</th>
                               <td>Nee</td>
                            </tr>
+                           <tr>
+                              <th>Identificerend</th>
+                              <td>Ja</td>
+                           </tr>
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Producent_contractdatum"></a><section id="detail_attribute_Model_Producent_contractdatum">
-                     <h4>Attribuutsoort details  contractdatum</h4>
+                     <h4>  contractdatum</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -984,7 +1004,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>Onvolledige­Datum</td>
+                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>Materiële geschiedenis</th>
@@ -993,7 +1013,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Producent_site"></a><section id="detail_attribute_Model_Producent_site">
-                     <h4>Attribuutsoort details  site</h4>
+                     <h4>  site</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1036,7 +1056,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_association_Model_Producent_borging"></a><section id="detail_association_Model_Producent_borging">
-                     <h4>Relatiesoort details  borging</h4>
+                     <h4>  borging</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
                         <colgroup style="width: 70%;"></colgroup>
@@ -1074,7 +1094,7 @@
                      </table>
                   </section>
                </section><a class="anchor" id="graph_EAID_E2C93214_90E2_4151_B719_7BB8CDF8679F"></a><a class="anchor" id="global_class_Model_ExterneProducent"></a><section id="global_class_Model_ExterneProducent">
-                  <h3>   Externe­Producent</h3>
+                  <h3>   ExterneProducent</h3>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
                      <colgroup style="width: 70%;"></colgroup>
@@ -1092,7 +1112,7 @@
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_ExterneProducent_postcodegebied"></a><section id="detail_attribute_Model_ExterneProducent_postcodegebied">
-                     <h4>Attribuutsoort details  postcodegebied</h4>
+                     <h4>  postcodegebied</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1100,7 +1120,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Externe­Producent</td>
+                              <td>Attribuut van ExterneProducent</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -1130,7 +1150,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_ExterneProducent_geoLocatie"></a><section id="detail_attribute_Model_ExterneProducent_geoLocatie">
-                     <h4>Attribuutsoort details  geo­Locatie</h4>
+                     <h4>  geoLocatie</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1138,7 +1158,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Externe­Producent</td>
+                              <td>Attribuut van ExterneProducent</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -1175,7 +1195,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_ExterneProducent_goniometrie"></a><section id="detail_attribute_Model_ExterneProducent_goniometrie">
-                     <h4>Attribuutsoort details  goniometrie</h4>
+                     <h4>  goniometrie</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1183,7 +1203,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Externe­Producent</td>
+                              <td>Attribuut van ExterneProducent</td>
                            </tr>
                            <tr>
                               <th>Definitie</th>
@@ -1234,7 +1254,7 @@
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Client_id"></a><section id="detail_attribute_Model_Client_id">
-                     <h4>Attribuutsoort details  id</h4>
+                     <h4>  id</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1267,10 +1287,14 @@
                               <th>Materiële geschiedenis</th>
                               <td>Nee</td>
                            </tr>
+                           <tr>
+                              <th>Identificerend</th>
+                              <td>Ja</td>
+                           </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d15809e4600"></a><section id="detail_d15809e4600">
-                     <h4>Relatiesoort details  contact­Intern</h4>
+                     </section><a class="anchor" id="detail_d15892e4630"></a><section id="detail_d15892e4630">
+                     <h4>  contactIntern</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
                         <colgroup style="width: 70%;"></colgroup>
@@ -1300,7 +1324,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Regels mbt. contact­Intern</p>
+                                 <p>Regels mbt. contactIntern</p>
                                  </td>
                            </tr>
                            <tr>
@@ -1310,7 +1334,7 @@
                         </tbody>
                      </table>
                   </section><a class="anchor" id="detail_association_Model_Client_contract"></a><section id="detail_association_Model_Client_contract">
-                     <h4>Relatiesoort details  contract</h4>
+                     <h4>  contract</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
                         <colgroup style="width: 70%;"></colgroup>
@@ -1388,7 +1412,7 @@
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Accountmanager_voornaam"></a><section id="detail_attribute_Model_Accountmanager_voornaam">
-                     <h4>Attribuutsoort details  voornaam</h4>
+                     <h4>  voornaam</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1441,7 +1465,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Accountmanager_achternaam"></a><section id="detail_attribute_Model_Accountmanager_achternaam">
-                     <h4>Attribuutsoort details  achternaam</h4>
+                     <h4>  achternaam</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1485,7 +1509,7 @@
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Contract_id"></a><section id="detail_attribute_Model_Contract_id">
-                     <h4>Attribuutsoort details  id</h4>
+                     <h4>  id</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1518,11 +1542,15 @@
                               <th>Materiële geschiedenis</th>
                               <td>Nee</td>
                            </tr>
+                           <tr>
+                              <th>Identificerend</th>
+                              <td>Ja</td>
+                           </tr>
                         </tbody>
                      </table>
                      </section>
                </section><a class="anchor" id="graph_EAID_8A6F167F_244C_4458_B2DB_EB0EE5483A4D"></a><a class="anchor" id="global_class_Model_ClientOfContract"></a><section id="global_class_Model_ClientOfContract">
-                  <h3>   Client­Of­Contract</h3>
+                  <h3>   ClientOfContract</h3>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
                      <colgroup style="width: 70%;"></colgroup>
@@ -1559,7 +1587,7 @@
                         </tr>
                      </tbody>
                   </table><a class="anchor" id="detail_attribute_Model_Goniometric_line"></a><section id="detail_attribute_Model_Goniometric_line">
-                     <h4>Keuze element  line</h4>
+                     <h4>  line</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1579,7 +1607,7 @@
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Goniometric_surface"></a><section id="detail_attribute_Model_Goniometric_surface">
-                     <h4>Keuze element  surface</h4>
+                     <h4>  surface</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1606,7 +1634,7 @@
       <section>
          <h1>Artikel 2 Beschrijving van uitbreidbare waardelijsten    </h1>
          <section id="detail_class_Model_Parameterlijst">
-            <h3>Referentielijst  Parameterlijst</h3>
+            <h3>  Parameterlijst</h3>
             
             <table style="width: 100%;" class="list">
                <colgroup></colgroup>
@@ -1674,7 +1702,7 @@
                   </tr>
                   <tr>
                      <td>2818</td>
-                     <td>134DCl­Fyurum</td>
+                     <td>134DClFyurum</td>
                      <td>2327-02-8</td>
                      <td>1-(3,4-dichloorfenyl)ureum</td>
                      <td>ug/l</td>
@@ -1682,7 +1710,7 @@
                   </tr>
                   <tr>
                      <td>4944</td>
-                     <td>14i­C3y­Fyurum</td>
+                     <td>14iC3yFyurum</td>
                      <td>56046-17-4</td>
                      <td>1-(4-isopropylfenyl)ureum</td>
                      <td>ug/l</td>
@@ -1690,7 +1718,7 @@
                   </tr>
                   <tr>
                      <td>4</td>
-                     <td>111TCl­C2a</td>
+                     <td>111TClC2a</td>
                      <td>71-55-6</td>
                      <td>1,1,1-trichloorethaan</td>
                      <td>ug/l</td>
@@ -1698,7 +1726,7 @@
                   </tr>
                   <tr>
                      <td>5</td>
-                     <td>1122T4Cl­C2a</td>
+                     <td>1122T4ClC2a</td>
                      <td>79-34-5</td>
                      <td>1,1,2,2-tetrachloorethaan</td>
                      <td>ug/l</td>
@@ -1706,7 +1734,7 @@
                   </tr>
                   <tr>
                      <td>6</td>
-                     <td>112TCl­C2a</td>
+                     <td>112TClC2a</td>
                      <td>79-00-5</td>
                      <td>1,1,2-trichloorethaan</td>
                      <td>ug/l</td>
@@ -1714,7 +1742,7 @@
                   </tr>
                   <tr>
                      <td>8</td>
-                     <td>11DCl­C2a</td>
+                     <td>11DClC2a</td>
                      <td>75-34-3</td>
                      <td>1,1-dichloorethaan</td>
                      <td>ug/l</td>
@@ -1722,7 +1750,7 @@
                   </tr>
                   <tr>
                      <td>9</td>
-                     <td>11DCl­C2e</td>
+                     <td>11DClC2e</td>
                      <td>75-35-4</td>
                      <td>1,1-dichlooretheen</td>
                      <td>ug/l</td>
@@ -1730,7 +1758,7 @@
                   </tr>
                   <tr>
                      <td>10</td>
-                     <td>11DCl­C3a</td>
+                     <td>11DClC3a</td>
                      <td>78-99-9</td>
                      <td>1,1-dichloorpropaan</td>
                      <td>ug/l</td>
@@ -1794,7 +1822,7 @@
                   </tr>
                   <tr>
                      <td>16</td>
-                     <td>1234T4Cl­Ben</td>
+                     <td>1234T4ClBen</td>
                      <td>634-66-2</td>
                      <td>1,2,3,4-tetrachloorbenzeen</td>
                      <td>ug/l</td>
@@ -1802,7 +1830,7 @@
                   </tr>
                   <tr>
                      <td>18</td>
-                     <td>1235T4Cl­Ben</td>
+                     <td>1235T4ClBen</td>
                      <td>634-90-2</td>
                      <td>1,2,3,5-tetrachloorbenzeen</td>
                      <td>ug/l</td>
@@ -1858,7 +1886,7 @@
                   </tr>
                   <tr>
                      <td>26</td>
-                     <td>123TCl­Ben</td>
+                     <td>123TClBen</td>
                      <td>87-61-6</td>
                      <td>1,2,3-trichloorbenzeen</td>
                      <td>ug/l</td>
@@ -1866,7 +1894,7 @@
                   </tr>
                   <tr>
                      <td>29</td>
-                     <td>123TC1y­Ben</td>
+                     <td>123TC1yBen</td>
                      <td>526-73-8</td>
                      <td>1,2,3-trimethylbenzeen</td>
                      <td>ug/l</td>
@@ -1874,7 +1902,7 @@
                   </tr>
                   <tr>
                      <td>30</td>
-                     <td>1245T4Cl­Ben</td>
+                     <td>1245T4ClBen</td>
                      <td>95-94-3</td>
                      <td>1,2,4,5-tetrachloorbenzeen</td>
                      <td>ug/l</td>
@@ -1882,7 +1910,7 @@
                   </tr>
                   <tr>
                      <td>32</td>
-                     <td>124TCl­Ben</td>
+                     <td>124TClBen</td>
                      <td>120-82-1</td>
                      <td>1,2,4-trichloorbenzeen</td>
                      <td>ug/l</td>
@@ -1890,7 +1918,7 @@
                   </tr>
                   <tr>
                      <td>33</td>
-                     <td>124TC1y­Ben</td>
+                     <td>124TC1yBen</td>
                      <td>95-63-6</td>
                      <td>1,2,4-trimethylbenzeen</td>
                      <td>ug/l</td>
@@ -1898,7 +1926,7 @@
                   </tr>
                   <tr>
                      <td>35</td>
-                     <td>12DCl­Ben</td>
+                     <td>12DClBen</td>
                      <td>95-50-1</td>
                      <td>1,2-dichloorbenzeen</td>
                      <td>ug/l</td>
@@ -1906,7 +1934,7 @@
                   </tr>
                   <tr>
                      <td>36</td>
-                     <td>12DCl­C2a</td>
+                     <td>12DClC2a</td>
                      <td>107-06-2</td>
                      <td>1,2-dichloorethaan</td>
                      <td>ug/l</td>
@@ -1914,7 +1942,7 @@
                   </tr>
                   <tr>
                      <td>38</td>
-                     <td>12DCl­C3a</td>
+                     <td>12DClC3a</td>
                      <td>78-87-5</td>
                      <td>1,2-dichloorpropaan</td>
                      <td>ug/l</td>
@@ -1922,7 +1950,7 @@
                   </tr>
                   <tr>
                      <td>466</td>
-                     <td>12DHOx­Ben</td>
+                     <td>12DHOxBen</td>
                      <td>120-80-9</td>
                      <td>1,2-dihydroxybenzeen</td>
                      <td>ug/l</td>
@@ -1938,7 +1966,7 @@
                   </tr>
                   <tr>
                      <td>44</td>
-                     <td>135TCl­Ben</td>
+                     <td>135TClBen</td>
                      <td>108-70-3</td>
                      <td>1,3,5-trichloorbenzeen</td>
                      <td>ug/l</td>
@@ -1946,7 +1974,7 @@
                   </tr>
                   <tr>
                      <td>45</td>
-                     <td>135TC1y­Ben</td>
+                     <td>135TC1yBen</td>
                      <td>108-67-8</td>
                      <td>1,3,5-trimethylbenzeen</td>
                      <td>ug/l</td>
@@ -1954,7 +1982,7 @@
                   </tr>
                   <tr>
                      <td>47</td>
-                     <td>13DCl­Ben</td>
+                     <td>13DClBen</td>
                      <td>541-73-1</td>
                      <td>1,3-dichloorbenzeen</td>
                      <td>ug/l</td>
@@ -1962,7 +1990,7 @@
                   </tr>
                   <tr>
                      <td>48</td>
-                     <td>13DCl­C3a</td>
+                     <td>13DClC3a</td>
                      <td>142-28-9</td>
                      <td>1,3-dichloorpropaan</td>
                      <td>ug/l</td>
@@ -1970,7 +1998,7 @@
                   </tr>
                   <tr>
                      <td>5260</td>
-                     <td>13DC2y­Ben</td>
+                     <td>13DC2yBen</td>
                      <td>141-93-5</td>
                      <td>1,3-diethylbenzeen</td>
                      <td>ug/l</td>
@@ -1986,7 +2014,7 @@
                   </tr>
                   <tr>
                      <td>1460</td>
-                     <td>13DHOx­Ben</td>
+                     <td>13DHOxBen</td>
                      <td>108-46-3</td>
                      <td>1,3-dihydroxybenzeen</td>
                      <td>ug/l</td>
@@ -2002,7 +2030,7 @@
                   </tr>
                   <tr>
                      <td>54</td>
-                     <td>14DCl­Ben</td>
+                     <td>14DClBen</td>
                      <td>106-46-7</td>
                      <td>1,4-dichloorbenzeen</td>
                      <td>ug/l</td>
@@ -2010,7 +2038,7 @@
                   </tr>
                   <tr>
                      <td>5261</td>
-                     <td>14DC2y­Ben</td>
+                     <td>14DC2yBen</td>
                      <td>105-05-5</td>
                      <td>1,4-diethylbenzeen</td>
                      <td>ug/l</td>
@@ -2018,7 +2046,7 @@
                   </tr>
                   <tr>
                      <td>875</td>
-                     <td>14DHOx­Ben</td>
+                     <td>14DHOxBen</td>
                      <td>123-31-9</td>
                      <td>1,4-dihydroxybenzeen</td>
                      <td>ug/l</td>
@@ -2042,7 +2070,7 @@
                   </tr>
                   <tr>
                      <td>5832</td>
-                     <td>1011t­Dolcarb</td>
+                     <td>1011tDolcarb</td>
                      <td>35079-97-1</td>
                      <td>10,11-transdiol carbamazepine</td>
                      <td>ug/l</td>
@@ -2050,7 +2078,7 @@
                   </tr>
                   <tr>
                      <td>2314</td>
-                     <td>17best­Dol</td>
+                     <td>17bestDol</td>
                      <td>50-28-2</td>
                      <td>17beta-estradiol</td>
                      <td>ug/l</td>
@@ -2058,7 +2086,7 @@
                   </tr>
                   <tr>
                      <td>62</td>
-                     <td>1Cl­Naf</td>
+                     <td>1ClNaf</td>
                      <td>90-13-1</td>
                      <td>1-chloornaftaleen</td>
                      <td>ug/l</td>
@@ -2066,7 +2094,7 @@
                   </tr>
                   <tr>
                      <td>2856</td>
-                     <td>1C3ol2Cl­PO4</td>
+                     <td>1C3ol2ClPO4</td>
                      <td>6145-73-9</td>
                      <td>1-propanol-2-chloorfosfaat</td>
                      <td>ug/l</td>
@@ -2074,7 +2102,7 @@
                   </tr>
                   <tr>
                      <td>1434</td>
-                     <td>1C3y­Ben</td>
+                     <td>1C3yBen</td>
                      <td>103-65-1</td>
                      <td>1-propylbenzeen</td>
                      <td>ug/l</td>
@@ -2202,7 +2230,7 @@
                   </tr>
                   <tr>
                      <td>2882</td>
-                     <td>2345T4Cl­An</td>
+                     <td>2345T4ClAn</td>
                      <td>634-83-3</td>
                      <td>2,3,4,5-tetrachlooraniline</td>
                      <td>ug/l</td>
@@ -2210,7 +2238,7 @@
                   </tr>
                   <tr>
                      <td>78</td>
-                     <td>2345T4Cl­Fol</td>
+                     <td>2345T4ClFol</td>
                      <td>4901-51-3</td>
                      <td>2,3,4,5-tetrachloorfenol</td>
                      <td>ug/l</td>
@@ -2226,7 +2254,7 @@
                   </tr>
                   <tr>
                      <td>80</td>
-                     <td>2346T4Cl­Fol</td>
+                     <td>2346T4ClFol</td>
                      <td>58-90-2</td>
                      <td>2,3,4,6-tetrachloorfenol</td>
                      <td>ug/l</td>
@@ -2242,7 +2270,7 @@
                   </tr>
                   <tr>
                      <td>82</td>
-                     <td>234TCl­An</td>
+                     <td>234TClAn</td>
                      <td>634-67-3</td>
                      <td>2,3,4-trichlooraniline</td>
                      <td>ug/l</td>
@@ -2250,7 +2278,7 @@
                   </tr>
                   <tr>
                      <td>83</td>
-                     <td>234TCl­Fol</td>
+                     <td>234TClFol</td>
                      <td>15950-66-0</td>
                      <td>2,3,4-trichloorfenol</td>
                      <td>ug/l</td>
@@ -2258,7 +2286,7 @@
                   </tr>
                   <tr>
                      <td>2885</td>
-                     <td>2356T4Cl­An</td>
+                     <td>2356T4ClAn</td>
                      <td>3481-20-7</td>
                      <td>2,3,5,6-tetrachlooraniline</td>
                      <td>ug/l</td>
@@ -2266,7 +2294,7 @@
                   </tr>
                   <tr>
                      <td>84</td>
-                     <td>2356T4Cl­Fol</td>
+                     <td>2356T4ClFol</td>
                      <td>935-95-5</td>
                      <td>2,3,5,6-tetrachloorfenol</td>
                      <td>ug/l</td>
@@ -2274,7 +2302,7 @@
                   </tr>
                   <tr>
                      <td>2886</td>
-                     <td>235TCl­An</td>
+                     <td>235TClAn</td>
                      <td>18487-39-3</td>
                      <td>2,3,5-trichlooraniline</td>
                      <td>ug/l</td>
@@ -2282,7 +2310,7 @@
                   </tr>
                   <tr>
                      <td>86</td>
-                     <td>235TCl­Fol</td>
+                     <td>235TClFol</td>
                      <td>933-78-8</td>
                      <td>2,3,5-trichloorfenol</td>
                      <td>ug/l</td>
@@ -2290,7 +2318,7 @@
                   </tr>
                   <tr>
                      <td>89</td>
-                     <td>236TCl­Fol</td>
+                     <td>236TClFol</td>
                      <td>933-75-5</td>
                      <td>2,3,6-trichloorfenol</td>
                      <td>ug/l</td>
@@ -2314,7 +2342,7 @@
                   </tr>
                   <tr>
                      <td>93</td>
-                     <td>23DCl­An</td>
+                     <td>23DClAn</td>
                      <td>608-27-5</td>
                      <td>2,3-dichlooraniline</td>
                      <td>ug/l</td>
@@ -2322,7 +2350,7 @@
                   </tr>
                   <tr>
                      <td>94</td>
-                     <td>23DCl­Fol</td>
+                     <td>23DClFol</td>
                      <td>576-24-9</td>
                      <td>2,3-dichloorfenol</td>
                      <td>ug/l</td>
@@ -2338,7 +2366,7 @@
                   </tr>
                   <tr>
                      <td>100</td>
-                     <td>245TCl­An</td>
+                     <td>245TClAn</td>
                      <td>636-30-6</td>
                      <td>2,4,5-trichlooraniline</td>
                      <td>ug/l</td>
@@ -2346,7 +2374,7 @@
                   </tr>
                   <tr>
                      <td>101</td>
-                     <td>245TCl­Fol</td>
+                     <td>245TClFol</td>
                      <td>95-95-4</td>
                      <td>2,4,5-trichloorfenol</td>
                      <td>ug/l</td>
@@ -2362,7 +2390,7 @@
                   </tr>
                   <tr>
                      <td>104</td>
-                     <td>246TCl­An</td>
+                     <td>246TClAn</td>
                      <td>634-93-5</td>
                      <td>2,4,6-trichlooraniline</td>
                      <td>ug/l</td>
@@ -2370,7 +2398,7 @@
                   </tr>
                   <tr>
                      <td>106</td>
-                     <td>246TCl­Fol</td>
+                     <td>246TClFol</td>
                      <td>88-06-2</td>
                      <td>2,4,6-trichloorfenol</td>
                      <td>ug/l</td>
@@ -2378,7 +2406,7 @@
                   </tr>
                   <tr>
                      <td>114</td>
-                     <td>24DCl­An</td>
+                     <td>24DClAn</td>
                      <td>554-00-7</td>
                      <td>2,4-dichlooraniline</td>
                      <td>ug/l</td>
@@ -2410,7 +2438,7 @@
                   </tr>
                   <tr>
                      <td>115</td>
-                     <td>24DCl­Fol</td>
+                     <td>24DClFol</td>
                      <td>120-83-2</td>
                      <td>2,4-dichloorfenol</td>
                      <td>ug/l</td>
@@ -2434,7 +2462,7 @@
                   </tr>
                   <tr>
                      <td>124</td>
-                     <td>24DC1y­Fol</td>
+                     <td>24DC1yFol</td>
                      <td>105-67-9</td>
                      <td>2,4-dimethylfenol</td>
                      <td>ug/l</td>
@@ -2450,7 +2478,7 @@
                   </tr>
                   <tr>
                      <td>126</td>
-                     <td>25DCl­An</td>
+                     <td>25DClAn</td>
                      <td>95-82-9</td>
                      <td>2,5-dichlooraniline</td>
                      <td>ug/l</td>
@@ -2458,7 +2486,7 @@
                   </tr>
                   <tr>
                      <td>127</td>
-                     <td>25DCl­Fol</td>
+                     <td>25DClFol</td>
                      <td>583-78-8</td>
                      <td>2,5-dichloorfenol</td>
                      <td>ug/l</td>
@@ -2474,7 +2502,7 @@
                   </tr>
                   <tr>
                      <td>134</td>
-                     <td>26DCl­An</td>
+                     <td>26DClAn</td>
                      <td>608-31-1</td>
                      <td>2,6-dichlooraniline</td>
                      <td>ug/l</td>
@@ -2482,7 +2510,7 @@
                   </tr>
                   <tr>
                      <td>135</td>
-                     <td>26DCl­Ben­Ad</td>
+                     <td>26DClBenAd</td>
                      <td>2008-58-4</td>
                      <td>2,6-dichloorbenzamide (BAM)</td>
                      <td>ug/l</td>
@@ -2490,7 +2518,7 @@
                   </tr>
                   <tr>
                      <td>136</td>
-                     <td>26DCl­Fol</td>
+                     <td>26DClFol</td>
                      <td>87-65-0</td>
                      <td>2,6-dichloorfenol</td>
                      <td>ug/l</td>
@@ -2514,7 +2542,7 @@
                   </tr>
                   <tr>
                      <td>145</td>
-                     <td>2Cl­An</td>
+                     <td>2ClAn</td>
                      <td>95-51-2</td>
                      <td>2-chlooraniline</td>
                      <td>ug/l</td>
@@ -2522,7 +2550,7 @@
                   </tr>
                   <tr>
                      <td>146</td>
-                     <td>2Cl­Fol</td>
+                     <td>2ClFol</td>
                      <td>95-57-8</td>
                      <td>2-chloorfenol</td>
                      <td>ug/l</td>
@@ -2530,7 +2558,7 @@
                   </tr>
                   <tr>
                      <td>147</td>
-                     <td>2Cl­Naf</td>
+                     <td>2ClNaf</td>
                      <td>91-58-7</td>
                      <td>2-chloornaftaleen</td>
                      <td>ug/l</td>
@@ -2538,7 +2566,7 @@
                   </tr>
                   <tr>
                      <td>1852</td>
-                     <td>2C2ox2C1y­C3a</td>
+                     <td>2C2ox2C1yC3a</td>
                      <td>637-92-3</td>
                      <td>2-ethoxy-2-methylpropaan (ETBW)</td>
                      <td>ug/l</td>
@@ -2546,7 +2574,7 @@
                   </tr>
                   <tr>
                      <td>154</td>
-                     <td>2C2y­Tol</td>
+                     <td>2C2yTol</td>
                      <td>611-14-3</td>
                      <td>2-ethyltolueen</td>
                      <td>ug/l</td>
@@ -2634,7 +2662,7 @@
                   </tr>
                   <tr>
                      <td>176</td>
-                     <td>345TCl­An</td>
+                     <td>345TClAn</td>
                      <td>634-91-3</td>
                      <td>3,4,5-trichlooraniline</td>
                      <td>ug/l</td>
@@ -2642,7 +2670,7 @@
                   </tr>
                   <tr>
                      <td>177</td>
-                     <td>345TCl­Fol</td>
+                     <td>345TClFol</td>
                      <td>609-19-8</td>
                      <td>3,4,5-trichloorfenol</td>
                      <td>ug/l</td>
@@ -2650,7 +2678,7 @@
                   </tr>
                   <tr>
                      <td>178</td>
-                     <td>34DCl­An</td>
+                     <td>34DClAn</td>
                      <td>95-76-1</td>
                      <td>3,4-dichlooraniline</td>
                      <td>ug/l</td>
@@ -2658,7 +2686,7 @@
                   </tr>
                   <tr>
                      <td>179</td>
-                     <td>34DCl­Fol</td>
+                     <td>34DClFol</td>
                      <td>95-77-2</td>
                      <td>3,4-dichloorfenol</td>
                      <td>ug/l</td>
@@ -2666,7 +2694,7 @@
                   </tr>
                   <tr>
                      <td>185</td>
-                     <td>35DCl­An</td>
+                     <td>35DClAn</td>
                      <td>626-43-7</td>
                      <td>3,5-dichlooraniline</td>
                      <td>ug/l</td>
@@ -2674,7 +2702,7 @@
                   </tr>
                   <tr>
                      <td>186</td>
-                     <td>35DCl­Fol</td>
+                     <td>35DClFol</td>
                      <td>591-35-5</td>
                      <td>3,5-dichloorfenol</td>
                      <td>ug/l</td>
@@ -2682,7 +2710,7 @@
                   </tr>
                   <tr>
                      <td>197</td>
-                     <td>3Cl­An</td>
+                     <td>3ClAn</td>
                      <td>108-42-9</td>
                      <td>3-chlooraniline</td>
                      <td>ug/l</td>
@@ -2690,7 +2718,7 @@
                   </tr>
                   <tr>
                      <td>198</td>
-                     <td>3Cl­Fol</td>
+                     <td>3ClFol</td>
                      <td>108-43-0</td>
                      <td>3-chloorfenol</td>
                      <td>ug/l</td>
@@ -2698,7 +2726,7 @@
                   </tr>
                   <tr>
                      <td>202</td>
-                     <td>3C2y­Tol</td>
+                     <td>3C2yTol</td>
                      <td>620-14-4</td>
                      <td>3-ethyltolueen</td>
                      <td>ug/l</td>
@@ -2730,7 +2758,7 @@
                   </tr>
                   <tr>
                      <td>224</td>
-                     <td>4Cl2C1y­Fol</td>
+                     <td>4Cl2C1yFol</td>
                      <td>1570-64-5</td>
                      <td>4-chloor-2-methylfenol</td>
                      <td>ug/l</td>
@@ -2738,7 +2766,7 @@
                   </tr>
                   <tr>
                      <td>227</td>
-                     <td>4Cl3C1y­Fol</td>
+                     <td>4Cl3C1yFol</td>
                      <td>59-50-7</td>
                      <td>4-chloor-3-methylfenol</td>
                      <td>ug/l</td>
@@ -2746,7 +2774,7 @@
                   </tr>
                   <tr>
                      <td>228</td>
-                     <td>4Cl­An</td>
+                     <td>4ClAn</td>
                      <td>106-47-8</td>
                      <td>4-chlooraniline</td>
                      <td>ug/l</td>
@@ -2754,7 +2782,7 @@
                   </tr>
                   <tr>
                      <td>229</td>
-                     <td>4Cl­Fol</td>
+                     <td>4ClFol</td>
                      <td>106-48-9</td>
                      <td>4-chloorfenol</td>
                      <td>ug/l</td>
@@ -2778,7 +2806,7 @@
                   </tr>
                   <tr>
                      <td>232</td>
-                     <td>4C2y­Tol</td>
+                     <td>4C2yTol</td>
                      <td>622-96-8</td>
                      <td>4-ethyltolueen</td>
                      <td>ug/l</td>
@@ -2794,7 +2822,7 @@
                   </tr>
                   <tr>
                      <td>247</td>
-                     <td>Ac­Ne</td>
+                     <td>AcNe</td>
                      <td>83-32-9</td>
                      <td>acenafteen</td>
                      <td>ug/l</td>
@@ -2802,7 +2830,7 @@
                   </tr>
                   <tr>
                      <td>248</td>
-                     <td>Ac­Ny</td>
+                     <td>AcNy</td>
                      <td>208-96-8</td>
                      <td>acenaftyleen</td>
                      <td>ug/l</td>
@@ -2850,7 +2878,7 @@
                   </tr>
                   <tr>
                      <td>264</td>
-                     <td>al­Cl</td>
+                     <td>alCl</td>
                      <td>15972-60-8</td>
                      <td>alachloor</td>
                      <td>ug/l</td>
@@ -2858,7 +2886,7 @@
                   </tr>
                   <tr>
                      <td>265</td>
-                     <td>al­Dcb</td>
+                     <td>alDcb</td>
                      <td>116-06-3</td>
                      <td>aldicarb</td>
                      <td>ug/l</td>
@@ -2866,7 +2894,7 @@
                   </tr>
                   <tr>
                      <td>266</td>
-                     <td>al­Dcsfn</td>
+                     <td>alDcsfn</td>
                      <td>1646-88-4</td>
                      <td>aldicarbsulfon</td>
                      <td>ug/l</td>
@@ -2874,7 +2902,7 @@
                   </tr>
                   <tr>
                      <td>267</td>
-                     <td>al­Dc­SO</td>
+                     <td>alDcSO</td>
                      <td>1646-87-3</td>
                      <td>aldicarbsulfoxide</td>
                      <td>ug/l</td>
@@ -2898,7 +2926,7 @@
                   </tr>
                   <tr>
                      <td>271</td>
-                     <td>a­HCH</td>
+                     <td>aHCH</td>
                      <td>319-84-6</td>
                      <td>alfa-hexachloorcyclohexaan</td>
                      <td>ug/l</td>
@@ -2906,7 +2934,7 @@
                   </tr>
                   <tr>
                      <td>273</td>
-                     <td>a­C1ysrn</td>
+                     <td>aC1ysrn</td>
                      <td>98-83-9</td>
                      <td>alfa-methylstyreen</td>
                      <td>ug/l</td>
@@ -2954,7 +2982,7 @@
                   </tr>
                   <tr>
                      <td>3165</td>
-                     <td>amd­Tzinzr</td>
+                     <td>amdTzinzr</td>
                      <td>117-96-4</td>
                      <td>amidotrizoïnezuur</td>
                      <td>ug/l</td>
@@ -3130,7 +3158,7 @@
                   </tr>
                   <tr>
                      <td>3209</td>
-                     <td>befbt­Ad</td>
+                     <td>befbtAd</td>
                      <td>113614-08-7</td>
                      <td>beflubutamide</td>
                      <td>ug/l</td>
@@ -3162,7 +3190,7 @@
                   </tr>
                   <tr>
                      <td>345</td>
-                     <td>Ba­A</td>
+                     <td>BaA</td>
                      <td>56-55-3</td>
                      <td>benzo(a)antraceen</td>
                      <td>ug/l</td>
@@ -3170,7 +3198,7 @@
                   </tr>
                   <tr>
                      <td>346</td>
-                     <td>Ba­P</td>
+                     <td>BaP</td>
                      <td>50-32-8</td>
                      <td>benzo(a)pyreen</td>
                      <td>ug/l</td>
@@ -3178,7 +3206,7 @@
                   </tr>
                   <tr>
                      <td>348</td>
-                     <td>Bb­F</td>
+                     <td>BbF</td>
                      <td>205-99-2</td>
                      <td>benzo(b)fluorantheen</td>
                      <td>ug/l</td>
@@ -3186,7 +3214,7 @@
                   </tr>
                   <tr>
                      <td>351</td>
-                     <td>Bghi­Pe</td>
+                     <td>BghiPe</td>
                      <td>191-24-2</td>
                      <td>benzo(ghi)peryleen</td>
                      <td>ug/l</td>
@@ -3194,7 +3222,7 @@
                   </tr>
                   <tr>
                      <td>353</td>
-                     <td>Bk­F</td>
+                     <td>BkF</td>
                      <td>207-08-9</td>
                      <td>benzo(k)fluorantheen</td>
                      <td>ug/l</td>
@@ -3210,7 +3238,7 @@
                   </tr>
                   <tr>
                      <td>361</td>
-                     <td>benz­C4y­Ft</td>
+                     <td>benzC4yFt</td>
                      <td>85-68-7</td>
                      <td>benzylbutylftalaat</td>
                      <td>ug/l</td>
@@ -3234,7 +3262,7 @@
                   </tr>
                   <tr>
                      <td>366</td>
-                     <td>b­HCH</td>
+                     <td>bHCH</td>
                      <td>319-85-7</td>
                      <td>beta-hexachloorcyclohexaan</td>
                      <td>ug/l</td>
@@ -3274,7 +3302,7 @@
                   </tr>
                   <tr>
                      <td>76</td>
-                     <td>bis­Fol­A</td>
+                     <td>bisFolA</td>
                      <td>80-05-7</td>
                      <td>bisfenol-A</td>
                      <td>ug/l</td>
@@ -3322,7 +3350,7 @@
                   </tr>
                   <tr>
                      <td>394</td>
-                     <td>Br­Oxnl</td>
+                     <td>BrOxnl</td>
                      <td>1689-84-5</td>
                      <td>broomoxynil</td>
                      <td>ug/l</td>
@@ -3346,7 +3374,7 @@
                   </tr>
                   <tr>
                      <td>409</td>
-                     <td>butcb­Oxm­SO</td>
+                     <td>butcbOxmSO</td>
                      <td>34681-24-8</td>
                      <td>butocarboximsulfoxide</td>
                      <td>ug/l</td>
@@ -3426,7 +3454,7 @@
                   </tr>
                   <tr>
                      <td>3384</td>
-                     <td>carbt­Ad</td>
+                     <td>carbtAd</td>
                      <td>16118-49-3</td>
                      <td>carbetamide</td>
                      <td>ug/l</td>
@@ -3450,7 +3478,7 @@
                   </tr>
                   <tr>
                      <td>3386</td>
-                     <td>carftzn­C2y</td>
+                     <td>carftznC2y</td>
                      <td>128639-02-1</td>
                      <td>carfentrazon-ethyl</td>
                      <td>ug/l</td>
@@ -3474,7 +3502,7 @@
                   </tr>
                   <tr>
                      <td>1246</td>
-                     <td>Cl­Ben</td>
+                     <td>ClBen</td>
                      <td>108-90-7</td>
                      <td>chloorbenzeen</td>
                      <td>ug/l</td>
@@ -3490,7 +3518,7 @@
                   </tr>
                   <tr>
                      <td>1247</td>
-                     <td>Cl­C2a</td>
+                     <td>ClC2a</td>
                      <td>75-00-3</td>
                      <td>chloorethaan</td>
                      <td>ug/l</td>
@@ -3498,7 +3526,7 @@
                   </tr>
                   <tr>
                      <td>1654</td>
-                     <td>Cl­C2e</td>
+                     <td>ClC2e</td>
                      <td>75-01-4</td>
                      <td>chlooretheen (vinylchloride)</td>
                      <td>ug/l</td>
@@ -3530,7 +3558,7 @@
                   </tr>
                   <tr>
                      <td>4994</td>
-                     <td>Cl­O3</td>
+                     <td>ClO3</td>
                      <td>14866-68-3</td>
                      <td>chloraat</td>
                      <td>ug/l</td>
@@ -3586,7 +3614,7 @@
                   </tr>
                   <tr>
                      <td>520</td>
-                     <td>c12DCl­C2e</td>
+                     <td>c12DClC2e</td>
                      <td>156-59-2</td>
                      <td>cis-1,2-dichlooretheen</td>
                      <td>ug/l</td>
@@ -3594,7 +3622,7 @@
                   </tr>
                   <tr>
                      <td>522</td>
-                     <td>c­Cldn</td>
+                     <td>cCldn</td>
                      <td>5103-71-9</td>
                      <td>cis-chloordaan</td>
                      <td>ug/l</td>
@@ -3602,7 +3630,7 @@
                   </tr>
                   <tr>
                      <td>272</td>
-                     <td>c­Hp­Clep­O</td>
+                     <td>cHpClepO</td>
                      <td>1024-57-3</td>
                      <td>cis-heptachloorepoxide</td>
                      <td>ug/l</td>
@@ -3698,7 +3726,7 @@
                   </tr>
                   <tr>
                      <td>2478</td>
-                     <td>cycff­Ad</td>
+                     <td>cycffAd</td>
                      <td>50-18-0</td>
                      <td>cyclofosfamide</td>
                      <td>ug/l</td>
@@ -3706,7 +3734,7 @@
                   </tr>
                   <tr>
                      <td>540</td>
-                     <td>cyc­C6a</td>
+                     <td>cycC6a</td>
                      <td>110-82-7</td>
                      <td>cyclohexaan</td>
                      <td>ug/l</td>
@@ -3714,7 +3742,7 @@
                   </tr>
                   <tr>
                      <td>542</td>
-                     <td>cyc­C6on</td>
+                     <td>cycC6on</td>
                      <td>108-94-1</td>
                      <td>cyclohexanon</td>
                      <td>ug/l</td>
@@ -3722,7 +3750,7 @@
                   </tr>
                   <tr>
                      <td>5259</td>
-                     <td>cyc­C6e</td>
+                     <td>cycC6e</td>
                      <td>110-83-8</td>
                      <td>cyclohexeen</td>
                      <td>ug/l</td>
@@ -3762,7 +3790,7 @@
                   </tr>
                   <tr>
                      <td>562</td>
-                     <td>d­HCH</td>
+                     <td>dHCH</td>
                      <td>319-86-8</td>
                      <td>delta-hexachloorcyclohexaan</td>
                      <td>ug/l</td>
@@ -3770,7 +3798,7 @@
                   </tr>
                   <tr>
                      <td>571</td>
-                     <td>des­C2yatzne</td>
+                     <td>desC2yatzne</td>
                      <td>6190-65-4</td>
                      <td>desethylatrazine</td>
                      <td>ug/l</td>
@@ -3778,7 +3806,7 @@
                   </tr>
                   <tr>
                      <td>3614</td>
-                     <td>des­C2yt­C4yaz</td>
+                     <td>desC2ytC4yaz</td>
                      <td>30125-63-4</td>
                      <td>desethylterbutylazine</td>
                      <td>ug/l</td>
@@ -3786,7 +3814,7 @@
                   </tr>
                   <tr>
                      <td>573</td>
-                     <td>desi­C3yatzne</td>
+                     <td>desiC3yatzne</td>
                      <td>1007-28-9</td>
                      <td>desisopropylatrazine</td>
                      <td>ug/l</td>
@@ -3818,7 +3846,7 @@
                   </tr>
                   <tr>
                      <td>593</td>
-                     <td>DBah­Ant</td>
+                     <td>DBahAnt</td>
                      <td>53-70-3</td>
                      <td>dibenzo(a,h)antraceen</td>
                      <td>ug/l</td>
@@ -3826,7 +3854,7 @@
                   </tr>
                   <tr>
                      <td>600</td>
-                     <td>DC4y­Ft</td>
+                     <td>DC4yFt</td>
                      <td>84-74-2</td>
                      <td>dibutylftalaat</td>
                      <td>ug/l</td>
@@ -3858,7 +3886,7 @@
                   </tr>
                   <tr>
                      <td>619</td>
-                     <td>DCl­C1a</td>
+                     <td>DClC1a</td>
                      <td>75-09-2</td>
                      <td>dichloormethaan</td>
                      <td>ug/l</td>
@@ -3890,7 +3918,7 @@
                   </tr>
                   <tr>
                      <td>3586</td>
-                     <td>Dcc­C6y­Ft</td>
+                     <td>DccC6yFt</td>
                      <td>84-61-7</td>
                      <td>dicyclohexylftalaat</td>
                      <td>ug/l</td>
@@ -3898,7 +3926,7 @@
                   </tr>
                   <tr>
                      <td>632</td>
-                     <td>Dcc­Pe­Den</td>
+                     <td>DccPeDen</td>
                      <td>77-73-6</td>
                      <td>dicyclopentadieen</td>
                      <td>ug/l</td>
@@ -3914,7 +3942,7 @@
                   </tr>
                   <tr>
                      <td>641</td>
-                     <td>DC2y­Etr</td>
+                     <td>DC2yEtr</td>
                      <td>60-29-7</td>
                      <td>diethylether</td>
                      <td>mg/l</td>
@@ -3922,7 +3950,7 @@
                   </tr>
                   <tr>
                      <td>642</td>
-                     <td>DC2y­Ft</td>
+                     <td>DC2yFt</td>
                      <td>84-66-2</td>
                      <td>diethylftalaat</td>
                      <td>ug/l</td>
@@ -3962,7 +3990,7 @@
                   </tr>
                   <tr>
                      <td>649</td>
-                     <td>DC7y­Ft</td>
+                     <td>DC7yFt</td>
                      <td>3648-21-3</td>
                      <td>diheptylftalaat</td>
                      <td>ug/l</td>
@@ -3970,7 +3998,7 @@
                   </tr>
                   <tr>
                      <td>650</td>
-                     <td>DC6y­Ft</td>
+                     <td>DC6yFt</td>
                      <td>84-75-3</td>
                      <td>dihexylftalaat</td>
                      <td>ug/l</td>
@@ -3978,7 +4006,7 @@
                   </tr>
                   <tr>
                      <td>577</td>
-                     <td>Di­C4y­Ft</td>
+                     <td>DiC4yFt</td>
                      <td>84-69-5</td>
                      <td>diisobutylftalaat</td>
                      <td>ug/l</td>
@@ -3986,7 +4014,7 @@
                   </tr>
                   <tr>
                      <td>583</td>
-                     <td>Di­C3y­Etr</td>
+                     <td>DiC3yEtr</td>
                      <td>108-20-3</td>
                      <td>diisopropylether</td>
                      <td>ug/l</td>
@@ -4010,7 +4038,7 @@
                   </tr>
                   <tr>
                      <td>3652</td>
-                     <td>Dmt­Cl</td>
+                     <td>DmtCl</td>
                      <td>50563-36-5</td>
                      <td>dimethachloor</td>
                      <td>ug/l</td>
@@ -4018,7 +4046,7 @@
                   </tr>
                   <tr>
                      <td>3651</td>
-                     <td>Dmt­Ad</td>
+                     <td>DmtAd</td>
                      <td>87674-68-8</td>
                      <td>dimethenamide</td>
                      <td>ug/l</td>
@@ -4034,7 +4062,7 @@
                   </tr>
                   <tr>
                      <td>658</td>
-                     <td>DC1y­DS</td>
+                     <td>DC1yDS</td>
                      <td>624-92-0</td>
                      <td>dimethyldisulfide</td>
                      <td>ug/l</td>
@@ -4042,7 +4070,7 @@
                   </tr>
                   <tr>
                      <td>660</td>
-                     <td>DC1yf­Ad</td>
+                     <td>DC1yfAd</td>
                      <td>68-12-2</td>
                      <td>dimethylformamide</td>
                      <td>ug/l</td>
@@ -4050,7 +4078,7 @@
                   </tr>
                   <tr>
                      <td>661</td>
-                     <td>DC1y­Ft</td>
+                     <td>DC1yFt</td>
                      <td>131-11-3</td>
                      <td>dimethylftalaat</td>
                      <td>ug/l</td>
@@ -4058,7 +4086,7 @@
                   </tr>
                   <tr>
                      <td>663</td>
-                     <td>DC1y­S</td>
+                     <td>DC1yS</td>
                      <td>75-18-3</td>
                      <td>dimethylsulfide</td>
                      <td>ug/l</td>
@@ -4066,7 +4094,7 @@
                   </tr>
                   <tr>
                      <td>3653</td>
-                     <td>Dm­Tdzl</td>
+                     <td>DmTdzl</td>
                      <td>551-92-8</td>
                      <td>dimetridazol</td>
                      <td>ug/l</td>
@@ -4090,7 +4118,7 @@
                   </tr>
                   <tr>
                      <td>674</td>
-                     <td>DC8y­Ft</td>
+                     <td>DC8yFt</td>
                      <td>117-84-0</td>
                      <td>dioctylftalaat</td>
                      <td>ug/l</td>
@@ -4098,7 +4126,7 @@
                   </tr>
                   <tr>
                      <td>677</td>
-                     <td>DC5y­Ft</td>
+                     <td>DC5yFt</td>
                      <td>131-18-0</td>
                      <td>dipentylftalaat</td>
                      <td>ug/l</td>
@@ -4106,7 +4134,7 @@
                   </tr>
                   <tr>
                      <td>679</td>
-                     <td>DC3y­Ft</td>
+                     <td>DC3yFt</td>
                      <td>131-16-8</td>
                      <td>dipropylftalaat</td>
                      <td>ug/l</td>
@@ -4130,7 +4158,7 @@
                   </tr>
                   <tr>
                      <td>2159</td>
-                     <td>dodc­Ben</td>
+                     <td>dodcBen</td>
                      <td>123-01-3</td>
                      <td>dodecylbenzeen</td>
                      <td>ug/l</td>
@@ -4154,7 +4182,7 @@
                   </tr>
                   <tr>
                      <td>703</td>
-                     <td>endsf­SO4</td>
+                     <td>endsfSO4</td>
                      <td>1031-07-8</td>
                      <td>endosulfansulfaat</td>
                      <td>ug/l</td>
@@ -4194,7 +4222,7 @@
                   </tr>
                   <tr>
                      <td>2294</td>
-                     <td>etnet­Dol</td>
+                     <td>etnetDol</td>
                      <td>57-63-6</td>
                      <td>ethinylestradiol</td>
                      <td>ug/l</td>
@@ -4234,7 +4262,7 @@
                   </tr>
                   <tr>
                      <td>728</td>
-                     <td>C2y­Ben</td>
+                     <td>C2yBen</td>
                      <td>100-41-4</td>
                      <td>ethylbenzeen</td>
                      <td>ug/l</td>
@@ -4242,7 +4270,7 @@
                   </tr>
                   <tr>
                      <td>494</td>
-                     <td>C2y­Clprfs</td>
+                     <td>C2yClprfs</td>
                      <td>2921-88-2</td>
                      <td>ethylchloorpyrifos</td>
                      <td>ug/l</td>
@@ -4290,7 +4318,7 @@
                   </tr>
                   <tr>
                      <td>750</td>
-                     <td>fe­NO2ton</td>
+                     <td>feNO2ton</td>
                      <td>122-14-5</td>
                      <td>fenitrothion</td>
                      <td>ug/l</td>
@@ -4338,7 +4366,7 @@
                   </tr>
                   <tr>
                      <td>3768</td>
-                     <td>fen­Oxcb</td>
+                     <td>fenOxcb</td>
                      <td>72490-01-8</td>
                      <td>fenoxycarb</td>
                      <td>ug/l</td>
@@ -4386,7 +4414,7 @@
                   </tr>
                   <tr>
                      <td>3798</td>
-                     <td>fluazf­PC4y</td>
+                     <td>fluazfPC4y</td>
                      <td>79241-46-6</td>
                      <td>fluazifop-P-butyl</td>
                      <td>ug/l</td>
@@ -4442,7 +4470,7 @@
                   </tr>
                   <tr>
                      <td>2363</td>
-                     <td>flur­Oxpr</td>
+                     <td>flurOxpr</td>
                      <td>69377-81-7</td>
                      <td>fluroxypyr</td>
                      <td>ug/l</td>
@@ -4498,7 +4526,7 @@
                   </tr>
                   <tr>
                      <td>816</td>
-                     <td>c­HCH</td>
+                     <td>cHCH</td>
                      <td>58-89-9</td>
                      <td>gamma-hexachloorcyclohexaan (lindaan)</td>
                      <td>ug/l</td>
@@ -4509,8 +4537,8 @@
                      <td>GELDHD</td>
                      <td>NVT</td>
                      <td>Geleidendheid</td>
-                     <td>m­S/m</td>
-                     <td>25o­C</td>
+                     <td>mS/m</td>
+                     <td>25oC</td>
                   </tr>
                   <tr>
                      <td>2469</td>
@@ -4562,7 +4590,7 @@
                   </tr>
                   <tr>
                      <td>853</td>
-                     <td>Hp­Cl</td>
+                     <td>HpCl</td>
                      <td>76-44-8</td>
                      <td>heptachloor</td>
                      <td>ug/l</td>
@@ -4578,7 +4606,7 @@
                   </tr>
                   <tr>
                      <td>865</td>
-                     <td>Hx­Cl­C2a</td>
+                     <td>HxClC2a</td>
                      <td>67-72-1</td>
                      <td>hexachloorethaan</td>
                      <td>ug/l</td>
@@ -4610,7 +4638,7 @@
                   </tr>
                   <tr>
                      <td>3984</td>
-                     <td>iff­Ad</td>
+                     <td>iffAd</td>
                      <td>3778-73-2</td>
                      <td>ifosfamide</td>
                      <td>ug/l</td>
@@ -4642,7 +4670,7 @@
                   </tr>
                   <tr>
                      <td>882</td>
-                     <td>In­P</td>
+                     <td>InP</td>
                      <td>193-39-5</td>
                      <td>indeno(1,2,3-cd)pyreen</td>
                      <td>ug/l</td>
@@ -4674,7 +4702,7 @@
                   </tr>
                   <tr>
                      <td>3976</td>
-                     <td>i­C3yantnl­Ad</td>
+                     <td>iC3yantnlAd</td>
                      <td>30391-89-0</td>
                      <td>isopropylanthranilamide</td>
                      <td>ug/l</td>
@@ -4690,7 +4718,7 @@
                   </tr>
                   <tr>
                      <td>4010</td>
-                     <td>i­Oaftl</td>
+                     <td>iOaftl</td>
                      <td>141112-29-0</td>
                      <td>isoxaflutool</td>
                      <td>ug/l</td>
@@ -4802,7 +4830,7 @@
                   </tr>
                   <tr>
                      <td>4063</td>
-                     <td>kres­Oxm­C1y</td>
+                     <td>kresOxmC1y</td>
                      <td>143390-89-0</td>
                      <td>kresoxim-methyl</td>
                      <td>ug/l</td>
@@ -4938,7 +4966,7 @@
                   </tr>
                   <tr>
                      <td>4137</td>
-                     <td>mecpp­P</td>
+                     <td>mecppP</td>
                      <td>16484-77-8</td>
                      <td>mecoprop-P</td>
                      <td>ug/l</td>
@@ -4970,7 +4998,7 @@
                   </tr>
                   <tr>
                      <td>4110</td>
-                     <td>m­Ah</td>
+                     <td>mAh</td>
                      <td>9002-91-9</td>
                      <td>metaldehyde</td>
                      <td>ug/l</td>
@@ -4978,7 +5006,7 @@
                   </tr>
                   <tr>
                      <td>1152</td>
-                     <td>mz­Cl</td>
+                     <td>mzCl</td>
                      <td>67129-08-2</td>
                      <td>metazachloor</td>
                      <td>ug/l</td>
@@ -5026,7 +5054,7 @@
                   </tr>
                   <tr>
                      <td>1159</td>
-                     <td>C1ox­Cl</td>
+                     <td>C1oxCl</td>
                      <td>72-43-5</td>
                      <td>methoxychloor</td>
                      <td>ug/l</td>
@@ -5074,7 +5102,7 @@
                   </tr>
                   <tr>
                      <td>1163</td>
-                     <td>C1ytt­C4y­Etr</td>
+                     <td>C1yttC4yEtr</td>
                      <td>1634-04-4</td>
                      <td>methyl-tertiair-butylether (MTBE)</td>
                      <td>ug/l</td>
@@ -5090,7 +5118,7 @@
                   </tr>
                   <tr>
                      <td>1185</td>
-                     <td>metl­Cl</td>
+                     <td>metlCl</td>
                      <td>51218-45-2</td>
                      <td>metolachloor</td>
                      <td>ug/l</td>
@@ -5274,7 +5302,7 @@
                   </tr>
                   <tr>
                      <td>5124</td>
-                     <td>Ox­T4ccn­HCl</td>
+                     <td>OxT4ccnHCl</td>
                      <td>2058-46-0</td>
                      <td>oxytetracycline hydrochloride</td>
                      <td>ug/l</td>
@@ -5290,7 +5318,7 @@
                   </tr>
                   <tr>
                      <td>4351</td>
-                     <td>paroon­C2y</td>
+                     <td>paroonC2y</td>
                      <td>311-45-5</td>
                      <td>paraoxon-ethyl</td>
                      <td>ug/l</td>
@@ -5298,7 +5326,7 @@
                   </tr>
                   <tr>
                      <td>4350</td>
-                     <td>paroon­C1y</td>
+                     <td>paroonC1y</td>
                      <td>950-35-6</td>
                      <td>paraoxon-methyl</td>
                      <td>ug/l</td>
@@ -5330,7 +5358,7 @@
                   </tr>
                   <tr>
                      <td>1385</td>
-                     <td>Pe­Cl­An</td>
+                     <td>PeClAn</td>
                      <td>527-20-8</td>
                      <td>pentachlooraniline</td>
                      <td>ug/l</td>
@@ -5338,7 +5366,7 @@
                   </tr>
                   <tr>
                      <td>1387</td>
-                     <td>Pe­Cl­Ben</td>
+                     <td>PeClBen</td>
                      <td>608-93-5</td>
                      <td>pentachloorbenzeen</td>
                      <td>ug/l</td>
@@ -5346,7 +5374,7 @@
                   </tr>
                   <tr>
                      <td>1390</td>
-                     <td>Pe­Cl­Fol</td>
+                     <td>PeClFol</td>
                      <td>87-86-5</td>
                      <td>pentachloorfenol</td>
                      <td>ug/l</td>
@@ -5354,7 +5382,7 @@
                   </tr>
                   <tr>
                      <td>1455</td>
-                     <td>Pe­Cl­NO2Ben</td>
+                     <td>PeClNO2Ben</td>
                      <td>82-68-8</td>
                      <td>pentachloornitrobenzeen (quintozeen)</td>
                      <td>ug/l</td>
@@ -5450,7 +5478,7 @@
                   </tr>
                   <tr>
                      <td>1422</td>
-                     <td>prop­Cl</td>
+                     <td>propCl</td>
                      <td>1918-16-7</td>
                      <td>propachloor</td>
                      <td>ug/l</td>
@@ -5474,7 +5502,7 @@
                   </tr>
                   <tr>
                      <td>1438</td>
-                     <td>prop­Ad</td>
+                     <td>propAd</td>
                      <td>23950-58-5</td>
                      <td>propyzamide</td>
                      <td>ug/l</td>
@@ -5557,7 +5585,7 @@
                      <td>REDPTTAL</td>
                      <td>NVT</td>
                      <td>Redoxpotentiaal</td>
-                     <td>m­V</td>
+                     <td>mV</td>
                      <td>NVT</td>
                   </tr>
                   <tr>
@@ -5610,7 +5638,7 @@
                   </tr>
                   <tr>
                      <td>1473</td>
-                     <td>se­C4yazne</td>
+                     <td>seC4yazne</td>
                      <td>7286-69-3</td>
                      <td>sebutylazine</td>
                      <td>ug/l</td>
@@ -5626,7 +5654,7 @@
                   </tr>
                   <tr>
                      <td>4656</td>
-                     <td>Si­O2</td>
+                     <td>SiO2</td>
                      <td>14808-60-7</td>
                      <td>siliciumdioxide</td>
                      <td>mg/l</td>
@@ -5642,7 +5670,7 @@
                   </tr>
                   <tr>
                      <td>4667</td>
-                     <td>Smtl­Cl</td>
+                     <td>SmtlCl</td>
                      <td>87392-12-9</td>
                      <td>S-metolachloor</td>
                      <td>ug/l</td>
@@ -5650,7 +5678,7 @@
                   </tr>
                   <tr>
                      <td>615</td>
-                     <td>s­DCl­Fol6</td>
+                     <td>sDClFol6</td>
                      <td>NVT</td>
                      <td>som 6 dichloorfenolen</td>
                      <td>ug/l</td>
@@ -5658,7 +5686,7 @@
                   </tr>
                   <tr>
                      <td>681</td>
-                     <td>s­Dtocbmt</td>
+                     <td>sDtocbmt</td>
                      <td>NVT</td>
                      <td>som dithiocarbamaten</td>
                      <td>ug/l</td>
@@ -5666,7 +5694,7 @@
                   </tr>
                   <tr>
                      <td>1248</td>
-                     <td>s­MCl­Fol</td>
+                     <td>sMClFol</td>
                      <td>NVT</td>
                      <td>som monochloorfenol-isomeren</td>
                      <td>ug/l</td>
@@ -5674,7 +5702,7 @@
                   </tr>
                   <tr>
                      <td>1600</td>
-                     <td>s­TCl­Fol</td>
+                     <td>sTClFol</td>
                      <td>NVT</td>
                      <td>som trichloorfenol-isomeren</td>
                      <td>ug/l</td>
@@ -5730,7 +5758,7 @@
                   </tr>
                   <tr>
                      <td>4736</td>
-                     <td>sulf­Clprdzne</td>
+                     <td>sulfClprdzne</td>
                      <td>80-32-0</td>
                      <td>sulfachloorpyridazine</td>
                      <td>ug/l</td>
@@ -5858,7 +5886,7 @@
                   </tr>
                   <tr>
                      <td>1525</td>
-                     <td>ter­C4yazne</td>
+                     <td>terC4yazne</td>
                      <td>5915-41-3</td>
                      <td>terbutylazine</td>
                      <td>ug/l</td>
@@ -5866,7 +5894,7 @@
                   </tr>
                   <tr>
                      <td>1536</td>
-                     <td>T4Cl­C2e</td>
+                     <td>T4ClC2e</td>
                      <td>127-18-4</td>
                      <td>tetrachlooretheen (per)</td>
                      <td>ug/l</td>
@@ -5874,7 +5902,7 @@
                   </tr>
                   <tr>
                      <td>1538</td>
-                     <td>T4Cl­C1a</td>
+                     <td>T4ClC1a</td>
                      <td>56-23-5</td>
                      <td>tetrachloormethaan (tetra)</td>
                      <td>ug/l</td>
@@ -5938,7 +5966,7 @@
                   </tr>
                   <tr>
                      <td>1556</td>
-                     <td>to­CN</td>
+                     <td>toCN</td>
                      <td>463-56-9</td>
                      <td>thiocyanaat (anion)</td>
                      <td>ug/l</td>
@@ -5946,7 +5974,7 @@
                   </tr>
                   <tr>
                      <td>4882</td>
-                     <td>tofn­C1y</td>
+                     <td>tofnC1y</td>
                      <td>23564-05-8</td>
                      <td>thiofanaat-methyl</td>
                      <td>ug/l</td>
@@ -6002,7 +6030,7 @@
                   </tr>
                   <tr>
                      <td>1567</td>
-                     <td>tolcfs­C1y</td>
+                     <td>tolcfsC1y</td>
                      <td>57018-04-9</td>
                      <td>tolclofos-methyl</td>
                      <td>ug/l</td>
@@ -6010,7 +6038,7 @@
                   </tr>
                   <tr>
                      <td>2476</td>
-                     <td>tolf­Aezr</td>
+                     <td>tolfAezr</td>
                      <td>13710-19-5</td>
                      <td>tolfenaminezuur</td>
                      <td>ug/l</td>
@@ -6042,7 +6070,7 @@
                   </tr>
                   <tr>
                      <td>1578</td>
-                     <td>t12DCl­C2e</td>
+                     <td>t12DClC2e</td>
                      <td>156-60-5</td>
                      <td>trans-1,2-dichlooretheen</td>
                      <td>ug/l</td>
@@ -6050,7 +6078,7 @@
                   </tr>
                   <tr>
                      <td>1580</td>
-                     <td>t­Cldn</td>
+                     <td>tCldn</td>
                      <td>5103-74-2</td>
                      <td>trans-chloordaan</td>
                      <td>ug/l</td>
@@ -6058,7 +6086,7 @@
                   </tr>
                   <tr>
                      <td>1581</td>
-                     <td>t­Hp­Clep­O</td>
+                     <td>tHpClepO</td>
                      <td>28044-83-9</td>
                      <td>trans-heptachloorepoxide</td>
                      <td>ug/l</td>
@@ -6066,7 +6094,7 @@
                   </tr>
                   <tr>
                      <td>1599</td>
-                     <td>T2Cl­C2y­PO4</td>
+                     <td>T2ClC2yPO4</td>
                      <td>115-96-8</td>
                      <td>tri(2-chloorethyl)fosfaat</td>
                      <td>ug/l</td>
@@ -6090,7 +6118,7 @@
                   </tr>
                   <tr>
                      <td>1590</td>
-                     <td>TBr­C1a</td>
+                     <td>TBrC1a</td>
                      <td>75-25-2</td>
                      <td>tribroommethaan</td>
                      <td>ug/l</td>
@@ -6098,7 +6126,7 @@
                   </tr>
                   <tr>
                      <td>1591</td>
-                     <td>TC4y­PO4</td>
+                     <td>TC4yPO4</td>
                      <td>126-73-8</td>
                      <td>tributylfosfaat</td>
                      <td>ug/l</td>
@@ -6106,7 +6134,7 @@
                   </tr>
                   <tr>
                      <td>1712</td>
-                     <td>TC4y­Sn</td>
+                     <td>TC4ySn</td>
                      <td>36643-28-4</td>
                      <td>tributyltin (kation)</td>
                      <td>ug/l</td>
@@ -6114,7 +6142,7 @@
                   </tr>
                   <tr>
                      <td>1598</td>
-                     <td>TCl­C2e</td>
+                     <td>TClC2e</td>
                      <td>79-01-6</td>
                      <td>trichlooretheen (tri)</td>
                      <td>ug/l</td>
@@ -6122,7 +6150,7 @@
                   </tr>
                   <tr>
                      <td>1711</td>
-                     <td>TCl­C1a</td>
+                     <td>TClC1a</td>
                      <td>67-66-3</td>
                      <td>trichloormethaan (chloroform)</td>
                      <td>ug/l</td>
@@ -6130,7 +6158,7 @@
                   </tr>
                   <tr>
                      <td>1603</td>
-                     <td>TCl­C3y­PO4</td>
+                     <td>TClC3yPO4</td>
                      <td>13674-84-5</td>
                      <td>trichloorpropylfosfaat</td>
                      <td>ug/l</td>
@@ -6154,7 +6182,7 @@
                   </tr>
                   <tr>
                      <td>1609</td>
-                     <td>TC2y­PO4</td>
+                     <td>TC2yPO4</td>
                      <td>78-40-0</td>
                      <td>triethylfosfaat</td>
                      <td>ug/l</td>
@@ -6162,7 +6190,7 @@
                   </tr>
                   <tr>
                      <td>4848</td>
-                     <td>TFy­PO4</td>
+                     <td>TFyPO4</td>
                      <td>115-86-6</td>
                      <td>trifenylfosfaat</td>
                      <td>ug/l</td>
@@ -6178,7 +6206,7 @@
                   </tr>
                   <tr>
                      <td>4844</td>
-                     <td>Tfsfrn­C1y</td>
+                     <td>TfsfrnC1y</td>
                      <td>126535-15-7</td>
                      <td>triflusulfuron-methyl</td>
                      <td>ug/l</td>
@@ -6186,7 +6214,7 @@
                   </tr>
                   <tr>
                      <td>1585</td>
-                     <td>Ti­C4y­PO4</td>
+                     <td>TiC4yPO4</td>
                      <td>126-71-6</td>
                      <td>triisobutylfosfaat</td>
                      <td>ug/l</td>
@@ -6210,7 +6238,7 @@
                   </tr>
                   <tr>
                      <td>4790</td>
-                     <td>TC1y­PO4</td>
+                     <td>TC1yPO4</td>
                      <td>512-56-1</td>
                      <td>trimethylfosfaat</td>
                      <td>ug/l</td>
@@ -6218,7 +6246,7 @@
                   </tr>
                   <tr>
                      <td>4894</td>
-                     <td>tris2C4ox­C2y</td>
+                     <td>tris2C4oxC2y</td>
                      <td>78-51-3</td>
                      <td>tris(2-butoxyethyl)fosfaat</td>
                      <td>ug/l</td>
@@ -6226,7 +6254,7 @@
                   </tr>
                   <tr>
                      <td>4893</td>
-                     <td>tris2C2y­C6y­P</td>
+                     <td>tris2C2yC6yP</td>
                      <td>78-42-2</td>
                      <td>tris(2-ethylhexyl)fosfaat</td>
                      <td>ug/l</td>
@@ -6330,7 +6358,7 @@
                   </tr>
                   <tr>
                      <td>1398</td>
-                     <td>p­H</td>
+                     <td>pH</td>
                      <td>NVT</td>
                      <td>Zuurgraad</td>
                      <td>1</td>
@@ -6356,7 +6384,7 @@
             </table>
             </section>
          <section id="detail_class_Model_ProductieKenmerk">
-            <h3>Codelijst details  Productie­Kenmerk</h3>
+            <h3>  ProductieKenmerk</h3>
             
             <table style="width: 100%;" class="list">
                <colgroup></colgroup>
